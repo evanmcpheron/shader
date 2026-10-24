@@ -1,0 +1,5722 @@
+{
+  "checks": [
+    {
+      "name": "1440: viewport contained",
+      "passed": true
+    },
+    {
+      "name": "1440: visible controls have accessible names",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "1024: viewport contained",
+      "passed": true
+    },
+    {
+      "name": "1024: visible controls have accessible names",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "narrow Scene opens alone",
+      "passed": true
+    },
+    {
+      "name": "768: viewport contained",
+      "passed": true
+    },
+    {
+      "name": "768: visible controls have accessible names",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "narrow Escape returns focus to Pixels toggle",
+      "passed": true
+    },
+    {
+      "name": "keyboard reopens Pixels panel",
+      "passed": true
+    },
+    {
+      "name": "Tab reaches a visible control",
+      "passed": true
+    },
+    {
+      "name": "empty numeric draft preserves valid canvas and reports error",
+      "passed": true
+    },
+    {
+      "name": "Escape restores numeric value without closing panel",
+      "passed": true
+    },
+    {
+      "name": "factory current status is explicit",
+      "passed": true
+    },
+    {
+      "name": "modified current status is explicit",
+      "passed": true
+    },
+    {
+      "name": "all view navigation skips native capture/process/composition",
+      "passed": true,
+      "detail": {
+        "before": {
+          "visibilityCaptures": 0,
+          "receiverCaptures": 0,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 0,
+            "allocatedMaps": 0,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": 0,
+            "normalBias": 0,
+            "depthSpan": 1,
+            "depthStep": 1,
+            "frustum": {
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 3,
+          "composites": 3,
+          "timings": {
+            "visibilityMs": 0,
+            "effectsReadbackMs": 0,
+            "filterMs": 0,
+            "captureMs": 4.299999952316284,
+            "readbackMs": 2.500000238418579,
+            "processMs": 0.2999999523162842,
+            "originalMs": 0.20000004768371582,
+            "styleMs": 0.09999990463256836,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 4,
+            "disposed": 3,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 2,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        },
+        "after": {
+          "visibilityCaptures": 0,
+          "receiverCaptures": 0,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 0,
+            "allocatedMaps": 0,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": 0,
+            "normalBias": 0,
+            "depthSpan": 1,
+            "depthStep": 1,
+            "frustum": {
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 3,
+          "composites": 3,
+          "timings": {
+            "visibilityMs": 0,
+            "effectsReadbackMs": 0,
+            "filterMs": 0,
+            "captureMs": 4.299999952316284,
+            "readbackMs": 2.500000238418579,
+            "processMs": 0.2999999523162842,
+            "originalMs": 0.20000004768371582,
+            "styleMs": 0.09999990463256836,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 4,
+            "disposed": 3,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 2,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        }
+      }
+    },
+    {
+      "name": "coalesced palette/dither changes process once without normal capture",
+      "passed": true,
+      "detail": {
+        "before": {
+          "visibilityCaptures": 0,
+          "receiverCaptures": 0,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 0,
+            "allocatedMaps": 0,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": 0,
+            "normalBias": 0,
+            "depthSpan": 1,
+            "depthStep": 1,
+            "frustum": {
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 3,
+          "composites": 3,
+          "timings": {
+            "visibilityMs": 0,
+            "effectsReadbackMs": 0,
+            "filterMs": 0,
+            "captureMs": 4.299999952316284,
+            "readbackMs": 2.500000238418579,
+            "processMs": 0.2999999523162842,
+            "originalMs": 0.20000004768371582,
+            "styleMs": 0.09999990463256836,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 4,
+            "disposed": 3,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 2,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        },
+        "after": {
+          "visibilityCaptures": 0,
+          "receiverCaptures": 0,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 0,
+            "allocatedMaps": 0,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": 0,
+            "normalBias": 0,
+            "depthSpan": 1,
+            "depthStep": 1,
+            "frustum": {
+              "left": -5,
+              "right": 5,
+              "top": 5,
+              "bottom": -5,
+              "near": 0.5,
+              "far": 500
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 4,
+          "composites": 4,
+          "timings": {
+            "visibilityMs": 0,
+            "effectsReadbackMs": 0,
+            "filterMs": 0,
+            "captureMs": 0,
+            "readbackMs": 0,
+            "processMs": 1.5,
+            "originalMs": 0.5,
+            "styleMs": 1,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 4,
+            "disposed": 3,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 4,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        }
+      }
+    },
+    {
+      "name": "light color/intensity edit reuses normals and shadow pass",
+      "passed": true
+    },
+    {
+      "name": "shadow appearance/radius reuse GPU visibility",
+      "passed": true,
+      "detail": {
+        "before": 1,
+        "after": 1
+      }
+    },
+    {
+      "name": "final: rolled perspective light drag owns gesture",
+      "passed": true
+    },
+    {
+      "name": "final: Escape restores light and releases capture",
+      "passed": true
+    },
+    {
+      "name": "reference: rolled perspective light drag owns gesture",
+      "passed": true
+    },
+    {
+      "name": "reference: Escape restores light and releases capture",
+      "passed": true
+    },
+    {
+      "name": "side-by-side: rolled perspective light drag owns gesture",
+      "passed": true
+    },
+    {
+      "name": "side-by-side: Escape restores light and releases capture",
+      "passed": true
+    },
+    {
+      "name": "preview pan cancellation leaves camera/light/pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "keyboard preview commands work without scene changes",
+      "passed": true
+    },
+    {
+      "name": "real numeric typing stays usable during repeated rendering",
+      "passed": true
+    },
+    {
+      "name": "collapsing panels releases active light ownership/capture",
+      "passed": true
+    },
+    {
+      "name": "256 latest revision after burst: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "68941e0f-368f-4aa0-8d5c-f295918907e2",
+        "url": "blob:http://127.0.0.1:5173/2986e322-8276-41ee-827a-9bd74d12af42",
+        "suggestedFilename": "sphere-256x256-bands-floyd-steinberg-outline2.png",
+        "state": "completed",
+        "totalBytes": 8213,
+        "receivedBytes": 8213,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/68941e0f-368f-4aa0-8d5c-f295918907e2"
+      }
+    },
+    {
+      "name": "256 latest revision after burst: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 44,
+        "actual": 44
+      }
+    },
+    {
+      "name": "256 latest revision after burst: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "256 latest revision after burst: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 256,
+        "height": 256,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "172038",
+          "304878",
+          "FFFFFF"
+        ],
+        "opaquePixels": 24691,
+        "bounds": {
+          "minX": 0,
+          "minY": 62,
+          "maxX": 196,
+          "maxY": 255
+        }
+      }
+    },
+    {
+      "name": "idle native and presentation counters stop",
+      "passed": true,
+      "detail": {
+        "before": 55,
+        "after": 55
+      }
+    },
+    {
+      "name": "cycle 0: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 0: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "3c1ac1e5-1c1a-4b76-b5eb-199ab35ca137",
+        "url": "blob:http://127.0.0.1:5173/25a08d6c-acf1-44c8-a1ba-ec9396553152",
+        "suggestedFilename": "group-64x64-bands-floyd-steinberg-outline2.png",
+        "state": "completed",
+        "totalBytes": 982,
+        "receivedBytes": 982,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/3c1ac1e5-1c1a-4b76-b5eb-199ab35ca137"
+      }
+    },
+    {
+      "name": "resource cycle 0: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 56,
+        "actual": 56
+      }
+    },
+    {
+      "name": "resource cycle 0: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 0: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "172038",
+          "304878",
+          "FFFFFF"
+        ],
+        "opaquePixels": 1606,
+        "bounds": {
+          "minX": 0,
+          "minY": 10,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "cycle 1: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 1: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "940d9fe1-f154-4715-8f0c-438e9f25751b",
+        "url": "blob:http://127.0.0.1:5173/e18467e9-67a7-4211-886b-444b169f26f4",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/940d9fe1-f154-4715-8f0c-438e9f25751b"
+      }
+    },
+    {
+      "name": "resource cycle 1: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 72,
+        "actual": 72
+      }
+    },
+    {
+      "name": "resource cycle 1: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 1: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 2: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 2: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "30619a66-ab93-45f3-a165-3cd1fa964846",
+        "url": "blob:http://127.0.0.1:5173/5c1a32b2-acc5-4ade-b8dc-a6d368bce858",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/30619a66-ab93-45f3-a165-3cd1fa964846"
+      }
+    },
+    {
+      "name": "resource cycle 2: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 88,
+        "actual": 88
+      }
+    },
+    {
+      "name": "resource cycle 2: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 2: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 3: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 3: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "0ef47492-007c-46a9-afd9-fc7f266e6054",
+        "url": "blob:http://127.0.0.1:5173/d5c3fd12-5ddc-4f72-840e-51c01206c22b",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/0ef47492-007c-46a9-afd9-fc7f266e6054"
+      }
+    },
+    {
+      "name": "resource cycle 3: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 104,
+        "actual": 104
+      }
+    },
+    {
+      "name": "resource cycle 3: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 3: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 4: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 4: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "6617b7c7-0b93-4c0b-a594-f2f6295004be",
+        "url": "blob:http://127.0.0.1:5173/838560dc-6ebf-41ce-99cc-1159038b7267",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/6617b7c7-0b93-4c0b-a594-f2f6295004be"
+      }
+    },
+    {
+      "name": "resource cycle 4: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 120,
+        "actual": 120
+      }
+    },
+    {
+      "name": "resource cycle 4: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 4: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 5: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 5: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "fb7822c4-fa3e-42e8-aabe-e6f4131bc8f3",
+        "url": "blob:http://127.0.0.1:5173/e895eede-2812-453c-9ea3-cb21bac14bb4",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/fb7822c4-fa3e-42e8-aabe-e6f4131bc8f3"
+      }
+    },
+    {
+      "name": "resource cycle 5: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 136,
+        "actual": 136
+      }
+    },
+    {
+      "name": "resource cycle 5: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 5: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 6: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 6: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "7c74e175-3ba3-45a8-ae1e-c8ce307613d4",
+        "url": "blob:http://127.0.0.1:5173/5f08bec8-8bcb-4512-ab36-d1f9f9795a70",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/7c74e175-3ba3-45a8-ae1e-c8ce307613d4"
+      }
+    },
+    {
+      "name": "resource cycle 6: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 152,
+        "actual": 152
+      }
+    },
+    {
+      "name": "resource cycle 6: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 6: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 7: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 7: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "6b5a48d5-7318-4370-a5da-16bd6eec342c",
+        "url": "blob:http://127.0.0.1:5173/adfd45b3-fac2-4fcc-81a6-ddfde37f0ce8",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/6b5a48d5-7318-4370-a5da-16bd6eec342c"
+      }
+    },
+    {
+      "name": "resource cycle 7: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 168,
+        "actual": 168
+      }
+    },
+    {
+      "name": "resource cycle 7: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 7: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 8: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 8: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "bf75b791-40cf-49e4-8dc7-d5648f652a4f",
+        "url": "blob:http://127.0.0.1:5173/a0079ff1-b123-4b5d-b679-37e50d64aee7",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/bf75b791-40cf-49e4-8dc7-d5648f652a4f"
+      }
+    },
+    {
+      "name": "resource cycle 8: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 184,
+        "actual": 184
+      }
+    },
+    {
+      "name": "resource cycle 8: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 8: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 9: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 9: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "7dedb031-ff91-46e5-9fb4-27d657008af6",
+        "url": "blob:http://127.0.0.1:5173/cad594a2-21be-4ad9-8337-6460be52e1aa",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/7dedb031-ff91-46e5-9fb4-27d657008af6"
+      }
+    },
+    {
+      "name": "resource cycle 9: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 200,
+        "actual": 200
+      }
+    },
+    {
+      "name": "resource cycle 9: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 9: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 10: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 10: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "c0486a50-6892-44d4-8555-d20798580cac",
+        "url": "blob:http://127.0.0.1:5173/5f251a47-0585-4b08-850f-74dfbba8691f",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/c0486a50-6892-44d4-8555-d20798580cac"
+      }
+    },
+    {
+      "name": "resource cycle 10: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 216,
+        "actual": 216
+      }
+    },
+    {
+      "name": "resource cycle 10: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 10: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 11: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 11: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "fac19a90-838d-45e0-9b21-1bb3c9b27686",
+        "url": "blob:http://127.0.0.1:5173/08098f08-6d08-4417-abcb-621934435659",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/fac19a90-838d-45e0-9b21-1bb3c9b27686"
+      }
+    },
+    {
+      "name": "resource cycle 11: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 232,
+        "actual": 232
+      }
+    },
+    {
+      "name": "resource cycle 11: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 11: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 12: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 12: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "1923a339-d316-4811-b2aa-e2efe61aa9cc",
+        "url": "blob:http://127.0.0.1:5173/9ad4110e-34a4-4da7-b459-bc2f69f881f1",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/1923a339-d316-4811-b2aa-e2efe61aa9cc"
+      }
+    },
+    {
+      "name": "resource cycle 12: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 248,
+        "actual": 248
+      }
+    },
+    {
+      "name": "resource cycle 12: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 12: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 13: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 13: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "59f6b738-7977-46a0-a543-11ab47f81e9b",
+        "url": "blob:http://127.0.0.1:5173/a3206066-eae6-47b7-9e9a-55cb271d6938",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/59f6b738-7977-46a0-a543-11ab47f81e9b"
+      }
+    },
+    {
+      "name": "resource cycle 13: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 264,
+        "actual": 264
+      }
+    },
+    {
+      "name": "resource cycle 13: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 13: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 14: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 14: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "3b0ad9ba-a889-49fd-98bb-fee0f2655901",
+        "url": "blob:http://127.0.0.1:5173/7be101b2-09f2-44af-b195-3daa6f286c01",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/3b0ad9ba-a889-49fd-98bb-fee0f2655901"
+      }
+    },
+    {
+      "name": "resource cycle 14: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 280,
+        "actual": 280
+      }
+    },
+    {
+      "name": "resource cycle 14: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 14: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 15: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 15: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "1d30e08d-9658-49fd-a1ed-b3f48cd24720",
+        "url": "blob:http://127.0.0.1:5173/b90b3389-091e-4288-8761-616a723f53ee",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/1d30e08d-9658-49fd-a1ed-b3f48cd24720"
+      }
+    },
+    {
+      "name": "resource cycle 15: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 296,
+        "actual": 296
+      }
+    },
+    {
+      "name": "resource cycle 15: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 15: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 16: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 16: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "cd591845-3f81-4c3a-a2e0-adacaaa69e23",
+        "url": "blob:http://127.0.0.1:5173/01c174a5-d6ea-47c9-85f9-1413c7e321ec",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/cd591845-3f81-4c3a-a2e0-adacaaa69e23"
+      }
+    },
+    {
+      "name": "resource cycle 16: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 312,
+        "actual": 312
+      }
+    },
+    {
+      "name": "resource cycle 16: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 16: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 17: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 17: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "9b53a66f-df08-4df3-a01e-3e1b0d3b18e3",
+        "url": "blob:http://127.0.0.1:5173/2d97cf23-1050-4444-b2f3-80ab9153af31",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/9b53a66f-df08-4df3-a01e-3e1b0d3b18e3"
+      }
+    },
+    {
+      "name": "resource cycle 17: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 328,
+        "actual": 328
+      }
+    },
+    {
+      "name": "resource cycle 17: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 17: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 18: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 18: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "a6a0afce-37b6-4db7-ab03-7621405cdffb",
+        "url": "blob:http://127.0.0.1:5173/8029ba80-8a7f-4753-af37-e65421348497",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/a6a0afce-37b6-4db7-ab03-7621405cdffb"
+      }
+    },
+    {
+      "name": "resource cycle 18: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 344,
+        "actual": 344
+      }
+    },
+    {
+      "name": "resource cycle 18: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 18: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 19: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 19: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "c4c1fe0d-397e-4b6a-811e-81bc4e0c5d24",
+        "url": "blob:http://127.0.0.1:5173/a1b5a2bd-e417-4dde-97f4-8d25ed0f2705",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/c4c1fe0d-397e-4b6a-811e-81bc4e0c5d24"
+      }
+    },
+    {
+      "name": "resource cycle 19: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 360,
+        "actual": 360
+      }
+    },
+    {
+      "name": "resource cycle 19: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 19: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 20: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 20: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "3a0673fe-3adb-4840-917e-edfdf27f5ca8",
+        "url": "blob:http://127.0.0.1:5173/12c4a9fc-fce1-4305-8277-0deb84296916",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/3a0673fe-3adb-4840-917e-edfdf27f5ca8"
+      }
+    },
+    {
+      "name": "resource cycle 20: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 376,
+        "actual": 376
+      }
+    },
+    {
+      "name": "resource cycle 20: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 20: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 21: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 21: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "c2f5c788-da77-4305-a333-de2b92af0cfa",
+        "url": "blob:http://127.0.0.1:5173/47bf464b-6005-4b42-9631-7ea7d3893b4e",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/c2f5c788-da77-4305-a333-de2b92af0cfa"
+      }
+    },
+    {
+      "name": "resource cycle 21: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 392,
+        "actual": 392
+      }
+    },
+    {
+      "name": "resource cycle 21: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 21: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 22: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 22: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "ed4aeca7-074a-4664-9f05-b26ef60ebd6e",
+        "url": "blob:http://127.0.0.1:5173/e6c26985-bc63-4390-bd50-60a019cc3177",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/ed4aeca7-074a-4664-9f05-b26ef60ebd6e"
+      }
+    },
+    {
+      "name": "resource cycle 22: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 408,
+        "actual": 408
+      }
+    },
+    {
+      "name": "resource cycle 22: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 22: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 23: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 23: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "8078e7cd-8cfa-41ab-8f53-d11626037178",
+        "url": "blob:http://127.0.0.1:5173/0a9056d0-848a-4f72-aa37-72cd56af12d9",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/8078e7cd-8cfa-41ab-8f53-d11626037178"
+      }
+    },
+    {
+      "name": "resource cycle 23: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 424,
+        "actual": 424
+      }
+    },
+    {
+      "name": "resource cycle 23: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 23: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 24: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 24: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "e8124d1e-40c7-4c43-833c-a1b77dd19b92",
+        "url": "blob:http://127.0.0.1:5173/2ecff726-a222-47de-af9c-201db0765a8b",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/e8124d1e-40c7-4c43-833c-a1b77dd19b92"
+      }
+    },
+    {
+      "name": "resource cycle 24: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 440,
+        "actual": 440
+      }
+    },
+    {
+      "name": "resource cycle 24: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 24: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 25: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 25: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "d505bf7f-3df7-4c4b-b335-d19bcfadb772",
+        "url": "blob:http://127.0.0.1:5173/9ef36809-b43f-40d5-821f-b59b6431ba40",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/d505bf7f-3df7-4c4b-b335-d19bcfadb772"
+      }
+    },
+    {
+      "name": "resource cycle 25: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 456,
+        "actual": 456
+      }
+    },
+    {
+      "name": "resource cycle 25: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 25: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 26: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 26: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "f1e30993-6a23-417a-b1f1-25474a2cb816",
+        "url": "blob:http://127.0.0.1:5173/08179b5c-bbf6-48e0-be1c-f0d5e84b7c55",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/f1e30993-6a23-417a-b1f1-25474a2cb816"
+      }
+    },
+    {
+      "name": "resource cycle 26: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 472,
+        "actual": 472
+      }
+    },
+    {
+      "name": "resource cycle 26: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 26: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 27: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 27: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "c7a81f1b-796c-4c76-ba99-277dd907252b",
+        "url": "blob:http://127.0.0.1:5173/7f4ebf53-e1de-42fc-923d-acb1e5a735c9",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/c7a81f1b-796c-4c76-ba99-277dd907252b"
+      }
+    },
+    {
+      "name": "resource cycle 27: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 488,
+        "actual": 488
+      }
+    },
+    {
+      "name": "resource cycle 27: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 27: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 28: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 28: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "5c94ad85-dac9-4397-bcac-83986d83a9ef",
+        "url": "blob:http://127.0.0.1:5173/989eb355-b8f2-422b-a551-7c35add9d3d1",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/5c94ad85-dac9-4397-bcac-83986d83a9ef"
+      }
+    },
+    {
+      "name": "resource cycle 28: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 504,
+        "actual": 504
+      }
+    },
+    {
+      "name": "resource cycle 28: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 28: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 29: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 29: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "c3797a93-2c50-4a6d-9c59-a315504d1469",
+        "url": "blob:http://127.0.0.1:5173/550ce8ed-112b-4fe1-b69e-7db3e19a7bf7",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/c3797a93-2c50-4a6d-9c59-a315504d1469"
+      }
+    },
+    {
+      "name": "resource cycle 29: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 520,
+        "actual": 520
+      }
+    },
+    {
+      "name": "resource cycle 29: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 29: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 30: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 30: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "4b731ea9-e54c-476f-a7c6-0e66ee352ebf",
+        "url": "blob:http://127.0.0.1:5173/5b8677fb-f914-4d78-affe-ca32b167248a",
+        "suggestedFilename": "group-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/4b731ea9-e54c-476f-a7c6-0e66ee352ebf"
+      }
+    },
+    {
+      "name": "resource cycle 30: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 536,
+        "actual": 536
+      }
+    },
+    {
+      "name": "resource cycle 30: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 30: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "cycle 31: real model loaded",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 31: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "86a750a4-a31e-4222-92d1-0ea88c1a9943",
+        "url": "blob:http://127.0.0.1:5173/96ebfd0b-6d5a-4fb8-a53e-609cf9a646e0",
+        "suggestedFilename": "embedded-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 691,
+        "receivedBytes": 691,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/86a750a4-a31e-4222-92d1-0ea88c1a9943"
+      }
+    },
+    {
+      "name": "resource cycle 31: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 552,
+        "actual": 552
+      }
+    },
+    {
+      "name": "resource cycle 31: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "resource cycle 31: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 469,
+        "bounds": {
+          "minX": 14,
+          "minY": 21,
+          "maxX": 49,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "replacement/remount GPU and asset counters plateau",
+      "passed": true,
+      "detail": [
+        {
+          "cycle": 16,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 36,
+            "disposed": 35,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 90,
+            "disposed": 89,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315199.706002,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1033,
+            "RecalcStyleCount": 1293,
+            "LayoutDuration": 0.233548,
+            "RecalcStyleDuration": 0.088953,
+            "DevToolsCommandDuration": 0.289695,
+            "ScriptDuration": 5.777617,
+            "V8CompileDuration": 0,
+            "TaskDuration": 7.903938,
+            "TaskOtherDuration": 1.514125,
+            "ThreadTime": 6.925749,
+            "ProcessTime": 11.432395,
+            "JSHeapUsedSize": 19427184,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 17,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 38,
+            "disposed": 37,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 95,
+            "disposed": 94,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315200.802149,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1071,
+            "RecalcStyleCount": 1345,
+            "LayoutDuration": 0.243116,
+            "RecalcStyleDuration": 0.091469,
+            "DevToolsCommandDuration": 0.302232,
+            "ScriptDuration": 6.012794,
+            "V8CompileDuration": 0,
+            "TaskDuration": 8.232561,
+            "TaskOtherDuration": 1.58295,
+            "ThreadTime": 7.198671,
+            "ProcessTime": 11.896068,
+            "JSHeapUsedSize": 19462372,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 18,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 40,
+            "disposed": 39,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 100,
+            "disposed": 99,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315201.907797,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1109,
+            "RecalcStyleCount": 1398,
+            "LayoutDuration": 0.252846,
+            "RecalcStyleDuration": 0.094027,
+            "DevToolsCommandDuration": 0.314673,
+            "ScriptDuration": 6.251783,
+            "V8CompileDuration": 0,
+            "TaskDuration": 8.568187,
+            "TaskOtherDuration": 1.654858,
+            "ThreadTime": 7.476388,
+            "ProcessTime": 12.36825,
+            "JSHeapUsedSize": 19485192,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 19,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 42,
+            "disposed": 41,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 105,
+            "disposed": 104,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315203.003698,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1147,
+            "RecalcStyleCount": 1450,
+            "LayoutDuration": 0.262589,
+            "RecalcStyleDuration": 0.096567,
+            "DevToolsCommandDuration": 0.324523,
+            "ScriptDuration": 6.4834,
+            "V8CompileDuration": 0,
+            "TaskDuration": 8.890708,
+            "TaskOtherDuration": 1.723629,
+            "ThreadTime": 7.746425,
+            "ProcessTime": 12.851363,
+            "JSHeapUsedSize": 19488912,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 20,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 44,
+            "disposed": 43,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 110,
+            "disposed": 109,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315204.095142,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1184,
+            "RecalcStyleCount": 1502,
+            "LayoutDuration": 0.272092,
+            "RecalcStyleDuration": 0.099162,
+            "DevToolsCommandDuration": 0.336726,
+            "ScriptDuration": 6.71497,
+            "V8CompileDuration": 0,
+            "TaskDuration": 9.215316,
+            "TaskOtherDuration": 1.792366,
+            "ThreadTime": 8.01721,
+            "ProcessTime": 13.328724,
+            "JSHeapUsedSize": 19525768,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 21,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 46,
+            "disposed": 45,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 115,
+            "disposed": 114,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315205.203862,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1223,
+            "RecalcStyleCount": 1555,
+            "LayoutDuration": 0.282047,
+            "RecalcStyleDuration": 0.101828,
+            "DevToolsCommandDuration": 0.346467,
+            "ScriptDuration": 6.949031,
+            "V8CompileDuration": 0,
+            "TaskDuration": 9.543113,
+            "TaskOtherDuration": 1.86374,
+            "ThreadTime": 8.290343,
+            "ProcessTime": 13.803629,
+            "JSHeapUsedSize": 19531008,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 22,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 48,
+            "disposed": 47,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 120,
+            "disposed": 119,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315206.299133,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1261,
+            "RecalcStyleCount": 1608,
+            "LayoutDuration": 0.291566,
+            "RecalcStyleDuration": 0.104338,
+            "DevToolsCommandDuration": 0.356035,
+            "ScriptDuration": 7.181915,
+            "V8CompileDuration": 0,
+            "TaskDuration": 9.867573,
+            "TaskOtherDuration": 1.933719,
+            "ThreadTime": 8.560922,
+            "ProcessTime": 14.273688,
+            "JSHeapUsedSize": 19570452,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 23,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 50,
+            "disposed": 49,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 125,
+            "disposed": 124,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315207.398986,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1300,
+            "RecalcStyleCount": 1661,
+            "LayoutDuration": 0.301283,
+            "RecalcStyleDuration": 0.106904,
+            "DevToolsCommandDuration": 0.365827,
+            "ScriptDuration": 7.414378,
+            "V8CompileDuration": 0,
+            "TaskDuration": 10.193134,
+            "TaskOtherDuration": 2.004742,
+            "ThreadTime": 8.832785,
+            "ProcessTime": 14.733984,
+            "JSHeapUsedSize": 19575240,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 24,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 52,
+            "disposed": 51,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 130,
+            "disposed": 129,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315208.489039,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1338,
+            "RecalcStyleCount": 1714,
+            "LayoutDuration": 0.310912,
+            "RecalcStyleDuration": 0.109384,
+            "DevToolsCommandDuration": 0.375681,
+            "ScriptDuration": 7.650326,
+            "V8CompileDuration": 0,
+            "TaskDuration": 10.521502,
+            "TaskOtherDuration": 2.075199,
+            "ThreadTime": 9.104443,
+            "ProcessTime": 15.200105,
+            "JSHeapUsedSize": 19589956,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 25,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 54,
+            "disposed": 53,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 135,
+            "disposed": 134,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315209.592223,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1377,
+            "RecalcStyleCount": 1767,
+            "LayoutDuration": 0.320875,
+            "RecalcStyleDuration": 0.111978,
+            "DevToolsCommandDuration": 0.388107,
+            "ScriptDuration": 7.882192,
+            "V8CompileDuration": 0,
+            "TaskDuration": 10.854269,
+            "TaskOtherDuration": 2.151117,
+            "ThreadTime": 9.385222,
+            "ProcessTime": 15.684534,
+            "JSHeapUsedSize": 19593956,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 26,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 56,
+            "disposed": 55,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 140,
+            "disposed": 139,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315210.6995,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1414,
+            "RecalcStyleCount": 1819,
+            "LayoutDuration": 0.33052,
+            "RecalcStyleDuration": 0.114491,
+            "DevToolsCommandDuration": 0.40065,
+            "ScriptDuration": 8.118275,
+            "V8CompileDuration": 0,
+            "TaskDuration": 11.186125,
+            "TaskOtherDuration": 2.222189,
+            "ThreadTime": 9.662131,
+            "ProcessTime": 16.163936,
+            "JSHeapUsedSize": 19645648,
+            "JSHeapTotalSize": 20414464,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 27,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 58,
+            "disposed": 57,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 145,
+            "disposed": 144,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315211.805505,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1453,
+            "RecalcStyleCount": 1872,
+            "LayoutDuration": 0.340792,
+            "RecalcStyleDuration": 0.117261,
+            "DevToolsCommandDuration": 0.410633,
+            "ScriptDuration": 8.353298,
+            "V8CompileDuration": 0,
+            "TaskDuration": 11.518661,
+            "TaskOtherDuration": 2.296677,
+            "ThreadTime": 9.940945,
+            "ProcessTime": 16.647298,
+            "JSHeapUsedSize": 19669604,
+            "JSHeapTotalSize": 20676608,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 28,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 60,
+            "disposed": 59,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 150,
+            "disposed": 149,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315212.91592,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1491,
+            "RecalcStyleCount": 1925,
+            "LayoutDuration": 0.350866,
+            "RecalcStyleDuration": 0.119878,
+            "DevToolsCommandDuration": 0.423151,
+            "ScriptDuration": 8.587967,
+            "V8CompileDuration": 0,
+            "TaskDuration": 11.854087,
+            "TaskOtherDuration": 2.372225,
+            "ThreadTime": 10.222483,
+            "ProcessTime": 17.123207,
+            "JSHeapUsedSize": 19695316,
+            "JSHeapTotalSize": 20676608,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 29,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 62,
+            "disposed": 61,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 155,
+            "disposed": 154,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315214.02413,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1530,
+            "RecalcStyleCount": 1978,
+            "LayoutDuration": 0.36068,
+            "RecalcStyleDuration": 0.122465,
+            "DevToolsCommandDuration": 0.435688,
+            "ScriptDuration": 8.822958,
+            "V8CompileDuration": 0,
+            "TaskDuration": 12.187969,
+            "TaskOtherDuration": 2.446178,
+            "ThreadTime": 10.501701,
+            "ProcessTime": 17.603191,
+            "JSHeapUsedSize": 19694960,
+            "JSHeapTotalSize": 20676608,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 30,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 64,
+            "disposed": 63,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 160,
+            "disposed": 159,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315215.130418,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1567,
+            "RecalcStyleCount": 2030,
+            "LayoutDuration": 0.370298,
+            "RecalcStyleDuration": 0.125018,
+            "DevToolsCommandDuration": 0.448135,
+            "ScriptDuration": 9.058342,
+            "V8CompileDuration": 0,
+            "TaskDuration": 12.519609,
+            "TaskOtherDuration": 2.517816,
+            "ThreadTime": 10.777755,
+            "ProcessTime": 18.067953,
+            "JSHeapUsedSize": 19715604,
+            "JSHeapTotalSize": 20676608,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        },
+        {
+          "cycle": 31,
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 1
+          },
+          "lifecycle": {
+            "created": 66,
+            "disposed": 65,
+            "active": 1
+          },
+          "imports": {
+            "assets": 0,
+            "urls": 0,
+            "geometries": 0,
+            "materials": 0
+          },
+          "target": {
+            "created": 165,
+            "disposed": 164,
+            "active": 1
+          },
+          "metrics": {
+            "Timestamp": 1315216.238643,
+            "AudioHandlers": 0,
+            "AudioWorkletProcessors": 0,
+            "Documents": 1,
+            "Frames": 1,
+            "JSEventListeners": 400,
+            "LayoutObjects": 1513,
+            "MediaKeySessions": 0,
+            "MediaKeys": 0,
+            "Nodes": 2176,
+            "Resources": 11,
+            "ContextLifecycleStateObservers": 42,
+            "V8PerContextDatas": 1,
+            "WorkerGlobalScopes": 0,
+            "UACSSResources": 0,
+            "RTCPeerConnections": 0,
+            "ResourceFetchers": 1,
+            "AdSubframes": 0,
+            "DetachedScriptStates": 0,
+            "ArrayBufferContents": 30,
+            "LayoutCount": 1606,
+            "RecalcStyleCount": 2083,
+            "LayoutDuration": 0.380033,
+            "RecalcStyleDuration": 0.127566,
+            "DevToolsCommandDuration": 0.460675,
+            "ScriptDuration": 9.292621,
+            "V8CompileDuration": 0,
+            "TaskDuration": 12.850425,
+            "TaskOtherDuration": 2.58953,
+            "ThreadTime": 11.053718,
+            "ProcessTime": 18.543647,
+            "JSHeapUsedSize": 19709304,
+            "JSHeapTotalSize": 20676608,
+            "FirstMeaningfulPaint": 1315173.191723,
+            "DomContentLoaded": 1315173.085231,
+            "NavigationStart": 1315172.945906
+          },
+          "canvases": 5
+        }
+      ]
+    },
+    {
+      "name": "post-GC listeners and heap plateau",
+      "passed": true,
+      "detail": [
+        {
+          "cycle": 16,
+          "listeners": 400,
+          "heap": 19427184
+        },
+        {
+          "cycle": 17,
+          "listeners": 400,
+          "heap": 19462372
+        },
+        {
+          "cycle": 18,
+          "listeners": 400,
+          "heap": 19485192
+        },
+        {
+          "cycle": 19,
+          "listeners": 400,
+          "heap": 19488912
+        },
+        {
+          "cycle": 20,
+          "listeners": 400,
+          "heap": 19525768
+        },
+        {
+          "cycle": 21,
+          "listeners": 400,
+          "heap": 19531008
+        },
+        {
+          "cycle": 22,
+          "listeners": 400,
+          "heap": 19570452
+        },
+        {
+          "cycle": 23,
+          "listeners": 400,
+          "heap": 19575240
+        },
+        {
+          "cycle": 24,
+          "listeners": 400,
+          "heap": 19589956
+        },
+        {
+          "cycle": 25,
+          "listeners": 400,
+          "heap": 19593956
+        },
+        {
+          "cycle": 26,
+          "listeners": 400,
+          "heap": 19645648
+        },
+        {
+          "cycle": 27,
+          "listeners": 400,
+          "heap": 19669604
+        },
+        {
+          "cycle": 28,
+          "listeners": 400,
+          "heap": 19695316
+        },
+        {
+          "cycle": 29,
+          "listeners": 400,
+          "heap": 19694960
+        },
+        {
+          "cycle": 30,
+          "listeners": 400,
+          "heap": 19715604
+        },
+        {
+          "cycle": 31,
+          "listeners": 400,
+          "heap": 19709304
+        }
+      ]
+    },
+    {
+      "name": "context loss removes all old canvases",
+      "passed": true
+    },
+    {
+      "name": "context recovery has one runtime, target and canvas set",
+      "passed": true,
+      "detail": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "name": "after forced context recovery: download completed",
+      "passed": true,
+      "detail": {
+        "frameId": "2CEFC84503B36C1555FD0E6B164622E0",
+        "guid": "8abcf56b-1ef8-430a-b381-b3ab5e26311f",
+        "url": "blob:http://127.0.0.1:5173/945621cb-0027-48cd-ab2a-86ff9d09eabf",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 702,
+        "receivedBytes": 702,
+        "filePath": "/tmp/pss19-downloads-WU8j5U/8abcf56b-1ef8-430a-b381-b3ab5e26311f"
+      }
+    },
+    {
+      "name": "after forced context recovery: pinned capture is clicked latest revision",
+      "passed": true,
+      "detail": {
+        "expected": 554,
+        "actual": 554
+      }
+    },
+    {
+      "name": "after forced context recovery: settled preview equals exported bytes",
+      "passed": true
+    },
+    {
+      "name": "after forced context recovery: decoded PNG equals latest native RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "all created blob URLs revoked",
+      "passed": true,
+      "detail": {
+        "created": 34,
+        "revoked": 34
+      }
+    },
+    {
+      "name": "no unexpected console warnings/errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "name": "all browser requests local",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observations": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)",
+    "latestExport": {
+      "sha256": "ecbf6896977f1aa74c85d2c41bda212b9faf1862a7aa4fd1c1de5b568326aa4c",
+      "decoded": {
+        "matches": true,
+        "width": 256,
+        "height": 256,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "172038",
+          "304878",
+          "FFFFFF"
+        ],
+        "opaquePixels": 24691,
+        "bounds": {
+          "minX": 0,
+          "minY": 62,
+          "maxX": 196,
+          "maxY": 255
+        }
+      }
+    },
+    "resources": [
+      {
+        "cycle": 0,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 4,
+          "disposed": 3,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 10,
+          "disposed": 9,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315181.900157,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 41,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 425,
+          "RecalcStyleCount": 453,
+          "LayoutDuration": 0.074189,
+          "RecalcStyleDuration": 0.045846,
+          "DevToolsCommandDuration": 0.115931,
+          "ScriptDuration": 1.757513,
+          "V8CompileDuration": 0,
+          "TaskDuration": 2.357803,
+          "TaskOtherDuration": 0.364324,
+          "ThreadTime": 2.25709,
+          "ProcessTime": 3.369631,
+          "JSHeapUsedSize": 17189072,
+          "JSHeapTotalSize": 17793024,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 1,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 6,
+          "disposed": 5,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 15,
+          "disposed": 14,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315183.024802,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 41,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 464,
+          "RecalcStyleCount": 506,
+          "LayoutDuration": 0.083874,
+          "RecalcStyleDuration": 0.048475,
+          "DevToolsCommandDuration": 0.125575,
+          "ScriptDuration": 2.017091,
+          "V8CompileDuration": 0,
+          "TaskDuration": 2.713705,
+          "TaskOtherDuration": 0.43869,
+          "ThreadTime": 2.561371,
+          "ProcessTime": 3.886726,
+          "JSHeapUsedSize": 17488972,
+          "JSHeapTotalSize": 18055168,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 2,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 8,
+          "disposed": 7,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 20,
+          "disposed": 19,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315184.140547,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 41,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 501,
+          "RecalcStyleCount": 558,
+          "LayoutDuration": 0.093584,
+          "RecalcStyleDuration": 0.051095,
+          "DevToolsCommandDuration": 0.135365,
+          "ScriptDuration": 2.275628,
+          "V8CompileDuration": 0,
+          "TaskDuration": 3.068334,
+          "TaskOtherDuration": 0.512662,
+          "ThreadTime": 2.864118,
+          "ProcessTime": 4.406572,
+          "JSHeapUsedSize": 17645364,
+          "JSHeapTotalSize": 18317312,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 3,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 10,
+          "disposed": 9,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 25,
+          "disposed": 24,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315185.246119,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 539,
+          "RecalcStyleCount": 610,
+          "LayoutDuration": 0.10308,
+          "RecalcStyleDuration": 0.053639,
+          "DevToolsCommandDuration": 0.144704,
+          "ScriptDuration": 2.528064,
+          "V8CompileDuration": 0,
+          "TaskDuration": 3.407882,
+          "TaskOtherDuration": 0.578395,
+          "ThreadTime": 3.14965,
+          "ProcessTime": 4.889048,
+          "JSHeapUsedSize": 17966384,
+          "JSHeapTotalSize": 18841600,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 4,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 12,
+          "disposed": 11,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 30,
+          "disposed": 29,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315186.382808,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 577,
+          "RecalcStyleCount": 663,
+          "LayoutDuration": 0.114482,
+          "RecalcStyleDuration": 0.056893,
+          "DevToolsCommandDuration": 0.15554,
+          "ScriptDuration": 2.795573,
+          "V8CompileDuration": 0,
+          "TaskDuration": 3.776212,
+          "TaskOtherDuration": 0.653724,
+          "ThreadTime": 3.463256,
+          "ProcessTime": 5.412815,
+          "JSHeapUsedSize": 18094816,
+          "JSHeapTotalSize": 18841600,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 5,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 14,
+          "disposed": 13,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 35,
+          "disposed": 34,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315187.501466,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 615,
+          "RecalcStyleCount": 715,
+          "LayoutDuration": 0.125626,
+          "RecalcStyleDuration": 0.059969,
+          "DevToolsCommandDuration": 0.16611,
+          "ScriptDuration": 3.057614,
+          "V8CompileDuration": 0,
+          "TaskDuration": 4.135429,
+          "TaskOtherDuration": 0.72611,
+          "ThreadTime": 3.767963,
+          "ProcessTime": 5.937538,
+          "JSHeapUsedSize": 18174392,
+          "JSHeapTotalSize": 18841600,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 6,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 16,
+          "disposed": 15,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 40,
+          "disposed": 39,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315188.605396,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 652,
+          "RecalcStyleCount": 767,
+          "LayoutDuration": 0.136112,
+          "RecalcStyleDuration": 0.06288,
+          "DevToolsCommandDuration": 0.176184,
+          "ScriptDuration": 3.313783,
+          "V8CompileDuration": 0,
+          "TaskDuration": 4.484487,
+          "TaskOtherDuration": 0.795528,
+          "ThreadTime": 4.062738,
+          "ProcessTime": 6.437987,
+          "JSHeapUsedSize": 18249212,
+          "JSHeapTotalSize": 19103744,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 7,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 18,
+          "disposed": 17,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 45,
+          "disposed": 44,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315189.721983,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 690,
+          "RecalcStyleCount": 819,
+          "LayoutDuration": 0.146227,
+          "RecalcStyleDuration": 0.065625,
+          "DevToolsCommandDuration": 0.186268,
+          "ScriptDuration": 3.570821,
+          "V8CompileDuration": 0,
+          "TaskDuration": 4.838037,
+          "TaskOtherDuration": 0.869096,
+          "ThreadTime": 4.361774,
+          "ProcessTime": 6.956607,
+          "JSHeapUsedSize": 18421996,
+          "JSHeapTotalSize": 19365888,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 8,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 20,
+          "disposed": 19,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 50,
+          "disposed": 49,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315190.843302,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 727,
+          "RecalcStyleCount": 871,
+          "LayoutDuration": 0.155384,
+          "RecalcStyleDuration": 0.068094,
+          "DevToolsCommandDuration": 0.198475,
+          "ScriptDuration": 3.827126,
+          "V8CompileDuration": 0,
+          "TaskDuration": 5.189817,
+          "TaskOtherDuration": 0.940738,
+          "ThreadTime": 4.656389,
+          "ProcessTime": 7.469141,
+          "JSHeapUsedSize": 18731000,
+          "JSHeapTotalSize": 19628032,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 9,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 22,
+          "disposed": 21,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 55,
+          "disposed": 54,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315191.945715,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 766,
+          "RecalcStyleCount": 924,
+          "LayoutDuration": 0.165283,
+          "RecalcStyleDuration": 0.070759,
+          "DevToolsCommandDuration": 0.207951,
+          "ScriptDuration": 4.076304,
+          "V8CompileDuration": 0,
+          "TaskDuration": 5.527445,
+          "TaskOtherDuration": 1.007148,
+          "ThreadTime": 4.941344,
+          "ProcessTime": 7.940826,
+          "JSHeapUsedSize": 18773540,
+          "JSHeapTotalSize": 19628032,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 10,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 24,
+          "disposed": 23,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 60,
+          "disposed": 59,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315193.066462,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 804,
+          "RecalcStyleCount": 977,
+          "LayoutDuration": 0.175204,
+          "RecalcStyleDuration": 0.073431,
+          "DevToolsCommandDuration": 0.220682,
+          "ScriptDuration": 4.335607,
+          "V8CompileDuration": 0,
+          "TaskDuration": 5.885154,
+          "TaskOtherDuration": 1.08023,
+          "ThreadTime": 5.242023,
+          "ProcessTime": 8.458911,
+          "JSHeapUsedSize": 18985204,
+          "JSHeapTotalSize": 19890176,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 11,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 26,
+          "disposed": 25,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 65,
+          "disposed": 64,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315194.181772,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 843,
+          "RecalcStyleCount": 1030,
+          "LayoutDuration": 0.185109,
+          "RecalcStyleDuration": 0.076026,
+          "DevToolsCommandDuration": 0.232988,
+          "ScriptDuration": 4.584743,
+          "V8CompileDuration": 0,
+          "TaskDuration": 6.23087,
+          "TaskOtherDuration": 1.152004,
+          "ThreadTime": 5.533279,
+          "ProcessTime": 8.970398,
+          "JSHeapUsedSize": 19139656,
+          "JSHeapTotalSize": 20152320,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 12,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 28,
+          "disposed": 27,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 70,
+          "disposed": 69,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315195.293079,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 881,
+          "RecalcStyleCount": 1083,
+          "LayoutDuration": 0.194772,
+          "RecalcStyleDuration": 0.078617,
+          "DevToolsCommandDuration": 0.242542,
+          "ScriptDuration": 4.830151,
+          "V8CompileDuration": 0,
+          "TaskDuration": 6.568568,
+          "TaskOtherDuration": 1.222486,
+          "ThreadTime": 5.815721,
+          "ProcessTime": 9.449615,
+          "JSHeapUsedSize": 19234960,
+          "JSHeapTotalSize": 20152320,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 13,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 30,
+          "disposed": 29,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 75,
+          "disposed": 74,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315196.392863,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 919,
+          "RecalcStyleCount": 1135,
+          "LayoutDuration": 0.204395,
+          "RecalcStyleDuration": 0.081202,
+          "DevToolsCommandDuration": 0.254917,
+          "ScriptDuration": 5.068393,
+          "V8CompileDuration": 0,
+          "TaskDuration": 6.90242,
+          "TaskOtherDuration": 1.293513,
+          "ThreadTime": 6.091455,
+          "ProcessTime": 9.950227,
+          "JSHeapUsedSize": 19301392,
+          "JSHeapTotalSize": 20152320,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 14,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 32,
+          "disposed": 31,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 80,
+          "disposed": 79,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315197.495789,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 956,
+          "RecalcStyleCount": 1187,
+          "LayoutDuration": 0.214021,
+          "RecalcStyleDuration": 0.083741,
+          "DevToolsCommandDuration": 0.267291,
+          "ScriptDuration": 5.30478,
+          "V8CompileDuration": 0,
+          "TaskDuration": 7.235371,
+          "TaskOtherDuration": 1.365538,
+          "ThreadTime": 6.367491,
+          "ProcessTime": 10.441112,
+          "JSHeapUsedSize": 19350692,
+          "JSHeapTotalSize": 20152320,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 15,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 34,
+          "disposed": 33,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 85,
+          "disposed": 84,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315198.594981,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 995,
+          "RecalcStyleCount": 1240,
+          "LayoutDuration": 0.223846,
+          "RecalcStyleDuration": 0.086362,
+          "DevToolsCommandDuration": 0.277046,
+          "ScriptDuration": 5.540111,
+          "V8CompileDuration": 0,
+          "TaskDuration": 7.565575,
+          "TaskOtherDuration": 1.43821,
+          "ThreadTime": 6.642895,
+          "ProcessTime": 10.933469,
+          "JSHeapUsedSize": 19407536,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 16,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 36,
+          "disposed": 35,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 90,
+          "disposed": 89,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315199.706002,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1033,
+          "RecalcStyleCount": 1293,
+          "LayoutDuration": 0.233548,
+          "RecalcStyleDuration": 0.088953,
+          "DevToolsCommandDuration": 0.289695,
+          "ScriptDuration": 5.777617,
+          "V8CompileDuration": 0,
+          "TaskDuration": 7.903938,
+          "TaskOtherDuration": 1.514125,
+          "ThreadTime": 6.925749,
+          "ProcessTime": 11.432395,
+          "JSHeapUsedSize": 19427184,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 17,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 38,
+          "disposed": 37,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 95,
+          "disposed": 94,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315200.802149,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1071,
+          "RecalcStyleCount": 1345,
+          "LayoutDuration": 0.243116,
+          "RecalcStyleDuration": 0.091469,
+          "DevToolsCommandDuration": 0.302232,
+          "ScriptDuration": 6.012794,
+          "V8CompileDuration": 0,
+          "TaskDuration": 8.232561,
+          "TaskOtherDuration": 1.58295,
+          "ThreadTime": 7.198671,
+          "ProcessTime": 11.896068,
+          "JSHeapUsedSize": 19462372,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 18,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 40,
+          "disposed": 39,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 100,
+          "disposed": 99,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315201.907797,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1109,
+          "RecalcStyleCount": 1398,
+          "LayoutDuration": 0.252846,
+          "RecalcStyleDuration": 0.094027,
+          "DevToolsCommandDuration": 0.314673,
+          "ScriptDuration": 6.251783,
+          "V8CompileDuration": 0,
+          "TaskDuration": 8.568187,
+          "TaskOtherDuration": 1.654858,
+          "ThreadTime": 7.476388,
+          "ProcessTime": 12.36825,
+          "JSHeapUsedSize": 19485192,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 19,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 42,
+          "disposed": 41,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 105,
+          "disposed": 104,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315203.003698,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1147,
+          "RecalcStyleCount": 1450,
+          "LayoutDuration": 0.262589,
+          "RecalcStyleDuration": 0.096567,
+          "DevToolsCommandDuration": 0.324523,
+          "ScriptDuration": 6.4834,
+          "V8CompileDuration": 0,
+          "TaskDuration": 8.890708,
+          "TaskOtherDuration": 1.723629,
+          "ThreadTime": 7.746425,
+          "ProcessTime": 12.851363,
+          "JSHeapUsedSize": 19488912,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 20,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 44,
+          "disposed": 43,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 110,
+          "disposed": 109,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315204.095142,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1184,
+          "RecalcStyleCount": 1502,
+          "LayoutDuration": 0.272092,
+          "RecalcStyleDuration": 0.099162,
+          "DevToolsCommandDuration": 0.336726,
+          "ScriptDuration": 6.71497,
+          "V8CompileDuration": 0,
+          "TaskDuration": 9.215316,
+          "TaskOtherDuration": 1.792366,
+          "ThreadTime": 8.01721,
+          "ProcessTime": 13.328724,
+          "JSHeapUsedSize": 19525768,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 21,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 46,
+          "disposed": 45,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 115,
+          "disposed": 114,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315205.203862,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1223,
+          "RecalcStyleCount": 1555,
+          "LayoutDuration": 0.282047,
+          "RecalcStyleDuration": 0.101828,
+          "DevToolsCommandDuration": 0.346467,
+          "ScriptDuration": 6.949031,
+          "V8CompileDuration": 0,
+          "TaskDuration": 9.543113,
+          "TaskOtherDuration": 1.86374,
+          "ThreadTime": 8.290343,
+          "ProcessTime": 13.803629,
+          "JSHeapUsedSize": 19531008,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 22,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 48,
+          "disposed": 47,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 120,
+          "disposed": 119,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315206.299133,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1261,
+          "RecalcStyleCount": 1608,
+          "LayoutDuration": 0.291566,
+          "RecalcStyleDuration": 0.104338,
+          "DevToolsCommandDuration": 0.356035,
+          "ScriptDuration": 7.181915,
+          "V8CompileDuration": 0,
+          "TaskDuration": 9.867573,
+          "TaskOtherDuration": 1.933719,
+          "ThreadTime": 8.560922,
+          "ProcessTime": 14.273688,
+          "JSHeapUsedSize": 19570452,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 23,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 50,
+          "disposed": 49,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 125,
+          "disposed": 124,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315207.398986,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1300,
+          "RecalcStyleCount": 1661,
+          "LayoutDuration": 0.301283,
+          "RecalcStyleDuration": 0.106904,
+          "DevToolsCommandDuration": 0.365827,
+          "ScriptDuration": 7.414378,
+          "V8CompileDuration": 0,
+          "TaskDuration": 10.193134,
+          "TaskOtherDuration": 2.004742,
+          "ThreadTime": 8.832785,
+          "ProcessTime": 14.733984,
+          "JSHeapUsedSize": 19575240,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 24,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 52,
+          "disposed": 51,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 130,
+          "disposed": 129,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315208.489039,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1338,
+          "RecalcStyleCount": 1714,
+          "LayoutDuration": 0.310912,
+          "RecalcStyleDuration": 0.109384,
+          "DevToolsCommandDuration": 0.375681,
+          "ScriptDuration": 7.650326,
+          "V8CompileDuration": 0,
+          "TaskDuration": 10.521502,
+          "TaskOtherDuration": 2.075199,
+          "ThreadTime": 9.104443,
+          "ProcessTime": 15.200105,
+          "JSHeapUsedSize": 19589956,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 25,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 54,
+          "disposed": 53,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 135,
+          "disposed": 134,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315209.592223,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1377,
+          "RecalcStyleCount": 1767,
+          "LayoutDuration": 0.320875,
+          "RecalcStyleDuration": 0.111978,
+          "DevToolsCommandDuration": 0.388107,
+          "ScriptDuration": 7.882192,
+          "V8CompileDuration": 0,
+          "TaskDuration": 10.854269,
+          "TaskOtherDuration": 2.151117,
+          "ThreadTime": 9.385222,
+          "ProcessTime": 15.684534,
+          "JSHeapUsedSize": 19593956,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 26,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 56,
+          "disposed": 55,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 140,
+          "disposed": 139,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315210.6995,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1414,
+          "RecalcStyleCount": 1819,
+          "LayoutDuration": 0.33052,
+          "RecalcStyleDuration": 0.114491,
+          "DevToolsCommandDuration": 0.40065,
+          "ScriptDuration": 8.118275,
+          "V8CompileDuration": 0,
+          "TaskDuration": 11.186125,
+          "TaskOtherDuration": 2.222189,
+          "ThreadTime": 9.662131,
+          "ProcessTime": 16.163936,
+          "JSHeapUsedSize": 19645648,
+          "JSHeapTotalSize": 20414464,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 27,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 58,
+          "disposed": 57,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 145,
+          "disposed": 144,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315211.805505,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1453,
+          "RecalcStyleCount": 1872,
+          "LayoutDuration": 0.340792,
+          "RecalcStyleDuration": 0.117261,
+          "DevToolsCommandDuration": 0.410633,
+          "ScriptDuration": 8.353298,
+          "V8CompileDuration": 0,
+          "TaskDuration": 11.518661,
+          "TaskOtherDuration": 2.296677,
+          "ThreadTime": 9.940945,
+          "ProcessTime": 16.647298,
+          "JSHeapUsedSize": 19669604,
+          "JSHeapTotalSize": 20676608,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 28,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 60,
+          "disposed": 59,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 150,
+          "disposed": 149,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315212.91592,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1491,
+          "RecalcStyleCount": 1925,
+          "LayoutDuration": 0.350866,
+          "RecalcStyleDuration": 0.119878,
+          "DevToolsCommandDuration": 0.423151,
+          "ScriptDuration": 8.587967,
+          "V8CompileDuration": 0,
+          "TaskDuration": 11.854087,
+          "TaskOtherDuration": 2.372225,
+          "ThreadTime": 10.222483,
+          "ProcessTime": 17.123207,
+          "JSHeapUsedSize": 19695316,
+          "JSHeapTotalSize": 20676608,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 29,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 62,
+          "disposed": 61,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 155,
+          "disposed": 154,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315214.02413,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1530,
+          "RecalcStyleCount": 1978,
+          "LayoutDuration": 0.36068,
+          "RecalcStyleDuration": 0.122465,
+          "DevToolsCommandDuration": 0.435688,
+          "ScriptDuration": 8.822958,
+          "V8CompileDuration": 0,
+          "TaskDuration": 12.187969,
+          "TaskOtherDuration": 2.446178,
+          "ThreadTime": 10.501701,
+          "ProcessTime": 17.603191,
+          "JSHeapUsedSize": 19694960,
+          "JSHeapTotalSize": 20676608,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 30,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 64,
+          "disposed": 63,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 160,
+          "disposed": 159,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315215.130418,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1567,
+          "RecalcStyleCount": 2030,
+          "LayoutDuration": 0.370298,
+          "RecalcStyleDuration": 0.125018,
+          "DevToolsCommandDuration": 0.448135,
+          "ScriptDuration": 9.058342,
+          "V8CompileDuration": 0,
+          "TaskDuration": 12.519609,
+          "TaskOtherDuration": 2.517816,
+          "ThreadTime": 10.777755,
+          "ProcessTime": 18.067953,
+          "JSHeapUsedSize": 19715604,
+          "JSHeapTotalSize": 20676608,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      },
+      {
+        "cycle": 31,
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "lifecycle": {
+          "created": 66,
+          "disposed": 65,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "target": {
+          "created": 165,
+          "disposed": 164,
+          "active": 1
+        },
+        "metrics": {
+          "Timestamp": 1315216.238643,
+          "AudioHandlers": 0,
+          "AudioWorkletProcessors": 0,
+          "Documents": 1,
+          "Frames": 1,
+          "JSEventListeners": 400,
+          "LayoutObjects": 1513,
+          "MediaKeySessions": 0,
+          "MediaKeys": 0,
+          "Nodes": 2176,
+          "Resources": 11,
+          "ContextLifecycleStateObservers": 42,
+          "V8PerContextDatas": 1,
+          "WorkerGlobalScopes": 0,
+          "UACSSResources": 0,
+          "RTCPeerConnections": 0,
+          "ResourceFetchers": 1,
+          "AdSubframes": 0,
+          "DetachedScriptStates": 0,
+          "ArrayBufferContents": 30,
+          "LayoutCount": 1606,
+          "RecalcStyleCount": 2083,
+          "LayoutDuration": 0.380033,
+          "RecalcStyleDuration": 0.127566,
+          "DevToolsCommandDuration": 0.460675,
+          "ScriptDuration": 9.292621,
+          "V8CompileDuration": 0,
+          "TaskDuration": 12.850425,
+          "TaskOtherDuration": 2.58953,
+          "ThreadTime": 11.053718,
+          "ProcessTime": 18.543647,
+          "JSHeapUsedSize": 19709304,
+          "JSHeapTotalSize": 20676608,
+          "FirstMeaningfulPaint": 1315173.191723,
+          "DomContentLoaded": 1315173.085231,
+          "NavigationStart": 1315172.945906
+        },
+        "canvases": 5
+      }
+    ],
+    "recoveredExport": {
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "decoded": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "browserStderr": "Trying to load the allocator multiple times. This is *not* supported.\n[79094:35686790:1024/041803.743979:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.744301:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041803.744567:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.744622:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041803.744709:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.744744:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041803.744836:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.744870:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041803.744969:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.745005:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041803.747706:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041803.748216:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041805.857151:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041805.857245:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041805.965915:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041805.965984:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041806.002325:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041806.002397:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041806.048452:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041806.048534:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79088:35686773:1024/041806.173213:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT\n[79088:35686773:1024/041806.176480:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: PHONE_REGISTRATION_ERROR\n[79094:35686790:1024/041806.181273:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041806.181341:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041806.220802:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041806.220869:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686790:1024/041806.260989:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\n[79094:35686902:1024/041806.261059:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670\nCreated TensorFlow Lite XNNPACK delegate for CPU.\nCreated TensorFlow Lite XNNPACK delegate for CPU.\n[83278:35693073:1024/041822.767586:VERBOSE1:chrome/updater/updater.cc:375] Version: 157.0.8089.0, opt, ARM_64, command line: /Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake-all --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2\n[83278:35693073:1024/041822.768374:VERBOSE1:chrome/updater/updater.cc:378] OS version: 27.0.0, arch: arm64, System uptime (seconds): 1315191, parent pid: 79088\n[83278:35693073:1024/041822.770895:VERBOSE1:chrome/updater/updater.cc:383] Available disk space in install directory (/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83278:35693073:1024/041822.770927:VERBOSE1:chrome/updater/updater.cc:387] Available disk space in temporary directory (/var/folders/mg/w1n5vm595lb407zb7nq2f8nr0000gq/T/): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83278:35693073:1024/041822.770999:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS START event to the history log\n[83280:35693078:1024/041822.783181:VERBOSE1:chrome/updater/updater.cc:375] Version: 157.0.8089.0, opt, ARM_64, command line: /Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=157.0.8089.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2\n[83280:35693078:1024/041822.783948:VERBOSE1:chrome/updater/updater.cc:378] OS version: 27.0.0, arch: arm64, System uptime (seconds): 1315191, parent pid: 1\n[83280:35693078:1024/041822.786171:VERBOSE1:chrome/updater/updater.cc:383] Available disk space in install directory (/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83280:35693078:1024/041822.786205:VERBOSE1:chrome/updater/updater.cc:387] Available disk space in temporary directory (/var/folders/mg/w1n5vm595lb407zb7nq2f8nr0000gq/T/): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83280:35693078:1024/041822.786276:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS START event to the history log\n[83278:35693073:1024/041822.786928:VERBOSE1:chrome/updater/crash_reporter.cc:123] Crash handler launched and ready.\n[83278:35693073:1024/041822.787797:VERBOSE1:chrome/updater/crash_client.cc:109] Found 0 completed crash reports\n[83278:35693073:1024/041822.787962:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports\n[83278:35693073:1024/041822.788145:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/le-evanmcpheron/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)\n[83278:35693073:1024/041822.788284:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/le-evanmcpheron/Library/Application Support/Google/ChromeForTesting/Crashpad/settings.dat: No such file or directory (2)\n[83278:35693073:1024/041822.788307:VERBOSE1:chrome/updater/updater.cc:107] Crash reporting initialized.\n[83278:35693086:1024/041822.788661:VERBOSE1:chrome/updater/app/app_wakeall.cc:58] Launching `/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake`\n[83281:35693092:1024/041822.798809:VERBOSE1:chrome/updater/updater.cc:375] Version: 157.0.8089.0, opt, ARM_64, command line: /Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2\n[83281:35693092:1024/041822.799613:VERBOSE1:chrome/updater/updater.cc:378] OS version: 27.0.0, arch: arm64, System uptime (seconds): 1315191, parent pid: 83278\n[83281:35693092:1024/041822.802035:VERBOSE1:chrome/updater/updater.cc:383] Available disk space in install directory (/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83281:35693092:1024/041822.802065:VERBOSE1:chrome/updater/updater.cc:387] Available disk space in temporary directory (/var/folders/mg/w1n5vm595lb407zb7nq2f8nr0000gq/T/): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83281:35693092:1024/041822.802126:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS START event to the history log\n[83283:35693096:1024/041822.813857:VERBOSE1:chrome/updater/updater.cc:375] Version: 157.0.8089.0, opt, ARM_64, command line: /Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --crash-handler --database=/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=157.0.8089.0 --handshake-fd=6 --enable-logging --vmodule=*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2\n[83283:35693096:1024/041822.814619:VERBOSE1:chrome/updater/updater.cc:378] OS version: 27.0.0, arch: arm64, System uptime (seconds): 1315191, parent pid: 1\n[83283:35693096:1024/041822.816999:VERBOSE1:chrome/updater/updater.cc:383] Available disk space in install directory (/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83283:35693096:1024/041822.817033:VERBOSE1:chrome/updater/updater.cc:387] Available disk space in temporary directory (/var/folders/mg/w1n5vm595lb407zb7nq2f8nr0000gq/T/): 26997944320B (25.144GiB) / 994662584320B (926.352GiB)\n[83283:35693096:1024/041822.817107:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS START event to the history log\n[83281:35693092:1024/041822.817683:VERBOSE1:chrome/updater/crash_reporter.cc:123] Crash handler launched and ready.\n[83281:35693092:1024/041822.818462:VERBOSE1:chrome/updater/crash_client.cc:109] Found 0 completed crash reports\n[83281:35693092:1024/041822.818632:VERBOSE1:chrome/updater/crash_client.cc:132] Found 0 pending crash reports\n[83281:35693092:1024/041822.818795:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/le-evanmcpheron/Library/Application Support/Google/RLZ/Crashpad/settings.dat: No such file or directory (2)\n[83281:35693092:1024/041822.818931:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:145] open /Users/le-evanmcpheron/Library/Application Support/Google/ChromeForTesting/Crashpad/settings.dat: No such file or directory (2)\n[83281:35693092:1024/041822.818957:VERBOSE1:chrome/updater/updater.cc:107] Crash reporting initialized.\n[83281:35693092:1024/041822.819178:VERBOSE1:chrome/updater/ipc/update_service_internal_proxy_mojo.cc:61] Run\n[79088:35686773:1024/041829.622590:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT\n[83281:35693092:1024/041841.015533:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0\n[83281:35693092:1024/041841.015984:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS END event to the history log\n[83281:35693092:1024/041841.016021:VERBOSE1:chrome/updater/updater.cc:420] UpdaterMain (--wake) returned 0.\n[83278:35693086:1024/041841.200412:VERBOSE1:chrome/updater/app/app_wakeall.cc:68] `/Users/le-evanmcpheron/Library/Application Support/Google/GoogleUpdater/157.0.8089.0/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --wake` exited 0\n[83278:35693073:1024/041841.200545:VERBOSE1:chrome/updater/app/app.cc:52] Shutdown: 0\n[83278:35693073:1024/041841.200970:VERBOSE2:chrome/updater/event_history.cc:266] Emitted a UPDATER_PROCESS END event to the history log\n[83278:35693073:1024/041841.200991:VERBOSE1:chrome/updater/updater.cc:420] UpdaterMain (--wake-all) returned 0.\n"
+}

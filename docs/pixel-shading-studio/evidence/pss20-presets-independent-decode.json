@@ -1,0 +1,86 @@
+{
+  "decoder": "Pillow 12.3.0 / actual downloaded PNG files",
+  "checks": [
+    {
+      "name": "s7-before-reload",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+    },
+    {
+      "name": "s7-after-reload",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+    },
+    {
+      "name": "s7-after-preset-restore",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+    },
+    {
+      "name": "quota-in-memory-export",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+    },
+    {
+      "name": "security-error-in-memory-export",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "adbebc353f507d7986d01953cd981f1d48b604fe11ed261d89ea96f21fb11ac4"
+    },
+    {
+      "name": "startup-storage-unavailable-export",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c0371a6a0090293a6a0c2601f5e59f83f7f71d7d87d97558a8363f0a35104ccc"
+    },
+    {
+      "name": "import-before-reload",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3"
+    },
+    {
+      "name": "import-matching-reselect",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3"
+    },
+    {
+      "name": "explicit-built-in-fallback",
+      "matches": true,
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "05a3b6b70fa8afb7f792974731d5010c2e82c04b5e73c0b607565a85713148f6"
+    }
+  ]
+}

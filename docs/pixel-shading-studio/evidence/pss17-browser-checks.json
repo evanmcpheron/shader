@@ -1,0 +1,4227 @@
+{
+  "checks": [
+    {
+      "name": "s1-sphere: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s1-sphere: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "s1-sphere: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s1-sphere: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s1-sphere: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "S1: 64x64 and exact x/y=16..47",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "S1: exactly four specified blue RGB entries",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "s8-96x64-zoom8: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s8-96x64-zoom8: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "s8-96x64-zoom8: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s8-96x64-zoom8: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s8-96x64-zoom8: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-96x64-bands-none.png"
+    },
+    {
+      "name": "S8: 96x64 and sphere x32..63/y16..47",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s8-zoom100-dpr2: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s8-zoom100-dpr2: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "s8-zoom100-dpr2: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s8-zoom100-dpr2: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s8-zoom100-dpr2: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-96x64-bands-none.png"
+    },
+    {
+      "name": "S8: zoom 100/DPR2 do not change pixels",
+      "passed": true
+    },
+    {
+      "name": "s8-zoom125-dpr2: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s8-zoom125-dpr2: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "s8-zoom125-dpr2: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s8-zoom125-dpr2: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s8-zoom125-dpr2: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-96x64-bands-none.png"
+    },
+    {
+      "name": "S8: zoom 125/DPR2 do not change pixels",
+      "passed": true
+    },
+    {
+      "name": "s8-zoom1600-dpr2: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s8-zoom1600-dpr2: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "s8-zoom1600-dpr2: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "s8-zoom1600-dpr2: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s8-zoom1600-dpr2: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-96x64-bands-none.png"
+    },
+    {
+      "name": "S8: zoom 1600/DPR2 do not change pixels",
+      "passed": true
+    },
+    {
+      "name": "transparent-none: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-none: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 2,
+        "expected": 2
+      }
+    },
+    {
+      "name": "transparent-none: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-none: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-none: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "transparent/none: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/none: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "transparent-2: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-2: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 3,
+        "expected": 3
+      }
+    },
+    {
+      "name": "transparent-2: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-2: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-2: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer2.png"
+    },
+    {
+      "name": "transparent/2: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/2: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "transparent-4: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-4: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 4,
+        "expected": 4
+      }
+    },
+    {
+      "name": "transparent-4: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-4: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-4: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer4.png"
+    },
+    {
+      "name": "transparent/4: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/4: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "transparent-8: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-8: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 5,
+        "expected": 5
+      }
+    },
+    {
+      "name": "transparent-8: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-8: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-8: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer8.png"
+    },
+    {
+      "name": "transparent/8: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/8: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "transparent-blue-noise: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-blue-noise: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 6,
+        "expected": 6
+      }
+    },
+    {
+      "name": "transparent-blue-noise: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-blue-noise: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-blue-noise: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-blue-noise.png"
+    },
+    {
+      "name": "transparent/blue-noise: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/blue-noise: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "transparent-floyd-steinberg: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "transparent-floyd-steinberg: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 7,
+        "expected": 7
+      }
+    },
+    {
+      "name": "transparent-floyd-steinberg: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "transparent-floyd-steinberg: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "transparent-floyd-steinberg: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-floyd-steinberg.png"
+    },
+    {
+      "name": "transparent/floyd-steinberg: correct background alpha",
+      "passed": true,
+      "detail": [
+        0,
+        255
+      ]
+    },
+    {
+      "name": "transparent/floyd-steinberg: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-none: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-none: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 9,
+        "expected": 9
+      }
+    },
+    {
+      "name": "solid-none: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-none: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-none: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "solid/none: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/none: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-2: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-2: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 10,
+        "expected": 10
+      }
+    },
+    {
+      "name": "solid-2: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-2: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-2: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer2.png"
+    },
+    {
+      "name": "solid/2: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/2: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-4: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-4: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 11,
+        "expected": 11
+      }
+    },
+    {
+      "name": "solid-4: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-4: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-4: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer4.png"
+    },
+    {
+      "name": "solid/4: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/4: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-8: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-8: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 12,
+        "expected": 12
+      }
+    },
+    {
+      "name": "solid-8: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-8: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-8: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer8.png"
+    },
+    {
+      "name": "solid/8: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/8: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-blue-noise: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-blue-noise: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 13,
+        "expected": 13
+      }
+    },
+    {
+      "name": "solid-blue-noise: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-blue-noise: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-blue-noise: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-blue-noise.png"
+    },
+    {
+      "name": "solid/blue-noise: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/blue-noise: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "solid-floyd-steinberg: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "solid-floyd-steinberg: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 14,
+        "expected": 14
+      }
+    },
+    {
+      "name": "solid-floyd-steinberg: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "20232B",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 4096,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 63,
+          "maxY": 63
+        }
+      }
+    },
+    {
+      "name": "solid-floyd-steinberg: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "solid-floyd-steinberg: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-floyd-steinberg.png"
+    },
+    {
+      "name": "solid/floyd-steinberg: correct background alpha",
+      "passed": true,
+      "detail": [
+        255
+      ]
+    },
+    {
+      "name": "solid/floyd-steinberg: exact palette/background bytes",
+      "passed": true,
+      "detail": [
+        "172038",
+        "20232B",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "shading-smooth: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "shading-smooth: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 16,
+        "expected": 16
+      }
+    },
+    {
+      "name": "shading-smooth: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "283F57",
+          "293F58",
+          "294059",
+          "29405A",
+          "2A415A",
+          "2B435D",
+          "2C445E",
+          "2C445F",
+          "2D455F",
+          "2D4660",
+          "2D4661",
+          "2E4762",
+          "2F4863",
+          "2F4864",
+          "2F4964",
+          "2F4965",
+          "304965",
+          "304A66",
+          "314B68",
+          "314C69",
+          "324C69",
+          "324D6A",
+          "334E6B",
+          "334E6C",
+          "344F6D",
+          "34506E",
+          "35506E",
+          "35506F",
+          "35516F",
+          "365270",
+          "365271",
+          "365372",
+          "375372",
+          "375373",
+          "375473",
+          "375474",
+          "385474",
+          "385574",
+          "385575",
+          "385675",
+          "395676",
+          "395677",
+          "395777",
+          "395778",
+          "3A5778",
+          "3A5879",
+          "3B5979",
+          "3B597A",
+          "3B5A7B",
+          "3C5A7C",
+          "3C5B7C",
+          "3C5B7D",
+          "3D5B7D",
+          "3D5C7D",
+          "3D5C7E",
+          "3E5D7F",
+          "3E5D80",
+          "3E5E80",
+          "3F5E81",
+          "3F5F81",
+          "3F5F82",
+          "406084",
+          "406184",
+          "406185",
+          "416185",
+          "416286",
+          "426387",
+          "426388",
+          "426488",
+          "436488",
+          "436489",
+          "436589",
+          "43658A",
+          "44658A",
+          "44668B",
+          "45678C",
+          "45678D",
+          "45688D",
+          "45688E",
+          "46688E",
+          "46698F",
+          "466990",
+          "466A90",
+          "476A90",
+          "476A91",
+          "476B91",
+          "476B92",
+          "486B92",
+          "486C93",
+          "496D94",
+          "496D95",
+          "496E95",
+          "4A6E96",
+          "4A6F97",
+          "4B6F97",
+          "4B6F98",
+          "4B7098",
+          "4B7099",
+          "4B7199",
+          "4C7199",
+          "4C719A",
+          "4C729A",
+          "4C729B",
+          "4D739C",
+          "4E749D",
+          "4E749E",
+          "4E759E",
+          "4E759F",
+          "4F759F",
+          "4F76A0",
+          "4F76A1",
+          "5077A1",
+          "5077A2",
+          "5078A2",
+          "5178A3",
+          "5179A4",
+          "5279A4",
+          "5279A5",
+          "527AA5",
+          "527AA6",
+          "527BA6",
+          "537BA6",
+          "537BA7",
+          "537CA8",
+          "547CA8",
+          "547CA9",
+          "547DA9",
+          "547DAA",
+          "557EAA",
+          "557EAB",
+          "557FAC",
+          "567FAC",
+          "567FAD",
+          "5680AD",
+          "5680AE",
+          "5780AE",
+          "5781AE",
+          "5781AF",
+          "5882B0",
+          "5882B1",
+          "5883B1",
+          "5983B2",
+          "5984B2",
+          "5984B3",
+          "5A84B3",
+          "5A85B3",
+          "5A85B4",
+          "5A86B5",
+          "5B86B5",
+          "5B86B6",
+          "5B87B6",
+          "5B87B7",
+          "5C87B7",
+          "5C88B7",
+          "5C88B8",
+          "5C88B9",
+          "5C89B9",
+          "5D89B9",
+          "5D89BA",
+          "5D8ABA",
+          "5D8ABB",
+          "5E8ABB",
+          "5E8BBB",
+          "5E8BBC",
+          "5E8BBD",
+          "5E8CBD",
+          "5F8CBD",
+          "5F8CBE",
+          "5F8DBE",
+          "608DBF",
+          "608EBF",
+          "608EC0",
+          "618EC0",
+          "618FC1",
+          "618FC2",
+          "6190C2",
+          "6290C2",
+          "6290C3",
+          "6291C3",
+          "6291C4",
+          "6391C4",
+          "6391C5",
+          "6392C5",
+          "6392C6",
+          "6393C6",
+          "6493C6",
+          "6493C7",
+          "6494C7",
+          "6494C8"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "shading-smooth: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "shading-smooth: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-smooth-none.png"
+    },
+    {
+      "name": "shading-flat: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "shading-flat: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 17,
+        "expected": 17
+      }
+    },
+    {
+      "name": "shading-flat: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "283F57",
+          "283F58",
+          "294059",
+          "2A415A",
+          "2A425B",
+          "2B425C",
+          "2B435D",
+          "2C445E",
+          "2C455F",
+          "2D4560",
+          "2D4661",
+          "2E4762",
+          "2F4965",
+          "304965",
+          "304A66",
+          "314B67",
+          "314C68",
+          "324C69",
+          "324D6A",
+          "334D6B",
+          "334E6B",
+          "334E6C",
+          "34506D",
+          "34506E",
+          "35506F",
+          "35516F",
+          "355170",
+          "365270",
+          "375373",
+          "375473",
+          "375474",
+          "385575",
+          "395676",
+          "395777",
+          "395778",
+          "3A5778",
+          "3B597A",
+          "3B5A7B",
+          "3C5A7C",
+          "3C5B7C",
+          "3C5B7D",
+          "3D5B7D",
+          "3D5C7D",
+          "3D5C7E",
+          "3D5D7F",
+          "3E5D7F",
+          "3E5E80",
+          "3E5E81",
+          "3F5F81",
+          "3F5F82",
+          "406084",
+          "406184",
+          "416185",
+          "416285",
+          "416286",
+          "426387",
+          "426388",
+          "426488",
+          "436489",
+          "436589",
+          "43658A",
+          "44658A",
+          "44668A",
+          "44668B",
+          "44678C",
+          "45688D",
+          "45688E",
+          "46688E",
+          "46698F",
+          "466990",
+          "476A91",
+          "476B91",
+          "486B92",
+          "486C92",
+          "486C93",
+          "496D94",
+          "496E95",
+          "4A6E96",
+          "4A6F97",
+          "4B7098",
+          "4B7199",
+          "4C7199",
+          "4C719A",
+          "4C729B",
+          "4D729B",
+          "4D729C",
+          "4D739C",
+          "4D739D",
+          "4E749D",
+          "4E749E",
+          "4F759F",
+          "4F75A0",
+          "4F76A0",
+          "5077A1",
+          "5077A2",
+          "5078A2",
+          "5179A4",
+          "5279A5",
+          "527AA5",
+          "527AA6",
+          "537BA6",
+          "537BA7",
+          "537CA8",
+          "547CA8",
+          "547DA9",
+          "547DAA",
+          "557EAA",
+          "557EAB",
+          "557FAB",
+          "557FAC",
+          "567FAC",
+          "567FAD",
+          "5680AD",
+          "5680AE",
+          "5780AE",
+          "5781AE",
+          "5781AF",
+          "5882B0",
+          "5882B1",
+          "5883B1",
+          "5983B2",
+          "5984B2",
+          "5984B3",
+          "5A85B4",
+          "5A85B5",
+          "5A86B5",
+          "5B86B5",
+          "5B86B6",
+          "5B87B6",
+          "5C87B7",
+          "5C88B8",
+          "5C88B9",
+          "5D89B9",
+          "5D89BA",
+          "5D8ABB",
+          "5E8ABB",
+          "5E8BBB",
+          "5E8BBC",
+          "5E8CBD",
+          "5F8CBD",
+          "5F8CBE",
+          "5F8DBE",
+          "608DBF",
+          "608EBF",
+          "608EC0",
+          "618EC1",
+          "618FC1",
+          "618FC2",
+          "6190C2",
+          "6290C2",
+          "6290C3",
+          "6291C3",
+          "6291C4",
+          "6391C4",
+          "6392C5",
+          "6392C6",
+          "6493C6",
+          "6493C7",
+          "6494C7",
+          "6494C8"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "shading-flat: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "shading-flat: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-flat-none.png"
+    },
+    {
+      "name": "shading-cel: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "shading-cel: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 18,
+        "expected": 18
+      }
+    },
+    {
+      "name": "shading-cel: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "shading-cel: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "shading-cel: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-cel-none.png"
+    },
+    {
+      "name": "shading-palette: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "shading-palette: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 19,
+        "expected": 19
+      }
+    },
+    {
+      "name": "shading-palette: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "shading-palette: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "shading-palette: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-palette-none.png"
+    },
+    {
+      "name": "s5-outline-explicit: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s5-outline-explicit: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 23,
+        "expected": 23
+      }
+    },
+    {
+      "name": "s5-outline-explicit: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0",
+          "FF007F"
+        ],
+        "opaquePixels": 1084,
+        "bounds": {
+          "minX": 14,
+          "minY": 14,
+          "maxX": 49,
+          "maxY": 49
+        }
+      }
+    },
+    {
+      "name": "s5-outline-explicit: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s5-outline-explicit: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none-outline2.png"
+    },
+    {
+      "name": "S5: 2px outline exact color/extent",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0",
+          "FF007F"
+        ],
+        "opaquePixels": 1084,
+        "bounds": {
+          "minX": 14,
+          "minY": 14,
+          "maxX": 49,
+          "maxY": 49
+        }
+      }
+    },
+    {
+      "name": "s5-outline-strict-blue-noise: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s5-outline-strict-blue-noise: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 25,
+        "expected": 25
+      }
+    },
+    {
+      "name": "s5-outline-strict-blue-noise: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 1084,
+        "bounds": {
+          "minX": 14,
+          "minY": 14,
+          "maxX": 49,
+          "maxY": 49
+        }
+      }
+    },
+    {
+      "name": "s5-outline-strict-blue-noise: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s5-outline-strict-blue-noise: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-blue-noise-outline2.png"
+    },
+    {
+      "name": "S5: strict effects use only palette",
+      "passed": true,
+      "detail": [
+        "172038",
+        "304878",
+        "5C88B8",
+        "B8D8F0"
+      ]
+    },
+    {
+      "name": "s5-outline-clipped: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "s5-outline-clipped: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 26,
+        "expected": 26
+      }
+    },
+    {
+      "name": "s5-outline-clipped: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 614,
+        "bounds": {
+          "minX": 44,
+          "minY": 14,
+          "maxX": 63,
+          "maxY": 49
+        }
+      }
+    },
+    {
+      "name": "s5-outline-clipped: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "s5-outline-clipped: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-blue-noise-outline2.png"
+    },
+    {
+      "name": "S5: clipped outline keeps 64x64",
+      "passed": true
+    },
+    {
+      "name": "rectangular-plane: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "rectangular-plane: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 31,
+        "expected": 31
+      }
+    },
+    {
+      "name": "rectangular-plane: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "B8D8F0"
+        ],
+        "opaquePixels": 768,
+        "bounds": {
+          "minX": 24,
+          "minY": 24,
+          "maxX": 71,
+          "maxY": 39
+        }
+      }
+    },
+    {
+      "name": "rectangular-plane: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "rectangular-plane: native dimension/style filename",
+      "passed": true,
+      "detail": "plane-96x64-bands-none.png"
+    },
+    {
+      "name": "rectangular subject/canvas preserve independent dimensions",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "B8D8F0"
+        ],
+        "opaquePixels": 768,
+        "bounds": {
+          "minX": 24,
+          "minY": 24,
+          "maxX": 71,
+          "maxY": 39
+        }
+      }
+    },
+    {
+      "name": "ground-shadows-outline-fs: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "ground-shadows-outline-fs: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 38,
+        "expected": 38
+      }
+    },
+    {
+      "name": "ground-shadows-outline-fs: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 817,
+        "bounds": {
+          "minX": 17,
+          "minY": 15,
+          "maxX": 52,
+          "maxY": 48
+        }
+      }
+    },
+    {
+      "name": "ground-shadows-outline-fs: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "ground-shadows-outline-fs: native dimension/style filename",
+      "passed": true,
+      "detail": "cube-64x64-bands-floyd-steinberg-outline1.png"
+    },
+    {
+      "name": "import-glb-effects-fs: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "import-glb-effects-fs: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 39,
+        "expected": 39
+      }
+    },
+    {
+      "name": "import-glb-effects-fs: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 607,
+        "bounds": {
+          "minX": 15,
+          "minY": 20,
+          "maxX": 58,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "import-glb-effects-fs: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "import-glb-effects-fs: native dimension/style filename",
+      "passed": true,
+      "detail": "group-64x64-bands-floyd-steinberg-outline1.png"
+    },
+    {
+      "name": "import-gltf-effects-fs: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "import-gltf-effects-fs: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 40,
+        "expected": 40
+      }
+    },
+    {
+      "name": "import-gltf-effects-fs: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 607,
+        "bounds": {
+          "minX": 15,
+          "minY": 20,
+          "maxX": 58,
+          "maxY": 42
+        }
+      }
+    },
+    {
+      "name": "import-gltf-effects-fs: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "import-gltf-effects-fs: native dimension/style filename",
+      "passed": true,
+      "detail": "group-64x64-bands-floyd-steinberg-outline1.png"
+    },
+    {
+      "name": "import-pinned-before-primitive: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "import-pinned-before-primitive: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 43,
+        "expected": 43
+      }
+    },
+    {
+      "name": "import-pinned-before-primitive: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 221,
+        "bounds": {
+          "minX": 16,
+          "minY": 23,
+          "maxX": 47,
+          "maxY": 40
+        }
+      }
+    },
+    {
+      "name": "import-pinned-before-primitive: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "import-pinned-before-primitive: native dimension/style filename",
+      "passed": true,
+      "detail": "group-64x64-bands-none.png"
+    },
+    {
+      "name": "import pin releases after export and latest preview owns cube",
+      "passed": true
+    },
+    {
+      "name": "rapid-edit-export-newer-preview: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "rapid-edit-export-newer-preview: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 32,
+          "minY": 16,
+          "maxX": 63,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "rapid-edit-export-newer-preview: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "rapid-edit-export-newer-preview: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-96x64-bands-none.png"
+    },
+    {
+      "name": "rapid edit exports clicked complete revision, never older or newer",
+      "passed": true,
+      "detail": {
+        "priorRevision": 45,
+        "clickedRevision": 46,
+        "exportedRevision": 46,
+        "width": 96,
+        "height": 64
+      }
+    },
+    {
+      "name": "newer preview remains visible after pinned export",
+      "passed": true,
+      "detail": {
+        "revision": 48,
+        "width": 80,
+        "height": 48
+      }
+    },
+    {
+      "name": "repeat click created exactly one download",
+      "passed": true
+    },
+    {
+      "name": "repeat export disabled during asynchronous encoding",
+      "passed": true
+    },
+    {
+      "name": "encoding-owns-pixels-across-preview-edit: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "encoding-owns-pixels-across-preview-edit: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "encoding-owns-pixels-across-preview-edit: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "encoding-owns-pixels-across-preview-edit: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "encoding frame keeps pre-edit four-color bytes",
+      "passed": true
+    },
+    {
+      "name": "null: visible retryable error and no download",
+      "passed": true,
+      "detail": "PNG export failed. PNG encoding returned no PNG. Retry export. Retry Export PNG when the renderer is ready."
+    },
+    {
+      "name": "retry-after-null: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "retry-after-null: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 50,
+        "expected": 50
+      }
+    },
+    {
+      "name": "retry-after-null: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "FFFFFF"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "retry-after-null: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "retry-after-null: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "throw: visible retryable error and no download",
+      "passed": true,
+      "detail": "PNG export failed. Encoder failed (verification) Retry Export PNG when the renderer is ready."
+    },
+    {
+      "name": "retry-after-throw: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "retry-after-throw: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 50,
+        "expected": 50
+      }
+    },
+    {
+      "name": "retry-after-throw: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "FFFFFF"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "retry-after-throw: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "retry-after-throw: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "download: visible retryable error and no download",
+      "passed": true,
+      "detail": "PNG export failed. Download failed (verification) Retry Export PNG when the renderer is ready."
+    },
+    {
+      "name": "retry-after-download: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "retry-after-download: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 50,
+        "expected": 50
+      }
+    },
+    {
+      "name": "retry-after-download: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "FFFFFF"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "retry-after-download: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "retry-after-download: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "queued: lost context invalidates export and prevents download",
+      "passed": true
+    },
+    {
+      "name": "retry-context-queued: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "retry-context-queued: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 50,
+        "expected": 50
+      }
+    },
+    {
+      "name": "retry-context-queued: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "FFFFFF"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "retry-context-queued: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "retry-context-queued: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "encoding: lost context invalidates export and prevents download",
+      "passed": true
+    },
+    {
+      "name": "retry-context-encoding: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "retry-context-encoding: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 50,
+        "expected": 50
+      }
+    },
+    {
+      "name": "retry-context-encoding: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "000000",
+          "FFFFFF"
+        ],
+        "opaquePixels": 812,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "retry-context-encoding: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "retry-context-encoding: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-none.png"
+    },
+    {
+      "name": "all-preview-overlays-excluded: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "all-preview-overlays-excluded: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 53,
+        "expected": 53
+      }
+    },
+    {
+      "name": "all-preview-overlays-excluded: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 944,
+        "bounds": {
+          "minX": 15,
+          "minY": 15,
+          "maxX": 48,
+          "maxY": 48
+        }
+      }
+    },
+    {
+      "name": "all-preview-overlays-excluded: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "all-preview-overlays-excluded: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer4-outline1.png"
+    },
+    {
+      "name": "overlays-off-same-output: pinned frame exists",
+      "passed": true
+    },
+    {
+      "name": "overlays-off-same-output: captured revision/bytes match clicked native frame",
+      "passed": true,
+      "detail": {
+        "exported": 53,
+        "expected": 53
+      }
+    },
+    {
+      "name": "overlays-off-same-output: actual downloaded PNG decodes byte-identically",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "172038",
+          "304878",
+          "5C88B8",
+          "B8D8F0"
+        ],
+        "opaquePixels": 944,
+        "bounds": {
+          "minX": 15,
+          "minY": 15,
+          "maxX": 48,
+          "maxY": 48
+        }
+      }
+    },
+    {
+      "name": "overlays-off-same-output: binary alpha and zero hidden RGB",
+      "passed": true,
+      "detail": {
+        "alpha": [
+          0,
+          255
+        ],
+        "hidden": 0
+      }
+    },
+    {
+      "name": "overlays-off-same-output: native dimension/style filename",
+      "passed": true,
+      "detail": "sphere-64x64-bands-bayer4-outline1.png"
+    },
+    {
+      "name": "UI overlays/original/sidebars never affect PNG",
+      "passed": true
+    },
+    {
+      "name": "all created download/import URLs revoked",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "single real context remains healthy",
+      "passed": true
+    },
+    {
+      "name": "all page resources are local",
+      "passed": true
+    },
+    {
+      "name": "no page console warnings/errors or uncaught exceptions",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "observations": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "gpu": {
+      "dpr": 1,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+    },
+    "initial": {
+      "lifecycle": {
+        "created": 2,
+        "disposed": 1,
+        "active": 1
+      },
+      "imports": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      },
+      "modelImport": {
+        "kind": "idle",
+        "message": ""
+      },
+      "frames": 3,
+      "geometryBuilds": 1,
+      "lightingInvalidations": 0,
+      "memory": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      },
+      "triangles": 3968,
+      "settings": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "sphere",
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 32
+          },
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 5
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "roll": 0,
+          "projection": {
+            "kind": "orthographic",
+            "zoom": 1,
+            "verticalSize": 4
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": 3,
+              "y": 4,
+              "z": 5
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#FFFFFF",
+            "intensity": 1
+          },
+          "ambient": {
+            "color": "#FFFFFF",
+            "intensity": 0.2
+          }
+        },
+        "canvas": {
+          "width": 64,
+          "height": 64
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 32,
+              "height": 32
+            },
+            "alignment": "center",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        "shading": {
+          "normals": "smooth",
+          "tone": {
+            "kind": "bands",
+            "thresholds": [
+              0.25,
+              0.5,
+              0.75
+            ]
+          },
+          "baseColor": "#5C88B8",
+          "shadowColor": "#172038",
+          "highlightColor": "#B8D8F0",
+          "brightness": 0,
+          "contrast": 1,
+          "distribution": 1
+        },
+        "palette": {
+          "colors": [
+            "#172038",
+            "#304878",
+            "#5C88B8",
+            "#B8D8F0"
+          ],
+          "effectPolicy": "explicit"
+        },
+        "dither": {
+          "kind": "none"
+        },
+        "outline": {
+          "kind": "none"
+        },
+        "ground": {
+          "kind": "none"
+        },
+        "shadows": {
+          "kind": "none"
+        },
+        "background": {
+          "kind": "transparent"
+        }
+      },
+      "preview": {
+        "zoom": 9,
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "grid": false,
+        "checkerboard": true,
+        "referenceWireframe": false,
+        "mode": "final",
+        "tool": "camera"
+      },
+      "presentation": [
+        {
+          "name": "Native pixel output",
+          "viewport": {
+            "left": 260,
+            "top": 156.5,
+            "width": 960,
+            "height": 441
+          },
+          "image": {
+            "left": 452,
+            "top": 89,
+            "width": 576,
+            "height": 576
+          },
+          "smoothing": false
+        }
+      ],
+      "revisions": {
+        "settings": 0,
+        "capture": 0,
+        "style": 0,
+        "shadow": 0,
+        "view": 1
+      },
+      "camera": {
+        "enabled": true,
+        "panEnabled": false,
+        "zoomEnabled": false,
+        "lightOwnsGesture": false,
+        "changes": 0,
+        "disposed": false,
+        "sourcePosition": [
+          0,
+          0,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "sourceQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "renderQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "projectionMatrix": [
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          -0.20010005002501252,
+          0,
+          0,
+          0,
+          -1.0010005002501252,
+          1
+        ],
+        "near": 0.005,
+        "far": 10
+      },
+      "native": {
+        "visibilityCaptures": 0,
+        "receiverCaptures": 0,
+        "ground": null,
+        "shadow": {
+          "active": false,
+          "mapRenders": 0,
+          "allocatedMaps": 0,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bias": 0,
+          "normalBias": 0,
+          "depthSpan": 1,
+          "depthStep": 1,
+          "frustum": {
+            "left": -5,
+            "right": 5,
+            "top": 5,
+            "bottom": -5,
+            "near": 0.5,
+            "far": 500
+          }
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "outline": null,
+        "rasterizations": 2,
+        "readback": "synchronous",
+        "captures": 1,
+        "processes": 1,
+        "composites": 1,
+        "timings": {
+          "visibilityMs": 0.39999985694885254,
+          "filterMs": 0,
+          "captureMs": 12.799999952316284,
+          "readbackMs": 3.1999998092651367,
+          "processMs": 2.1000001430511475,
+          "originalMs": 1.4000000953674316,
+          "styleMs": 0.7000000476837158,
+          "compositeMs": 0,
+          "publishMs": 0
+        },
+        "targetLifecycle": {
+          "created": 1,
+          "disposed": 0,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "effectBuffers": {
+          "subject": 16384,
+          "visibility": 16384,
+          "filtered": 16384
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384,
+          "styled": 16384,
+          "ring": 4096,
+          "horizontal": 4096
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 0,
+          "captureRevision": 0,
+          "byteLength": 16384
+        }
+      },
+      "nativeCanvas": {
+        "width": 64,
+        "height": 64,
+        "revision": "0",
+        "smoothing": false
+      },
+      "light": {
+        "dragging": false,
+        "completed": 0,
+        "cancelled": 0,
+        "disposed": false
+      },
+      "lightHandle": {
+        "visible": false,
+        "layers": [
+          {
+            "name": "Mesh",
+            "mask": 2
+          },
+          {
+            "name": "Line",
+            "mask": 2
+          },
+          {
+            "name": "Mesh",
+            "mask": 2
+          }
+        ]
+      },
+      "subject": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "normalization": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "drawingBuffer": [
+        300,
+        150
+      ],
+      "devicePixelRatio": 1,
+      "contextLost": false,
+      "contextLossSimulation": true,
+      "exporting": false
+    },
+    "final": {
+      "lifecycle": {
+        "created": 6,
+        "disposed": 5,
+        "active": 1
+      },
+      "imports": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      },
+      "modelImport": {
+        "kind": "idle",
+        "message": ""
+      },
+      "frames": 11,
+      "geometryBuilds": 1,
+      "lightingInvalidations": 0,
+      "memory": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      },
+      "triangles": 3968,
+      "settings": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "sphere",
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 32
+          },
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 5
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "roll": 0,
+          "projection": {
+            "kind": "orthographic",
+            "zoom": 1,
+            "verticalSize": 4
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": 3,
+              "y": 4,
+              "z": 5
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#FFFFFF",
+            "intensity": 1
+          },
+          "ambient": {
+            "color": "#FFFFFF",
+            "intensity": 0.2
+          }
+        },
+        "canvas": {
+          "width": 64,
+          "height": 64
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 32,
+              "height": 32
+            },
+            "alignment": "center",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        "shading": {
+          "normals": "smooth",
+          "tone": {
+            "kind": "bands",
+            "thresholds": [
+              0.25,
+              0.5,
+              0.75
+            ]
+          },
+          "baseColor": "#5C88B8",
+          "shadowColor": "#172038",
+          "highlightColor": "#B8D8F0",
+          "brightness": 0,
+          "contrast": 1,
+          "distribution": 1
+        },
+        "palette": {
+          "colors": [
+            "#172038",
+            "#304878",
+            "#5C88B8",
+            "#B8D8F0"
+          ],
+          "effectPolicy": "explicit"
+        },
+        "dither": {
+          "kind": "bayer",
+          "strength": 1,
+          "patternScale": 1,
+          "transitionWidth": 1,
+          "matrixSize": 4
+        },
+        "outline": {
+          "kind": "silhouette",
+          "thickness": 1,
+          "color": "#172038"
+        },
+        "ground": {
+          "kind": "none"
+        },
+        "shadows": {
+          "kind": "none"
+        },
+        "background": {
+          "kind": "transparent"
+        }
+      },
+      "preview": {
+        "zoom": 8,
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "grid": false,
+        "checkerboard": false,
+        "referenceWireframe": false,
+        "mode": "final",
+        "tool": "camera"
+      },
+      "presentation": [
+        {
+          "name": "Native pixel output",
+          "viewport": {
+            "left": 260,
+            "top": 156.5,
+            "width": 960,
+            "height": 404
+          },
+          "image": {
+            "left": 484,
+            "top": 103,
+            "width": 512,
+            "height": 512
+          },
+          "smoothing": false
+        }
+      ],
+      "revisions": {
+        "settings": 53,
+        "capture": 24,
+        "style": 53,
+        "shadow": 25,
+        "view": 7
+      },
+      "camera": {
+        "enabled": true,
+        "panEnabled": false,
+        "zoomEnabled": false,
+        "lightOwnsGesture": false,
+        "changes": 0,
+        "disposed": false,
+        "sourcePosition": [
+          0,
+          0,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "sourceQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "renderQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "projectionMatrix": [
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          -0.20010005002501252,
+          0,
+          0,
+          0,
+          -1.0010005002501252,
+          1
+        ],
+        "near": 0.005,
+        "far": 10
+      },
+      "native": {
+        "visibilityCaptures": 0,
+        "receiverCaptures": 0,
+        "ground": null,
+        "shadow": {
+          "active": false,
+          "mapRenders": 0,
+          "allocatedMaps": 0,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bias": 0,
+          "normalBias": 0,
+          "depthSpan": 1,
+          "depthStep": 1,
+          "frustum": {
+            "left": -5,
+            "right": 5,
+            "top": 5,
+            "bottom": -5,
+            "near": 0.5,
+            "far": 500
+          }
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "outline": {
+          "extent": {
+            "x": 15,
+            "y": 15,
+            "width": 34,
+            "height": 34
+          },
+          "visible": {
+            "x": 15,
+            "y": 15,
+            "width": 34,
+            "height": 34
+          },
+          "pixelCount": 132,
+          "clipped": false,
+          "color": "#172038",
+          "thickness": 1
+        },
+        "rasterizations": 2,
+        "readback": "synchronous",
+        "captures": 1,
+        "processes": 9,
+        "composites": 10,
+        "timings": {
+          "visibilityMs": 0.09999990463256836,
+          "filterMs": 0,
+          "captureMs": 5.1000001430511475,
+          "readbackMs": 2.200000047683716,
+          "processMs": 0.20000004768371582,
+          "originalMs": 0.10000014305114746,
+          "styleMs": 0.09999990463256836,
+          "compositeMs": 0,
+          "publishMs": 0
+        },
+        "targetLifecycle": {
+          "created": 10,
+          "disposed": 9,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "effectBuffers": {
+          "subject": 16384,
+          "visibility": 16384,
+          "filtered": 16384
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384,
+          "styled": 16384,
+          "ring": 4096,
+          "horizontal": 4096
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 53,
+          "captureRevision": 24,
+          "byteLength": 16384
+        }
+      },
+      "nativeCanvas": {
+        "width": 64,
+        "height": 64,
+        "revision": "53",
+        "smoothing": false
+      },
+      "light": {
+        "dragging": false,
+        "completed": 0,
+        "cancelled": 0,
+        "disposed": false
+      },
+      "lightHandle": {
+        "visible": false,
+        "layers": [
+          {
+            "name": "Mesh",
+            "mask": 2
+          },
+          {
+            "name": "Line",
+            "mask": 2
+          },
+          {
+            "name": "Mesh",
+            "mask": 2
+          }
+        ]
+      },
+      "subject": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "normalization": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "drawingBuffer": [
+        300,
+        150
+      ],
+      "devicePixelRatio": 1,
+      "contextLost": false,
+      "contextLossSimulation": true,
+      "exporting": false
+    },
+    "downloads": [
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "a0067380-0e04-428f-89ed-500aefbecd6c",
+        "url": "blob:http://127.0.0.1:5173/8594c5a5-6d8c-453f-8b0d-2be47eb4167c",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 702,
+        "receivedBytes": 702,
+        "filePath": "/tmp/pss17-downloads-zgItt0/a0067380-0e04-428f-89ed-500aefbecd6c"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "51354133-a282-4c0c-b038-c0c5a2d98c89",
+        "url": "blob:http://127.0.0.1:5173/ad8b1de5-d318-4d53-8128-808beb09aafc",
+        "suggestedFilename": "sphere-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 793,
+        "receivedBytes": 793,
+        "filePath": "/tmp/pss17-downloads-zgItt0/51354133-a282-4c0c-b038-c0c5a2d98c89"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "cfec85d7-e8d5-49fa-88f5-81e6596ca55a",
+        "url": "blob:http://127.0.0.1:5173/f9927bc2-8173-4d0a-8939-df81a8d6e106",
+        "suggestedFilename": "sphere-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 793,
+        "receivedBytes": 793,
+        "filePath": "/tmp/pss17-downloads-zgItt0/cfec85d7-e8d5-49fa-88f5-81e6596ca55a"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "f8bee600-8297-4014-b333-0652ce003c78",
+        "url": "blob:http://127.0.0.1:5173/be377179-1116-4a8b-a5c9-b58b7211e748",
+        "suggestedFilename": "sphere-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 793,
+        "receivedBytes": 793,
+        "filePath": "/tmp/pss17-downloads-zgItt0/f8bee600-8297-4014-b333-0652ce003c78"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "a89054f2-f52e-415c-9a8e-16d433c95411",
+        "url": "blob:http://127.0.0.1:5173/88d30978-7c43-438c-baa2-a9436914da8a",
+        "suggestedFilename": "sphere-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 793,
+        "receivedBytes": 793,
+        "filePath": "/tmp/pss17-downloads-zgItt0/a89054f2-f52e-415c-9a8e-16d433c95411"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "5c0a61bc-302a-410e-a818-cd26d4bc4753",
+        "url": "blob:http://127.0.0.1:5173/4a8678bf-3534-4ac6-8225-7d7c79d52716",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 702,
+        "receivedBytes": 702,
+        "filePath": "/tmp/pss17-downloads-zgItt0/5c0a61bc-302a-410e-a818-cd26d4bc4753"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "5cbb60f1-5029-4b5c-9d01-ef936f230d28",
+        "url": "blob:http://127.0.0.1:5173/57d89ed8-fb25-464b-be0c-315b7a93b854",
+        "suggestedFilename": "sphere-64x64-bands-bayer2.png",
+        "state": "completed",
+        "totalBytes": 909,
+        "receivedBytes": 909,
+        "filePath": "/tmp/pss17-downloads-zgItt0/5cbb60f1-5029-4b5c-9d01-ef936f230d28"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "1256c75c-a40f-4b94-9ca4-9e19041f0088",
+        "url": "blob:http://127.0.0.1:5173/56fadfc3-f709-431b-a64e-705e05e904ce",
+        "suggestedFilename": "sphere-64x64-bands-bayer4.png",
+        "state": "completed",
+        "totalBytes": 948,
+        "receivedBytes": 948,
+        "filePath": "/tmp/pss17-downloads-zgItt0/1256c75c-a40f-4b94-9ca4-9e19041f0088"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "271aa4f4-e329-4b27-901b-04800421d806",
+        "url": "blob:http://127.0.0.1:5173/385c769b-0bb6-4cac-a0fc-687c20804a83",
+        "suggestedFilename": "sphere-64x64-bands-bayer8.png",
+        "state": "completed",
+        "totalBytes": 945,
+        "receivedBytes": 945,
+        "filePath": "/tmp/pss17-downloads-zgItt0/271aa4f4-e329-4b27-901b-04800421d806"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "9c1e4ed7-7d70-42df-901a-a3676b130c21",
+        "url": "blob:http://127.0.0.1:5173/0dfe00f9-598a-401c-bacf-85cd416bd26a",
+        "suggestedFilename": "sphere-64x64-bands-blue-noise.png",
+        "state": "completed",
+        "totalBytes": 981,
+        "receivedBytes": 981,
+        "filePath": "/tmp/pss17-downloads-zgItt0/9c1e4ed7-7d70-42df-901a-a3676b130c21"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "9fa0b9f3-1881-41a2-8824-707cac134a21",
+        "url": "blob:http://127.0.0.1:5173/bc49b66c-eb1e-45c4-a532-08f5a7403f62",
+        "suggestedFilename": "sphere-64x64-bands-floyd-steinberg.png",
+        "state": "completed",
+        "totalBytes": 939,
+        "receivedBytes": 939,
+        "filePath": "/tmp/pss17-downloads-zgItt0/9fa0b9f3-1881-41a2-8824-707cac134a21"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "1ded6ac9-d3a8-4dbe-9f43-585801ae9147",
+        "url": "blob:http://127.0.0.1:5173/a94bc2fd-013e-4c8f-918a-22d733418371",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 721,
+        "receivedBytes": 721,
+        "filePath": "/tmp/pss17-downloads-zgItt0/1ded6ac9-d3a8-4dbe-9f43-585801ae9147"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "2d6a4e0e-6d3f-4fa5-b63c-168949bc1f61",
+        "url": "blob:http://127.0.0.1:5173/e2e64565-07ef-46fd-bae1-936640f16440",
+        "suggestedFilename": "sphere-64x64-bands-bayer2.png",
+        "state": "completed",
+        "totalBytes": 920,
+        "receivedBytes": 920,
+        "filePath": "/tmp/pss17-downloads-zgItt0/2d6a4e0e-6d3f-4fa5-b63c-168949bc1f61"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "b19dc806-0e2e-403b-8827-fffd36793de4",
+        "url": "blob:http://127.0.0.1:5173/ee86514b-9d75-49eb-b8a9-24c41347dd9d",
+        "suggestedFilename": "sphere-64x64-bands-bayer4.png",
+        "state": "completed",
+        "totalBytes": 962,
+        "receivedBytes": 962,
+        "filePath": "/tmp/pss17-downloads-zgItt0/b19dc806-0e2e-403b-8827-fffd36793de4"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "a70f3a26-760c-4749-a57b-e74ee9a9770e",
+        "url": "blob:http://127.0.0.1:5173/3d8746a8-a548-44b2-aa2a-01cad44bcbb4",
+        "suggestedFilename": "sphere-64x64-bands-bayer8.png",
+        "state": "completed",
+        "totalBytes": 962,
+        "receivedBytes": 962,
+        "filePath": "/tmp/pss17-downloads-zgItt0/a70f3a26-760c-4749-a57b-e74ee9a9770e"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "830f35b4-8762-4709-ae34-f912c07c9c0a",
+        "url": "blob:http://127.0.0.1:5173/96dc059c-f993-4d01-8815-455234b1827f",
+        "suggestedFilename": "sphere-64x64-bands-blue-noise.png",
+        "state": "completed",
+        "totalBytes": 999,
+        "receivedBytes": 999,
+        "filePath": "/tmp/pss17-downloads-zgItt0/830f35b4-8762-4709-ae34-f912c07c9c0a"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "3058baf4-50bf-405e-bd39-54f9b86ac1ad",
+        "url": "blob:http://127.0.0.1:5173/721ab7e7-8b78-4f4b-80ce-faaf2d395db2",
+        "suggestedFilename": "sphere-64x64-bands-floyd-steinberg.png",
+        "state": "completed",
+        "totalBytes": 954,
+        "receivedBytes": 954,
+        "filePath": "/tmp/pss17-downloads-zgItt0/3058baf4-50bf-405e-bd39-54f9b86ac1ad"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "9d49208a-2162-4613-b210-7d4c65ebfd68",
+        "url": "blob:http://127.0.0.1:5173/807281ab-eb2c-4cc2-8778-910d48740b3c",
+        "suggestedFilename": "sphere-64x64-smooth-none.png",
+        "state": "completed",
+        "totalBytes": 1780,
+        "receivedBytes": 1780,
+        "filePath": "/tmp/pss17-downloads-zgItt0/9d49208a-2162-4613-b210-7d4c65ebfd68"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "a43cf1d2-be62-4a95-a010-cec2370953ee",
+        "url": "blob:http://127.0.0.1:5173/74beeefd-abbc-46f0-8fcc-2f6e01a25612",
+        "suggestedFilename": "sphere-64x64-flat-none.png",
+        "state": "completed",
+        "totalBytes": 1660,
+        "receivedBytes": 1660,
+        "filePath": "/tmp/pss17-downloads-zgItt0/a43cf1d2-be62-4a95-a010-cec2370953ee"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "bab6c68c-8759-45f6-81c4-441918f7627b",
+        "url": "blob:http://127.0.0.1:5173/9ff983b0-60da-4c16-a8cb-d66939a9fa76",
+        "suggestedFilename": "sphere-64x64-cel-none.png",
+        "state": "completed",
+        "totalBytes": 703,
+        "receivedBytes": 703,
+        "filePath": "/tmp/pss17-downloads-zgItt0/bab6c68c-8759-45f6-81c4-441918f7627b"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "e50b5b55-25f2-4119-99a9-53c1d675113d",
+        "url": "blob:http://127.0.0.1:5173/72e7d771-6047-4aba-8430-330e6df26d53",
+        "suggestedFilename": "sphere-64x64-palette-none.png",
+        "state": "completed",
+        "totalBytes": 645,
+        "receivedBytes": 645,
+        "filePath": "/tmp/pss17-downloads-zgItt0/e50b5b55-25f2-4119-99a9-53c1d675113d"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "d713a8d9-7302-4d50-be1a-f860f051bad6",
+        "url": "blob:http://127.0.0.1:5173/09cbfc1d-ef9a-43c5-94bc-68e03fe8f289",
+        "suggestedFilename": "sphere-64x64-bands-none-outline2.png",
+        "state": "completed",
+        "totalBytes": 850,
+        "receivedBytes": 850,
+        "filePath": "/tmp/pss17-downloads-zgItt0/d713a8d9-7302-4d50-be1a-f860f051bad6"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "4f5682ee-b17e-4066-b771-0da3e4fdd9d8",
+        "url": "blob:http://127.0.0.1:5173/f87ba811-5457-428f-94db-96d510e3e538",
+        "suggestedFilename": "sphere-64x64-bands-blue-noise-outline2.png",
+        "state": "completed",
+        "totalBytes": 1083,
+        "receivedBytes": 1083,
+        "filePath": "/tmp/pss17-downloads-zgItt0/4f5682ee-b17e-4066-b771-0da3e4fdd9d8"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "c04a2ce5-f460-442b-8bfa-2565fb7bae40",
+        "url": "blob:http://127.0.0.1:5173/2998081e-f7f1-4917-a87d-c5460c1d49ee",
+        "suggestedFilename": "sphere-64x64-bands-blue-noise-outline2.png",
+        "state": "completed",
+        "totalBytes": 753,
+        "receivedBytes": 753,
+        "filePath": "/tmp/pss17-downloads-zgItt0/c04a2ce5-f460-442b-8bfa-2565fb7bae40"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "7f4964a3-a476-427c-a235-c9414c27a62c",
+        "url": "blob:http://127.0.0.1:5173/3a0498ad-f4bc-458e-8bb4-59f462a35be3",
+        "suggestedFilename": "plane-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 403,
+        "receivedBytes": 403,
+        "filePath": "/tmp/pss17-downloads-zgItt0/7f4964a3-a476-427c-a235-c9414c27a62c"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "70bb4894-a179-4205-b262-57a9735ec19e",
+        "url": "blob:http://127.0.0.1:5173/e699f917-a536-4d4f-b6f3-187b13130fc0",
+        "suggestedFilename": "cube-64x64-bands-floyd-steinberg-outline1.png",
+        "state": "completed",
+        "totalBytes": 888,
+        "receivedBytes": 888,
+        "filePath": "/tmp/pss17-downloads-zgItt0/70bb4894-a179-4205-b262-57a9735ec19e"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "e2fc8fd2-4769-4159-bb83-f88c2eb66753",
+        "url": "blob:http://127.0.0.1:5173/3f3147da-ce82-4ecc-9e10-03b6ca2e6b32",
+        "suggestedFilename": "group-64x64-bands-floyd-steinberg-outline1.png",
+        "state": "completed",
+        "totalBytes": 970,
+        "receivedBytes": 970,
+        "filePath": "/tmp/pss17-downloads-zgItt0/e2fc8fd2-4769-4159-bb83-f88c2eb66753"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "27df816f-1276-438f-bd6a-02a7e2635c1c",
+        "url": "blob:http://127.0.0.1:5173/387d7c41-a3d5-4053-b71d-4cacbc24a735",
+        "suggestedFilename": "group-64x64-bands-floyd-steinberg-outline1.png",
+        "state": "completed",
+        "totalBytes": 970,
+        "receivedBytes": 970,
+        "filePath": "/tmp/pss17-downloads-zgItt0/27df816f-1276-438f-bd6a-02a7e2635c1c"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "7fa01d91-1143-4566-9539-a85655e35e42",
+        "url": "blob:http://127.0.0.1:5173/85acb744-b798-4751-ad7d-9b2debe350ad",
+        "suggestedFilename": "group-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 624,
+        "receivedBytes": 624,
+        "filePath": "/tmp/pss17-downloads-zgItt0/7fa01d91-1143-4566-9539-a85655e35e42"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "e5c36dbd-bef5-4b50-a531-945029447c9f",
+        "url": "blob:http://127.0.0.1:5173/b39c4da8-237b-4db5-993c-8c5cff72d035",
+        "suggestedFilename": "sphere-96x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 793,
+        "receivedBytes": 793,
+        "filePath": "/tmp/pss17-downloads-zgItt0/e5c36dbd-bef5-4b50-a531-945029447c9f"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "0ed2aaa9-788a-4463-ab0f-c8d65a9645d4",
+        "url": "blob:http://127.0.0.1:5173/715182fb-ccf4-450a-b175-52552cd90898",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 702,
+        "receivedBytes": 702,
+        "filePath": "/tmp/pss17-downloads-zgItt0/0ed2aaa9-788a-4463-ab0f-c8d65a9645d4"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "82c171ab-36a2-4e5e-8bc6-77d54594a50e",
+        "url": "blob:http://127.0.0.1:5173/e8dfab56-01b4-4588-8899-1e3bbfd86a97",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 559,
+        "receivedBytes": 559,
+        "filePath": "/tmp/pss17-downloads-zgItt0/82c171ab-36a2-4e5e-8bc6-77d54594a50e"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "412e3613-36c7-4dbe-a525-621a2086d490",
+        "url": "blob:http://127.0.0.1:5173/5488b06e-97b0-4dfb-a587-332fd1ff77f8",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 559,
+        "receivedBytes": 559,
+        "filePath": "/tmp/pss17-downloads-zgItt0/412e3613-36c7-4dbe-a525-621a2086d490"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "19782629-b6dc-4aee-8604-9a20b46b012f",
+        "url": "blob:http://127.0.0.1:5173/7ada26f1-5e61-4b0d-9f60-8524fe2cfaaf",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 559,
+        "receivedBytes": 559,
+        "filePath": "/tmp/pss17-downloads-zgItt0/19782629-b6dc-4aee-8604-9a20b46b012f"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "b99ce311-2845-4847-ac9f-f785edda0278",
+        "url": "blob:http://127.0.0.1:5173/0f5cfa26-bc5c-45eb-8a1d-21086465dace",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 559,
+        "receivedBytes": 559,
+        "filePath": "/tmp/pss17-downloads-zgItt0/b99ce311-2845-4847-ac9f-f785edda0278"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "ce1d977e-0bc6-4240-8472-53b4229e310b",
+        "url": "blob:http://127.0.0.1:5173/edcb4c81-d905-4996-8612-bf27da26f2ed",
+        "suggestedFilename": "sphere-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 559,
+        "receivedBytes": 559,
+        "filePath": "/tmp/pss17-downloads-zgItt0/ce1d977e-0bc6-4240-8472-53b4229e310b"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "2cc63177-0aaf-413f-a950-cf4249e189e0",
+        "url": "blob:http://127.0.0.1:5173/9a1beac1-c603-4baf-a9ad-bef5d58e0ff9",
+        "suggestedFilename": "sphere-64x64-bands-bayer4-outline1.png",
+        "state": "completed",
+        "totalBytes": 1002,
+        "receivedBytes": 1002,
+        "filePath": "/tmp/pss17-downloads-zgItt0/2cc63177-0aaf-413f-a950-cf4249e189e0"
+      },
+      {
+        "frameId": "112BC321F710CC7D0F328C2F358A9E45",
+        "guid": "fb1d1460-cb38-4367-ada8-ece7c49aec36",
+        "url": "blob:http://127.0.0.1:5173/4beda2e6-1c3b-48da-a71d-e60db523faae",
+        "suggestedFilename": "sphere-64x64-bands-bayer4-outline1.png",
+        "state": "completed",
+        "totalBytes": 1002,
+        "receivedBytes": 1002,
+        "filePath": "/tmp/pss17-downloads-zgItt0/fb1d1460-cb38-4367-ada8-ece7c49aec36"
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "requests": [
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/favicon.svg",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/3c09f163-a5ff-4d62-9595-6d76e35edde4",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA"
+  ],
+  "browserHostMessages": [
+    "Trying to load the allocator multiple times. This is *not* supported.",
+    "[71847:35615768:1024/032813.468610:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615860:1024/032813.468872:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615768:1024/032813.469044:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615860:1024/032813.469081:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615768:1024/032813.469177:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615860:1024/032813.469215:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[71847:35615768:1024/032813.469328:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670"
+  ]
+}

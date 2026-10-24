@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>PSS-13 native gradient verification</title>
+<style>
+body { margin:24px; font:16px system-ui; background:#15181e; color:#e2e9f4 }
+label { margin-right:20px } section { display:flex; gap:24px; flex-wrap:wrap }
+canvas { width:384px; height:384px; image-rendering:pixelated; background:#343944 }
+pre { max-height:150px; overflow:auto; font-size:12px } h2 { font-size:18px }
+</style>
+<h1>PSS-13 fixed native gradient comparison</h1>
+<p>Actual production quantizers on a linear 0–1 ramp, with a transparent border and a vertical mask hole. All outputs use exact stored RGB.</p>
+<label>Domain <select id="domain"><option value="ramp">Ramp coordinate</option><option value="palette">Linear RGB palette</option></select></label>
+<label>Native size <select id="size"><option>64</option><option>256</option></select></label>
+<button id="run">Run comparison</button>
+<section id="images"></section>
+<pre aria-label="Gradient evidence"></pre>
+<script type="module">
+import { createRampQuantizer, createPaletteQuantizer } from '/src/domain/orderedDither.ts'
+import { createRampDiffuser, createPaletteDiffuser } from '/src/domain/errorDiffusion.ts'
+import { preparePalette } from '/src/domain/shading.ts'
+const colors = ['#172038','#304878','#5C88B8','#B8D8F0']
+const palette = preparePalette(colors)
+const kinds = ['bayer','blue-noise','floyd-steinberg']
+function draw() {
+  const size = Number(document.querySelector('#size').value)
+  const domain = document.querySelector('#domain').value
+  const categoryAt = (x,y) => x > 0 && y > 0 && x < size-1 && y < size-1 && !(x === Math.floor(size/2) && y < size*0.75) ? 255 : 0
+  const grid = {width:size,height:size,categoryAt}
+  const records = []
+  document.querySelector('#images').replaceChildren()
+  for (const kind of kinds) {
+    const start = performance.now()
+    const dither = {kind,matrixSize:4,strength:1,patternScale:1,transitionWidth:1}
+    const ramp = domain === 'ramp'
+    const select = kind === 'floyd-steinberg'
+      ? ramp ? createRampDiffuser([0.25,0.5,0.75],1,grid) : createPaletteDiffuser(palette,1,grid)
+      : ramp ? createRampQuantizer([0.25,0.5,0.75],dither) : createPaletteQuantizer(palette,dither)
+    const rgba = new Uint8ClampedArray(size*size*4)
+    for (let y=0;y<size;y++) for (let x=0;x<size;x++) {
+      if (!categoryAt(x,y)) continue
+      const signal = x/(size-1)
+      const color = palette[select(ramp ? signal : {r:signal,g:signal*0.8,b:signal*0.6},x,y)].bytes
+      rgba.set([...color,255],(y*size+x)*4)
+    }
+    const processMs = performance.now()-start
+    const article=document.createElement('article')
+    const title=document.createElement('h2'); title.textContent=`${kind}: ${size}×${size}, ${processMs.toFixed(2)} ms`
+    const canvas=document.createElement('canvas'); canvas.width=size;canvas.height=size;canvas.setAttribute('aria-label',kind)
+    canvas.getContext('2d').putImageData(new ImageData(rgba,size,size),0,0)
+    article.append(title,canvas);document.querySelector('#images').append(article)
+    records.push({kind,domain,width:size,height:size,colors,processMs,rgba:Array.from(rgba)})
+  }
+  document.querySelector('pre').textContent=JSON.stringify(records)
+}
+document.querySelector('#run').addEventListener('click',draw)
+document.querySelector('#size').addEventListener('change',draw)
+document.querySelector('#domain').addEventListener('change',draw)
+draw()
+</script>
+</html>

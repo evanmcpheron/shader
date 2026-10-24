@@ -1,0 +1,570 @@
+{
+  "decoder": "Pillow 12.3.0",
+  "checks": [
+    {
+      "suite": "pss20-application",
+      "name": "s1-production",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s8-production",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s8-production-dpr2",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s4-production-fs",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "212f16a7309e0a8e43ed5b477cf2d2144465fb61ff270d4ddcb750cec81e7b80",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s5-production-outline",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "45e9acbc9c89449310920ff1d17180a5ec9d931693726bccd16cd80a97e7860a",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s5-production-strict",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3457300d32e795cd3452b3c30b77f0a3b105ac9c007ebf67a8df75460dd20612",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s7-production-before",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "s7-production-restored",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-application",
+      "name": "recovered-production",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s1-sphere",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s8-96x64-zoom8",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s8-zoom100-dpr2",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s8-zoom125-dpr2",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s8-zoom1600-dpr2",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-none",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-2",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2f9c659cf9b379cf269052d593d0254ae8a4e448e63d4499b59ead4ac0b08d4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-4",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-8",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f716e62c41e5c511771379944f1a14475b9f15d430c1bcf23ac19576a7899f14",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-blue-noise",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "d44914dbd8f173fe5a638d7bd822485dbc07e2a739e72fbb4665a9d2ccff3411",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "transparent-floyd-steinberg",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "80b5f61c918407ef58734b822e43c125bf8e491390c9e1058e55f52a786e94af",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-none",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c08eac5d0c5d0e35b4841eb663c7ca8d142298c56bda4bc7a320e7d737687ad9",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-2",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "402777882dcb90ce266d038e446882fac17fa52abd029e56eb014fd5baabb75d",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-4",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "ee23154bcc4206594cd2b51147f2182adb213a098961a7a3289a8b63015e428e",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-8",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "877345da1d86e8dbd80c1538a5f8c1c196062685949bc47a6598c021d41f67db",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-blue-noise",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7b2f24fe5c6e98f517ee22b6acb1a13de23c7476b9556a59bc8b0bb0b89cceb7",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "solid-floyd-steinberg",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "04142cf826f0ce8c6cb3d09bd708a4c3bc0434f3d9b9f451791be65c40b648ed",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "shading-smooth",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "72c05eadd45dd11c62725e25987b42fc6350868e1a40cefc31fc2cbaad99ad26",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "shading-flat",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "2542e5cc322066848d1defb3947e46aca452191dff416181bc67c7d1fa13ca22",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "shading-cel",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "6190e7c59f270c67097e03e0fc3422e92efb65cd7ff045fe5cb1be4f749f6982",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "shading-palette",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "28594be84b54c5a26c0a52e5ce168eaa06781410bffb00a791d909c690004e68",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s5-outline-explicit",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "45e9acbc9c89449310920ff1d17180a5ec9d931693726bccd16cd80a97e7860a",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s5-outline-strict-blue-noise",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "fdc18c2eeb62012d83eed0788842c2cba267eae4dfe3d957dce78b366571bfc8",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "s5-outline-clipped",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "bd0c5ef23ba49405c0c55f485a563d26233136bf076cb065f3025eaf1d3df237",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "rectangular-plane",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "28a8751f1285eb12b97e174ef8f2f2a649fe08b5115ea19ed452076a574239b1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "ground-shadows-outline-fs",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "5ee992226cd3c84830db806c1b484842db1ab6a2fe5a47fba558b5ccca037175",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "import-glb-effects-fs",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3ef174322337eb0481c26aa0176297be71dbb5178da8ba2fbcfa0f73d8ba64fa",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "import-gltf-effects-fs",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "3ef174322337eb0481c26aa0176297be71dbb5178da8ba2fbcfa0f73d8ba64fa",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "import-pinned-before-primitive",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "642319da14b86b94c15f161992f770e2d3558ff57fb0423d0078ab99508667aa",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "rapid-edit-export-newer-preview",
+      "dimensions": [
+        96,
+        64
+      ],
+      "sha256": "08cb6c51353f50b3fb41b2fcabd3b3369ba3550fcf8f387aae8b7df048507b4c",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "encoding-owns-pixels-across-preview-edit",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "retry-after-null",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "047f03cb17534da6ffd7eff8399486f4124e8d02ee769ecfdc0cb0f4254f2017",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "retry-after-throw",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "047f03cb17534da6ffd7eff8399486f4124e8d02ee769ecfdc0cb0f4254f2017",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "retry-after-download",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "047f03cb17534da6ffd7eff8399486f4124e8d02ee769ecfdc0cb0f4254f2017",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "retry-context-queued",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "047f03cb17534da6ffd7eff8399486f4124e8d02ee769ecfdc0cb0f4254f2017",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "retry-context-encoding",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "047f03cb17534da6ffd7eff8399486f4124e8d02ee769ecfdc0cb0f4254f2017",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "all-preview-overlays-excluded",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7154e4987dbbdb5efb9ca306a1fc7ad8934486ac35a113368b973eae55fe8493",
+      "matches": true
+    },
+    {
+      "suite": "pss20-export",
+      "name": "overlays-off-same-output",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "7154e4987dbbdb5efb9ca306a1fc7ad8934486ac35a113368b973eae55fe8493",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "s7-before-reload",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "s7-after-reload",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "s7-after-preset-restore",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "quota-in-memory-export",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "security-error-in-memory-export",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "adbebc353f507d7986d01953cd981f1d48b604fe11ed261d89ea96f21fb11ac4",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "startup-storage-unavailable-export",
+      "dimensions": [
+        64,
+        64
+      ],
+      "sha256": "c0371a6a0090293a6a0c2601f5e59f83f7f71d7d87d97558a8363f0a35104ccc",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "import-before-reload",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "import-matching-reselect",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3",
+      "matches": true
+    },
+    {
+      "suite": "pss20-presets",
+      "name": "explicit-built-in-fallback",
+      "dimensions": [
+        96,
+        80
+      ],
+      "sha256": "05a3b6b70fa8afb7f792974731d5010c2e82c04b5e73c0b607565a85713148f6",
+      "matches": true
+    },
+    {
+      "name": "Independent square-stamped 2px outline matches every decoded pixel",
+      "matches": true,
+      "ringPixels": 272
+    }
+  ]
+}

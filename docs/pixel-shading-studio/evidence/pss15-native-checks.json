@@ -1,0 +1,4142 @@
+{
+  "frames": 55,
+  "checks": 661,
+  "passed": true,
+  "results": [
+    {
+      "name": "cube-right: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-right: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-right: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-right: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-right: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-right: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-right: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-right: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-right: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-right: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-right: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-left: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-left: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-left: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-left: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-left: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-left: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-left: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-left: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-left: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-left: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-left: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-strength0: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-shadow-disabled: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-explicit: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-diffusion-outline: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-visible: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-off: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-hard: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-self-off: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-soft2: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-bias05: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-bias0: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-bias2: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-overhead-light: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: category contract",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cone-perspective-roll30: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: category contract",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: category contract",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "sphere-front-ground-off: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-resource-baseline: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube256-soft4: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-small-receiver: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: category contract",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-final-compare: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: category contract",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "cube-context-recovered: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-self-off: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: category contract",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "torus-concave-repeat: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-cube-visible-default: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-hard: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-bounds-soft4: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "final-studio: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-studio: category contract",
+      "passed": true
+    },
+    {
+      "name": "final-studio: normal/visibility category coordinates match",
+      "passed": true
+    },
+    {
+      "name": "final-studio: hard map emits binary visibility",
+      "passed": true
+    },
+    {
+      "name": "final-studio: final binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-studio: original binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "final-studio: fitting uses only original subject",
+      "passed": true
+    },
+    {
+      "name": "final-studio: palette/effect membership",
+      "passed": true
+    },
+    {
+      "name": "final-studio: outline excludes ground and overlays receiver",
+      "passed": true
+    },
+    {
+      "name": "final-studio: original equals visibility-weighted direct plus preserved ambient",
+      "passed": true
+    },
+    {
+      "name": "final-studio: exact binary receiver coverage and colors",
+      "passed": true
+    },
+    {
+      "name": "final-studio: one live renderer, native target and directional map",
+      "passed": true
+    },
+    {
+      "name": "cube-hard-repeat: exactly hard",
+      "passed": true
+    },
+    {
+      "name": "cube-soft0: exactly hard",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: observable native change",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: observable native change",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: observable native change",
+      "passed": true
+    },
+    {
+      "name": "cube-right: observable native change",
+      "passed": true
+    },
+    {
+      "name": "zero strength equals disabled",
+      "passed": true
+    },
+    {
+      "name": "cube-after12-toggles: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube64-return: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-0: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-1: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube-remount-2: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: deterministic output",
+      "passed": true
+    },
+    {
+      "name": "context recovery reproduces outlined receiver bytes",
+      "passed": true
+    },
+    {
+      "name": "concave self-shadow attenuates real output",
+      "passed": true
+    },
+    {
+      "name": "concave repeated settings deterministic",
+      "passed": true
+    },
+    {
+      "name": "canonical 32x32 subject unchanged by ground",
+      "passed": true
+    },
+    {
+      "name": "small receiver reports shadow clipping",
+      "passed": true
+    },
+    {
+      "name": "cube-ambient-shadow-only: no receiver shadow coverage",
+      "passed": true
+    },
+    {
+      "name": "cube-ground-shadows-off: no receiver shadow coverage",
+      "passed": true
+    },
+    {
+      "name": "cone-horizontal-light: no receiver shadow coverage",
+      "passed": true
+    },
+    {
+      "name": "cone-below-light: no receiver shadow coverage",
+      "passed": true
+    },
+    {
+      "name": "cube-left: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "cube-soft2: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "cube-soft4: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "cube-strength04: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "cube-visible-strict: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "cube-outline-strict: reuses subject and receiver normals",
+      "passed": true
+    },
+    {
+      "name": "palette and outline reuse visibility",
+      "passed": true
+    },
+    {
+      "name": "cube-preview-only: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-96: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-32: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-128: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "cube-resolution-64: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "plane-subject-independent-ground: stable warmed resources",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-preview: presentation topology never enters shadow depth",
+      "passed": true
+    },
+    {
+      "name": "final-wireframe-light-return: presentation topology never enters shadow depth",
+      "passed": true
+    },
+    {
+      "name": "final-preview-only: presentation topology never enters shadow depth",
+      "passed": true
+    },
+    {
+      "name": "wireframe preview reuses visibility",
+      "passed": true
+    },
+    {
+      "name": "comparison/checkerboard reuse visibility",
+      "passed": true
+    },
+    {
+      "name": "browser console has no warnings or errors",
+      "passed": true
+    },
+    {
+      "name": "final bounds correction preserves Hard native output",
+      "passed": true
+    },
+    {
+      "name": "final bounds correction preserves Soft4 native output",
+      "passed": true
+    },
+    {
+      "name": "reported soft bounds include the full integer radius",
+      "passed": true
+    },
+    {
+      "name": "cube shadow coverage moves on receiver with light",
+      "passed": true
+    }
+  ],
+  "framesSummary": [
+    {
+      "label": "cube-right",
+      "sha256": "ed3b89447b340659b495d8784f4e64661e17a4544874e5008ba51ead70cc4b88",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 702,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 14,
+        "filterMs": 0.2999999523162842,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.5,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.5999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0.10000014305114746
+      }
+    },
+    {
+      "label": "cube-left",
+      "sha256": "c77f556f5b3e7eba1adefe7c5d97ffc94bd32bf731f23d5a8fe57f42911ab6f6",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 4.5,
+        "filterMs": 0.2999999523162842,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1,
+        "originalMs": 0.6000001430511475,
+        "styleMs": 0.39999985694885254,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-soft2",
+      "sha256": "f01b14c76e54622e21a297e34829e159043ca94a392774d18683968979ef846d",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 888,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 7.6000001430511475,
+        "filterMs": 6.5,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 0.7999999523162842,
+        "originalMs": 0.5,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-soft4",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2.5,
+        "filterMs": 15,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 0.6999998092651367,
+        "originalMs": 0.39999985694885254,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-soft0",
+      "sha256": "c77f556f5b3e7eba1adefe7c5d97ffc94bd32bf731f23d5a8fe57f42911ab6f6",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2.299999952316284,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "cube-hard-repeat",
+      "sha256": "c77f556f5b3e7eba1adefe7c5d97ffc94bd32bf731f23d5a8fe57f42911ab6f6",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2.299999952316284,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.2999999523162842,
+        "originalMs": 0.6000001430511475,
+        "styleMs": 0.6999998092651367,
+        "compositeMs": 0,
+        "publishMs": 0.10000014305114746
+      }
+    },
+    {
+      "label": "cube-strength04",
+      "sha256": "892d4619adc32e1f95db8f51021d3e063f065d144f3d2e2ceead61ea6675a9e8",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 762,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 3.799999952316284,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 0.9000000953674316,
+        "originalMs": 0.5,
+        "styleMs": 0.40000009536743164,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-strength0",
+      "sha256": "0ed5a4cfbf27e5b207115ac65951bba9ddecbfee2ee3de34cda4234489e7b37d",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 672,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.2000000476837158,
+        "originalMs": 0.3000001907348633,
+        "styleMs": 0.8999998569488525,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-shadow-disabled",
+      "sha256": "0ed5a4cfbf27e5b207115ac65951bba9ddecbfee2ee3de34cda4234489e7b37d",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 672,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 0.19999980926513672,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.3999998569488525,
+        "originalMs": 0.39999985694885254,
+        "styleMs": 1,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-visible-explicit",
+      "sha256": "fadb98d7519ef252eb8fdbe0532280bf41d279b748bdb1f465364e5ae28859d5",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1892,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 1.3999998569488525,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.1000001430511475,
+        "originalMs": 0.6000001430511475,
+        "styleMs": 0.5,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-visible-strict",
+      "sha256": "c9fe4dc32addeafe6ec47e5921c6281ceaf596090a81736ba471e11b9e502d39",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1892,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 1.3999998569488525,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.2999999523162842,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.5,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-outline-strict",
+      "sha256": "e661343363b2b70ee4053a24e6aeb64ae6360c301c4aeff4df16cdd051efb81f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 1.3999998569488525,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 1.2999999523162842,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.5,
+        "compositeMs": 2.799999952316284,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-diffusion-outline",
+      "sha256": "b629a5213f726c2a97c9ac8c68aa6531bcbc0c83ee939512a4d503e03fdadef4",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 1.3999998569488525,
+        "filterMs": 0,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 4.400000095367432,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 3.6000001430511475,
+        "compositeMs": 0,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "cube-ambient-visible",
+      "sha256": "fa9dc6117935154ca0aec21e63a7ea092c7bf622417dbd00e5023bc9deb03221",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 0.8000001907348633,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.40000009536743164,
+        "compositeMs": 0.09999990463256836,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-ambient-shadow-only",
+      "sha256": "7ef937b6345601caf2233f734dfe3b3ae7cf0afe0a51bc389a1bf2b3766d9d8e",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 796,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 5.5,
+        "readbackMs": 3.5,
+        "processMs": 3.799999952316284,
+        "originalMs": 1.5999999046325684,
+        "styleMs": 2.0999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-ground-off",
+      "sha256": "7ef937b6345601caf2233f734dfe3b3ae7cf0afe0a51bc389a1bf2b3766d9d8e",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 796,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 1.7999999523162842,
+        "filterMs": 0.10000014305114746,
+        "captureMs": 4.5,
+        "readbackMs": 3.5,
+        "processMs": 0.5,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0.09999990463256836,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-hard",
+      "sha256": "c20aa4e71830c91632c5bd4c03eba1caf3123fce42b03df1cde63d9cb0889b95",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 27,
+        "height": 32
+      },
+      "opaque": 745,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 7.5,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 4.5,
+        "readbackMs": 2.200000047683716,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-self-off",
+      "sha256": "3fc3eda6172630ffb0f7ac0ad2cf00f42a218a0f0cdba1055b4feef6fa3d482a",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 27,
+        "height": 32
+      },
+      "opaque": 745,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 4.6000001430511475,
+        "filterMs": 0,
+        "captureMs": 4.5,
+        "readbackMs": 2.200000047683716,
+        "processMs": 2.200000047683716,
+        "originalMs": 1.5,
+        "styleMs": 0.7000000476837158,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-soft2",
+      "sha256": "525c101e94424ad5536b8f6c442271074cd917beac45f8d4fe2023dd47b20739",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 27,
+        "height": 32
+      },
+      "opaque": 734,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.9000000953674316,
+        "filterMs": 3.799999952316284,
+        "captureMs": 4.5,
+        "readbackMs": 2.200000047683716,
+        "processMs": 1.0999999046325684,
+        "originalMs": 0.5999999046325684,
+        "styleMs": 0.5,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-bias05",
+      "sha256": "565a0ad34b3adbde6bc4ac55db7a6d8b18c3fe3c4be5c2151edd25e77e9503c6",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 671,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 1.9000000953674316,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 1.4000000953674316,
+        "originalMs": 0.5,
+        "styleMs": 0.9000000953674316,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-bias0",
+      "sha256": "7cc0d2fd0994b51a5359c78c522ee78c0097b655785a6c3cf6b102a7e672f686",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 671,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.200000047683716,
+        "filterMs": 0,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 1.5999999046325684,
+        "originalMs": 0.5,
+        "styleMs": 1.0999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-bias2",
+      "sha256": "b81bd6bbc3162a691edfbca9977363969e0e86a0de2196dcb4c3f5c0abea2f33",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 670,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.1999998092651367,
+        "filterMs": 0.20000004768371582,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 1.2999999523162842,
+        "originalMs": 0.5,
+        "styleMs": 0.7999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-horizontal-light",
+      "sha256": "02225f9bb11895850e399983031f620a4b6ecafa51fa8131149d0f51eeb6a552",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 552,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 1.5,
+        "filterMs": 0,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 0.5,
+        "originalMs": 0.3000001907348633,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-below-light",
+      "sha256": "45029834c62275250908364410611ae1c2764a5a9acdccd23593c62e7cb33495",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 552,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.799999952316284,
+        "filterMs": 0,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 2.1000001430511475,
+        "originalMs": 1.5,
+        "styleMs": 0.6000001430511475,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-overhead-light",
+      "sha256": "d91574ca869f120d048c23c355fee9991f134c6d828d4744f54b849bc098a080",
+      "bounds": {
+        "x": 17,
+        "y": 16,
+        "width": 29,
+        "height": 32
+      },
+      "opaque": 552,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 3.4000000953674316,
+        "filterMs": 0,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.5999999046325684,
+        "processMs": 1.4000000953674316,
+        "originalMs": 0.5999999046325684,
+        "styleMs": 0.8000001907348633,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cone-perspective-roll30",
+      "sha256": "9a484763efb9fa3a9cdd0b9930b70847718017cbf4b919035f30d3f5b7fad4d2",
+      "bounds": {
+        "x": 19,
+        "y": 16,
+        "width": 25,
+        "height": 32
+      },
+      "opaque": 628,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 1.6000001430511475,
+        "filterMs": 0,
+        "captureMs": 1.8999998569488525,
+        "readbackMs": 1.5,
+        "processMs": 0.6000001430511475,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "sphere-front-ground",
+      "sha256": "a3a176a3c75eec0e5be3bfe5000213b92a906d0056b0dcc1de8501ce6508851b",
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "opaque": 812,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.5,
+        "filterMs": 0,
+        "captureMs": 5.700000047683716,
+        "readbackMs": 2.299999713897705,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere-front-ground-off",
+      "sha256": "a3a176a3c75eec0e5be3bfe5000213b92a906d0056b0dcc1de8501ce6508851b",
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "opaque": 812,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 3.4000000953674316,
+        "filterMs": 0,
+        "captureMs": 5,
+        "readbackMs": 2.9000000953674316,
+        "processMs": 0.5,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-resource-baseline",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 1.6000001430511475,
+        "filterMs": 5.799999952316284,
+        "captureMs": 1.9000000953674316,
+        "readbackMs": 1.5,
+        "processMs": 0.2999999523162842,
+        "originalMs": 0.10000014305114746,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-after12-toggles",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.799999952316284,
+        "filterMs": 9.799999952316284,
+        "captureMs": 1.9000000953674316,
+        "readbackMs": 1.5,
+        "processMs": 1.0999999046325684,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.7999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube256-soft4",
+      "sha256": "8ace48ee29e5d5738e55369ab205129a4d82f02c985c69e92c593b9ac214aef1",
+      "bounds": {
+        "x": 72,
+        "y": 64,
+        "width": 111,
+        "height": 128
+      },
+      "opaque": 14170,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 2.5,
+        "filterMs": 119.89999985694885,
+        "captureMs": 2.1999998092651367,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 5.6000001430511475,
+        "originalMs": 3.200000047683716,
+        "styleMs": 2.4000000953674316,
+        "compositeMs": 0,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "cube64-return",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 7
+      },
+      "timings": {
+        "visibilityMs": 1.5999999046325684,
+        "filterMs": 5.799999952316284,
+        "captureMs": 1.6000001430511475,
+        "readbackMs": 1.4000000953674316,
+        "processMs": 0.2999999523162842,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-remount-0",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 12.300000190734863,
+        "filterMs": 6.3999998569488525,
+        "captureMs": 5.400000095367432,
+        "readbackMs": 3,
+        "processMs": 0.40000009536743164,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-remount-1",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 12.799999952316284,
+        "filterMs": 7,
+        "captureMs": 5.6000001430511475,
+        "readbackMs": 2.8999998569488525,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0.10000014305114746
+      }
+    },
+    {
+      "label": "cube-remount-2",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 12.200000047683716,
+        "filterMs": 6.599999904632568,
+        "captureMs": 6.1000001430511475,
+        "readbackMs": 3.5,
+        "processMs": 0.40000009536743164,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-ground-shadows-off",
+      "sha256": "0ed5a4cfbf27e5b207115ac65951bba9ddecbfee2ee3de34cda4234489e7b37d",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 672,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.4000000953674316,
+        "filterMs": 12.5,
+        "captureMs": 6.1000001430511475,
+        "readbackMs": 3.5,
+        "processMs": 1.2999999523162842,
+        "originalMs": 1,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-small-receiver",
+      "sha256": "0ed5a4cfbf27e5b207115ac65951bba9ddecbfee2ee3de34cda4234489e7b37d",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 672,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.1000001430511475,
+        "filterMs": 4.599999904632568,
+        "captureMs": 2.0999999046325684,
+        "readbackMs": 1.7999999523162842,
+        "processMs": 0.2999999523162842,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-preview-only",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 5.700000047683716,
+        "captureMs": 2.200000047683716,
+        "readbackMs": 1.9000000953674316,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-resolution-96",
+      "sha256": "33c1c8a387bbece4b557f0ddd211e2eb4273f15425d8bf1ec1f713119496da1e",
+      "bounds": {
+        "x": 34,
+        "y": 32,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 908,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.299999952316284,
+        "filterMs": 6.8999998569488525,
+        "captureMs": 2.700000047683716,
+        "readbackMs": 2.200000286102295,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-resolution-32",
+      "sha256": "2b4566f2fdfb6ffb5cfd008dc0cea791abfd29ef22a0d1147face4a7cf2aca37",
+      "bounds": {
+        "x": 2,
+        "y": 0,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 728,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.200000047683716,
+        "filterMs": 2.6000001430511475,
+        "captureMs": 2.1999998092651367,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 0.20000004768371582,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.10000014305114746,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-resolution-128",
+      "sha256": "a2bac4ca899ddc1e0aaea9933381d0c05e14b72824f6db57255bd5d7e9bbbfe9",
+      "bounds": {
+        "x": 50,
+        "y": 48,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 908,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.5,
+        "filterMs": 7.099999904632568,
+        "captureMs": 2.5,
+        "readbackMs": 2,
+        "processMs": 0.5999999046325684,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.19999980926513672,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-resolution-64",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.1000001430511475,
+        "filterMs": 6.099999904632568,
+        "captureMs": 2.5,
+        "readbackMs": 2.200000047683716,
+        "processMs": 0.40000009536743164,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "plane-subject-independent-ground",
+      "sha256": "d0e29271dddf8570dd33ff4d38bd744c30d74c535232d8243814c8533d0c1f2d",
+      "bounds": {
+        "x": 23,
+        "y": 16,
+        "width": 18,
+        "height": 32
+      },
+      "opaque": 615,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.5,
+        "filterMs": 13.599999904632568,
+        "captureMs": 2.8000001907348633,
+        "readbackMs": 2.200000286102295,
+        "processMs": 0.6000001430511475,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-final-compare",
+      "sha256": "fe9396a9766b77efd6104a049b2b234ba4522a9600f4595ca779dd40515356d5",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 2.8999998569488525,
+        "filterMs": 9,
+        "captureMs": 3.4000000953674316,
+        "readbackMs": 2.799999952316284,
+        "processMs": 0.5,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "cube-context-recovered",
+      "sha256": "fe9396a9766b77efd6104a049b2b234ba4522a9600f4595ca779dd40515356d5",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 12.600000143051147,
+        "filterMs": 6.3999998569488525,
+        "captureMs": 5.699999809265137,
+        "readbackMs": 3.299999713897705,
+        "processMs": 0.5,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-concave-self",
+      "sha256": "1344165d4f4b983c268a0090b2d934e7728e8a3d8baf2acbbe55c85104a1da2b",
+      "bounds": {
+        "x": 16,
+        "y": 21,
+        "width": 32,
+        "height": 22
+      },
+      "opaque": 484,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 1.7000000476837158,
+        "filterMs": 10,
+        "captureMs": 6.799999952316284,
+        "readbackMs": 6.299999952316284,
+        "processMs": 0.5999999046325684,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-concave-self-off",
+      "sha256": "3bad704efdea0ce535af2d590140d68a357d77eb782a6c32727cec3f7ce1b7c3",
+      "bounds": {
+        "x": 16,
+        "y": 21,
+        "width": 32,
+        "height": 22
+      },
+      "opaque": 484,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 3.4000000953674316,
+        "filterMs": 16.09999990463257,
+        "captureMs": 6.799999952316284,
+        "readbackMs": 6.299999952316284,
+        "processMs": 1.4000000953674316,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 1,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus-concave-repeat",
+      "sha256": "1344165d4f4b983c268a0090b2d934e7728e8a3d8baf2acbbe55c85104a1da2b",
+      "bounds": {
+        "x": 16,
+        "y": 21,
+        "width": 32,
+        "height": 22
+      },
+      "opaque": 484,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "timings": {
+        "visibilityMs": 3,
+        "filterMs": 14.200000047683716,
+        "captureMs": 6.799999952316284,
+        "readbackMs": 6.299999952316284,
+        "processMs": 0.6000001430511475,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.3000001907348633,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "final-cube-visible-default",
+      "sha256": "3c082b9d5d63bc67547ccf38b3fd05951bb5aff1362a4b0a2c40ac2c40c06a84",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 13.400000095367432,
+        "filterMs": 0.40000009536743164,
+        "captureMs": 6.5,
+        "readbackMs": 4.200000047683716,
+        "processMs": 3.4000000953674316,
+        "originalMs": 1.7000000476837158,
+        "styleMs": 1.7000000476837158,
+        "compositeMs": 1,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "final-wireframe-preview",
+      "sha256": "3c082b9d5d63bc67547ccf38b3fd05951bb5aff1362a4b0a2c40ac2c40c06a84",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 13.400000095367432,
+        "filterMs": 0.40000009536743164,
+        "captureMs": 6.5,
+        "readbackMs": 4.200000047683716,
+        "processMs": 3.4000000953674316,
+        "originalMs": 1.7000000476837158,
+        "styleMs": 1.7000000476837158,
+        "compositeMs": 1,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "final-wireframe-light-return",
+      "sha256": "3c082b9d5d63bc67547ccf38b3fd05951bb5aff1362a4b0a2c40ac2c40c06a84",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 0,
+        "captureMs": 6.5,
+        "readbackMs": 4.200000047683716,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "final-preview-only",
+      "sha256": "3c082b9d5d63bc67547ccf38b3fd05951bb5aff1362a4b0a2c40ac2c40c06a84",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 2,
+        "filterMs": 0,
+        "captureMs": 6.5,
+        "readbackMs": 4.200000047683716,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.2999999523162842,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "final-bounds-hard",
+      "sha256": "c77f556f5b3e7eba1adefe7c5d97ffc94bd32bf731f23d5a8fe57f42911ab6f6",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 13.599999904632568,
+        "filterMs": 0.40000009536743164,
+        "captureMs": 5.5,
+        "readbackMs": 3.1999998092651367,
+        "processMs": 1.4000000953674316,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.6000001430511475,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "final-bounds-soft4",
+      "sha256": "53a4ad0bf6f4002fbf8acd926ecdeda966e2a998a61e0801313d41740481f53f",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 889,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 3,
+        "filterMs": 13,
+        "captureMs": 5.5,
+        "readbackMs": 3.1999998092651367,
+        "processMs": 0.40000009536743164,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.20000004768371582,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "final-studio",
+      "sha256": "35a291f8729af5f02990fbd3a4064ba39c81450fe63a08097158732be4d5287a",
+      "bounds": {
+        "x": 18,
+        "y": 16,
+        "width": 28,
+        "height": 32
+      },
+      "opaque": 1938,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      },
+      "timings": {
+        "visibilityMs": 3,
+        "filterMs": 13,
+        "captureMs": 5.5,
+        "readbackMs": 3.1999998092651367,
+        "processMs": 1.8999998569488525,
+        "originalMs": 0.5999999046325684,
+        "styleMs": 1.2000000476837158,
+        "compositeMs": 1,
+        "publishMs": 0
+      }
+    }
+  ],
+  "recovery": {
+    "lost": "  - generic: 3D reference \u00b7 unavailable\n  - heading \"Reference unavailable\" [level=3]\n  - paragraph: Reference unavailable. The graphics context was lost. Your settings are safe. Retry to rebuild reference and native pixels.\n  - button \"Retry renderer\"\n  - button \"Simulate unavailable WebGL2\"\n  - generic: Renderer unavailable\n  - status: Reference unavailable. The graphics context was lost. Your settings are safe. Retry to rebuild reference and native pixels."
+  },
+  "console": []
+}

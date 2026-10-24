@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Pixel Shading Studio original fixture"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        3,
+        4
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        10,
+        3,
+        -4
+      ],
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -2,
+        0,
+        0
+      ]
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        2,
+        1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "camera": 0
+    },
+    {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 0.5,
+        "znear": 0.1
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "point",
+          "intensity": 1000
+        }
+      ]
+    }
+  },
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          0.1
+        ]
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "min": [
+        -2,
+        -2,
+        -2
+      ],
+      "max": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 72
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72,
+      "byteLength": 72
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 144,
+      "byteLength": 48
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 192,
+      "uri": "group.bin"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [],
+      "samplers": []
+    }
+  ]
+}

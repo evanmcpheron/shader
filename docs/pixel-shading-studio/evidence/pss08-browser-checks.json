@@ -1,0 +1,1920 @@
+{
+  "environment": {
+    "browser": "Connected Google Chrome, real WebGL2",
+    "os": "macOS",
+    "origin": "http://127.0.0.1:5173/?scene-checks",
+    "viewport": [
+      1728,
+      963
+    ],
+    "notes": "Browser version page is blocked by the browser tool URL policy; version/GPU are not asserted."
+  },
+  "checks": [
+    {
+      "name": "canonical64",
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "canonical96",
+      "bounds": {
+        "x": 32,
+        "y": 16,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "48x24-box-sphere",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 36,
+        "y": 20,
+        "width": 24,
+        "height": 24,
+        "count": 448
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 48,
+          "height": 24
+        },
+        "effective": {
+          "width": 48,
+          "height": 24
+        },
+        "actual": {
+          "x": 36,
+          "y": 20,
+          "width": 24,
+          "height": 24
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "48x24-box-wide-plane",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 24,
+        "y": 24,
+        "width": 48,
+        "height": 16,
+        "count": 768
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 48,
+          "height": 24
+        },
+        "effective": {
+          "width": 48,
+          "height": 24
+        },
+        "actual": {
+          "x": 24,
+          "y": 24,
+          "width": 48,
+          "height": 16
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "orthographic-cube-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 16,
+        "width": 31,
+        "height": 32,
+        "count": 648
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 16,
+          "width": 31,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "orthographic-torus-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 33,
+        "y": 16,
+        "width": 29,
+        "height": 32,
+        "count": 570
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 33,
+          "y": 16,
+          "width": 29,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "orthographic-plane-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 35,
+        "y": 16,
+        "width": 25,
+        "height": 32,
+        "count": 464
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 35,
+          "y": 16,
+          "width": 25,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "perspective-cube-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 33,
+        "y": 16,
+        "width": 30,
+        "height": 32,
+        "count": 642
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 33,
+          "y": 16,
+          "width": 30,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "perspective-torus-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 33,
+        "y": 16,
+        "width": 29,
+        "height": 32,
+        "count": 582
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 33,
+          "y": 16,
+          "width": 29,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "perspective-plane-rotated",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 35,
+        "y": 16,
+        "width": 26,
+        "height": 32,
+        "count": 489
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 35,
+          "y": 16,
+          "width": 26,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "nonuniform-mirrored-perspective-plane",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 20,
+        "width": 32,
+        "height": 24,
+        "count": 256
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 20,
+          "width": 32,
+          "height": 24
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "fov-1",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 20,
+        "width": 32,
+        "height": 24,
+        "count": 256
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 20,
+          "width": 32,
+          "height": 24
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "fov-179",
+      "canvas": [
+        96,
+        64
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 20,
+        "width": 32,
+        "height": 24,
+        "count": 256
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 20,
+          "width": 32,
+          "height": 24
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-top-left",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 3,
+        "y": 2,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 3,
+          "y": 2,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-top",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 17,
+        "y": 2,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 17,
+          "y": 2,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-top-right",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 2,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 2,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-left",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 3,
+        "y": 10,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 3,
+          "y": 10,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-center",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 17,
+        "y": 10,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 17,
+          "y": 10,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-right",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 10,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 10,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-bottom-left",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 3,
+        "y": 19,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 3,
+          "y": 19,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-bottom",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 17,
+        "y": 19,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 17,
+          "y": 19,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "odd-padded-bottom-right",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 32,
+        "y": 19,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 32,
+          "y": 19,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "integer-offset-visible",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 13,
+        "y": 16,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 13,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "integer-offset-partial-clipping",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": {
+        "x": 28,
+        "y": 25,
+        "width": 32,
+        "height": 31,
+        "count": 804
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 28,
+          "y": 25,
+          "width": 32,
+          "height": 31
+        },
+        "clipped": true,
+        "converged": true,
+        "iterations": 2,
+        "notice": "Subject extends outside the canvas or camera depth range; measured bounds include only visible pixels."
+      }
+    },
+    {
+      "name": "integer-offset-empty-clipping",
+      "canvas": [
+        71,
+        56
+      ],
+      "bounds": null,
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": null,
+        "clipped": true,
+        "converged": true,
+        "iterations": 2,
+        "notice": "No subject pixels are visible at this resolution. Subject extends outside the canvas or camera depth range; measured bounds include only visible pixels."
+      }
+    },
+    {
+      "name": "effective-box-clamp",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 60,
+        "y": 30,
+        "width": 4,
+        "height": 4,
+        "count": 12
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 4,
+          "height": 32
+        },
+        "actual": {
+          "x": 60,
+          "y": 30,
+          "width": 4,
+          "height": 4
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": "Requested box clamped to 4 × 32 px within the padded canvas."
+      }
+    },
+    {
+      "name": "empty-padding-rejected",
+      "preservedReport": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 4,
+          "height": 32
+        },
+        "actual": {
+          "x": 60,
+          "y": 30,
+          "width": 4,
+          "height": 4
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": "Requested box clamped to 4 × 32 px within the padded canvas."
+      }
+    },
+    {
+      "name": "light-reuses-fit",
+      "before": {
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "rasterizations": 96,
+        "readback": "synchronous",
+        "captures": 48,
+        "processes": 48,
+        "timings": {
+          "captureMs": 5.199999809265137,
+          "readbackMs": 3.999999761581421,
+          "processMs": 1.3000001907348633
+        },
+        "targetLifecycle": {
+          "created": 7,
+          "disposed": 6,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 47,
+          "captureRevision": 47,
+          "byteLength": 16384
+        }
+      },
+      "after": {
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "rasterizations": 96,
+        "readback": "synchronous",
+        "captures": 48,
+        "processes": 50,
+        "timings": {
+          "captureMs": 5.199999809265137,
+          "readbackMs": 3.999999761581421,
+          "processMs": 0.10000014305114746
+        },
+        "targetLifecycle": {
+          "created": 7,
+          "disposed": 6,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 49,
+          "captureRevision": 47,
+          "byteLength": 16384
+        }
+      }
+    },
+    {
+      "name": "world-position-recenters",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "orientation-refits",
+      "captures": 52,
+      "previousCaptures": 48,
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "manual-zoom",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64,
+        "count": 3212
+      },
+      "report": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      }
+    },
+    {
+      "name": "manual-pan",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 16,
+        "width": 32,
+        "height": 32,
+        "count": 812
+      },
+      "report": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 0,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      }
+    },
+    {
+      "name": "mode-preserves-pose-and-transform",
+      "camera": {
+        "position": {
+          "x": 1,
+          "y": 0,
+          "z": 5.000000000000001
+        },
+        "target": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "subject": {
+        "geometry": {
+          "kind": "sphere",
+          "radius": 1,
+          "widthSegments": 64,
+          "heightSegments": 32
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "solid-alpha-excluded",
+      "displayBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64,
+        "count": 4096
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "edge-on-fallback",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": null,
+      "report": {
+        "mode": "manual-fallback",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": null,
+        "clipped": false,
+        "converged": false,
+        "iterations": 1,
+        "notice": "Fit needs visible geometry with area in both projected axes. Showing manual framing; rotate the subject or switch to manual framing. No subject pixels are visible at this resolution."
+      }
+    },
+    {
+      "name": "thin-nonconvergence-13-samples",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": null,
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 1,
+          "height": 1
+        },
+        "effective": {
+          "width": 1,
+          "height": 1
+        },
+        "actual": null,
+        "clipped": false,
+        "converged": false,
+        "iterations": 13,
+        "notice": "Fit did not converge within 12 native samples. Showing the best measured result; try a larger box or manual framing. No subject pixels are visible at this resolution."
+      }
+    },
+    {
+      "name": "near-plane-fallback-final",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": null,
+      "report": {
+        "mode": "manual-fallback",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": null,
+        "clipped": true,
+        "converged": false,
+        "iterations": 1,
+        "notice": "Fit cannot cross the camera near/far plane. Showing manual framing; move the camera away or switch to manual framing. No subject pixels are visible at this resolution. Subject extends outside the canvas or camera depth range; measured bounds include only visible pixels."
+      }
+    },
+    {
+      "name": "manual-recovery",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 18,
+        "y": 18,
+        "width": 28,
+        "height": 28,
+        "count": 616
+      },
+      "report": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 18,
+          "y": 18,
+          "width": 28,
+          "height": 28
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      }
+    },
+    {
+      "name": "manual-clipping",
+      "canvas": [
+        64,
+        64
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 64,
+        "count": 4096
+      },
+      "report": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 64
+        },
+        "clipped": true,
+        "converged": true,
+        "iterations": 1,
+        "notice": "Subject extends outside the canvas or camera depth range; measured bounds include only visible pixels."
+      }
+    },
+    {
+      "name": "zero-canvas-rejected",
+      "preservedCanvas": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "name": "oversize-canvas-rejected",
+      "preservedCanvas": {
+        "width": 64,
+        "height": 64
+      }
+    },
+    {
+      "name": "minimum-1x1-native",
+      "canvas": [
+        1,
+        1
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "count": 1
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 1,
+          "height": 1
+        },
+        "actual": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": "Requested box clamped to 1 × 1 px within the padded canvas."
+      }
+    },
+    {
+      "name": "maximum-axis-1024",
+      "canvas": {
+        "width": 1024,
+        "height": 64
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 496,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      },
+      "target": {
+        "width": 1024,
+        "height": 64,
+        "samples": 0,
+        "type": 1009,
+        "format": 1023,
+        "colorSpace": "",
+        "minFilter": 1003,
+        "magFilter": 1003,
+        "generateMipmaps": false
+      }
+    },
+    {
+      "name": "framing-reset-isolation",
+      "retained": [
+        "subject",
+        "lighting",
+        "camera",
+        "palette",
+        "canvas"
+      ],
+      "framing": {
+        "mode": "pixel-fit",
+        "fit": {
+          "box": {
+            "width": 32,
+            "height": 32
+          },
+          "alignment": "center",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "demand-idle",
+      "elapsedMs": 29577,
+      "beforeFrames": 107,
+      "afterFrames": 107,
+      "beforeCaptures": 86,
+      "afterCaptures": 86
+    },
+    {
+      "name": "five-remounts",
+      "remounts": [
+        {
+          "lifecycle": {
+            "created": 4,
+            "disposed": 3,
+            "active": 1
+          },
+          "targetLifecycle": {
+            "created": 14,
+            "disposed": 13,
+            "active": 1
+          },
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 2
+          },
+          "report": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          }
+        },
+        {
+          "lifecycle": {
+            "created": 6,
+            "disposed": 5,
+            "active": 1
+          },
+          "targetLifecycle": {
+            "created": 15,
+            "disposed": 14,
+            "active": 1
+          },
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 2
+          },
+          "report": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          }
+        },
+        {
+          "lifecycle": {
+            "created": 8,
+            "disposed": 7,
+            "active": 1
+          },
+          "targetLifecycle": {
+            "created": 16,
+            "disposed": 15,
+            "active": 1
+          },
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 2
+          },
+          "report": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          }
+        },
+        {
+          "lifecycle": {
+            "created": 10,
+            "disposed": 9,
+            "active": 1
+          },
+          "targetLifecycle": {
+            "created": 17,
+            "disposed": 16,
+            "active": 1
+          },
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 2
+          },
+          "report": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          }
+        },
+        {
+          "lifecycle": {
+            "created": 12,
+            "disposed": 11,
+            "active": 1
+          },
+          "targetLifecycle": {
+            "created": 18,
+            "disposed": 17,
+            "active": 1
+          },
+          "memory": {
+            "geometries": 1,
+            "textures": 1,
+            "programs": 2
+          },
+          "report": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "context-loss-retry",
+      "lifecycle": {
+        "created": 14,
+        "disposed": 13,
+        "active": 1
+      },
+      "targetLifecycle": {
+        "created": 19,
+        "disposed": 18,
+        "active": 1
+      },
+      "report": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "pixel-fit-keyboard-orbit-pan-lock",
+      "camera": {
+        "position": {
+          "x": 0.07551618290692957,
+          "y": 3.061616997868383e-16,
+          "z": 4.999429698087489
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "subject": {
+        "geometry": {
+          "kind": "sphere",
+          "radius": 1,
+          "widthSegments": 64,
+          "heightSegments": 32
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "panEnabled": false,
+      "zoomEnabled": false
+    },
+    {
+      "name": "manual-keyboard-pan",
+      "camera": {
+        "position": {
+          "x": 0.14281619807349194,
+          "y": 3.061616997868383e-16,
+          "z": 4.998413134086819
+        },
+        "target": {
+          "x": 0.06730001516656237,
+          "y": 0,
+          "z": -0.001016564000670206
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "framing": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 15,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      }
+    },
+    {
+      "name": "manual-wheel-zoom",
+      "beforeZoom": 1,
+      "afterZoom": 1.2801499409984625,
+      "before": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 15,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      },
+      "after": {
+        "mode": "manual",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 10,
+          "y": 12,
+          "width": 41,
+          "height": 40
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 1,
+        "notice": ""
+      }
+    },
+    {
+      "name": "pixel-fit-wheel-lock",
+      "zoom": 1.2801499409984625
+    }
+  ],
+  "logs": []
+}

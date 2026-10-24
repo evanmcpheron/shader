@@ -1,0 +1,31 @@
+{
+  "browserZoom": "125% (two native Command-plus steps from 100%)",
+  "dpr": 2.5,
+  "viewport": [
+    1382,
+    725
+  ],
+  "before": {
+    "width": 96,
+    "height": 64,
+    "hash": "94da1e9faf2fd52b7e6439d5d1233de41cb3ff05185e9f39d8452e6bc1c9359a",
+    "bounds": {
+      "x": 32,
+      "y": 16,
+      "width": 32,
+      "height": 32
+    }
+  },
+  "after": {
+    "width": 96,
+    "height": 64,
+    "hash": "94da1e9faf2fd52b7e6439d5d1233de41cb3ff05185e9f39d8452e6bc1c9359a",
+    "bounds": {
+      "x": 32,
+      "y": 16,
+      "width": 32,
+      "height": 32
+    }
+  },
+  "passed": true
+}

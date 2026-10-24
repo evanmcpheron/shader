@@ -1,0 +1,41 @@
+{
+  "method": "WCAG sRGB relative luminance of actual CSS theme values; representative enabled text/focus samples, not a full contrast audit",
+  "samples": [
+    {
+      "sample": "body",
+      "foreground": "#EDF0F3",
+      "background": "#141618",
+      "ratio": 15.86
+    },
+    {
+      "sample": "muted on panel",
+      "foreground": "#A4ABB5",
+      "background": "#1C1E21",
+      "ratio": 7.22
+    },
+    {
+      "sample": "muted on controls",
+      "foreground": "#A4ABB5",
+      "background": "#25282C",
+      "ratio": 6.39
+    },
+    {
+      "sample": "selected accent",
+      "foreground": "#A8C3E0",
+      "background": "#2E3B4A",
+      "ratio": 6.27
+    },
+    {
+      "sample": "field error",
+      "foreground": "#F2B0B0",
+      "background": "#1C1E21",
+      "ratio": 9.24
+    },
+    {
+      "sample": "focus ring",
+      "foreground": "#A8C3E0",
+      "background": "#25282C",
+      "ratio": 8.14
+    }
+  ]
+}

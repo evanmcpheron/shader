@@ -1,0 +1,446 @@
+{
+  "checks": [
+    {
+      "name": "initial-glb exact native length",
+      "passed": true
+    },
+    {
+      "name": "initial-glb binary alpha",
+      "passed": true
+    },
+    {
+      "name": "initial-glb zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "initial-glb nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "initial-glb exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-smooth exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-smooth binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-smooth zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-smooth nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-flat exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-flat binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-flat zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-flat nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-none exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-none binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-none zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-none nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-none exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-2 exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-2 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-2 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-2 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-2 exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-4 exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-4 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-4 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-4 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-4 exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-8 exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-8 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-8 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-8 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-8 exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-blue-noise exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-blue-noise binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-blue-noise zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-blue-noise nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-blue-noise exact palette",
+      "passed": true
+    },
+    {
+      "name": "glb-floyd-steinberg exact native length",
+      "passed": true
+    },
+    {
+      "name": "glb-floyd-steinberg binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb-floyd-steinberg zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "glb-floyd-steinberg nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "glb-floyd-steinberg exact palette",
+      "passed": true
+    },
+    {
+      "name": "initial-gltf exact native length",
+      "passed": true
+    },
+    {
+      "name": "initial-gltf binary alpha",
+      "passed": true
+    },
+    {
+      "name": "initial-gltf zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "initial-gltf nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "initial-gltf exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-smooth exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-smooth binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-smooth zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-smooth nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-flat exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-flat binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-flat zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-flat nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-none exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-none binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-none zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-none nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-none exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-2 exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-2 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-2 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-2 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-2 exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-4 exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-4 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-4 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-4 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-4 exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-8 exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-8 binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-8 zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-8 nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-8 exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-blue-noise exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-blue-noise binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-blue-noise zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-blue-noise nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-blue-noise exact palette",
+      "passed": true
+    },
+    {
+      "name": "gltf-floyd-steinberg exact native length",
+      "passed": true
+    },
+    {
+      "name": "gltf-floyd-steinberg binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf-floyd-steinberg zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "gltf-floyd-steinberg nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "gltf-floyd-steinberg exact palette",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective exact native length",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective binary alpha",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective exact palette",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective subject-only fitter",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective combined normal/visibility categories",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective receiver excluded from subject mask",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective square-stamped outline count",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective exact outline above receiver",
+      "passed": true
+    },
+    {
+      "name": "styled-perspective visible ground shadow pixels",
+      "passed": true
+    },
+    {
+      "name": "warm-nearest-palette exact native length",
+      "passed": true
+    },
+    {
+      "name": "warm-nearest-palette binary alpha",
+      "passed": true
+    },
+    {
+      "name": "warm-nearest-palette zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "warm-nearest-palette nonempty subject",
+      "passed": true
+    },
+    {
+      "name": "warm-nearest-palette exact palette",
+      "passed": true
+    },
+    {
+      "name": "formats render identical native bytes",
+      "passed": true
+    },
+    {
+      "name": "authored smooth and flat normals produce distinct pixels",
+      "passed": true
+    },
+    {
+      "name": "none deterministic across formats",
+      "passed": true
+    },
+    {
+      "name": "2 deterministic across formats",
+      "passed": true
+    },
+    {
+      "name": "4 deterministic across formats",
+      "passed": true
+    },
+    {
+      "name": "8 deterministic across formats",
+      "passed": true
+    },
+    {
+      "name": "blue-noise deterministic across formats",
+      "passed": true
+    },
+    {
+      "name": "floyd-steinberg deterministic across formats",
+      "passed": true
+    }
+  ],
+  "passed": 110,
+  "frameSets": 20
+}

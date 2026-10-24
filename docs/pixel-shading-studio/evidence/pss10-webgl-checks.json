@@ -1,0 +1,111 @@
+{
+  "environment": {
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "dpr": 2,
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+  },
+  "results": [
+    {
+      "name": "Nested imported-style static triangle with nonuniform scale",
+      "pass": true,
+      "evidence": {
+        "expected": [
+          239,
+          239,
+          239
+        ],
+        "observed": [
+          [
+            239,
+            239,
+            239
+          ]
+        ],
+        "worldNormal": [
+          0.36043574547599533,
+          -0.18962940476072082,
+          0.9133054046885182
+        ]
+      }
+    },
+    {
+      "name": "Geometry buffer retained false",
+      "pass": true,
+      "evidence": {
+        "vertices": 3
+      }
+    },
+    {
+      "name": "Nested imported-style static triangle with mirrored scale",
+      "pass": true,
+      "evidence": {
+        "expected": [
+          230,
+          230,
+          230
+        ],
+        "observed": [
+          [
+            230,
+            230,
+            230
+          ]
+        ],
+        "worldNormal": [
+          0.04861962471315792,
+          -0.22888892859655066,
+          0.9722376203679195
+        ]
+      }
+    },
+    {
+      "name": "Geometry buffer retained true",
+      "pass": true,
+      "evidence": {
+        "vertices": 3
+      }
+    },
+    {
+      "name": "Double-sided back plane smooth",
+      "pass": true,
+      "evidence": {
+        "colors": [
+          "255,255,255"
+        ]
+      }
+    },
+    {
+      "name": "Double-sided back plane flat",
+      "pass": true,
+      "evidence": {
+        "colors": [
+          "255,255,255"
+        ]
+      }
+    },
+    {
+      "name": "Smooth and flat low-segment sphere differ with identical coverage",
+      "pass": true,
+      "evidence": {
+        "smoothColors": 141,
+        "flatColors": 12
+      }
+    },
+    {
+      "name": "Native targets all released",
+      "pass": true,
+      "evidence": {
+        "lifecycle": {
+          "created": 6,
+          "disposed": 6,
+          "active": 0
+        },
+        "remainingGPU": {
+          "geometries": 0,
+          "textures": 0
+        }
+      }
+    }
+  ],
+  "passed": true
+}

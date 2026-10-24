@@ -1,0 +1,1966 @@
+{
+  "environment": {
+    "browser": "Connected Google Chrome, real WebGL2",
+    "notes": "Real connected Chrome/WebGL2. Native browser zoom 100%\u2192110%\u2192125%\u2192100%; no device emulation.",
+    "version": "155.0.8059.86",
+    "os": "macOS 27.0",
+    "viewport": "1728\u00d7963 screenshots at 100% browser zoom",
+    "dprTest": [
+      2,
+      2.200000047683716,
+      2.5,
+      2
+    ]
+  },
+  "frames": 46,
+  "passed": 475,
+  "checks": [
+    {
+      "name": "Canonical mask has 812 subject pixels",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer2-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer4-full: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-bayer8-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-strength035: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-width035: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-width-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-scale2: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "palette-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-none: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-none: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-none: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-none: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-none: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-none: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-none: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer2-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer4-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-zero: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-full: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-strength03: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-scale2: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-bayer8-repeat: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-bayer: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-solid-none: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-bayer: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-strict-solid-none: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "continuous-none: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "continuous-bayer-inactive: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-one-color: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-duplicates: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-baseline: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-plus: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-after-equal: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-baseline: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "linear-checker-attempt-dpr125: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: stored SHA-256",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: capture and geometry reused",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: resource counts stable",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: subject bounds unchanged",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: exact subject palette membership",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: coverage and zero transparent RGB",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: Original undithered",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: repeated settings byte-identical",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 2 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 2 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 4 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 4 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 8 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "ramp Bayer 8 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "ramp matrices all differ",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 2 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 2 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 4 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 4 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 8 zero equals None",
+      "passed": true
+    },
+    {
+      "name": "palette Bayer 8 changes shade decisions",
+      "passed": true
+    },
+    {
+      "name": "palette matrices all differ",
+      "passed": true
+    },
+    {
+      "name": "Strength and width act in shade intervals",
+      "passed": true
+    },
+    {
+      "name": "Narrower transitions change pixels",
+      "passed": true
+    },
+    {
+      "name": "Zero width equals None",
+      "passed": true
+    },
+    {
+      "name": "Ramp native scale changes cells",
+      "passed": true
+    },
+    {
+      "name": "Palette native scale changes cells",
+      "passed": true
+    },
+    {
+      "name": "Palette strength changes pixels",
+      "passed": true
+    },
+    {
+      "name": "Palette repeated render identical",
+      "passed": true
+    },
+    {
+      "name": "Continuous mode ignores dither",
+      "passed": true
+    },
+    {
+      "name": "One-color and duplicate-only palettes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: view changes no frame bytes",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom8: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: view changes no frame bytes",
+      "passed": true
+    },
+    {
+      "name": "ramp-zoom16: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: view changes no frame bytes",
+      "passed": true
+    },
+    {
+      "name": "ramp-pan-grid-checker: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: view changes no frame bytes",
+      "passed": true
+    },
+    {
+      "name": "ramp-fit: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-zoom: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "dpr-native-125: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "dpr-restored: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "compare-zoom8: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "final-code-compare: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "final-code-dpr125: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: DPR/compare changes no bytes",
+      "passed": true
+    },
+    {
+      "name": "final-code-restored: no processing or capture",
+      "passed": true
+    },
+    {
+      "name": "Actual native Chrome DPR changed and restored",
+      "passed": true
+    },
+    {
+      "name": "Final code DPR checked again after presentation experiments were reverted",
+      "passed": true
+    },
+    {
+      "name": "explicit-solid background unchanged",
+      "passed": true
+    },
+    {
+      "name": "explicit-solid alpha unchanged",
+      "passed": true
+    },
+    {
+      "name": "strict-solid background unchanged",
+      "passed": true
+    },
+    {
+      "name": "strict-solid alpha unchanged",
+      "passed": true
+    },
+    {
+      "name": "No browser warnings/errors",
+      "passed": true
+    }
+  ],
+  "hashes": {
+    "ramp-none": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "ramp-bayer4-full": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "ramp-bayer2-zero": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "ramp-bayer2-full": "2f9c659cf9b379cf269052d593d0254ae8a4e448e63d4499b59ead4ac0b08d4c",
+    "ramp-bayer4-zero": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "ramp-bayer8-zero": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "ramp-bayer8-full": "f716e62c41e5c511771379944f1a14475b9f15d430c1bcf23ac19576a7899f14",
+    "ramp-strength035": "154eebf06c3341b3b1337624e8a111fbc04002079215645c7b5b524ebdffef46",
+    "ramp-width035": "154eebf06c3341b3b1337624e8a111fbc04002079215645c7b5b524ebdffef46",
+    "ramp-width-zero": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "ramp-scale2": "150a66e16d23856c0a86c4163bad3f8f1fe9ed9f5f223b7c7c8bbc8685593cd0",
+    "ramp-zoom8": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "ramp-zoom16": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "ramp-pan-grid-checker": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "ramp-fit": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "palette-none": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "palette-bayer2-zero": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "palette-bayer2-full": "3fe513fbb9f831ef221ba71122235c480fa963effa4150a3da51893ee852f849",
+    "palette-bayer4-zero": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "palette-bayer4-full": "fa943046ce674952a9ca2a741dac775f59dd57b46cc6d9c6cc9a0878834aab60",
+    "palette-bayer8-zero": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "palette-bayer8-full": "fc1ed4d637e8036ebdb932f2e2a32dabc1cad32189ff82a020e75e021de08a6a",
+    "palette-strength03": "71a8d5c590f0bb202a4a432a13ee94cc594206f08f08043823ef62fd53efa4f2",
+    "palette-scale2": "1e1738bb46c3e5dcae010f35e50e3c3ef95012999582b81a7eafe6a89e7c933c",
+    "palette-bayer8-repeat": "fc1ed4d637e8036ebdb932f2e2a32dabc1cad32189ff82a020e75e021de08a6a",
+    "palette-solid-bayer": "74ce3e4d6b39548d6595a97c61151a7b90ac3d6656d431779a95663fd01b7bf9",
+    "palette-solid-none": "d460a25a95eeb62d49c95b64ad66fd217e79c351af12ff3d7dc5802548695a62",
+    "palette-strict-solid-bayer": "a411e8fd67d515448da7d8b084122abfa26a7b1b93d68f86bc7ee358fb463c3c",
+    "palette-strict-solid-none": "1e266890df5632dffe19dc21cd10a4a0b528cfb8a1c84ffaa9f454da3fdb9a7a",
+    "continuous-none": "72c05eadd45dd11c62725e25987b42fc6350868e1a40cefc31fc2cbaad99ad26",
+    "continuous-bayer-inactive": "72c05eadd45dd11c62725e25987b42fc6350868e1a40cefc31fc2cbaad99ad26",
+    "palette-one-color": "1961fdd5ad729217da998d5a26d052590564a293109eeef7bfb14d3f5a1e21b9",
+    "palette-duplicates": "1961fdd5ad729217da998d5a26d052590564a293109eeef7bfb14d3f5a1e21b9",
+    "dpr-baseline": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "dpr-after-plus": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "dpr-after-equal": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "dpr-native-zoom": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "dpr-native-125": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "dpr-restored": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "compare-zoom8": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "linear-checker-attempt-baseline": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "linear-checker-attempt-dpr125": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "final-code-compare": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "final-code-dpr125": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+    "final-code-restored": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3"
+  }
+}

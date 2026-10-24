@@ -1,0 +1,922 @@
+{
+  "environment": {
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+    "dpr": 2,
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+  },
+  "origin": "http://127.0.0.1:5173/?scene-checks",
+  "checks": [
+    {
+      "name": "Default exact stored ramp and continuous reference",
+      "pass": true,
+      "evidence": {
+        "final": {
+          "revision": 0,
+          "captureRevision": 0,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#5C88B8": 154,
+            "#B8D8F0": 403,
+            "#304878": 115,
+            "#172038": 140
+          },
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "originalColors": 189
+      }
+    },
+    {
+      "name": "Brightness changes final, preserves all original bytes, reuses capture",
+      "pass": true,
+      "evidence": {
+        "final": {
+          "revision": 1,
+          "captureRevision": 0,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#5C88B8": 193,
+            "#304878": 140,
+            "#B8D8F0": 246,
+            "#172038": 233
+          },
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "captures": 1
+      }
+    },
+    {
+      "name": "Contrast changes shade placement",
+      "pass": true,
+      "evidence": {
+        "revision": 2,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#B8D8F0": 421,
+          "#5C88B8": 76,
+          "#304878": 73,
+          "#172038": 242
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Distribution changes shade placement",
+      "pass": true,
+      "evidence": {
+        "revision": 3,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#5C88B8": 59,
+          "#B8D8F0": 378,
+          "#304878": 60,
+          "#172038": 315
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Shading reset returns exact final bytes",
+      "pass": true,
+      "evidence": {
+        "revision": 4,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#5C88B8": 154,
+          "#B8D8F0": 403,
+          "#304878": 115,
+          "#172038": 140
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Equal threshold draft visibly invalid, leaves state/frame revision unchanged",
+      "pass": true,
+      "evidence": {
+        "thresholds": [
+          0.25,
+          0.5,
+          0.75
+        ]
+      }
+    },
+    {
+      "name": "Nonuniform threshold changes final without capture",
+      "pass": true,
+      "evidence": {
+        "revision": 5,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#5C88B8": 154,
+          "#B8D8F0": 403,
+          "#304878": 255
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Cel and bands share exact threshold selection without recapture",
+      "pass": true,
+      "evidence": {
+        "mode": {
+          "kind": "cel",
+          "thresholds": [
+            0.1,
+            0.5,
+            0.75
+          ]
+        }
+      }
+    },
+    {
+      "name": "Smooth named mode equals continuous original at neutral signal without recapture",
+      "pass": true,
+      "evidence": {
+        "revision": 7,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#4F76A0": 10,
+          "#537CA8": 6,
+          "#567FAD": 6,
+          "#5882B0": 10,
+          "#5984B2": 3,
+          "#5A85B3": 2,
+          "#5A84B3": 1,
+          "#5883B1": 5,
+          "#496D94": 5,
+          "#5680AD": 4,
+          "#5983B2": 9,
+          "#5A86B5": 10,
+          "#5C88B8": 11,
+          "#5D89BA": 5,
+          "#5E8BBB": 2,
+          "#5E8BBC": 11,
+          "#5F8CBD": 11,
+          "#5D8ABA": 10,
+          "#416286": 3,
+          "#4B7099": 3,
+          "#5077A2": 3,
+          "#547CA9": 6,
+          "#5780AE": 7,
+          "#5B86B6": 4,
+          "#5D89B9": 6,
+          "#5F8CBE": 9,
+          "#608DBF": 9,
+          "#618EC0": 1,
+          "#618FC1": 15,
+          "#618FC2": 4,
+          "#608EC0": 13,
+          "#43658A": 5,
+          "#4A6F97": 6,
+          "#537BA7": 7,
+          "#5E8ABB": 8,
+          "#6290C3": 10,
+          "#6291C4": 12,
+          "#6391C4": 5,
+          "#416185": 3,
+          "#486C93": 6,
+          "#4D739C": 6,
+          "#5179A4": 9,
+          "#547DAA": 5,
+          "#5781AE": 3,
+          "#5984B3": 7,
+          "#5B87B7": 5,
+          "#5E8BBD": 1,
+          "#6392C5": 12,
+          "#6392C6": 7,
+          "#6493C6": 7,
+          "#6393C6": 1,
+          "#3C5B7D": 4,
+          "#45688D": 4,
+          "#4B6F97": 1,
+          "#4F759F": 8,
+          "#527AA6": 5,
+          "#557EAB": 9,
+          "#5A85B4": 12,
+          "#5C87B7": 2,
+          "#608EBF": 4,
+          "#6391C5": 2,
+          "#6493C7": 12,
+          "#35516F": 3,
+          "#406184": 5,
+          "#476A90": 2,
+          "#4B7199": 4,
+          "#557FAC": 2,
+          "#5C88B7": 2,
+          "#6494C7": 2,
+          "#6494C8": 3,
+          "#6291C3": 2,
+          "#283F57": 123,
+          "#3A5879": 3,
+          "#426388": 2,
+          "#486B92": 4,
+          "#4C719A": 5,
+          "#5077A1": 4,
+          "#537BA6": 2,
+          "#5781AF": 6,
+          "#314C69": 3,
+          "#436589": 3,
+          "#5B87B6": 4,
+          "#5F8DBE": 2,
+          "#6190C2": 5,
+          "#5C89B9": 3,
+          "#344F6D": 6,
+          "#436489": 3,
+          "#4C7199": 1,
+          "#527AA5": 1,
+          "#5D8ABB": 2,
+          "#6290C2": 2,
+          "#3D5C7D": 2,
+          "#426488": 3,
+          "#476A91": 2,
+          "#4B7098": 9,
+          "#4E759E": 2,
+          "#547CA8": 3,
+          "#34506E": 4,
+          "#3C5A7C": 2,
+          "#46698F": 7,
+          "#334E6C": 1,
+          "#3B597A": 2,
+          "#45678D": 2,
+          "#4C729A": 1,
+          "#5279A4": 1,
+          "#567FAC": 2,
+          "#395676": 2,
+          "#3F5F82": 6,
+          "#476B91": 4,
+          "#4E749D": 7,
+          "#527BA6": 1,
+          "#5882B1": 4,
+          "#547DA9": 4,
+          "#2F4964": 3,
+          "#375373": 3,
+          "#3D5C7E": 6,
+          "#426387": 4,
+          "#45688E": 3,
+          "#496D95": 2,
+          "#5178A3": 5,
+          "#5B86B5": 2,
+          "#5E8CBD": 1,
+          "#2C445E": 3,
+          "#3B5979": 1,
+          "#44658A": 2,
+          "#324C69": 3,
+          "#385575": 3,
+          "#5279A5": 6,
+          "#5680AE": 3,
+          "#5C88B9": 1,
+          "#2E4762": 2,
+          "#3F5F81": 1,
+          "#557EAA": 2,
+          "#4E759F": 1,
+          "#294059": 4,
+          "#314B68": 2,
+          "#3C5B7C": 4,
+          "#406084": 2,
+          "#466990": 2,
+          "#4F76A1": 1,
+          "#2C445F": 1,
+          "#334E6B": 1,
+          "#385675": 1,
+          "#44668B": 3,
+          "#466A90": 1,
+          "#5078A2": 2,
+          "#46688E": 1,
+          "#2F4863": 1,
+          "#395677": 1,
+          "#4C729B": 2,
+          "#4E749E": 3,
+          "#293F58": 1,
+          "#2F4965": 1,
+          "#35506F": 1,
+          "#395777": 1,
+          "#496E95": 2,
+          "#29405A": 2,
+          "#304965": 3,
+          "#4A6E96": 3,
+          "#385574": 1,
+          "#3E5E80": 1,
+          "#436488": 1,
+          "#45678C": 1,
+          "#4B6F98": 1,
+          "#324D6A": 2,
+          "#365271": 1,
+          "#395778": 1,
+          "#3F5E81": 1,
+          "#406185": 1,
+          "#476B92": 1,
+          "#304A66": 1,
+          "#375473": 2,
+          "#3A5778": 1,
+          "#3E5D7F": 2,
+          "#35506E": 1,
+          "#2D4660": 1,
+          "#365372": 1,
+          "#3D5B7D": 1,
+          "#3E5D80": 3,
+          "#3B5A7B": 1,
+          "#2D455F": 1,
+          "#365270": 1,
+          "#375372": 1,
+          "#385474": 1,
+          "#375474": 1,
+          "#2B435D": 1,
+          "#2D4661": 2,
+          "#2F4864": 2,
+          "#2A415A": 1
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Mode round-trip retains custom boundaries and exact bytes",
+      "pass": true,
+      "evidence": {
+        "revision": 8,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#5C88B8": 154,
+          "#B8D8F0": 403,
+          "#304878": 255
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Level draft does not remove colors before Apply",
+      "pass": true,
+      "evidence": {
+        "count": 4
+      }
+    },
+    {
+      "name": "One-level output is exact first color with no thresholds",
+      "pass": true,
+      "evidence": {
+        "revision": 9,
+        "captureRevision": 0,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#172038": 812
+        },
+        "bounds": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "32 levels preserve first entry and use monotonic thresholds",
+      "pass": true,
+      "evidence": {
+        "thresholds": [
+          0.03125,
+          0.0625,
+          0.09375,
+          0.125,
+          0.15625,
+          0.1875,
+          0.21875,
+          0.25,
+          0.28125,
+          0.3125,
+          0.34375,
+          0.375,
+          0.40625,
+          0.4375,
+          0.46875,
+          0.5,
+          0.53125,
+          0.5625,
+          0.59375,
+          0.625,
+          0.65625,
+          0.6875,
+          0.71875,
+          0.75,
+          0.78125,
+          0.8125,
+          0.84375,
+          0.875,
+          0.90625,
+          0.9375,
+          0.96875
+        ],
+        "colors": [
+          "#172038",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0",
+          "#B8D8F0"
+        ]
+      }
+    },
+    {
+      "name": "Explicit ramp generation connects all three inputs and preserves boundaries",
+      "pass": true,
+      "evidence": {
+        "colors": [
+          "#110033",
+          "#068D4C",
+          "#9CCC8C",
+          "#FFFFCC"
+        ],
+        "frame": {
+          "revision": 15,
+          "captureRevision": 0,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#FFFFCC": 812
+          },
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          }
+        }
+      }
+    },
+    {
+      "name": "Cube faces change bands under moved light while camera/object stay independent",
+      "pass": true,
+      "evidence": {
+        "changedPixels": 224,
+        "right": {
+          "revision": 18,
+          "captureRevision": 2,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#B8D8F0": 448,
+            "#5C88B8": 224
+          },
+          "bounds": {
+            "x": 18,
+            "y": 16,
+            "width": 28,
+            "height": 32
+          }
+        },
+        "left": {
+          "revision": 19,
+          "captureRevision": 2,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#B8D8F0": 448,
+            "#172038": 224
+          },
+          "bounds": {
+            "x": 18,
+            "y": 16,
+            "width": 28,
+            "height": 32
+          }
+        },
+        "captures": 3
+      }
+    },
+    {
+      "name": "Colored light tints continuous RGB",
+      "pass": true,
+      "evidence": {
+        "colors": [
+          "#513F57",
+          "#583F57",
+          "#283F57"
+        ]
+      }
+    },
+    {
+      "name": "Colored-light bands emit stored RGB only",
+      "pass": true,
+      "evidence": {
+        "revision": 22,
+        "captureRevision": 2,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#304878": 448,
+          "#172038": 224
+        },
+        "bounds": {
+          "x": 18,
+          "y": 16,
+          "width": 28,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Extreme valid lighting saturates to last ramp entry",
+      "pass": true,
+      "evidence": {
+        "revision": 24,
+        "captureRevision": 2,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#B8D8F0": 672
+        },
+        "bounds": {
+          "x": 18,
+          "y": 16,
+          "width": 28,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Zero lighting selects first ramp entry",
+      "pass": true,
+      "evidence": {
+        "revision": 26,
+        "captureRevision": 2,
+        "width": 64,
+        "height": 64,
+        "colors": {
+          "#172038": 672
+        },
+        "bounds": {
+          "x": 18,
+          "y": 16,
+          "width": 28,
+          "height": 32
+        }
+      }
+    },
+    {
+      "name": "Low-segment sphere has distinct smooth/flat shading, same mask, one recapture, no geometry rebuild",
+      "pass": true,
+      "evidence": {
+        "smoothColors": 187,
+        "flatColors": 12,
+        "captures": [
+          6,
+          7
+        ],
+        "geometryBuilds": 5
+      }
+    },
+    {
+      "name": "Mirrored nonuniform low-segment cone has correct distinct smooth/flat frames and same coverage",
+      "pass": true,
+      "evidence": {
+        "smoothColors": 46,
+        "flatColors": 2,
+        "scale": {
+          "x": -2,
+          "y": 0.5,
+          "z": 1.4
+        },
+        "geometryBuilds": 3
+      }
+    },
+    {
+      "name": "Flat-normal cel keeps flat continuous reference and reuses normal capture",
+      "pass": true,
+      "evidence": {
+        "final": {
+          "revision": 8,
+          "captureRevision": 6,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#B8D8F0": 161
+          },
+          "bounds": {
+            "x": 16,
+            "y": 27,
+            "width": 32,
+            "height": 10
+          }
+        },
+        "captures": 7
+      }
+    },
+    {
+      "name": "Normal treatment alone causes one recapture without geometry replacement",
+      "pass": true,
+      "evidence": {
+        "captures": [
+          7,
+          8
+        ],
+        "geometryBuilds": 3
+      }
+    },
+    {
+      "name": "Extreme brightness chooses deterministic stored endpoints",
+      "pass": true,
+      "evidence": {
+        "min": {
+          "revision": 10,
+          "captureRevision": 7,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#172038": 161
+          },
+          "bounds": {
+            "x": 16,
+            "y": 27,
+            "width": 32,
+            "height": 10
+          }
+        },
+        "max": {
+          "revision": 11,
+          "captureRevision": 7,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#B8D8F0": 161
+          },
+          "bounds": {
+            "x": 16,
+            "y": 27,
+            "width": 32,
+            "height": 10
+          }
+        }
+      }
+    },
+    {
+      "name": "32 mode switches retain one geometry/texture/program/target and latest publication",
+      "pass": true,
+      "evidence": {
+        "before": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "after": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        },
+        "captures": [
+          12,
+          28
+        ],
+        "targetLifecycle": {
+          "created": 1,
+          "disposed": 0,
+          "active": 1
+        }
+      }
+    },
+    {
+      "name": "Preview zoom/pan/grid/checker/compare never recapture or process and preserve both byte arrays",
+      "pass": true,
+      "evidence": {
+        "counts": [
+          28,
+          49
+        ],
+        "preview": {
+          "zoom": 2,
+          "pan": {
+            "x": 16,
+            "y": 0
+          },
+          "grid": true,
+          "checkerboard": false,
+          "referenceWireframe": false,
+          "mode": "side-by-side",
+          "tool": "preview-pan"
+        }
+      }
+    },
+    {
+      "name": "StrictMode remount 1 releases prior resources and retains current settings/frame",
+      "pass": true,
+      "evidence": {
+        "lifecycle": {
+          "created": 4,
+          "disposed": 3,
+          "active": 1
+        },
+        "targetLifecycle": {
+          "created": 2,
+          "disposed": 1,
+          "active": 1
+        },
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        }
+      }
+    },
+    {
+      "name": "StrictMode remount 2 releases prior resources and retains current settings/frame",
+      "pass": true,
+      "evidence": {
+        "lifecycle": {
+          "created": 6,
+          "disposed": 5,
+          "active": 1
+        },
+        "targetLifecycle": {
+          "created": 3,
+          "disposed": 2,
+          "active": 1
+        },
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        }
+      }
+    },
+    {
+      "name": "StrictMode remount 3 releases prior resources and retains current settings/frame",
+      "pass": true,
+      "evidence": {
+        "lifecycle": {
+          "created": 8,
+          "disposed": 7,
+          "active": 1
+        },
+        "targetLifecycle": {
+          "created": 4,
+          "disposed": 3,
+          "active": 1
+        },
+        "memory": {
+          "geometries": 1,
+          "textures": 1,
+          "programs": 1
+        }
+      }
+    },
+    {
+      "name": "Real context loss removes output and offers recovery",
+      "pass": true,
+      "evidence": {}
+    },
+    {
+      "name": "Retry rebuilds latest revision with one target and renderer",
+      "pass": true,
+      "evidence": {
+        "lifecycle": {
+          "created": 10,
+          "disposed": 9,
+          "active": 1
+        },
+        "targetLifecycle": {
+          "created": 5,
+          "disposed": 4,
+          "active": 1
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 48,
+          "captureRevision": 27,
+          "byteLength": 16384
+        }
+      }
+    },
+    {
+      "name": "Native wheel zoom remains presentation-only",
+      "pass": true,
+      "evidence": {
+        "zoom": [
+          8,
+          7
+        ],
+        "counts": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Generated shadow/base/highlight ramp is visibly used across all four regions",
+      "pass": true,
+      "evidence": {
+        "ramp": [
+          "#301B28",
+          "#A56453",
+          "#D6A07B",
+          "#F4D7A1"
+        ],
+        "frame": {
+          "revision": 53,
+          "captureRevision": 28,
+          "width": 64,
+          "height": 64,
+          "colors": {
+            "#D6A07B": 154,
+            "#F4D7A1": 403,
+            "#A56453": 115,
+            "#301B28": 140
+          },
+          "bounds": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          }
+        }
+      }
+    },
+    {
+      "name": "Final application/fixture run has no warning/error console entries",
+      "pass": true,
+      "evidence": {
+        "app": [],
+        "fixture": []
+      }
+    }
+  ],
+  "passed": true
+}

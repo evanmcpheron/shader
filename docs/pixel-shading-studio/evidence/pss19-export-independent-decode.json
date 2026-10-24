@@ -1,0 +1,309 @@
+{
+  "decoder": "Pillow 12.3.0 / actual downloaded PNG files",
+  "checks": [
+    {
+      "name": "s1-sphere",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "s8-96x64-zoom8",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "s8-zoom100-dpr2",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "s8-zoom125-dpr2",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "s8-zoom1600-dpr2",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "transparent-none",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "transparent-2",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "transparent-4",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "transparent-8",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "transparent-blue-noise",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "transparent-floyd-steinberg",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-none",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-2",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-4",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-8",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-blue-noise",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "solid-floyd-steinberg",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "shading-smooth",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "shading-flat",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "shading-cel",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "shading-palette",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "s5-outline-explicit",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "s5-outline-strict-blue-noise",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "s5-outline-clipped",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "rectangular-plane",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "ground-shadows-outline-fs",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "import-glb-effects-fs",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "import-gltf-effects-fs",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "import-pinned-before-primitive",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "rapid-edit-export-newer-preview",
+      "matches": true,
+      "dimensions": [
+        96,
+        64
+      ]
+    },
+    {
+      "name": "encoding-owns-pixels-across-preview-edit",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "retry-after-null",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "retry-after-throw",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "retry-after-download",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "retry-context-queued",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "retry-context-encoding",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "all-preview-overlays-excluded",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "name": "overlays-off-same-output",
+      "matches": true,
+      "dimensions": [
+        64,
+        64
+      ]
+    }
+  ]
+}

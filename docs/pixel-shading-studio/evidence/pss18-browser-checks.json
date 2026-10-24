@@ -1,0 +1,3021 @@
+{
+  "checks": [
+    {
+      "name": "new profile starts with canonical sphere",
+      "passed": true
+    },
+    {
+      "name": "fully configured scene equals fixture across every persisted category",
+      "passed": true,
+      "detail": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "torus",
+            "radius": 0.9,
+            "tubeRadius": 0.31,
+            "radialSegments": 20,
+            "tubularSegments": 48
+          },
+          "transform": {
+            "position": {
+              "x": 0.2,
+              "y": 0.35,
+              "z": -0.1
+            },
+            "rotation": {
+              "x": 25,
+              "y": 18,
+              "z": -12
+            },
+            "scale": {
+              "x": 1.1,
+              "y": 0.85,
+              "z": -1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 3,
+            "y": 2,
+            "z": 6
+          },
+          "target": {
+            "x": 0.1,
+            "y": 0.2,
+            "z": 0
+          },
+          "roll": 17,
+          "projection": {
+            "kind": "perspective",
+            "zoom": 1.2,
+            "fov": 51
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": -4,
+              "y": 6,
+              "z": 3
+            },
+            "target": {
+              "x": 0.2,
+              "y": 0.1,
+              "z": -0.1
+            },
+            "color": "#F0D8BA",
+            "intensity": 1.3
+          },
+          "ambient": {
+            "color": "#B8C8F0",
+            "intensity": 0.29
+          }
+        },
+        "canvas": {
+          "width": 96,
+          "height": 80
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 42,
+              "height": 36
+            },
+            "alignment": "bottom-right",
+            "offset": {
+              "x": -3,
+              "y": -2
+            },
+            "padding": {
+              "top": 5,
+              "right": 6,
+              "bottom": 7,
+              "left": 4
+            }
+          }
+        },
+        "shading": {
+          "normals": "flat",
+          "tone": {
+            "kind": "bands",
+            "thresholds": [
+              0.18,
+              0.47,
+              0.81
+            ]
+          },
+          "baseColor": "#C47761",
+          "shadowColor": "#301B28",
+          "highlightColor": "#F4D7A1",
+          "brightness": 0.08,
+          "contrast": 1.15,
+          "distribution": 0.9
+        },
+        "palette": {
+          "colors": [
+            "#211522",
+            "#73424F",
+            "#BC7B64",
+            "#F1D5A0"
+          ],
+          "effectPolicy": "strict"
+        },
+        "dither": {
+          "kind": "bayer",
+          "strength": 0.7,
+          "patternScale": 2,
+          "transitionWidth": 0.85,
+          "matrixSize": 8
+        },
+        "outline": {
+          "kind": "silhouette",
+          "thickness": 2,
+          "color": "#302040"
+        },
+        "ground": {
+          "kind": "receiver",
+          "position": {
+            "x": 0.1,
+            "y": -1.25,
+            "z": -0.2
+          },
+          "width": 5,
+          "depth": 4,
+          "appearance": {
+            "kind": "visible",
+            "color": "#594C60"
+          }
+        },
+        "shadows": {
+          "kind": "directional",
+          "self": true,
+          "ground": true,
+          "strength": 0.75,
+          "color": "#23162F",
+          "bias": 0.7,
+          "treatment": {
+            "kind": "pixel-soft",
+            "radius": 2
+          }
+        },
+        "background": {
+          "kind": "solid",
+          "color": "#24202D"
+        }
+      }
+    },
+    {
+      "name": "named save has a distinct identifier",
+      "passed": true
+    },
+    {
+      "name": "saved current equals validated settings",
+      "passed": true
+    },
+    {
+      "name": "s7-before-reload: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "BC7B64",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "reload hydrates all settings before initial rendering",
+      "passed": true
+    },
+    {
+      "name": "reload keeps only the settings contract in local JSON",
+      "passed": true
+    },
+    {
+      "name": "s7-after-reload: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "BC7B64",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "S7 reload reproduces exact settled native pixels",
+      "passed": true,
+      "detail": {
+        "before": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+        "after": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+      }
+    },
+    {
+      "name": "full reset keeps named presets",
+      "passed": true
+    },
+    {
+      "name": "atomic restore captures/processes exactly one latest native frame",
+      "passed": true,
+      "detail": {
+        "before": {
+          "visibilityCaptures": 1,
+          "receiverCaptures": 1,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 1,
+            "allocatedMaps": 1,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": -0.00001,
+            "normalBias": 0.0026244778567988502,
+            "depthSpan": 5.930648503571092,
+            "depthStep": 0.17294964676823474,
+            "frustum": {
+              "left": -1.5385306255093698,
+              "right": 1.5385306255093714,
+              "top": 1.9196180895443014,
+              "bottom": -1.9196180895443025,
+              "near": 5.361765774920498,
+              "far": 10.719064807988996
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 4,
+          "readback": "synchronous",
+          "captures": 2,
+          "processes": 4,
+          "composites": 4,
+          "timings": {
+            "visibilityMs": 0.19999980926513672,
+            "filterMs": 0,
+            "captureMs": 5.200000047683716,
+            "readbackMs": 2.499999761581421,
+            "processMs": 0.8000001907348633,
+            "originalMs": 0.40000009536743164,
+            "styleMs": 0.40000009536743164,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 2,
+            "disposed": 1,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 2,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        },
+        "after": {
+          "visibilityCaptures": 2,
+          "receiverCaptures": 2,
+          "ground": {
+            "receiverExtent": {
+              "x": 6,
+              "y": 59,
+              "width": 95,
+              "height": 58
+            },
+            "shadowExtent": {
+              "x": 42,
+              "y": 68,
+              "width": 71,
+              "height": 35
+            },
+            "receiverClipped": true,
+            "shadowClipped": true,
+            "notice": "Extents are conservative projected bounds including soft radius; finite ground can cut the shadow. Canvas and subject fit stay fixed."
+          },
+          "shadow": {
+            "active": true,
+            "mapRenders": 2,
+            "allocatedMaps": 1,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": -0.00001,
+            "normalBias": 0.0026244778567988502,
+            "depthSpan": 5.930648503571092,
+            "depthStep": 0.17294964676823474,
+            "frustum": {
+              "left": -1.5385306255093698,
+              "right": 1.5385306255093714,
+              "top": 1.9196180895443014,
+              "bottom": -1.9196180895443025,
+              "near": 5.361765774920498,
+              "far": 10.719064807988996
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 42,
+              "height": 36
+            },
+            "effective": {
+              "width": 42,
+              "height": 36
+            },
+            "actual": {
+              "x": 45,
+              "y": 39,
+              "width": 42,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": {
+            "extent": {
+              "x": 43,
+              "y": 37,
+              "width": 46,
+              "height": 36
+            },
+            "visible": {
+              "x": 43,
+              "y": 37,
+              "width": 46,
+              "height": 36
+            },
+            "pixelCount": 427,
+            "clipped": false,
+            "color": "#211522",
+            "thickness": 2
+          },
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 5,
+          "composites": 5,
+          "timings": {
+            "visibilityMs": 2.4000000953674316,
+            "filterMs": 2.700000047683716,
+            "captureMs": 3.4000000953674316,
+            "readbackMs": 2.200000047683716,
+            "processMs": 0.7000000476837158,
+            "originalMs": 0.2999999523162842,
+            "styleMs": 0.40000009536743164,
+            "compositeMs": 0.20000004768371582,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 3,
+            "disposed": 2,
+            "active": 1
+          },
+          "target": {
+            "width": 96,
+            "height": 80,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 30720,
+            "visibility": 30720,
+            "filtered": 30720
+          },
+          "buffers": {
+            "raw": 30720,
+            "normals": 30720,
+            "work": 30720,
+            "styled": 30720,
+            "ring": 7680,
+            "horizontal": 7680
+          },
+          "frame": {
+            "width": 96,
+            "height": 80,
+            "revision": 3,
+            "captureRevision": 3,
+            "byteLength": 30720
+          }
+        },
+        "presentationDraws": 2
+      }
+    },
+    {
+      "name": "s7-after-preset-restore: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "BC7B64",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "preset restore reproduces every setting",
+      "passed": true
+    },
+    {
+      "name": "preset restore reproduces all native pixels",
+      "passed": true,
+      "detail": {
+        "before": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1",
+        "restored": "51697f56155ca1ec7f9d474db24612b10f99046be94e3da881f0c28c509e53e1"
+      }
+    },
+    {
+      "name": "restore publishes exactly one complete settings transition",
+      "passed": true
+    },
+    {
+      "name": "autosave after restore writes only complete intended scene",
+      "passed": true
+    },
+    {
+      "name": "restore keeps view/tool state",
+      "passed": true
+    },
+    {
+      "name": "palette reset retains camera, lighting, subject and dither",
+      "passed": true
+    },
+    {
+      "name": "overwrite requires explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "confirmed overwrite captures current settings",
+      "passed": true
+    },
+    {
+      "name": "delete requires explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "confirmed delete keeps current scene",
+      "passed": true
+    },
+    {
+      "name": "factory-sphere: complete working factory scene",
+      "passed": true
+    },
+    {
+      "name": "factory-cube: complete working factory scene",
+      "passed": true
+    },
+    {
+      "name": "factory-dither: complete working factory scene",
+      "passed": true
+    },
+    {
+      "name": "quota failure is visible while keeping complete in-memory settings",
+      "passed": true
+    },
+    {
+      "name": "quota-in-memory-export: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "BC7B64",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "quota-failed named save remains usable in memory",
+      "passed": true
+    },
+    {
+      "name": "retry commits current and unsaved named preset",
+      "passed": true
+    },
+    {
+      "name": "unavailable storage getter leaves renderer and editing usable with visible notice",
+      "passed": true
+    },
+    {
+      "name": "security-error-in-memory-export: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "malformed-current: invalid saved data is visible and not loaded",
+      "passed": true
+    },
+    {
+      "name": "malformed-current: edits/autosave preserve raw original",
+      "passed": true
+    },
+    {
+      "name": "malformed-current: recovery download includes original and in-memory scene",
+      "passed": true
+    },
+    {
+      "name": "malformed-current: replace awaits explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "malformed-current: explicit replace archives raw and commits current scene only",
+      "passed": true
+    },
+    {
+      "name": "future-current: invalid saved data is visible and not loaded",
+      "passed": true
+    },
+    {
+      "name": "future-current: edits/autosave preserve raw original",
+      "passed": true
+    },
+    {
+      "name": "future-current: recovery download includes original and in-memory scene",
+      "passed": true
+    },
+    {
+      "name": "future-current: replace awaits explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "future-current: explicit replace archives raw and commits current scene only",
+      "passed": true
+    },
+    {
+      "name": "invalid-current: invalid saved data is visible and not loaded",
+      "passed": true
+    },
+    {
+      "name": "invalid-current: edits/autosave preserve raw original",
+      "passed": true
+    },
+    {
+      "name": "invalid-current: recovery download includes original and in-memory scene",
+      "passed": true
+    },
+    {
+      "name": "invalid-current: replace awaits explicit confirmation",
+      "passed": true
+    },
+    {
+      "name": "invalid-current: explicit replace archives raw and commits current scene only",
+      "passed": true
+    },
+    {
+      "name": "unknown library version has actionable recovery status",
+      "passed": true
+    },
+    {
+      "name": "unknown library stays intact while a new preset remains in memory",
+      "passed": true
+    },
+    {
+      "name": "library recovery commits new presets after preserving original",
+      "passed": true
+    },
+    {
+      "name": "storage blocked during startup preserves usable default scene and status",
+      "passed": true
+    },
+    {
+      "name": "startup-storage-unavailable-export: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 64,
+        "height": 64,
+        "differentBytes": 0,
+        "alpha": [
+          0,
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "B8D8F0"
+        ],
+        "opaquePixels": 1024,
+        "bounds": {
+          "minX": 16,
+          "minY": 16,
+          "maxX": 47,
+          "maxY": 47
+        }
+      }
+    },
+    {
+      "name": "startup storage retry saves in-memory work and preserves earlier named presets",
+      "passed": true
+    },
+    {
+      "name": "model imported through real file input",
+      "passed": true
+    },
+    {
+      "name": "import-before-reload: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "stored import contains descriptor only without files/URLs/runtime",
+      "passed": true
+    },
+    {
+      "name": "reload preserves all imported settings and has no file/runtime asset",
+      "passed": true
+    },
+    {
+      "name": "wrong model reselect is rejected and releases staged asset",
+      "passed": true
+    },
+    {
+      "name": "matching file reselect preserves saved scene settings",
+      "passed": true
+    },
+    {
+      "name": "import-matching-reselect: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "matching model reproduces saved pixels",
+      "passed": true,
+      "detail": {
+        "before": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3",
+        "after": "e9ea27131f97c4bdfd8cd30c8fd9c597a07d03607f01616a1e9a34d5cc29cdd3"
+      }
+    },
+    {
+      "name": "explicit built-in fallback changes only geometry",
+      "passed": true
+    },
+    {
+      "name": "explicit-built-in-fallback: actual downloaded PNG matches authoritative RGBA",
+      "passed": true,
+      "detail": {
+        "matches": true,
+        "width": 96,
+        "height": 80,
+        "differentBytes": 0,
+        "alpha": [
+          255
+        ],
+        "hiddenColorPixels": 0,
+        "opaqueColors": [
+          "211522",
+          "73424F",
+          "BC7B64",
+          "F1D5A0"
+        ],
+        "opaquePixels": 7680,
+        "bounds": {
+          "minX": 0,
+          "minY": 0,
+          "maxX": 95,
+          "maxY": 79
+        }
+      }
+    },
+    {
+      "name": "preset controls remain within narrow viewport",
+      "passed": true,
+      "detail": {
+        "left": 16,
+        "right": 374,
+        "top": 128,
+        "bottom": 634,
+        "width": 390,
+        "height": 844,
+        "position": "fixed",
+        "maxHeight": "700px"
+      }
+    },
+    {
+      "name": "single healthy renderer remains",
+      "passed": true
+    },
+    {
+      "name": "all page resources are local",
+      "passed": true
+    },
+    {
+      "name": "no page console warnings/errors or uncaught exceptions",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "observations": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "gpu": {
+      "dpr": 1,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+    },
+    "schemaVersion": 1,
+    "atomic": {
+      "before": {
+        "lifecycle": {
+          "created": 2,
+          "disposed": 1,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "modelImport": {
+          "kind": "idle",
+          "message": ""
+        },
+        "frames": 8,
+        "geometryBuilds": 2,
+        "lightingInvalidations": 0,
+        "memory": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 6
+        },
+        "triangles": 3968,
+        "settings": {
+          "schemaVersion": 1,
+          "subject": {
+            "geometry": {
+              "kind": "sphere",
+              "radius": 1,
+              "widthSegments": 64,
+              "heightSegments": 32
+            },
+            "transform": {
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              }
+            }
+          },
+          "camera": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 5
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "roll": 0,
+            "projection": {
+              "kind": "orthographic",
+              "zoom": 1,
+              "verticalSize": 4
+            }
+          },
+          "lighting": {
+            "directional": {
+              "position": {
+                "x": 3,
+                "y": 4,
+                "z": 5
+              },
+              "target": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "color": "#FFFFFF",
+              "intensity": 1
+            },
+            "ambient": {
+              "color": "#FFFFFF",
+              "intensity": 0.2
+            }
+          },
+          "canvas": {
+            "width": 64,
+            "height": 64
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "fit": {
+              "box": {
+                "width": 32,
+                "height": 32
+              },
+              "alignment": "center",
+              "offset": {
+                "x": 0,
+                "y": 0
+              },
+              "padding": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          },
+          "shading": {
+            "normals": "smooth",
+            "tone": {
+              "kind": "bands",
+              "thresholds": [
+                0.25,
+                0.5,
+                0.75
+              ]
+            },
+            "baseColor": "#5C88B8",
+            "shadowColor": "#172038",
+            "highlightColor": "#B8D8F0",
+            "brightness": 0,
+            "contrast": 1,
+            "distribution": 1
+          },
+          "palette": {
+            "colors": [
+              "#172038",
+              "#304878",
+              "#5C88B8",
+              "#B8D8F0"
+            ],
+            "effectPolicy": "explicit"
+          },
+          "dither": {
+            "kind": "none"
+          },
+          "outline": {
+            "kind": "none"
+          },
+          "ground": {
+            "kind": "none"
+          },
+          "shadows": {
+            "kind": "none"
+          },
+          "background": {
+            "kind": "transparent"
+          }
+        },
+        "preview": {
+          "zoom": 3,
+          "pan": {
+            "x": 0,
+            "y": 0
+          },
+          "grid": true,
+          "checkerboard": true,
+          "referenceWireframe": false,
+          "mode": "final",
+          "tool": "preview-pan"
+        },
+        "presentation": [
+          {
+            "name": "Native pixel output",
+            "viewport": {
+              "left": 260,
+              "top": 156.5,
+              "width": 960,
+              "height": 421
+            },
+            "image": {
+              "left": 644,
+              "top": 271,
+              "width": 192,
+              "height": 192
+            },
+            "smoothing": false
+          }
+        ],
+        "revisions": {
+          "settings": 2,
+          "capture": 2,
+          "style": 2,
+          "shadow": 2,
+          "view": 2
+        },
+        "camera": {
+          "enabled": false,
+          "panEnabled": false,
+          "zoomEnabled": false,
+          "lightOwnsGesture": false,
+          "changes": 0,
+          "disposed": false,
+          "sourcePosition": [
+            0,
+            0,
+            5
+          ],
+          "target": [
+            0,
+            0,
+            0
+          ],
+          "sourceQuaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "renderQuaternion": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "projectionMatrix": [
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            -0.20010005002501252,
+            0,
+            0,
+            0,
+            -1.0010005002501252,
+            1
+          ],
+          "near": 0.005,
+          "far": 10
+        },
+        "native": {
+          "visibilityCaptures": 1,
+          "receiverCaptures": 1,
+          "ground": null,
+          "shadow": {
+            "active": false,
+            "mapRenders": 1,
+            "allocatedMaps": 1,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": -0.00001,
+            "normalBias": 0.0026244778567988502,
+            "depthSpan": 5.930648503571092,
+            "depthStep": 0.17294964676823474,
+            "frustum": {
+              "left": -1.5385306255093698,
+              "right": 1.5385306255093714,
+              "top": 1.9196180895443014,
+              "bottom": -1.9196180895443025,
+              "near": 5.361765774920498,
+              "far": 10.719064807988996
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 32,
+              "height": 32
+            },
+            "effective": {
+              "width": 32,
+              "height": 32
+            },
+            "actual": {
+              "x": 16,
+              "y": 16,
+              "width": 32,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": null,
+          "rasterizations": 4,
+          "readback": "synchronous",
+          "captures": 2,
+          "processes": 4,
+          "composites": 4,
+          "timings": {
+            "visibilityMs": 0.19999980926513672,
+            "filterMs": 0,
+            "captureMs": 5.200000047683716,
+            "readbackMs": 2.499999761581421,
+            "processMs": 0.8000001907348633,
+            "originalMs": 0.40000009536743164,
+            "styleMs": 0.40000009536743164,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 2,
+            "disposed": 1,
+            "active": 1
+          },
+          "target": {
+            "width": 64,
+            "height": 64,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 16384,
+            "visibility": 16384,
+            "filtered": 16384
+          },
+          "buffers": {
+            "raw": 16384,
+            "normals": 16384,
+            "work": 16384,
+            "styled": 16384,
+            "ring": 4096,
+            "horizontal": 4096
+          },
+          "frame": {
+            "width": 64,
+            "height": 64,
+            "revision": 2,
+            "captureRevision": 2,
+            "byteLength": 16384
+          }
+        },
+        "nativeCanvas": {
+          "width": 64,
+          "height": 64,
+          "revision": "2",
+          "smoothing": false
+        },
+        "light": {
+          "dragging": false,
+          "completed": 0,
+          "cancelled": 0,
+          "disposed": false
+        },
+        "lightHandle": {
+          "visible": false,
+          "layers": [
+            {
+              "name": "Mesh",
+              "mask": 2
+            },
+            {
+              "name": "Line",
+              "mask": 2
+            },
+            {
+              "name": "Mesh",
+              "mask": 2
+            }
+          ]
+        },
+        "subject": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "normalization": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "drawingBuffer": [
+          300,
+          150
+        ],
+        "devicePixelRatio": 1,
+        "contextLost": false,
+        "contextLossSimulation": true,
+        "exporting": false
+      },
+      "after": {
+        "lifecycle": {
+          "created": 2,
+          "disposed": 1,
+          "active": 1
+        },
+        "imports": {
+          "assets": 0,
+          "urls": 0,
+          "geometries": 0,
+          "materials": 0
+        },
+        "modelImport": {
+          "kind": "idle",
+          "message": ""
+        },
+        "frames": 11,
+        "geometryBuilds": 3,
+        "lightingInvalidations": 0,
+        "memory": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 6
+        },
+        "triangles": 1922,
+        "settings": {
+          "schemaVersion": 1,
+          "subject": {
+            "geometry": {
+              "kind": "torus",
+              "radius": 0.9,
+              "tubeRadius": 0.31,
+              "radialSegments": 20,
+              "tubularSegments": 48
+            },
+            "transform": {
+              "position": {
+                "x": 0.2,
+                "y": 0.35,
+                "z": -0.1
+              },
+              "rotation": {
+                "x": 25,
+                "y": 18,
+                "z": -12
+              },
+              "scale": {
+                "x": 1.1,
+                "y": 0.85,
+                "z": -1
+              }
+            }
+          },
+          "camera": {
+            "position": {
+              "x": 3,
+              "y": 2,
+              "z": 6
+            },
+            "target": {
+              "x": 0.1,
+              "y": 0.2,
+              "z": 0
+            },
+            "roll": 17,
+            "projection": {
+              "kind": "perspective",
+              "zoom": 1.2,
+              "fov": 51
+            }
+          },
+          "lighting": {
+            "directional": {
+              "position": {
+                "x": -4,
+                "y": 6,
+                "z": 3
+              },
+              "target": {
+                "x": 0.2,
+                "y": 0.1,
+                "z": -0.1
+              },
+              "color": "#F0D8BA",
+              "intensity": 1.3
+            },
+            "ambient": {
+              "color": "#B8C8F0",
+              "intensity": 0.29
+            }
+          },
+          "canvas": {
+            "width": 96,
+            "height": 80
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "fit": {
+              "box": {
+                "width": 42,
+                "height": 36
+              },
+              "alignment": "bottom-right",
+              "offset": {
+                "x": -3,
+                "y": -2
+              },
+              "padding": {
+                "top": 5,
+                "right": 6,
+                "bottom": 7,
+                "left": 4
+              }
+            }
+          },
+          "shading": {
+            "normals": "flat",
+            "tone": {
+              "kind": "bands",
+              "thresholds": [
+                0.18,
+                0.47,
+                0.81
+              ]
+            },
+            "baseColor": "#C47761",
+            "shadowColor": "#301B28",
+            "highlightColor": "#F4D7A1",
+            "brightness": 0.08,
+            "contrast": 1.15,
+            "distribution": 0.9
+          },
+          "palette": {
+            "colors": [
+              "#211522",
+              "#73424F",
+              "#BC7B64",
+              "#F1D5A0"
+            ],
+            "effectPolicy": "strict"
+          },
+          "dither": {
+            "kind": "bayer",
+            "strength": 0.7,
+            "patternScale": 2,
+            "transitionWidth": 0.85,
+            "matrixSize": 8
+          },
+          "outline": {
+            "kind": "silhouette",
+            "thickness": 2,
+            "color": "#302040"
+          },
+          "ground": {
+            "kind": "receiver",
+            "position": {
+              "x": 0.1,
+              "y": -1.25,
+              "z": -0.2
+            },
+            "width": 5,
+            "depth": 4,
+            "appearance": {
+              "kind": "visible",
+              "color": "#594C60"
+            }
+          },
+          "shadows": {
+            "kind": "directional",
+            "self": true,
+            "ground": true,
+            "strength": 0.75,
+            "color": "#23162F",
+            "bias": 0.7,
+            "treatment": {
+              "kind": "pixel-soft",
+              "radius": 2
+            }
+          },
+          "background": {
+            "kind": "solid",
+            "color": "#24202D"
+          }
+        },
+        "preview": {
+          "zoom": 3,
+          "pan": {
+            "x": 0,
+            "y": 0
+          },
+          "grid": true,
+          "checkerboard": true,
+          "referenceWireframe": false,
+          "mode": "final",
+          "tool": "preview-pan"
+        },
+        "presentation": [
+          {
+            "name": "Native pixel output",
+            "viewport": {
+              "left": 260,
+              "top": 156.5,
+              "width": 960,
+              "height": 367
+            },
+            "image": {
+              "left": 596,
+              "top": 220,
+              "width": 288,
+              "height": 240
+            },
+            "smoothing": false
+          }
+        ],
+        "revisions": {
+          "settings": 3,
+          "capture": 3,
+          "style": 3,
+          "shadow": 3,
+          "view": 2
+        },
+        "camera": {
+          "enabled": false,
+          "panEnabled": false,
+          "zoomEnabled": false,
+          "lightOwnsGesture": false,
+          "changes": 0,
+          "disposed": false,
+          "sourcePosition": [
+            3,
+            2,
+            6
+          ],
+          "target": [
+            0.09999999999999999,
+            0.19999999999999998,
+            0
+          ],
+          "sourceQuaternion": [
+            -0.12820408290681004,
+            0.2212772758815946,
+            0.029357976044829502,
+            0.9663012933588547
+          ],
+          "renderQuaternion": [
+            -0.09408900789817859,
+            0.23779650604727573,
+            0.17186392916968898,
+            0.951347922767901
+          ],
+          "projectionMatrix": [
+            2.0965435990881747,
+            0,
+            0,
+            0,
+            0,
+            2.515852318905809,
+            0,
+            0,
+            0,
+            0,
+            -1.001000500250125,
+            -1,
+            0,
+            0,
+            -0.01381270223545558,
+            0
+          ],
+          "near": 0.006902897942168926,
+          "far": 13.805795884337853
+        },
+        "native": {
+          "visibilityCaptures": 2,
+          "receiverCaptures": 2,
+          "ground": {
+            "receiverExtent": {
+              "x": 6,
+              "y": 59,
+              "width": 95,
+              "height": 58
+            },
+            "shadowExtent": {
+              "x": 42,
+              "y": 68,
+              "width": 71,
+              "height": 35
+            },
+            "receiverClipped": true,
+            "shadowClipped": true,
+            "notice": "Extents are conservative projected bounds including soft radius; finite ground can cut the shadow. Canvas and subject fit stay fixed."
+          },
+          "shadow": {
+            "active": true,
+            "mapRenders": 2,
+            "allocatedMaps": 1,
+            "resolution": [
+              1024,
+              1024
+            ],
+            "bias": -0.00001,
+            "normalBias": 0.0026244778567988502,
+            "depthSpan": 5.930648503571092,
+            "depthStep": 0.17294964676823474,
+            "frustum": {
+              "left": -1.5385306255093698,
+              "right": 1.5385306255093714,
+              "top": 1.9196180895443014,
+              "bottom": -1.9196180895443025,
+              "near": 5.361765774920498,
+              "far": 10.719064807988996
+            }
+          },
+          "framing": {
+            "mode": "pixel-fit",
+            "requested": {
+              "width": 42,
+              "height": 36
+            },
+            "effective": {
+              "width": 42,
+              "height": 36
+            },
+            "actual": {
+              "x": 45,
+              "y": 39,
+              "width": 42,
+              "height": 32
+            },
+            "clipped": false,
+            "converged": true,
+            "iterations": 2,
+            "notice": ""
+          },
+          "outline": {
+            "extent": {
+              "x": 43,
+              "y": 37,
+              "width": 46,
+              "height": 36
+            },
+            "visible": {
+              "x": 43,
+              "y": 37,
+              "width": 46,
+              "height": 36
+            },
+            "pixelCount": 427,
+            "clipped": false,
+            "color": "#211522",
+            "thickness": 2
+          },
+          "rasterizations": 6,
+          "readback": "synchronous",
+          "captures": 3,
+          "processes": 7,
+          "composites": 7,
+          "timings": {
+            "visibilityMs": 2.4000000953674316,
+            "filterMs": 2.700000047683716,
+            "captureMs": 3.4000000953674316,
+            "readbackMs": 2.200000047683716,
+            "processMs": 0.5999999046325684,
+            "originalMs": 0.2999999523162842,
+            "styleMs": 0.2999999523162842,
+            "compositeMs": 0,
+            "publishMs": 0
+          },
+          "targetLifecycle": {
+            "created": 3,
+            "disposed": 2,
+            "active": 1
+          },
+          "target": {
+            "width": 96,
+            "height": 80,
+            "samples": 0,
+            "type": 1009,
+            "format": 1023,
+            "colorSpace": "",
+            "minFilter": 1003,
+            "magFilter": 1003,
+            "generateMipmaps": false
+          },
+          "effectBuffers": {
+            "subject": 30720,
+            "visibility": 30720,
+            "filtered": 30720
+          },
+          "buffers": {
+            "raw": 30720,
+            "normals": 30720,
+            "work": 30720,
+            "styled": 30720,
+            "ring": 7680,
+            "horizontal": 7680
+          },
+          "frame": {
+            "width": 96,
+            "height": 80,
+            "revision": 3,
+            "captureRevision": 3,
+            "byteLength": 30720
+          }
+        },
+        "nativeCanvas": {
+          "width": 96,
+          "height": 80,
+          "revision": "3",
+          "smoothing": false
+        },
+        "light": {
+          "dragging": false,
+          "completed": 0,
+          "cancelled": 0,
+          "disposed": false
+        },
+        "lightHandle": {
+          "visible": false,
+          "layers": [
+            {
+              "name": "Mesh",
+              "mask": 2
+            },
+            {
+              "name": "Line",
+              "mask": 2
+            },
+            {
+              "name": "Mesh",
+              "mask": 2
+            }
+          ]
+        },
+        "subject": {
+          "position": [
+            0.2,
+            0.35,
+            -0.1
+          ],
+          "rotation": [
+            0.4363323129985824,
+            0.3141592653589793,
+            -0.20943951023931956,
+            "XYZ"
+          ],
+          "scale": [
+            1.1,
+            0.85,
+            -1
+          ]
+        },
+        "normalization": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "drawingBuffer": [
+          300,
+          150
+        ],
+        "devicePixelRatio": 1,
+        "contextLost": false,
+        "contextLossSimulation": true,
+        "exporting": false
+      }
+    },
+    "final": {
+      "lifecycle": {
+        "created": 2,
+        "disposed": 1,
+        "active": 1
+      },
+      "imports": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      },
+      "modelImport": {
+        "kind": "idle",
+        "message": ""
+      },
+      "frames": 9,
+      "geometryBuilds": 3,
+      "lightingInvalidations": 0,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "triangles": 3970,
+      "settings": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "sphere",
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 32
+          },
+          "transform": {
+            "position": {
+              "x": 0.2,
+              "y": 0.35,
+              "z": -0.1
+            },
+            "rotation": {
+              "x": 25,
+              "y": 18,
+              "z": -12
+            },
+            "scale": {
+              "x": 1.1,
+              "y": 0.85,
+              "z": -1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 3,
+            "y": 2,
+            "z": 6
+          },
+          "target": {
+            "x": 0.1,
+            "y": 0.2,
+            "z": 0
+          },
+          "roll": 17,
+          "projection": {
+            "kind": "perspective",
+            "zoom": 1.2,
+            "fov": 51
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": -4,
+              "y": 6,
+              "z": 3
+            },
+            "target": {
+              "x": 0.2,
+              "y": 0.1,
+              "z": -0.1
+            },
+            "color": "#F0D8BA",
+            "intensity": 1.3
+          },
+          "ambient": {
+            "color": "#B8C8F0",
+            "intensity": 0.29
+          }
+        },
+        "canvas": {
+          "width": 96,
+          "height": 80
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 42,
+              "height": 36
+            },
+            "alignment": "bottom-right",
+            "offset": {
+              "x": -3,
+              "y": -2
+            },
+            "padding": {
+              "top": 5,
+              "right": 6,
+              "bottom": 7,
+              "left": 4
+            }
+          }
+        },
+        "shading": {
+          "normals": "flat",
+          "tone": {
+            "kind": "bands",
+            "thresholds": [
+              0.18,
+              0.47,
+              0.81
+            ]
+          },
+          "baseColor": "#C47761",
+          "shadowColor": "#301B28",
+          "highlightColor": "#F4D7A1",
+          "brightness": 0.08,
+          "contrast": 1.15,
+          "distribution": 0.9
+        },
+        "palette": {
+          "colors": [
+            "#211522",
+            "#73424F",
+            "#BC7B64",
+            "#F1D5A0"
+          ],
+          "effectPolicy": "strict"
+        },
+        "dither": {
+          "kind": "bayer",
+          "strength": 0.7,
+          "patternScale": 2,
+          "transitionWidth": 0.85,
+          "matrixSize": 8
+        },
+        "outline": {
+          "kind": "silhouette",
+          "thickness": 2,
+          "color": "#302040"
+        },
+        "ground": {
+          "kind": "receiver",
+          "position": {
+            "x": 0.1,
+            "y": -1.25,
+            "z": -0.2
+          },
+          "width": 5,
+          "depth": 4,
+          "appearance": {
+            "kind": "visible",
+            "color": "#594C60"
+          }
+        },
+        "shadows": {
+          "kind": "directional",
+          "self": true,
+          "ground": true,
+          "strength": 0.75,
+          "color": "#23162F",
+          "bias": 0.7,
+          "treatment": {
+            "kind": "pixel-soft",
+            "radius": 2
+          }
+        },
+        "background": {
+          "kind": "solid",
+          "color": "#24202D"
+        }
+      },
+      "preview": {
+        "zoom": 5,
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "grid": false,
+        "checkerboard": true,
+        "referenceWireframe": false,
+        "mode": "final",
+        "tool": "camera"
+      },
+      "presentation": [
+        {
+          "name": "Native pixel output",
+          "viewport": {
+            "left": 0,
+            "top": 236.5,
+            "width": 390,
+            "height": 112
+          },
+          "image": {
+            "left": -45,
+            "top": 93,
+            "width": 480,
+            "height": 400
+          },
+          "smoothing": false
+        }
+      ],
+      "revisions": {
+        "settings": 4,
+        "capture": 4,
+        "style": 4,
+        "shadow": 4,
+        "view": 1
+      },
+      "camera": {
+        "enabled": true,
+        "panEnabled": false,
+        "zoomEnabled": false,
+        "lightOwnsGesture": false,
+        "changes": 0,
+        "disposed": false,
+        "sourcePosition": [
+          3,
+          2,
+          6
+        ],
+        "target": [
+          0.09999999999999999,
+          0.19999999999999998,
+          0
+        ],
+        "sourceQuaternion": [
+          -0.12820408290681004,
+          0.2212772758815946,
+          0.029357976044829502,
+          0.9663012933588547
+        ],
+        "renderQuaternion": [
+          -0.09408900789817859,
+          0.23779650604727573,
+          0.17186392916968898,
+          0.951347922767901
+        ],
+        "projectionMatrix": [
+          2.0965435990881747,
+          0,
+          0,
+          0,
+          0,
+          2.515852318905809,
+          0,
+          0,
+          0,
+          0,
+          -1.001000500250125,
+          -1,
+          0,
+          0,
+          -0.01381270223545558,
+          0
+        ],
+        "near": 0.006902897942168926,
+        "far": 13.805795884337853
+      },
+      "native": {
+        "visibilityCaptures": 3,
+        "receiverCaptures": 3,
+        "ground": {
+          "receiverExtent": {
+            "x": -3,
+            "y": 57,
+            "width": 110,
+            "height": 67
+          },
+          "shadowExtent": {
+            "x": 41,
+            "y": 68,
+            "width": 76,
+            "height": 39
+          },
+          "receiverClipped": true,
+          "shadowClipped": true,
+          "notice": "Extents are conservative projected bounds including soft radius; finite ground can cut the shadow. Canvas and subject fit stay fixed."
+        },
+        "shadow": {
+          "active": true,
+          "mapRenders": 3,
+          "allocatedMaps": 1,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bias": -0.00001,
+          "normalBias": 0.0025243936344537784,
+          "depthSpan": 5.9196400397184465,
+          "depthStep": 0.14823062573973655,
+          "frustum": {
+            "left": -1.6140984288289706,
+            "right": 1.6140984288289721,
+            "top": 1.8464136297719063,
+            "bottom": -1.8464136297719067,
+            "near": 5.3321235609778,
+            "far": 10.603475937536219
+          }
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 42,
+            "height": 36
+          },
+          "effective": {
+            "width": 42,
+            "height": 36
+          },
+          "actual": {
+            "x": 45,
+            "y": 35,
+            "width": 42,
+            "height": 36
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "outline": {
+          "extent": {
+            "x": 43,
+            "y": 33,
+            "width": 46,
+            "height": 40
+          },
+          "visible": {
+            "x": 43,
+            "y": 33,
+            "width": 46,
+            "height": 40
+          },
+          "pixelCount": 328,
+          "clipped": false,
+          "color": "#211522",
+          "thickness": 2
+        },
+        "rasterizations": 6,
+        "readback": "synchronous",
+        "captures": 3,
+        "processes": 7,
+        "composites": 7,
+        "timings": {
+          "visibilityMs": 2.0999999046325684,
+          "filterMs": 1.7000000476837158,
+          "captureMs": 3.4000000953674316,
+          "readbackMs": 2.1000001430511475,
+          "processMs": 1.0999999046325684,
+          "originalMs": 0.39999985694885254,
+          "styleMs": 0.7000000476837158,
+          "compositeMs": 0,
+          "publishMs": 0
+        },
+        "targetLifecycle": {
+          "created": 1,
+          "disposed": 0,
+          "active": 1
+        },
+        "target": {
+          "width": 96,
+          "height": 80,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "effectBuffers": {
+          "subject": 30720,
+          "visibility": 30720,
+          "filtered": 30720
+        },
+        "buffers": {
+          "raw": 30720,
+          "normals": 30720,
+          "work": 30720,
+          "styled": 30720,
+          "ring": 7680,
+          "horizontal": 7680
+        },
+        "frame": {
+          "width": 96,
+          "height": 80,
+          "revision": 4,
+          "captureRevision": 4,
+          "byteLength": 30720
+        }
+      },
+      "nativeCanvas": {
+        "width": 96,
+        "height": 80,
+        "revision": "4",
+        "smoothing": false
+      },
+      "light": {
+        "dragging": false,
+        "completed": 0,
+        "cancelled": 0,
+        "disposed": false
+      },
+      "lightHandle": {
+        "visible": false,
+        "layers": [
+          {
+            "name": "Mesh",
+            "mask": 2
+          },
+          {
+            "name": "Line",
+            "mask": 2
+          },
+          {
+            "name": "Mesh",
+            "mask": 2
+          }
+        ]
+      },
+      "subject": {
+        "position": [
+          0.2,
+          0.35,
+          -0.1
+        ],
+        "rotation": [
+          0.4363323129985824,
+          0.3141592653589793,
+          -0.20943951023931956,
+          "XYZ"
+        ],
+        "scale": [
+          1.1,
+          0.85,
+          -1
+        ]
+      },
+      "normalization": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "drawingBuffer": [
+        300,
+        150
+      ],
+      "devicePixelRatio": 1,
+      "contextLost": false,
+      "contextLossSimulation": true,
+      "exporting": false
+    },
+    "downloads": [
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "b436defd-724a-4925-82b7-1cb528f40746",
+        "url": "blob:http://127.0.0.1:5173/a8107b29-85c4-4e7e-b430-28b272e7f692",
+        "suggestedFilename": "torus-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1325,
+        "receivedBytes": 1325,
+        "filePath": "/tmp/pss18-downloads-egiFFa/b436defd-724a-4925-82b7-1cb528f40746"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "b719e437-60c3-4376-a811-74c188ab28db",
+        "url": "blob:http://127.0.0.1:5173/9c34e6d2-b2d1-4031-a11b-18929ccc7d64",
+        "suggestedFilename": "torus-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1325,
+        "receivedBytes": 1325,
+        "filePath": "/tmp/pss18-downloads-egiFFa/b719e437-60c3-4376-a811-74c188ab28db"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "23ed9603-8a95-417c-9252-5ad01f38b2fa",
+        "url": "blob:http://127.0.0.1:5173/1dab1cda-478a-4734-9e41-8ef771debcd7",
+        "suggestedFilename": "torus-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1325,
+        "receivedBytes": 1325,
+        "filePath": "/tmp/pss18-downloads-egiFFa/23ed9603-8a95-417c-9252-5ad01f38b2fa"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "f7e9861d-280d-4488-b437-59b8102d42ae",
+        "url": "blob:http://127.0.0.1:5173/faf597a5-e588-4743-886b-319a3719afce",
+        "suggestedFilename": "torus-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1325,
+        "receivedBytes": 1325,
+        "filePath": "/tmp/pss18-downloads-egiFFa/f7e9861d-280d-4488-b437-59b8102d42ae"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "0fb0b4d8-4846-4dfb-9416-9f96c82fda7b",
+        "url": "blob:http://127.0.0.1:5173/4b4481e1-eda8-4bfb-a1d2-995eba901793",
+        "suggestedFilename": "cube-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1077,
+        "receivedBytes": 1077,
+        "filePath": "/tmp/pss18-downloads-egiFFa/0fb0b4d8-4846-4dfb-9416-9f96c82fda7b"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "98d31aab-dd07-4157-88d8-f53436cd50a8",
+        "url": "blob:http://127.0.0.1:5173/e2893f78-7957-4199-b350-7b543f277a84",
+        "suggestedFilename": "cube-64x64-bands-none.png",
+        "state": "completed",
+        "totalBytes": 324,
+        "receivedBytes": 324,
+        "filePath": "/tmp/pss18-downloads-egiFFa/98d31aab-dd07-4157-88d8-f53436cd50a8"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "b30b175d-7298-481d-9f0c-3c06231f2f11",
+        "url": "blob:http://127.0.0.1:5173/8bd5b67a-eac2-44ec-bab2-b791bfe624da",
+        "suggestedFilename": "group-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 727,
+        "receivedBytes": 727,
+        "filePath": "/tmp/pss18-downloads-egiFFa/b30b175d-7298-481d-9f0c-3c06231f2f11"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "b8ce4496-7358-45e2-97db-ff343ec836ed",
+        "url": "blob:http://127.0.0.1:5173/23faceae-7b0f-462c-8e22-b4e4c6b034ef",
+        "suggestedFilename": "group-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 727,
+        "receivedBytes": 727,
+        "filePath": "/tmp/pss18-downloads-egiFFa/b8ce4496-7358-45e2-97db-ff343ec836ed"
+      },
+      {
+        "frameId": "406C5F8175882E72F51BC8E6C324B88E",
+        "guid": "02bb3da0-18b3-4b3f-957e-3f423cbf406d",
+        "url": "blob:http://127.0.0.1:5173/8fe6c3c5-498e-4af4-b212-b7e08664e15e",
+        "suggestedFilename": "sphere-96x80-bands-bayer8-outline2.png",
+        "state": "completed",
+        "totalBytes": 1278,
+        "receivedBytes": 1278,
+        "filePath": "/tmp/pss18-downloads-egiFFa/02bb3da0-18b3-4b3f-957e-3f423cbf406d"
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "requests": [
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/favicon.svg",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/persistence/localPersistence.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/components/LocalSaveStatus.tsx",
+    "http://127.0.0.1:5173/src/components/PresetManager.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/persistence/factoryPresets.ts",
+    "http://127.0.0.1:5173/src/persistence/sceneCodec.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/export/pngExport.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/src/export/verifyPng.ts",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA"
+  ],
+  "browserHostMessages": [
+    "Trying to load the allocator multiple times. This is *not* supported.",
+    "[74565:35639326:1024/034452.472607:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639417:1024/034452.472916:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639326:1024/034452.474997:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639417:1024/034452.475062:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639326:1024/034452.475552:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639417:1024/034452.475589:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[74565:35639326:1024/034452.475682:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670"
+  ]
+}

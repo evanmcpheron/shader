@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>PSS-10 real WebGL fixtures</title>
+<style>body{background:#141820;color:#e1e8f4;font:14px monospace}canvas{width:256px;height:256px;image-rendering:pixelated;border:1px solid #58687c;margin:8px}pre{white-space:pre-wrap}</style>
+<h1>PSS-10 real WebGL fixtures</h1>
+<div id="images"></div><pre id="results">Running local fixtures…</pre>
+<script type="module">
+import * as THREE from 'three'
+import { NativeCapture } from '/src/scene/nativeCapture.ts'
+import { createDefaultSettings } from '/src/domain/defaults.ts'
+import { encodeDisplayChannel, decodeNormal } from '/src/pixels/nativeFrame.ts'
+import { deriveLighting, lambertIllumination } from '/src/domain/lighting.ts'
+const results = []
+const renderer = new THREE.WebGLRenderer({antialias:false})
+renderer.setSize(64,64)
+const gl = renderer.getContext()
+const debug = gl.getExtension('WEBGL_debug_renderer_info')
+const environment = {browser:navigator.userAgent,dpr:devicePixelRatio,gpu:debug ? gl.getParameter(debug.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER)}
+const base = createDefaultSettings()
+const settings = {...base,framing:{...base.framing,mode:'manual'},shading:{...base.shading,baseColor:'#FFFFFF',tone:{kind:'continuous'}},lighting:{directional:{position:{x:2,y:3,z:5},target:{x:0,y:0,z:0},color:'#FFFFFF',intensity:1},ambient:{color:'#FFFFFF',intensity:0.1}}}
+let revision = 0
+function draw(scene, next, label) {
+  const native = new NativeCapture(renderer,scene)
+  let record
+  try {
+    const bounds = new THREE.Box3().setFromObject(scene).getBoundingSphere(new THREE.Sphere())
+    const frame = native.update(next,{settings:++revision,capture:revision,style:revision,shadow:0,view:0},bounds,()=>true)
+    const canvas = document.createElement('canvas'); canvas.width=64;canvas.height=64;canvas.title=label
+    canvas.getContext('2d').putImageData(new ImageData(frame.rgba,64,64),0,0)
+    document.querySelector('#images').append(canvas)
+    record = {bytes:Array.from(frame.rgba),diagnostics:native.diagnostics()}
+    return record
+  } finally { native.dispose(); if(record)record.afterDisposal=native.diagnostics().targetLifecycle }
+}
+function colors(bytes) { const set=new Set();for(let i=0;i<bytes.length;i+=4)if(bytes[i+3]===255)set.add(bytes.slice(i,i+3).join(','));return [...set] }
+function verify(name,pass,evidence) {results.push({name,pass,evidence});if(!pass)throw new Error(name)}
+try {
+  for(const mirrored of [false,true]) {
+    const scene=new THREE.Scene(), parent=new THREE.Group(), child=new THREE.Group()
+    parent.rotation.set(0.12,0.2,0.1); parent.scale.set(mirrored?-1.7:1.7,0.8,1.3)
+    child.rotation.set(-0.1,0.18,0.2);child.scale.set(1,1.4,0.6)
+    const geometry=new THREE.BufferGeometry()
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute([-0.8,-0.8,0,0.8,-0.8,0,0,0.8,0.6],3))
+    geometry.setAttribute('normal',new THREE.Float32BufferAttribute([0,0,1,0,0,1,0,0,1],3))
+    const mesh=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial());child.add(mesh);parent.add(child);scene.add(parent);scene.updateMatrixWorld(true)
+    const positions=geometry.attributes.position.array.slice()
+    const frame=draw(scene,{...settings,shading:{...settings.shading,normals:'flat'}},'Nested static triangle, mirrored='+mirrored)
+    const a=new THREE.Vector3().fromBufferAttribute(geometry.attributes.position,0).applyMatrix4(mesh.matrixWorld)
+    const b=new THREE.Vector3().fromBufferAttribute(geometry.attributes.position,1).applyMatrix4(mesh.matrixWorld)
+    const c=new THREE.Vector3().fromBufferAttribute(geometry.attributes.position,2).applyMatrix4(mesh.matrixWorld)
+    const n=b.sub(a).cross(c.sub(a)).normalize();if(n.z<0)n.negate()
+    const decoded=decodeNormal(...n.toArray().map(v=>Math.round((v*0.5+0.5)*255)))
+    const illumination=lambertIllumination(decoded,deriveLighting(settings.lighting).value)
+    const expected=[illumination.r,illumination.g,illumination.b].map(encodeDisplayChannel)
+    const observed=colors(frame.bytes).map(c=>c.split(',').map(Number))
+    verify('Nested imported-style static triangle with '+(mirrored?'mirrored':'nonuniform')+' scale',observed.length===1&&observed[0].every((v,i)=>Math.abs(v-expected[i])<=1),{expected,observed,worldNormal:n.toArray()})
+    verify('Geometry buffer retained '+mirrored,positions.every((v,i)=>v===geometry.attributes.position.array[i]),{vertices:geometry.attributes.position.count})
+    geometry.dispose();mesh.material.dispose()
+  }
+  for(const normals of ['smooth','flat']) {
+    const scene=new THREE.Scene();const geometry=new THREE.PlaneGeometry(2,2);const material=new THREE.MeshBasicMaterial({side:THREE.DoubleSide});scene.add(new THREE.Mesh(geometry,material))
+    const next={...settings,subject:{...settings.subject,geometry:{kind:'plane',width:2,height:2,widthSegments:1,heightSegments:1}},shading:{...settings.shading,normals},camera:{...settings.camera,position:{x:0,y:0,z:-5}},lighting:{directional:{...settings.lighting.directional,position:{x:0,y:0,z:-5}},ambient:{color:'#FFFFFF',intensity:0}}}
+    const frame=draw(scene,next,'Back-facing plane '+normals)
+    verify('Double-sided back plane '+normals,JSON.stringify(colors(frame.bytes))===JSON.stringify(['255,255,255']),{colors:colors(frame.bytes)})
+    geometry.dispose();material.dispose()
+  }
+  const scene=new THREE.Scene(), geometry=new THREE.SphereGeometry(1,8,4),material=new THREE.MeshBasicMaterial();scene.add(new THREE.Mesh(geometry,material))
+  const smooth=draw(scene,{...settings,framing:base.framing},'Low segment sphere, smooth')
+  const flat=draw(scene,{...settings,framing:base.framing,shading:{...settings.shading,normals:'flat'}},'Low segment sphere, flat')
+  verify('Smooth and flat low-segment sphere differ with identical coverage',smooth.bytes.some((v,i)=>v!==flat.bytes[i])&&smooth.bytes.every((v,i)=>i%4!==3||v===flat.bytes[i]),{smoothColors:colors(smooth.bytes).length,flatColors:colors(flat.bytes).length})
+  geometry.dispose();material.dispose()
+  verify('Native targets all released',flat.afterDisposal.active===0&&renderer.info.memory.geometries===0&&renderer.info.memory.textures===0,{lifecycle:flat.afterDisposal,remainingGPU:renderer.info.memory})
+} catch(error) {results.push({name:'Fixture failure',pass:false,error:String(error)})}
+renderer.dispose();renderer.forceContextLoss()
+document.querySelector('#results').textContent=JSON.stringify({environment,results,passed:results.every(r=>r.pass)},null,2)
+</script>
+</html>

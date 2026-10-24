@@ -1,0 +1,1917 @@
+{
+  "checks": [
+    {
+      "name": "real renderer starts",
+      "passed": true
+    },
+    {
+      "name": "glb selected files publish a normalized asset",
+      "passed": true,
+      "detail": {
+        "assets": 1,
+        "urls": 0,
+        "geometries": 1,
+        "materials": 1
+      }
+    },
+    {
+      "name": "glb uses shared fitter and native frame",
+      "passed": true,
+      "detail": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 23,
+          "width": 32,
+          "height": 18
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "glb leaves independent user transforms",
+      "passed": true
+    },
+    {
+      "name": "glb smooth renders subject",
+      "passed": true
+    },
+    {
+      "name": "glb flat renders subject",
+      "passed": true
+    },
+    {
+      "name": "glb none exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb 2 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb 4 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb 8 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb blue-noise exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "glb floyd-steinberg exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf selected files publish a normalized asset",
+      "passed": true,
+      "detail": {
+        "assets": 1,
+        "urls": 0,
+        "geometries": 1,
+        "materials": 1
+      }
+    },
+    {
+      "name": "gltf uses shared fitter and native frame",
+      "passed": true,
+      "detail": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 23,
+          "width": 32,
+          "height": 18
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      }
+    },
+    {
+      "name": "gltf leaves independent user transforms",
+      "passed": true
+    },
+    {
+      "name": "GLB and glTF companion render identical bytes",
+      "passed": true
+    },
+    {
+      "name": "gltf smooth renders subject",
+      "passed": true
+    },
+    {
+      "name": "gltf flat renders subject",
+      "passed": true
+    },
+    {
+      "name": "gltf none exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf 2 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf 4 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf 8 exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf blue-noise exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "gltf floyd-steinberg exact palette and binary alpha",
+      "passed": true
+    },
+    {
+      "name": "rotation/nonuniform scale change native pixels",
+      "passed": true
+    },
+    {
+      "name": "reframe keeps imported transforms",
+      "passed": true
+    },
+    {
+      "name": "lighting changes imported shading without rebuilding geometry",
+      "passed": true
+    },
+    {
+      "name": "shadows and outlines use the existing passes",
+      "passed": true,
+      "detail": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 5
+      }
+    },
+    {
+      "name": "palette edits reuse capture for imported models",
+      "passed": true
+    },
+    {
+      "name": "missing.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Missing companion: missing.bin. Reselect the model together with this file (and all .bin/textures)."
+      }
+    },
+    {
+      "name": "group.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Missing companion: group.bin. Reselect the model together with this file (and all .bin/textures)."
+      }
+    },
+    {
+      "name": "remote.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Remote or absolute resource blocked: https://example.invalid/reference.bin. Select local companion files instead."
+      }
+    },
+    {
+      "name": "compressed.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Unsupported required extension: KHR_draco_mesh_compression. Export an uncompressed static mesh without required extensions."
+      }
+    },
+    {
+      "name": "morph.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Missing companion: group.bin. Reselect the model together with this file (and all .bin/textures)."
+      }
+    },
+    {
+      "name": "animated.gltf fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Animated or skinned models are unsupported. Export a static, undeformed mesh."
+      }
+    },
+    {
+      "name": "malformed.glb fails visibly while prior subject stays usable",
+      "passed": true,
+      "detail": {
+        "kind": "error",
+        "message": "Malformed GLB 2.0 header or length."
+      }
+    },
+    {
+      "name": "oversized selection is rejected visibly",
+      "passed": true
+    },
+    {
+      "name": "loading UI exposes cancellation",
+      "passed": true
+    },
+    {
+      "name": "cancel preserves frame and releases stale work",
+      "passed": true
+    },
+    {
+      "name": "rapid replacement never publishes delayed older GLB",
+      "passed": true
+    },
+    {
+      "name": "cycle 0 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 0 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 1 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 1 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 2 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 2 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 3 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 3 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 4 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 4 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 5 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 5 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 6 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 6 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 7 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 7 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 8 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 8 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 9 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 9 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 10 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 10 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "cycle 11 primitive releases model ownership",
+      "passed": true,
+      "detail": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      }
+    },
+    {
+      "name": "cycle 11 one active asset/context and no URLs",
+      "passed": true
+    },
+    {
+      "name": "GPU memory plateaus across repeated imports",
+      "passed": true,
+      "detail": [
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        },
+        {
+          "primitive": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "imported": {
+            "geometries": 2,
+            "textures": 3,
+            "programs": 7
+          },
+          "resources": {
+            "assets": 1,
+            "urls": 0,
+            "geometries": 1,
+            "materials": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "renderer remount reuses retained asset with identical native bytes",
+      "passed": true
+    },
+    {
+      "name": "context retry retains imported geometry and reproduces pixels",
+      "passed": true
+    },
+    {
+      "name": "embedded data with computed missing normals renders",
+      "passed": true
+    },
+    {
+      "name": "serialized settings contain descriptor only",
+      "passed": true
+    },
+    {
+      "name": "missing runtime asset requests reselect explicitly",
+      "passed": true
+    },
+    {
+      "name": "reselect of matching descriptor restores rendering",
+      "passed": true
+    },
+    {
+      "name": "final primitive has no model resources or URLs",
+      "passed": true
+    },
+    {
+      "name": "no remote page resource fetches",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no page console warnings/errors or uncaught exceptions",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "observations": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "gpu": {
+      "dpr": 1,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+    },
+    "initial": {
+      "lifecycle": {
+        "created": 2,
+        "disposed": 1,
+        "active": 1
+      },
+      "imports": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      },
+      "modelImport": {
+        "kind": "idle",
+        "message": ""
+      },
+      "frames": 3,
+      "geometryBuilds": 1,
+      "lightingInvalidations": 0,
+      "memory": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      },
+      "triangles": 3968,
+      "settings": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "sphere",
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 32
+          },
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 5
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "roll": 0,
+          "projection": {
+            "kind": "orthographic",
+            "zoom": 1,
+            "verticalSize": 4
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": 3,
+              "y": 4,
+              "z": 5
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#FFFFFF",
+            "intensity": 1
+          },
+          "ambient": {
+            "color": "#FFFFFF",
+            "intensity": 0.2
+          }
+        },
+        "canvas": {
+          "width": 64,
+          "height": 64
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 32,
+              "height": 32
+            },
+            "alignment": "center",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        "shading": {
+          "normals": "smooth",
+          "tone": {
+            "kind": "bands",
+            "thresholds": [
+              0.25,
+              0.5,
+              0.75
+            ]
+          },
+          "baseColor": "#5C88B8",
+          "shadowColor": "#172038",
+          "highlightColor": "#B8D8F0",
+          "brightness": 0,
+          "contrast": 1,
+          "distribution": 1
+        },
+        "palette": {
+          "colors": [
+            "#172038",
+            "#304878",
+            "#5C88B8",
+            "#B8D8F0"
+          ],
+          "effectPolicy": "explicit"
+        },
+        "dither": {
+          "kind": "none"
+        },
+        "outline": {
+          "kind": "none"
+        },
+        "ground": {
+          "kind": "none"
+        },
+        "shadows": {
+          "kind": "none"
+        },
+        "background": {
+          "kind": "transparent"
+        }
+      },
+      "preview": {
+        "zoom": 9,
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "grid": false,
+        "checkerboard": true,
+        "referenceWireframe": false,
+        "mode": "final",
+        "tool": "camera"
+      },
+      "presentation": [
+        {
+          "name": "Native pixel output",
+          "viewport": {
+            "left": 260,
+            "top": 156.5,
+            "width": 960,
+            "height": 441
+          },
+          "image": {
+            "left": 452,
+            "top": 89,
+            "width": 576,
+            "height": 576
+          },
+          "smoothing": false
+        }
+      ],
+      "revisions": {
+        "settings": 0,
+        "capture": 0,
+        "style": 0,
+        "shadow": 0,
+        "view": 1
+      },
+      "camera": {
+        "enabled": true,
+        "panEnabled": false,
+        "zoomEnabled": false,
+        "lightOwnsGesture": false,
+        "changes": 0,
+        "disposed": false,
+        "sourcePosition": [
+          0,
+          0,
+          5
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "sourceQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "renderQuaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "projectionMatrix": [
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          -0.20010005002501252,
+          0,
+          0,
+          0,
+          -1.0010005002501252,
+          1
+        ],
+        "near": 0.005,
+        "far": 10
+      },
+      "native": {
+        "visibilityCaptures": 0,
+        "receiverCaptures": 0,
+        "ground": null,
+        "shadow": {
+          "active": false,
+          "mapRenders": 0,
+          "allocatedMaps": 0,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bias": 0,
+          "normalBias": 0,
+          "depthSpan": 1,
+          "depthStep": 1,
+          "frustum": {
+            "left": -5,
+            "right": 5,
+            "top": 5,
+            "bottom": -5,
+            "near": 0.5,
+            "far": 500
+          }
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 16,
+            "width": 32,
+            "height": 32
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "outline": null,
+        "rasterizations": 2,
+        "readback": "synchronous",
+        "captures": 1,
+        "processes": 1,
+        "composites": 1,
+        "timings": {
+          "visibilityMs": 0.40000009536743164,
+          "filterMs": 0,
+          "captureMs": 13,
+          "readbackMs": 3.499999761581421,
+          "processMs": 2,
+          "originalMs": 1.2000000476837158,
+          "styleMs": 0.7000000476837158,
+          "compositeMs": 0,
+          "publishMs": 0
+        },
+        "targetLifecycle": {
+          "created": 1,
+          "disposed": 0,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "effectBuffers": {
+          "subject": 16384,
+          "visibility": 16384,
+          "filtered": 16384
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384,
+          "styled": 16384,
+          "ring": 4096,
+          "horizontal": 4096
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 0,
+          "captureRevision": 0,
+          "byteLength": 16384
+        }
+      },
+      "nativeCanvas": {
+        "width": 64,
+        "height": 64,
+        "revision": "0",
+        "smoothing": false
+      },
+      "light": {
+        "dragging": false,
+        "completed": 0,
+        "cancelled": 0,
+        "disposed": false
+      },
+      "lightHandle": {
+        "visible": false,
+        "layers": [
+          {
+            "name": "Mesh",
+            "mask": 2
+          },
+          {
+            "name": "Line",
+            "mask": 2
+          },
+          {
+            "name": "Mesh",
+            "mask": 2
+          }
+        ]
+      },
+      "subject": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "normalization": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "drawingBuffer": [
+        300,
+        150
+      ],
+      "devicePixelRatio": 1,
+      "contextLost": false,
+      "contextLossSimulation": true
+    },
+    "glbHash": "642319da14b86b94c15f161992f770e2d3558ff57fb0423d0078ab99508667aa",
+    "cycles": [
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      },
+      {
+        "primitive": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "imported": {
+          "geometries": 2,
+          "textures": 3,
+          "programs": 7
+        },
+        "resources": {
+          "assets": 1,
+          "urls": 0,
+          "geometries": 1,
+          "materials": 1
+        }
+      }
+    ],
+    "serialized": "{\"schemaVersion\":1,\"subject\":{\"geometry\":{\"kind\":\"imported\",\"asset\":{\"fileName\":\"embedded.gltf\",\"format\":\"gltf\",\"sha256\":\"325b4bcb509198a51f6ec2c7cf8e468f50c5ed73bbeebb664784dfb5b89faef4\"}},\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":35,\"z\":0},\"scale\":{\"x\":1.4,\"y\":1,\"z\":1}}},\"camera\":{\"position\":{\"x\":2.484952943688596,\"y\":2.484952943688596,\"z\":2.4872593770310996},\"target\":{\"x\":-1.1102230246251565e-16,\"y\":0,\"z\":0.002306433342503411},\"roll\":25,\"projection\":{\"kind\":\"perspective\",\"zoom\":1,\"fov\":50}},\"lighting\":{\"directional\":{\"position\":{\"x\":-3,\"y\":4,\"z\":5},\"target\":{\"x\":0,\"y\":0,\"z\":0},\"color\":\"#FFFFFF\",\"intensity\":1},\"ambient\":{\"color\":\"#FFFFFF\",\"intensity\":0.2}},\"canvas\":{\"width\":64,\"height\":64},\"framing\":{\"mode\":\"pixel-fit\",\"fit\":{\"box\":{\"width\":32,\"height\":32},\"alignment\":\"center\",\"offset\":{\"x\":0,\"y\":0},\"padding\":{\"top\":0,\"right\":0,\"bottom\":0,\"left\":0}}},\"shading\":{\"normals\":\"smooth\",\"tone\":{\"kind\":\"palette\"},\"baseColor\":\"#5C88B8\",\"shadowColor\":\"#172038\",\"highlightColor\":\"#B8D8F0\",\"brightness\":0,\"contrast\":1,\"distribution\":1},\"palette\":{\"colors\":[\"#301B28\",\"#78404A\",\"#C47761\",\"#F4D7A1\"],\"effectPolicy\":\"strict\"},\"dither\":{\"kind\":\"floyd-steinberg\",\"strength\":1},\"outline\":{\"kind\":\"silhouette\",\"thickness\":1,\"color\":\"#172038\"},\"ground\":{\"kind\":\"receiver\",\"position\":{\"x\":0,\"y\":-1,\"z\":0},\"width\":6,\"depth\":6,\"appearance\":{\"kind\":\"shadow-only\"}},\"shadows\":{\"kind\":\"directional\",\"self\":true,\"ground\":true,\"strength\":1,\"color\":\"#172038\",\"bias\":0.5,\"treatment\":{\"kind\":\"pixel-soft\",\"radius\":2}},\"background\":{\"kind\":\"transparent\"}}",
+    "final": {
+      "lifecycle": {
+        "created": 6,
+        "disposed": 5,
+        "active": 1
+      },
+      "imports": {
+        "assets": 0,
+        "urls": 0,
+        "geometries": 0,
+        "materials": 0
+      },
+      "modelImport": {
+        "kind": "idle",
+        "message": ""
+      },
+      "frames": 7,
+      "geometryBuilds": 5,
+      "lightingInvalidations": 0,
+      "memory": {
+        "geometries": 2,
+        "textures": 3,
+        "programs": 6
+      },
+      "triangles": 3970,
+      "settings": {
+        "schemaVersion": 1,
+        "subject": {
+          "geometry": {
+            "kind": "sphere",
+            "radius": 1,
+            "widthSegments": 64,
+            "heightSegments": 32
+          },
+          "transform": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 35,
+              "z": 0
+            },
+            "scale": {
+              "x": 1.4,
+              "y": 1,
+              "z": 1
+            }
+          }
+        },
+        "camera": {
+          "position": {
+            "x": 2.484952943688596,
+            "y": 2.484952943688596,
+            "z": 2.4872593770310996
+          },
+          "target": {
+            "x": -1.1102230246251565e-16,
+            "y": 0,
+            "z": 0.002306433342503411
+          },
+          "roll": 25,
+          "projection": {
+            "kind": "perspective",
+            "zoom": 1,
+            "fov": 50
+          }
+        },
+        "lighting": {
+          "directional": {
+            "position": {
+              "x": -3,
+              "y": 4,
+              "z": 5
+            },
+            "target": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#FFFFFF",
+            "intensity": 1
+          },
+          "ambient": {
+            "color": "#FFFFFF",
+            "intensity": 0.2
+          }
+        },
+        "canvas": {
+          "width": 64,
+          "height": 64
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "fit": {
+            "box": {
+              "width": 32,
+              "height": 32
+            },
+            "alignment": "center",
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "padding": {
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          }
+        },
+        "shading": {
+          "normals": "smooth",
+          "tone": {
+            "kind": "palette"
+          },
+          "baseColor": "#5C88B8",
+          "shadowColor": "#172038",
+          "highlightColor": "#B8D8F0",
+          "brightness": 0,
+          "contrast": 1,
+          "distribution": 1
+        },
+        "palette": {
+          "colors": [
+            "#301B28",
+            "#78404A",
+            "#C47761",
+            "#F4D7A1"
+          ],
+          "effectPolicy": "strict"
+        },
+        "dither": {
+          "kind": "floyd-steinberg",
+          "strength": 1
+        },
+        "outline": {
+          "kind": "silhouette",
+          "thickness": 1,
+          "color": "#172038"
+        },
+        "ground": {
+          "kind": "receiver",
+          "position": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "width": 6,
+          "depth": 6,
+          "appearance": {
+            "kind": "shadow-only"
+          }
+        },
+        "shadows": {
+          "kind": "directional",
+          "self": true,
+          "ground": true,
+          "strength": 1,
+          "color": "#172038",
+          "bias": 0.5,
+          "treatment": {
+            "kind": "pixel-soft",
+            "radius": 2
+          }
+        },
+        "background": {
+          "kind": "transparent"
+        }
+      },
+      "preview": {
+        "zoom": 6,
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "grid": false,
+        "checkerboard": false,
+        "referenceWireframe": false,
+        "mode": "side-by-side",
+        "tool": "camera"
+      },
+      "presentation": [
+        {
+          "name": "Original continuous native reference",
+          "viewport": {
+            "left": 260,
+            "top": 156.5,
+            "width": 480,
+            "height": 387
+          },
+          "image": {
+            "left": 308,
+            "top": 185,
+            "width": 384,
+            "height": 384
+          },
+          "smoothing": false
+        },
+        {
+          "name": "Native pixel output",
+          "viewport": {
+            "left": 740.5,
+            "top": 156.5,
+            "width": 480,
+            "height": 387
+          },
+          "image": {
+            "left": 789,
+            "top": 185,
+            "width": 384,
+            "height": 384
+          },
+          "smoothing": false
+        }
+      ],
+      "revisions": {
+        "settings": 66,
+        "capture": 42,
+        "style": 66,
+        "shadow": 45,
+        "view": 4
+      },
+      "camera": {
+        "enabled": true,
+        "panEnabled": false,
+        "zoomEnabled": false,
+        "lightOwnsGesture": false,
+        "changes": 0,
+        "disposed": false,
+        "sourcePosition": [
+          2.484952943688596,
+          2.484952943688596,
+          2.4872593770310996
+        ],
+        "target": [
+          -1.1102230246251565e-16,
+          0,
+          0.002306433342503411
+        ],
+        "sourceQuaternion": [
+          -0.27984814233312133,
+          0.3647051996310009,
+          0.11591689595929514,
+          0.8804762392171493
+        ],
+        "renderQuaternion": [
+          -0.1942779713504046,
+          0.4166304540635004,
+          0.3037391399806291,
+          0.8345164285013451
+        ],
+        "projectionMatrix": [
+          2.1445069205095586,
+          0,
+          0,
+          0,
+          0,
+          2.1445069205095586,
+          0,
+          0,
+          0,
+          0,
+          -1.0010005002501252,
+          -1,
+          0,
+          0,
+          -0.008612435723634801,
+          0
+        ],
+        "near": 0.004304064752886492,
+        "far": 8.608129505772983
+      },
+      "native": {
+        "visibilityCaptures": 5,
+        "receiverCaptures": 5,
+        "ground": {
+          "receiverExtent": {
+            "x": -19,
+            "y": 20,
+            "width": 88,
+            "height": 119
+          },
+          "shadowExtent": {
+            "x": 10,
+            "y": 27,
+            "width": 62,
+            "height": 39
+          },
+          "receiverClipped": true,
+          "shadowClipped": true,
+          "notice": "Extents are conservative projected bounds including soft radius; finite ground can cut the shadow. Canvas and subject fit stay fixed."
+        },
+        "shadow": {
+          "active": true,
+          "mapRenders": 5,
+          "allocatedMaps": 1,
+          "resolution": [
+            1024,
+            1024
+          ],
+          "bias": -0.00001,
+          "normalBias": 0.0019072597032143452,
+          "depthSpan": 7.326130954016564,
+          "depthStep": 0.2366207345214984,
+          "frustum": {
+            "left": -1.8882288133481273,
+            "right": 1.888228813348129,
+            "top": 1.9530339360914897,
+            "bottom": -1.9530339360914892,
+            "near": 5.31078519433449,
+            "far": 12.4969380174664
+          }
+        },
+        "framing": {
+          "mode": "pixel-fit",
+          "requested": {
+            "width": 32,
+            "height": 32
+          },
+          "effective": {
+            "width": 32,
+            "height": 32
+          },
+          "actual": {
+            "x": 16,
+            "y": 18,
+            "width": 32,
+            "height": 27
+          },
+          "clipped": false,
+          "converged": true,
+          "iterations": 2,
+          "notice": ""
+        },
+        "outline": {
+          "extent": {
+            "x": 15,
+            "y": 17,
+            "width": 34,
+            "height": 29
+          },
+          "visible": {
+            "x": 15,
+            "y": 17,
+            "width": 34,
+            "height": 29
+          },
+          "pixelCount": 122,
+          "clipped": false,
+          "color": "#301B28",
+          "thickness": 1
+        },
+        "rasterizations": 10,
+        "readback": "synchronous",
+        "captures": 5,
+        "processes": 5,
+        "composites": 5,
+        "timings": {
+          "visibilityMs": 2.5,
+          "filterMs": 2.5,
+          "captureMs": 4,
+          "readbackMs": 2,
+          "processMs": 0.8000001907348633,
+          "originalMs": 0.3000001907348633,
+          "styleMs": 0.5,
+          "compositeMs": 0,
+          "publishMs": 0
+        },
+        "targetLifecycle": {
+          "created": 3,
+          "disposed": 2,
+          "active": 1
+        },
+        "target": {
+          "width": 64,
+          "height": 64,
+          "samples": 0,
+          "type": 1009,
+          "format": 1023,
+          "colorSpace": "",
+          "minFilter": 1003,
+          "magFilter": 1003,
+          "generateMipmaps": false
+        },
+        "effectBuffers": {
+          "subject": 16384,
+          "visibility": 16384,
+          "filtered": 16384
+        },
+        "buffers": {
+          "raw": 16384,
+          "normals": 16384,
+          "work": 16384,
+          "styled": 16384,
+          "ring": 4096,
+          "horizontal": 4096
+        },
+        "frame": {
+          "width": 64,
+          "height": 64,
+          "revision": 66,
+          "captureRevision": 42,
+          "byteLength": 16384
+        }
+      },
+      "nativeCanvas": {
+        "width": 64,
+        "height": 64,
+        "revision": "66",
+        "smoothing": false
+      },
+      "light": {
+        "dragging": false,
+        "completed": 0,
+        "cancelled": 0,
+        "disposed": false
+      },
+      "lightHandle": {
+        "visible": false,
+        "layers": [
+          {
+            "name": "Mesh",
+            "mask": 2
+          },
+          {
+            "name": "Line",
+            "mask": 2
+          },
+          {
+            "name": "Mesh",
+            "mask": 2
+          }
+        ]
+      },
+      "subject": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0.6108652381980153,
+          0,
+          "XYZ"
+        ],
+        "scale": [
+          1.4,
+          1,
+          1
+        ]
+      },
+      "normalization": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "drawingBuffer": [
+        300,
+        150
+      ],
+      "devicePixelRatio": 1,
+      "contextLost": false,
+      "contextLossSimulation": true
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "requests": [
+    "http://127.0.0.1:5173/?scene-checks",
+    "http://127.0.0.1:5173/@vite/client",
+    "http://127.0.0.1:5173/src/main.tsx",
+    "http://127.0.0.1:5173/@react-refresh",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/index.css",
+    "http://127.0.0.1:5173/src/App.tsx",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-PYT6vkka.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/app/studioStore.ts",
+    "http://127.0.0.1:5173/src/app/useCompactLayout.ts",
+    "http://127.0.0.1:5173/src/components/controls.tsx",
+    "http://127.0.0.1:5173/src/components/Inspector.tsx",
+    "http://127.0.0.1:5173/src/components/CameraInspector.tsx",
+    "http://127.0.0.1:5173/src/components/SubjectInspector.tsx",
+    "http://127.0.0.1:5173/src/components/GroundShadowInspector.tsx",
+    "http://127.0.0.1:5173/src/components/LightInspector.tsx",
+    "http://127.0.0.1:5173/src/components/FramingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/CanvasInspector.tsx",
+    "http://127.0.0.1:5173/src/components/PaletteInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ShadingInspector.tsx",
+    "http://127.0.0.1:5173/src/components/DitherInspector.tsx",
+    "http://127.0.0.1:5173/src/components/OutlineInspector.tsx",
+    "http://127.0.0.1:5173/src/components/ReferenceViewport.tsx",
+    "http://127.0.0.1:5173/src/App.css",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom-ZMGL_rwe.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/zustand_vanilla.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/importController.ts",
+    "http://127.0.0.1:5173/src/domain/constraints.ts",
+    "http://127.0.0.1:5173/src/domain/defaults.ts",
+    "http://127.0.0.1:5173/src/domain/validation.ts",
+    "http://127.0.0.1:5173/src/domain/paletteInterchange.ts",
+    "http://127.0.0.1:5173/src/domain/shading.ts",
+    "http://127.0.0.1:5173/src/scene/referenceCamera.ts",
+    "http://127.0.0.1:5173/src/components/NumericField.tsx",
+    "http://127.0.0.1:5173/src/components/ColorField.tsx",
+    "http://127.0.0.1:5173/src/domain/lighting.ts",
+    "http://127.0.0.1:5173/src/scene/referenceRuntime.ts",
+    "http://127.0.0.1:5173/src/scene/viewTransform.ts",
+    "http://127.0.0.1:5173/src/import/modelAsset.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/domain/settings.ts",
+    "http://127.0.0.1:5173/src/scene/invalidation.ts",
+    "http://127.0.0.1:5173/src/scene/nativeCapture.ts",
+    "http://127.0.0.1:5173/src/scene/previewPresentation.ts",
+    "http://127.0.0.1:5173/src/scene/previewTopology.ts",
+    "http://127.0.0.1:5173/src/scene/cameraController.ts",
+    "http://127.0.0.1:5173/src/scene/lightController.ts",
+    "http://127.0.0.1:5173/src/scene/lightHandle.ts",
+    "http://127.0.0.1:5173/src/scene/referenceLighting.ts",
+    "http://127.0.0.1:5173/src/scene/subject.ts",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three.module-DFtsUDDU.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_controls_OrbitControls__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/node_modules/.vite/deps/three_addons_loaders_GLTFLoader__js.js?v=74b715e4",
+    "http://127.0.0.1:5173/src/import/localFiles.ts",
+    "http://127.0.0.1:5173/src/import/modelDocument.ts",
+    "http://127.0.0.1:5173/src/pixels/nativeFrame.ts",
+    "http://127.0.0.1:5173/src/pixels/subjectBounds.ts",
+    "http://127.0.0.1:5173/src/pixels/silhouetteOutline.ts",
+    "http://127.0.0.1:5173/src/scene/pixelFraming.ts",
+    "http://127.0.0.1:5173/src/scene/directionalShadows.ts",
+    "http://127.0.0.1:5173/src/scene/groundReceiver.ts",
+    "http://127.0.0.1:5173/src/scene/nativeRender.ts",
+    "http://127.0.0.1:5173/src/pixels/shadowVisibility.ts",
+    "http://127.0.0.1:5173/src/scene/primitives.ts",
+    "http://127.0.0.1:5173/src/domain/orderedDither.ts",
+    "http://127.0.0.1:5173/src/domain/errorDiffusion.ts",
+    "http://127.0.0.1:5173/src/domain/blueNoise.ts",
+    "http://127.0.0.1:5173/src/assets/blue-noise/thresholds.hex?import&raw",
+    "http://127.0.0.1:5173/favicon.svg",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/af0002e1-9fb2-4438-ab57-debaeecb3a9e",
+    "blob:http://127.0.0.1:5173/cd62836c-9797-482f-90db-220ba377fdcf",
+    "blob:http://127.0.0.1:5173/9cc1d12f-0a7b-475a-bde1-afdf10e1d549",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/3959b7a1-aec5-4f15-b77d-5b6f0dfeff7d",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/b557c81b-c6a7-4909-a18e-f8329468c1a7",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/26694f47-5590-4e03-8efc-4ea5dca364b4",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/40bd2a4c-4c8d-4c58-b9ce-8149d1c94004",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "blob:http://127.0.0.1:5173/cc5bb20e-ac3d-4147-b3c0-9eb8c8074751",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA",
+    "data:application/octet-stream;base64,AAAAAAAAAEAAAAAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAADAAIAAAAEAAMAAAAFAAQAAAACAAUAAQACAAMAAQADAAQAAQAEAAUAAQAFAAIA"
+  ],
+  "browserHostMessages": [
+    "Trying to load the allocator multiple times. This is *not* supported.",
+    "[65696:35593362:1024/031658.339126:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593486:1024/031658.339399:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593362:1024/031658.339566:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593486:1024/031658.339602:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593362:1024/031658.339694:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593486:1024/031658.339733:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670",
+    "[65696:35593362:1024/031658.339817:ERROR:ui/display/mac/cv_display_link_mac.mm:188] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670"
+  ]
+}

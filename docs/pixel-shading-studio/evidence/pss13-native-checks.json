@@ -1,0 +1,2466 @@
+{
+  "environment": {
+    "browser": "Google Chrome 155.0.8059.86",
+    "os": "macOS 27.0",
+    "viewport": "1728\u00d7963",
+    "devicePixelRatio": 2,
+    "url": "http://127.0.0.1:5173/?scene-checks",
+    "gpu": "Real WebGL2; vendor not asserted"
+  },
+  "sphereFrames": 52,
+  "gradientFrames": 24,
+  "passed": 521,
+  "checks": [
+    {
+      "name": "ramp-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "ramp-none: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-2-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-2-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-4-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-4-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-8-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-8-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-none: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-none: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-2-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-2-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-4-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-4-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-8-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-8-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-full: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-zero: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-noise-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "bands-floyd-steinberg-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "palette-blue-noise-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "palette-floyd-steinberg-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette-fs-weak: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-width035: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-strength035: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "bands-blue-scale2: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "fs-view-baseline: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "fs-view-compare: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "blue-view-baseline: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "blue-view-zoom: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-none: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-4: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-blue-noise: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-bands-floyd-steinberg: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-none: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-4: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-blue-noise: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-floyd-steinberg: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "sphere256-palette-fs-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-fs: solid alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: solid alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-explicit-none: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: solid alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-fs: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: solid alpha",
+      "passed": true
+    },
+    {
+      "name": "solid-strict-none: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "torus-fs: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-blue: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "torus-none: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "torus-none: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "torus-none: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "torus-none: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "torus-none: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "torus-none: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "torus-none: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "torus-none: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "final-fs-reset-repeat: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: exact native dimensions",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: saved hashes",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: exact palette membership",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: binary alpha",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: stable graphics resources",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: latest published revision",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: mask and transparent zero RGB",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: repeated whole frame identical",
+      "passed": true
+    },
+    {
+      "name": "final-source-fs: Original untouched",
+      "passed": true
+    },
+    {
+      "name": "bands 2: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "bands 4: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "bands 8: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "bands blue-noise: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "bands floyd-steinberg: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "bands blue-noise: full differs from Bayer 4",
+      "passed": true
+    },
+    {
+      "name": "bands blue-noise: repetition",
+      "passed": true
+    },
+    {
+      "name": "bands floyd-steinberg: full differs from Bayer 4",
+      "passed": true
+    },
+    {
+      "name": "bands floyd-steinberg: repetition",
+      "passed": true
+    },
+    {
+      "name": "palette 2: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "palette 4: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "palette 8: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "palette blue-noise: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "palette floyd-steinberg: zero equals none",
+      "passed": true
+    },
+    {
+      "name": "palette blue-noise: full differs from Bayer 4",
+      "passed": true
+    },
+    {
+      "name": "palette blue-noise: repetition",
+      "passed": true
+    },
+    {
+      "name": "palette floyd-steinberg: full differs from Bayer 4",
+      "passed": true
+    },
+    {
+      "name": "palette floyd-steinberg: repetition",
+      "passed": true
+    },
+    {
+      "name": "Blue noise strength and width keep common interval semantics",
+      "passed": true
+    },
+    {
+      "name": "Blue noise native scale changes pattern",
+      "passed": true
+    },
+    {
+      "name": "FS error strength changes allocation",
+      "passed": true
+    },
+    {
+      "name": "fs: view-only edits preserve bytes and processing",
+      "passed": true
+    },
+    {
+      "name": "blue: view-only edits preserve bytes and processing",
+      "passed": true
+    },
+    {
+      "name": "explicit: solid background untouched by diffusion",
+      "passed": true
+    },
+    {
+      "name": "strict: solid background untouched by diffusion",
+      "passed": true
+    },
+    {
+      "name": "256 sphere fills intended 224px box",
+      "passed": true
+    },
+    {
+      "name": "Torus interior is transparent",
+      "passed": true
+    },
+    {
+      "name": "All six UI choices visible",
+      "passed": true
+    },
+    {
+      "name": "Diffusion controls applicable",
+      "passed": true
+    },
+    {
+      "name": "Both actual browser tabs have no warnings/errors",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 bayer run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 bayer run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 blue-noise run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 blue-noise run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 1: independent full-image FS reference",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 bayer run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 bayer run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 bayer run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 blue-noise run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 blue-noise run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 blue-noise run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 64 floyd-steinberg run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 bayer run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 bayer run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 blue-noise run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 blue-noise run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 1: independent full-image FS reference",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 bayer run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 bayer run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 bayer run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 blue-noise run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 blue-noise run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 blue-noise run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "ramp 256 floyd-steinberg run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 64 bayer run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 bayer run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 blue-noise run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 blue-noise run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 1: independent full-image FS reference",
+      "passed": true
+    },
+    {
+      "name": "palette 64 bayer run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 bayer run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 bayer run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 64 blue-noise run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 blue-noise run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 blue-noise run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 64 floyd-steinberg run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 256 bayer run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 bayer run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 blue-noise run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 blue-noise run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 1: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 1: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 1: independent full-image FS reference",
+      "passed": true
+    },
+    {
+      "name": "palette 256 bayer run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 bayer run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 bayer run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 256 blue-noise run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 blue-noise run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 blue-noise run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 2: hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 2: exact colors and zero RGB",
+      "passed": true
+    },
+    {
+      "name": "palette 256 floyd-steinberg run 2: repeated native bytes identical",
+      "passed": true
+    },
+    {
+      "name": "ramp 64: all three patterns differ",
+      "passed": true
+    },
+    {
+      "name": "ramp 256: all three patterns differ",
+      "passed": true
+    },
+    {
+      "name": "palette 64: all three patterns differ",
+      "passed": true
+    },
+    {
+      "name": "palette 256: all three patterns differ",
+      "passed": true
+    }
+  ],
+  "processingTimings": [
+    {
+      "label": "bands-2-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 2.700000047683716,
+      "originalMs": 1.0999999046325684,
+      "styleMs": 1.6000001430511475,
+      "publishMs": 0
+    },
+    {
+      "label": "bands-4-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.5,
+      "originalMs": 0.20000004768371582,
+      "styleMs": 0.2999999523162842,
+      "publishMs": 0
+    },
+    {
+      "label": "bands-8-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.8000001907348633,
+      "originalMs": 0.5,
+      "styleMs": 0.3000001907348633,
+      "publishMs": 0
+    },
+    {
+      "label": "bands-blue-noise-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.7000000476837158,
+      "originalMs": 0.2999999523162842,
+      "styleMs": 0.40000009536743164,
+      "publishMs": 0.09999990463256836
+    },
+    {
+      "label": "bands-floyd-steinberg-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 1.9000000953674316,
+      "originalMs": 0.2999999523162842,
+      "styleMs": 1.6000001430511475,
+      "publishMs": 0
+    },
+    {
+      "label": "palette-2-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 1.5999999046325684,
+      "originalMs": 0.2999999523162842,
+      "styleMs": 1.2999999523162842,
+      "publishMs": 0
+    },
+    {
+      "label": "palette-4-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.39999985694885254,
+      "originalMs": 0.19999980926513672,
+      "styleMs": 0.20000004768371582,
+      "publishMs": 0
+    },
+    {
+      "label": "palette-8-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.6000001430511475,
+      "originalMs": 0.20000004768371582,
+      "styleMs": 0.40000009536743164,
+      "publishMs": 0
+    },
+    {
+      "label": "palette-blue-noise-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 0.5,
+      "originalMs": 0.10000014305114746,
+      "styleMs": 0.39999985694885254,
+      "publishMs": 0
+    },
+    {
+      "label": "palette-floyd-steinberg-full",
+      "captureMs": 6.8999998569488525,
+      "readbackMs": 2.799999952316284,
+      "processMs": 1,
+      "originalMs": 0.10000014305114746,
+      "styleMs": 0.8999998569488525,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-bands-none",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 7.599999904632568,
+      "originalMs": 3.9000000953674316,
+      "styleMs": 3.6999998092651367,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-bands-4",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 8.399999856948853,
+      "originalMs": 3.700000047683716,
+      "styleMs": 4.699999809265137,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-bands-blue-noise",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 7.900000095367432,
+      "originalMs": 3.799999952316284,
+      "styleMs": 4.1000001430511475,
+      "publishMs": 0.09999990463256836
+    },
+    {
+      "label": "sphere256-bands-floyd-steinberg",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 9.400000095367432,
+      "originalMs": 4.200000047683716,
+      "styleMs": 5.200000047683716,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-palette-none",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 10.800000190734863,
+      "originalMs": 5,
+      "styleMs": 5.800000190734863,
+      "publishMs": 0.09999990463256836
+    },
+    {
+      "label": "sphere256-palette-4",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 9.799999952316284,
+      "originalMs": 4.5,
+      "styleMs": 5.299999952316284,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-palette-blue-noise",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 13.600000143051147,
+      "originalMs": 5.5,
+      "styleMs": 8.100000143051147,
+      "publishMs": 0.09999990463256836
+    },
+    {
+      "label": "sphere256-palette-floyd-steinberg",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 12.599999904632568,
+      "originalMs": 5.099999904632568,
+      "styleMs": 7.5,
+      "publishMs": 0
+    },
+    {
+      "label": "sphere256-palette-fs-repeat",
+      "captureMs": 5.700000047683716,
+      "readbackMs": 2.0999999046325684,
+      "processMs": 14.900000095367432,
+      "originalMs": 5.400000095367432,
+      "styleMs": 9.5,
+      "publishMs": 0
+    }
+  ],
+  "gradientTimings": [
+    {
+      "kind": "bayer",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.7000000476837158,
+      "hash": "cf5c8e913d89c9b8013245cc79c8e536454142de6c64fb8ee9121eb89b87f897"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.39999985694885254,
+      "hash": "1ed30eb352803dce33c5cc85344c212de5c53909529c999ad43cc0f12292b40d"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.5,
+      "hash": "924f12bce1df3f7eda3c29188eaa2dc1663aab91208c7cc8e6858df01fcd87d0"
+    },
+    {
+      "kind": "bayer",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 3.0999999046325684,
+      "hash": "cf5c8e913d89c9b8013245cc79c8e536454142de6c64fb8ee9121eb89b87f897"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 1,
+      "hash": "1ed30eb352803dce33c5cc85344c212de5c53909529c999ad43cc0f12292b40d"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "ramp",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 0.8999998569488525,
+      "hash": "924f12bce1df3f7eda3c29188eaa2dc1663aab91208c7cc8e6858df01fcd87d0"
+    },
+    {
+      "kind": "bayer",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 4.8999998569488525,
+      "hash": "ee46399a4b0f32b7f5513b3cf4c9a7a3eeb2322af2bdd2cb8ad249290d3fb661"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 4.6000001430511475,
+      "hash": "a8d0c5acb629d8037ea4e0d85747388cf731a70968d9aa3d2851db4095e9ab90"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 4.799999952316284,
+      "hash": "d5006b3a007672b9b183832458f8fa3b2e8d7724b546534aca85a551c6f2755a"
+    },
+    {
+      "kind": "bayer",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 6.700000047683716,
+      "hash": "ee46399a4b0f32b7f5513b3cf4c9a7a3eeb2322af2bdd2cb8ad249290d3fb661"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 6.1000001430511475,
+      "hash": "a8d0c5acb629d8037ea4e0d85747388cf731a70968d9aa3d2851db4095e9ab90"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "ramp",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 5.5,
+      "hash": "d5006b3a007672b9b183832458f8fa3b2e8d7724b546534aca85a551c6f2755a"
+    },
+    {
+      "kind": "bayer",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.3000001907348633,
+      "hash": "1edfa4dc9f34c9cfc6fc0d913eddc10ddc83f294a190489dfd6a8fa7f6d14bed"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.39999985694885254,
+      "hash": "d33ca7214ba4a5fd9ed9e3b21919985414ab051a2f2ec831eab97cebbff9c0ef"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 1,
+      "processMs": 0.39999985694885254,
+      "hash": "98c8e0df58972d295a7c07be01a943018dce8a65113db24c745b449271994e63"
+    },
+    {
+      "kind": "bayer",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 0.7000000476837158,
+      "hash": "1edfa4dc9f34c9cfc6fc0d913eddc10ddc83f294a190489dfd6a8fa7f6d14bed"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 0.39999985694885254,
+      "hash": "d33ca7214ba4a5fd9ed9e3b21919985414ab051a2f2ec831eab97cebbff9c0ef"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "palette",
+      "width": 64,
+      "attempt": 2,
+      "processMs": 0.5999999046325684,
+      "hash": "98c8e0df58972d295a7c07be01a943018dce8a65113db24c745b449271994e63"
+    },
+    {
+      "kind": "bayer",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 7.200000047683716,
+      "hash": "7afcc192f429c006dabb6d996f306b916cbe6fed76abaad83685e91f0af949ee"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 4.099999904632568,
+      "hash": "6f392e1f2378c0a115c625cf4d81a7880d50f18465b6ad98f216dc13cdc88a00"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 1,
+      "processMs": 7.6000001430511475,
+      "hash": "077ae871db9b2afc5357d7168185b90602e35f12df3da82bb6022292c1bad69e"
+    },
+    {
+      "kind": "bayer",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 6.700000047683716,
+      "hash": "7afcc192f429c006dabb6d996f306b916cbe6fed76abaad83685e91f0af949ee"
+    },
+    {
+      "kind": "blue-noise",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 6.099999904632568,
+      "hash": "6f392e1f2378c0a115c625cf4d81a7880d50f18465b6ad98f216dc13cdc88a00"
+    },
+    {
+      "kind": "floyd-steinberg",
+      "domain": "palette",
+      "width": 256,
+      "attempt": 2,
+      "processMs": 8.400000095367432,
+      "hash": "077ae871db9b2afc5357d7168185b90602e35f12df3da82bb6022292c1bad69e"
+    }
+  ]
+}

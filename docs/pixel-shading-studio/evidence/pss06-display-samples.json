@@ -1,0 +1,172 @@
+{
+  "coordinates": {
+    "top": [
+      853,
+      260
+    ],
+    "front": [
+      780,
+      380
+    ],
+    "right": [
+      930,
+      380
+    ]
+  },
+  "displayRgbSamples": {
+    "upper-right": {
+      "top": [
+        90,
+        119,
+        159
+      ],
+      "front": [
+        97,
+        128,
+        172
+      ],
+      "right": [
+        80,
+        108,
+        147
+      ]
+    },
+    "upper-left": {
+      "top": [
+        90,
+        119,
+        159
+      ],
+      "front": [
+        97,
+        128,
+        172
+      ],
+      "right": [
+        46,
+        62,
+        85
+      ]
+    },
+    "overhead": {
+      "top": [
+        111,
+        147,
+        197
+      ],
+      "front": [
+        46,
+        62,
+        85
+      ],
+      "right": [
+        46,
+        62,
+        85
+      ]
+    },
+    "side": {
+      "top": [
+        46,
+        62,
+        85
+      ],
+      "front": [
+        46,
+        62,
+        85
+      ],
+      "right": [
+        111,
+        147,
+        197
+      ]
+    },
+    "flat-ambient": {
+      "top": [
+        102,
+        135,
+        180
+      ],
+      "front": [
+        102,
+        135,
+        180
+      ],
+      "right": [
+        102,
+        135,
+        180
+      ]
+    },
+    "colored": {
+      "top": [
+        69,
+        42,
+        47
+      ],
+      "front": [
+        75,
+        46,
+        48
+      ],
+      "right": [
+        61,
+        40,
+        47
+      ]
+    },
+    "dim": {
+      "top": [
+        39,
+        33,
+        43
+      ],
+      "front": [
+        41,
+        34,
+        42
+      ],
+      "right": [
+        35,
+        32,
+        43
+      ]
+    },
+    "bright": {
+      "top": [
+        94,
+        54,
+        52
+      ],
+      "front": [
+        103,
+        60,
+        54
+      ],
+      "right": [
+        81,
+        50,
+        48
+      ]
+    },
+    "ambient-fill": {
+      "top": [
+        126,
+        128,
+        166
+      ],
+      "front": [
+        134,
+        130,
+        165
+      ],
+      "right": [
+        119,
+        127,
+        164
+      ]
+    }
+  },
+  "note": "Display screenshot samples, including browser/display color conversion; not native pixels or export evidence."
+}

@@ -1,0 +1,144 @@
+{
+  "environment": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/155.0.8059.86",
+    "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "jsVersion": "15.5.35.25"
+  },
+  "cause": "Passive effect cleanup detached the ReferenceSession host before OrbitControls.disconnect queried its getRootNode; the document keydown listener remained.",
+  "cycles": [
+    {
+      "cycle": 0,
+      "listeners": 401,
+      "heapBytes": 17160272,
+      "orbitDocumentHandlers": 1,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 1,
+      "listeners": 402,
+      "heapBytes": 17554648,
+      "orbitDocumentHandlers": 2,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 2,
+      "listeners": 403,
+      "heapBytes": 17783404,
+      "orbitDocumentHandlers": 3,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 3,
+      "listeners": 404,
+      "heapBytes": 19065900,
+      "orbitDocumentHandlers": 4,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 4,
+      "listeners": 405,
+      "heapBytes": 19221716,
+      "orbitDocumentHandlers": 5,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 5,
+      "listeners": 406,
+      "heapBytes": 18468884,
+      "orbitDocumentHandlers": 6,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 6,
+      "listeners": 407,
+      "heapBytes": 18556704,
+      "orbitDocumentHandlers": 7,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 7,
+      "listeners": 408,
+      "heapBytes": 18791896,
+      "orbitDocumentHandlers": 8,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 8,
+      "listeners": 409,
+      "heapBytes": 19096428,
+      "orbitDocumentHandlers": 9,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 9,
+      "listeners": 410,
+      "heapBytes": 20011028,
+      "orbitDocumentHandlers": 10,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 10,
+      "listeners": 411,
+      "heapBytes": 20145568,
+      "orbitDocumentHandlers": 11,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    },
+    {
+      "cycle": 11,
+      "listeners": 412,
+      "heapBytes": 19466200,
+      "orbitDocumentHandlers": 12,
+      "gpu": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      }
+    }
+  ]
+}

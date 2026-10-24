@@ -1,0 +1,241 @@
+{
+  "source": "Actual browser Inspect native/original RGBA controls; no graphics mocks",
+  "checks": [
+    {
+      "name": "S1 exact four RGB entries",
+      "pass": true
+    },
+    {
+      "name": "S1 exact size and bounds",
+      "pass": true
+    },
+    {
+      "name": "S1 812 opaque pixels",
+      "pass": true
+    },
+    {
+      "name": "continuous exactly equals Original",
+      "pass": true
+    },
+    {
+      "name": "cel and bands share exact mapper",
+      "pass": true
+    },
+    {
+      "name": "grayscale exact documented RGB",
+      "pass": true
+    },
+    {
+      "name": "gameBoy exact documented RGB",
+      "pass": true
+    },
+    {
+      "name": "nes exact documented RGB",
+      "pass": true
+    },
+    {
+      "name": "warm exact documented RGB",
+      "pass": true
+    },
+    {
+      "name": "cool exact documented RGB",
+      "pass": true
+    },
+    {
+      "name": "mode palette allowed RGB only",
+      "pass": true
+    },
+    {
+      "name": "nearest blue allowed RGB only",
+      "pass": true
+    },
+    {
+      "name": "nearest brightness allowed RGB only",
+      "pass": true
+    },
+    {
+      "name": "nearest contrast allowed RGB only",
+      "pass": true
+    },
+    {
+      "name": "nearest red light allowed RGB only",
+      "pass": true
+    },
+    {
+      "name": "nearest brightness changes allocation",
+      "pass": true
+    },
+    {
+      "name": "nearest contrast changes allocation",
+      "pass": true
+    },
+    {
+      "name": "nearest red light changes allocation",
+      "pass": true
+    },
+    {
+      "name": "S1 bands binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "S1 original binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "mode smooth binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "mode cel binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "mode palette binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "mode bands binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "preset grayscale binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "preset gameBoy binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "preset nes binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "preset warm binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "preset cool binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "valid hex import binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "invalid { binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "invalid { unchanged pixels/revision",
+      "pass": true
+    },
+    {
+      "name": "invalid #FFFFFF #FFFFFF #FFF binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "invalid #FFFFFF #FFFFFF #FFF unchanged pixels/revision",
+      "pass": true
+    },
+    {
+      "name": "invalid #FFFFXX binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "invalid #FFFFXX unchanged pixels/revision",
+      "pass": true
+    },
+    {
+      "name": "nearest blue binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "nearest brightness binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "nearest contrast binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "nearest red light binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "duplicate colors binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "one color binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "unit ambient original binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "explicit background binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "strict background binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "strict transparent binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "32 levels binary alpha and zero hidden RGB",
+      "pass": true
+    },
+    {
+      "name": "single/duplicate exact stored byte output",
+      "pass": true
+    },
+    {
+      "name": "no double conversion",
+      "pass": true
+    },
+    {
+      "name": "explicit background preserves configured bytes",
+      "pass": true
+    },
+    {
+      "name": "strict background selects exact ramp byte",
+      "pass": true
+    },
+    {
+      "name": "palette changes do not recapture",
+      "pass": true
+    }
+  ],
+  "sha256": {
+    "S1 bands": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "S1 original": "72c05eadd45dd11c62725e25987b42fc6350868e1a40cefc31fc2cbaad99ad26",
+    "mode smooth": "72c05eadd45dd11c62725e25987b42fc6350868e1a40cefc31fc2cbaad99ad26",
+    "mode cel": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "mode palette": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "mode bands": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "preset grayscale": "7caf9981a6071c74fb5b2356fc914d907d995b865393a716c2acefb2cb47c661",
+    "preset gameBoy": "be40e8cf8b2c05e8071000f669217f88bcaa8832fcb90f0f50a8e6c3923f1128",
+    "preset nes": "046166bc79e3a146416719fa9c47483f2f178b178e29144bfb33ee6d5318be90",
+    "preset warm": "3b22258c75470b2fd07240cd5bb8efc6db301cf85d27fe868cafe54070446e3e",
+    "preset cool": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+    "valid hex import": "bbb0833b05cb1e45150e114e924898c74892b57528947eb2c0c5bc0fa1b32191",
+    "invalid {": "bbb0833b05cb1e45150e114e924898c74892b57528947eb2c0c5bc0fa1b32191",
+    "invalid #FFFFFF #FFFFFF #FFF": "bbb0833b05cb1e45150e114e924898c74892b57528947eb2c0c5bc0fa1b32191",
+    "invalid #FFFFXX": "bbb0833b05cb1e45150e114e924898c74892b57528947eb2c0c5bc0fa1b32191",
+    "nearest blue": "3ea7debaf7aaa9ea60def9b97e4dd651b2e37a7088af835d53d2210928e854c4",
+    "nearest brightness": "26f6b60b63e91d96b080c41cf9ecbc1fd2348f9ff7e403285442c9a30052b77e",
+    "nearest contrast": "bfc52d19c1e5a752d0fd4212169c804155b94eaa92258af464a13a42ebedb9f3",
+    "nearest red light": "ba0a9d6533e4b15f61fe3f5a487c95859d09af9d4c924f7b5aa4545cbb9ec593",
+    "duplicate colors": "1961fdd5ad729217da998d5a26d052590564a293109eeef7bfb14d3f5a1e21b9",
+    "one color": "1961fdd5ad729217da998d5a26d052590564a293109eeef7bfb14d3f5a1e21b9",
+    "unit ambient original": "1961fdd5ad729217da998d5a26d052590564a293109eeef7bfb14d3f5a1e21b9",
+    "explicit background": "4a30aa4180a0eee8bfbb18decfe51e2f0fc218e9933b7774301e35b77476cdea",
+    "strict background": "4e7d64037b4aada5072b7873ffce7d9efc7fdacfdd613988ee9c8f3463ad51c9",
+    "strict transparent": "94743af9f3768e3e81c2517d13e307635118c9ee1a7cc3b62e29f38cc356dee6",
+    "32 levels": "9d12de74ee4d269711ffb550d70a47770b1f8b9f56eb9da31166b582fbb2c90d"
+  }
+}

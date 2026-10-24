@@ -1,0 +1,1803 @@
+{
+  "environment": "Google Chrome 155.0.8059.86 (installed app plist), macOS 27.0; actual WebGL2, Vite 8.3.5 at http://127.0.0.1:5173/?scene-checks; screenshot viewport 1728x963. GPU vendor/DPR not asserted.",
+  "records": [
+    {
+      "name": "S1 bands",
+      "width": 64,
+      "height": 64,
+      "revision": 0,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 154,
+        "#B8D8F0": 403,
+        "#304878": 115,
+        "#172038": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "S1 original",
+      "width": 64,
+      "height": 64,
+      "revision": 0,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#4F76A0": 10,
+        "#537CA8": 6,
+        "#567FAD": 6,
+        "#5882B0": 10,
+        "#5984B2": 3,
+        "#5A85B3": 2,
+        "#5A84B3": 1,
+        "#5883B1": 5,
+        "#496D94": 5,
+        "#5680AD": 4,
+        "#5983B2": 9,
+        "#5A86B5": 10,
+        "#5C88B8": 11,
+        "#5D89BA": 5,
+        "#5E8BBB": 2,
+        "#5E8BBC": 11,
+        "#5F8CBD": 11,
+        "#5D8ABA": 10,
+        "#416286": 3,
+        "#4B7099": 3,
+        "#5077A2": 3,
+        "#547CA9": 6,
+        "#5780AE": 7,
+        "#5B86B6": 4,
+        "#5D89B9": 6,
+        "#5F8CBE": 9,
+        "#608DBF": 9,
+        "#618EC0": 1,
+        "#618FC1": 15,
+        "#618FC2": 4,
+        "#608EC0": 13,
+        "#43658A": 5,
+        "#4A6F97": 6,
+        "#537BA7": 7,
+        "#5E8ABB": 8,
+        "#6290C3": 10,
+        "#6291C4": 12,
+        "#6391C4": 5,
+        "#416185": 3,
+        "#486C93": 6,
+        "#4D739C": 6,
+        "#5179A4": 9,
+        "#547DAA": 5,
+        "#5781AE": 3,
+        "#5984B3": 7,
+        "#5B87B7": 5,
+        "#5E8BBD": 1,
+        "#6392C5": 12,
+        "#6392C6": 7,
+        "#6493C6": 7,
+        "#6393C6": 1,
+        "#3C5B7D": 4,
+        "#45688D": 4,
+        "#4B6F97": 1,
+        "#4F759F": 8,
+        "#527AA6": 5,
+        "#557EAB": 9,
+        "#5A85B4": 12,
+        "#5C87B7": 2,
+        "#608EBF": 4,
+        "#6391C5": 2,
+        "#6493C7": 12,
+        "#35516F": 3,
+        "#406184": 5,
+        "#476A90": 2,
+        "#4B7199": 4,
+        "#557FAC": 2,
+        "#5C88B7": 2,
+        "#6494C7": 2,
+        "#6494C8": 3,
+        "#6291C3": 2,
+        "#283F57": 123,
+        "#3A5879": 3,
+        "#426388": 2,
+        "#486B92": 4,
+        "#4C719A": 5,
+        "#5077A1": 4,
+        "#537BA6": 2,
+        "#5781AF": 6,
+        "#314C69": 3,
+        "#436589": 3,
+        "#5B87B6": 4,
+        "#5F8DBE": 2,
+        "#6190C2": 5,
+        "#5C89B9": 3,
+        "#344F6D": 6,
+        "#436489": 3,
+        "#4C7199": 1,
+        "#527AA5": 1,
+        "#5D8ABB": 2,
+        "#6290C2": 2,
+        "#3D5C7D": 2,
+        "#426488": 3,
+        "#476A91": 2,
+        "#4B7098": 9,
+        "#4E759E": 2,
+        "#547CA8": 3,
+        "#34506E": 4,
+        "#3C5A7C": 2,
+        "#46698F": 7,
+        "#334E6C": 1,
+        "#3B597A": 2,
+        "#45678D": 2,
+        "#4C729A": 1,
+        "#5279A4": 1,
+        "#567FAC": 2,
+        "#395676": 2,
+        "#3F5F82": 6,
+        "#476B91": 4,
+        "#4E749D": 7,
+        "#527BA6": 1,
+        "#5882B1": 4,
+        "#547DA9": 4,
+        "#2F4964": 3,
+        "#375373": 3,
+        "#3D5C7E": 6,
+        "#426387": 4,
+        "#45688E": 3,
+        "#496D95": 2,
+        "#5178A3": 5,
+        "#5B86B5": 2,
+        "#5E8CBD": 1,
+        "#2C445E": 3,
+        "#3B5979": 1,
+        "#44658A": 2,
+        "#324C69": 3,
+        "#385575": 3,
+        "#5279A5": 6,
+        "#5680AE": 3,
+        "#5C88B9": 1,
+        "#2E4762": 2,
+        "#3F5F81": 1,
+        "#557EAA": 2,
+        "#4E759F": 1,
+        "#294059": 4,
+        "#314B68": 2,
+        "#3C5B7C": 4,
+        "#406084": 2,
+        "#466990": 2,
+        "#4F76A1": 1,
+        "#2C445F": 1,
+        "#334E6B": 1,
+        "#385675": 1,
+        "#44668B": 3,
+        "#466A90": 1,
+        "#5078A2": 2,
+        "#46688E": 1,
+        "#2F4863": 1,
+        "#395677": 1,
+        "#4C729B": 2,
+        "#4E749E": 3,
+        "#293F58": 1,
+        "#2F4965": 1,
+        "#35506F": 1,
+        "#395777": 1,
+        "#496E95": 2,
+        "#29405A": 2,
+        "#304965": 3,
+        "#4A6E96": 3,
+        "#385574": 1,
+        "#3E5E80": 1,
+        "#436488": 1,
+        "#45678C": 1,
+        "#4B6F98": 1,
+        "#324D6A": 2,
+        "#365271": 1,
+        "#395778": 1,
+        "#3F5E81": 1,
+        "#406185": 1,
+        "#476B92": 1,
+        "#304A66": 1,
+        "#375473": 2,
+        "#3A5778": 1,
+        "#3E5D7F": 2,
+        "#35506E": 1,
+        "#2D4660": 1,
+        "#365372": 1,
+        "#3D5B7D": 1,
+        "#3E5D80": 3,
+        "#3B5A7B": 1,
+        "#2D455F": 1,
+        "#365270": 1,
+        "#375372": 1,
+        "#385474": 1,
+        "#375474": 1,
+        "#2B435D": 1,
+        "#2D4661": 2,
+        "#2F4864": 2,
+        "#2A415A": 1
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "mode smooth",
+      "width": 64,
+      "height": 64,
+      "revision": 1,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#4F76A0": 10,
+        "#537CA8": 6,
+        "#567FAD": 6,
+        "#5882B0": 10,
+        "#5984B2": 3,
+        "#5A85B3": 2,
+        "#5A84B3": 1,
+        "#5883B1": 5,
+        "#496D94": 5,
+        "#5680AD": 4,
+        "#5983B2": 9,
+        "#5A86B5": 10,
+        "#5C88B8": 11,
+        "#5D89BA": 5,
+        "#5E8BBB": 2,
+        "#5E8BBC": 11,
+        "#5F8CBD": 11,
+        "#5D8ABA": 10,
+        "#416286": 3,
+        "#4B7099": 3,
+        "#5077A2": 3,
+        "#547CA9": 6,
+        "#5780AE": 7,
+        "#5B86B6": 4,
+        "#5D89B9": 6,
+        "#5F8CBE": 9,
+        "#608DBF": 9,
+        "#618EC0": 1,
+        "#618FC1": 15,
+        "#618FC2": 4,
+        "#608EC0": 13,
+        "#43658A": 5,
+        "#4A6F97": 6,
+        "#537BA7": 7,
+        "#5E8ABB": 8,
+        "#6290C3": 10,
+        "#6291C4": 12,
+        "#6391C4": 5,
+        "#416185": 3,
+        "#486C93": 6,
+        "#4D739C": 6,
+        "#5179A4": 9,
+        "#547DAA": 5,
+        "#5781AE": 3,
+        "#5984B3": 7,
+        "#5B87B7": 5,
+        "#5E8BBD": 1,
+        "#6392C5": 12,
+        "#6392C6": 7,
+        "#6493C6": 7,
+        "#6393C6": 1,
+        "#3C5B7D": 4,
+        "#45688D": 4,
+        "#4B6F97": 1,
+        "#4F759F": 8,
+        "#527AA6": 5,
+        "#557EAB": 9,
+        "#5A85B4": 12,
+        "#5C87B7": 2,
+        "#608EBF": 4,
+        "#6391C5": 2,
+        "#6493C7": 12,
+        "#35516F": 3,
+        "#406184": 5,
+        "#476A90": 2,
+        "#4B7199": 4,
+        "#557FAC": 2,
+        "#5C88B7": 2,
+        "#6494C7": 2,
+        "#6494C8": 3,
+        "#6291C3": 2,
+        "#283F57": 123,
+        "#3A5879": 3,
+        "#426388": 2,
+        "#486B92": 4,
+        "#4C719A": 5,
+        "#5077A1": 4,
+        "#537BA6": 2,
+        "#5781AF": 6,
+        "#314C69": 3,
+        "#436589": 3,
+        "#5B87B6": 4,
+        "#5F8DBE": 2,
+        "#6190C2": 5,
+        "#5C89B9": 3,
+        "#344F6D": 6,
+        "#436489": 3,
+        "#4C7199": 1,
+        "#527AA5": 1,
+        "#5D8ABB": 2,
+        "#6290C2": 2,
+        "#3D5C7D": 2,
+        "#426488": 3,
+        "#476A91": 2,
+        "#4B7098": 9,
+        "#4E759E": 2,
+        "#547CA8": 3,
+        "#34506E": 4,
+        "#3C5A7C": 2,
+        "#46698F": 7,
+        "#334E6C": 1,
+        "#3B597A": 2,
+        "#45678D": 2,
+        "#4C729A": 1,
+        "#5279A4": 1,
+        "#567FAC": 2,
+        "#395676": 2,
+        "#3F5F82": 6,
+        "#476B91": 4,
+        "#4E749D": 7,
+        "#527BA6": 1,
+        "#5882B1": 4,
+        "#547DA9": 4,
+        "#2F4964": 3,
+        "#375373": 3,
+        "#3D5C7E": 6,
+        "#426387": 4,
+        "#45688E": 3,
+        "#496D95": 2,
+        "#5178A3": 5,
+        "#5B86B5": 2,
+        "#5E8CBD": 1,
+        "#2C445E": 3,
+        "#3B5979": 1,
+        "#44658A": 2,
+        "#324C69": 3,
+        "#385575": 3,
+        "#5279A5": 6,
+        "#5680AE": 3,
+        "#5C88B9": 1,
+        "#2E4762": 2,
+        "#3F5F81": 1,
+        "#557EAA": 2,
+        "#4E759F": 1,
+        "#294059": 4,
+        "#314B68": 2,
+        "#3C5B7C": 4,
+        "#406084": 2,
+        "#466990": 2,
+        "#4F76A1": 1,
+        "#2C445F": 1,
+        "#334E6B": 1,
+        "#385675": 1,
+        "#44668B": 3,
+        "#466A90": 1,
+        "#5078A2": 2,
+        "#46688E": 1,
+        "#2F4863": 1,
+        "#395677": 1,
+        "#4C729B": 2,
+        "#4E749E": 3,
+        "#293F58": 1,
+        "#2F4965": 1,
+        "#35506F": 1,
+        "#395777": 1,
+        "#496E95": 2,
+        "#29405A": 2,
+        "#304965": 3,
+        "#4A6E96": 3,
+        "#385574": 1,
+        "#3E5E80": 1,
+        "#436488": 1,
+        "#45678C": 1,
+        "#4B6F98": 1,
+        "#324D6A": 2,
+        "#365271": 1,
+        "#395778": 1,
+        "#3F5E81": 1,
+        "#406185": 1,
+        "#476B92": 1,
+        "#304A66": 1,
+        "#375473": 2,
+        "#3A5778": 1,
+        "#3E5D7F": 2,
+        "#35506E": 1,
+        "#2D4660": 1,
+        "#365372": 1,
+        "#3D5B7D": 1,
+        "#3E5D80": 3,
+        "#3B5A7B": 1,
+        "#2D455F": 1,
+        "#365270": 1,
+        "#375372": 1,
+        "#385474": 1,
+        "#375474": 1,
+        "#2B435D": 1,
+        "#2D4661": 2,
+        "#2F4864": 2,
+        "#2A415A": 1
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "mode cel",
+      "width": 64,
+      "height": 64,
+      "revision": 2,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 154,
+        "#B8D8F0": 403,
+        "#304878": 115,
+        "#172038": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "mode palette",
+      "width": 64,
+      "height": 64,
+      "revision": 3,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 447,
+        "#304878": 234,
+        "#172038": 131
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "mode bands",
+      "width": 64,
+      "height": 64,
+      "revision": 4,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 154,
+        "#B8D8F0": 403,
+        "#304878": 115,
+        "#172038": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "exact preset grayscale",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#202020",
+          "#686868",
+          "#B0B0B0",
+          "#F0F0F0"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "preset grayscale",
+      "width": 64,
+      "height": 64,
+      "revision": 5,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#B0B0B0": 154,
+        "#F0F0F0": 403,
+        "#686868": 115,
+        "#202020": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "exact preset gameBoy",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#0F380F",
+          "#306230",
+          "#8BAC0F",
+          "#9BBC0F"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "preset gameBoy",
+      "width": 64,
+      "height": 64,
+      "revision": 6,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#8BAC0F": 154,
+        "#9BBC0F": 403,
+        "#306230": 115,
+        "#0F380F": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "exact preset nes",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#1C1C1C",
+          "#2038EC",
+          "#38B4FC",
+          "#FCFCFC"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "preset nes",
+      "width": 64,
+      "height": 64,
+      "revision": 7,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#38B4FC": 154,
+        "#FCFCFC": 403,
+        "#2038EC": 115,
+        "#1C1C1C": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "exact preset warm",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#301B28",
+          "#78404A",
+          "#C47761",
+          "#F4D7A1"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "preset warm",
+      "width": 64,
+      "height": 64,
+      "revision": 8,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#C47761": 154,
+        "#F4D7A1": 403,
+        "#78404A": 115,
+        "#301B28": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "exact preset cool",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#172038",
+          "#304878",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "preset cool",
+      "width": 64,
+      "height": 64,
+      "revision": 9,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 154,
+        "#B8D8F0": 403,
+        "#304878": 115,
+        "#172038": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "hex picker reorder",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#ABCDEF",
+          "#1279AB",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "add remove",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#ABCDEF",
+          "#1279AB",
+          "#B8D8F0",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "valid hex import",
+      "width": 64,
+      "height": 64,
+      "revision": 15,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 557,
+        "#000000": 115,
+        "#FFFFFF": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "hex normalization duplicates and artist order",
+      "palette": {
+        "schemaVersion": 1,
+        "colors": [
+          "#FFFFFF",
+          "#000000",
+          "#1279AB",
+          "#1279AB"
+        ],
+        "effectPolicy": "explicit"
+      }
+    },
+    {
+      "name": "invalid {",
+      "width": 64,
+      "height": 64,
+      "revision": 15,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 557,
+        "#000000": 115,
+        "#FFFFFF": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "atomic invalid import",
+      "input": "{",
+      "pass": true,
+      "error": [
+        "Malformed JSON. Expected {\"schemaVersion\":1,\"colors\":[\"#RRGGBB\"],\"effectPolicy\":\"explicit\"}.",
+        ""
+      ]
+    },
+    {
+      "name": "invalid #FFFFFF #FFFFFF #FFF",
+      "width": 64,
+      "height": 64,
+      "revision": 15,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 557,
+        "#000000": 115,
+        "#FFFFFF": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "atomic invalid import",
+      "input": "#FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF #FFFFFF",
+      "pass": true,
+      "error": [
+        "Expected 1\u201332 colors.",
+        ""
+      ]
+    },
+    {
+      "name": "invalid #FFFFXX",
+      "width": 64,
+      "height": 64,
+      "revision": 15,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 557,
+        "#000000": 115,
+        "#FFFFFF": 140
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "atomic invalid import",
+      "input": "#FFFFXX",
+      "pass": true,
+      "error": [
+        "Expected an opaque sRGB color in #RRGGBB form.",
+        ""
+      ]
+    },
+    {
+      "name": "local file read",
+      "blocked": "Error: Error: Browser Use could not complete this action because a browser security check was unavailable. Reason: The permission request was dismissed before a decision was made. Browser use could not acquire authority to upload files. The upload approval gate did not grant access for http://127.0.0.1:5173. The approval request was cancelled. This failure may be temporary. The agent may retry after the issue is resolved, but must not bypass browser security controls or use an indirect workaround.\nfileChooser.setFiles failed"
+    },
+    {
+      "name": "nearest blue",
+      "width": 64,
+      "height": 64,
+      "revision": 17,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 447,
+        "#304878": 234,
+        "#172038": 131
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "nearest brightness",
+      "width": 64,
+      "height": 64,
+      "revision": 18,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 466,
+        "#B8D8F0": 346
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "nearest contrast",
+      "width": 64,
+      "height": 64,
+      "revision": 19,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#5C88B8": 449,
+        "#304878": 161,
+        "#172038": 202
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "nearest red light",
+      "width": 64,
+      "height": 64,
+      "revision": 20,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#172038": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "duplicate colors",
+      "width": 64,
+      "height": 64,
+      "revision": 25,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "one color",
+      "width": 64,
+      "height": 64,
+      "revision": 26,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "unit ambient original",
+      "width": 64,
+      "height": 64,
+      "revision": 26,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#1279AB": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "no double conversion",
+      "pass": true,
+      "removeDisabled": true
+    },
+    {
+      "name": "explicit resample",
+      "staged": [
+        "#FFFFFF",
+        "#000000",
+        "#FF0000"
+      ],
+      "result": [
+        "#FFFFFF",
+        "#BCBCBC",
+        "#000000",
+        "#BC0000",
+        "#FF0000"
+      ],
+      "pass": true
+    },
+    {
+      "name": "explicit background",
+      "width": 64,
+      "height": 64,
+      "revision": 31,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#FEDCBA": 3284,
+        "#000000": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "strict background",
+      "width": 64,
+      "height": 64,
+      "revision": 32,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#BCBCBC": 3284,
+        "#000000": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "strict transparent",
+      "width": 64,
+      "height": 64,
+      "revision": 33,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#000000": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "32 entries",
+      "count": 32,
+      "addDisabled": true
+    },
+    {
+      "name": "32 levels",
+      "width": 64,
+      "height": 64,
+      "revision": 35,
+      "captureRevision": 0,
+      "bounds": {
+        "x": 16,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "colors": {
+        "#B8D8F0": 812
+      },
+      "invalidAlpha": 0
+    },
+    {
+      "name": "capture and graphics reuse",
+      "captures": 1,
+      "captureRevision": 0,
+      "memory": {
+        "geometries": 1,
+        "textures": 1,
+        "programs": 1
+      },
+      "geometryBuilds": 1
+    }
+  ],
+  "startDiagnostics": {
+    "lifecycle": {
+      "created": 2,
+      "disposed": 1,
+      "active": 1
+    },
+    "frames": 8,
+    "geometryBuilds": 1,
+    "lightingInvalidations": 0,
+    "memory": {
+      "geometries": 1,
+      "textures": 1,
+      "programs": 1
+    },
+    "triangles": 3968,
+    "settings": {
+      "schemaVersion": 1,
+      "subject": {
+        "geometry": {
+          "kind": "sphere",
+          "radius": 1,
+          "widthSegments": 64,
+          "heightSegments": 32
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "lighting": {
+        "directional": {
+          "position": {
+            "x": 3,
+            "y": 4,
+            "z": 5
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": "#FFFFFF",
+          "intensity": 1
+        },
+        "ambient": {
+          "color": "#FFFFFF",
+          "intensity": 0.2
+        }
+      },
+      "canvas": {
+        "width": 64,
+        "height": 64
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "fit": {
+          "box": {
+            "width": 32,
+            "height": 32
+          },
+          "alignment": "center",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      },
+      "shading": {
+        "normals": "smooth",
+        "tone": {
+          "kind": "bands",
+          "thresholds": [
+            0.25,
+            0.5,
+            0.75
+          ]
+        },
+        "baseColor": "#5C88B8",
+        "shadowColor": "#172038",
+        "highlightColor": "#B8D8F0",
+        "brightness": 0,
+        "contrast": 1,
+        "distribution": 1
+      },
+      "palette": {
+        "colors": [
+          "#172038",
+          "#304878",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      },
+      "dither": {
+        "kind": "none"
+      },
+      "outline": {
+        "kind": "none"
+      },
+      "ground": {
+        "kind": "none"
+      },
+      "shadows": {
+        "kind": "none"
+      },
+      "background": {
+        "kind": "transparent"
+      }
+    },
+    "preview": {
+      "zoom": 7,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "grid": false,
+      "checkerboard": true,
+      "referenceWireframe": false,
+      "mode": "side-by-side",
+      "tool": "camera"
+    },
+    "presentation": [
+      {
+        "name": "Original continuous native reference",
+        "viewport": {
+          "left": 260,
+          "top": 156.5,
+          "width": 594,
+          "height": 346
+        },
+        "image": {
+          "left": 333,
+          "top": 106,
+          "width": 448,
+          "height": 448
+        },
+        "smoothing": false
+      },
+      {
+        "name": "Native pixel output",
+        "viewport": {
+          "left": 854.5,
+          "top": 156.5,
+          "width": 594,
+          "height": 346
+        },
+        "image": {
+          "left": 928,
+          "top": 106,
+          "width": 448,
+          "height": 448
+        },
+        "smoothing": false
+      }
+    ],
+    "revisions": {
+      "settings": 4,
+      "capture": 0,
+      "style": 4,
+      "shadow": 0,
+      "view": 2
+    },
+    "camera": {
+      "enabled": true,
+      "panEnabled": false,
+      "zoomEnabled": false,
+      "lightOwnsGesture": false,
+      "changes": 0,
+      "disposed": false,
+      "sourcePosition": [
+        0,
+        0,
+        5
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "sourceQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "renderQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "projectionMatrix": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        -0.20010005002501252,
+        0,
+        0,
+        0,
+        -1.0010005002501252,
+        1
+      ],
+      "near": 0.005,
+      "far": 10
+    },
+    "native": {
+      "framing": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      },
+      "rasterizations": 2,
+      "readback": "synchronous",
+      "captures": 1,
+      "processes": 5,
+      "timings": {
+        "captureMs": 11.700000047683716,
+        "readbackMs": 3.4000000953674316,
+        "processMs": 0.3000001907348633
+      },
+      "targetLifecycle": {
+        "created": 1,
+        "disposed": 0,
+        "active": 1
+      },
+      "target": {
+        "width": 64,
+        "height": 64,
+        "samples": 0,
+        "type": 1009,
+        "format": 1023,
+        "colorSpace": "",
+        "minFilter": 1003,
+        "magFilter": 1003,
+        "generateMipmaps": false
+      },
+      "buffers": {
+        "raw": 16384,
+        "normals": 16384,
+        "work": 16384
+      },
+      "frame": {
+        "width": 64,
+        "height": 64,
+        "revision": 4,
+        "captureRevision": 0,
+        "byteLength": 16384
+      }
+    },
+    "nativeCanvas": {
+      "width": 64,
+      "height": 64,
+      "revision": "4",
+      "smoothing": false
+    },
+    "light": {
+      "dragging": false,
+      "completed": 0,
+      "cancelled": 0,
+      "disposed": false
+    },
+    "lightHandle": {
+      "visible": false,
+      "layers": [
+        {
+          "name": "Mesh",
+          "mask": 2
+        },
+        {
+          "name": "Line",
+          "mask": 2
+        },
+        {
+          "name": "Mesh",
+          "mask": 2
+        }
+      ]
+    },
+    "subject": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "normalization": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "drawingBuffer": [
+      300,
+      150
+    ],
+    "contextLost": false,
+    "contextLossSimulation": true
+  },
+  "endDiagnostics": {
+    "lifecycle": {
+      "created": 2,
+      "disposed": 1,
+      "active": 1
+    },
+    "frames": 40,
+    "geometryBuilds": 1,
+    "lightingInvalidations": 3,
+    "memory": {
+      "geometries": 1,
+      "textures": 1,
+      "programs": 1
+    },
+    "triangles": 3968,
+    "settings": {
+      "schemaVersion": 1,
+      "subject": {
+        "geometry": {
+          "kind": "sphere",
+          "radius": 1,
+          "widthSegments": 64,
+          "heightSegments": 32
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "lighting": {
+        "directional": {
+          "position": {
+            "x": 3,
+            "y": 4,
+            "z": 5
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": "#FFFFFF",
+          "intensity": 1
+        },
+        "ambient": {
+          "color": "#FFFFFF",
+          "intensity": 0.2
+        }
+      },
+      "canvas": {
+        "width": 64,
+        "height": 64
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "fit": {
+          "box": {
+            "width": 32,
+            "height": 32
+          },
+          "alignment": "center",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      },
+      "shading": {
+        "normals": "smooth",
+        "tone": {
+          "kind": "bands",
+          "thresholds": [
+            0.25,
+            0.5,
+            0.75
+          ]
+        },
+        "baseColor": "#5C88B8",
+        "shadowColor": "#172038",
+        "highlightColor": "#B8D8F0",
+        "brightness": 0,
+        "contrast": 1,
+        "distribution": 1
+      },
+      "palette": {
+        "colors": [
+          "#172038",
+          "#304878",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      },
+      "dither": {
+        "kind": "none"
+      },
+      "outline": {
+        "kind": "none"
+      },
+      "ground": {
+        "kind": "none"
+      },
+      "shadows": {
+        "kind": "none"
+      },
+      "background": {
+        "kind": "transparent"
+      }
+    },
+    "preview": {
+      "zoom": 7,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "grid": false,
+      "checkerboard": true,
+      "referenceWireframe": false,
+      "mode": "side-by-side",
+      "tool": "camera"
+    },
+    "presentation": [
+      {
+        "name": "Original continuous native reference",
+        "viewport": {
+          "left": 260,
+          "top": 156.5,
+          "width": 594,
+          "height": 346
+        },
+        "image": {
+          "left": 333,
+          "top": 106,
+          "width": 448,
+          "height": 448
+        },
+        "smoothing": false
+      },
+      {
+        "name": "Native pixel output",
+        "viewport": {
+          "left": 854.5,
+          "top": 156.5,
+          "width": 594,
+          "height": 346
+        },
+        "image": {
+          "left": 928,
+          "top": 106,
+          "width": 448,
+          "height": 448
+        },
+        "smoothing": false
+      }
+    ],
+    "revisions": {
+      "settings": 36,
+      "capture": 0,
+      "style": 36,
+      "shadow": 0,
+      "view": 2
+    },
+    "camera": {
+      "enabled": true,
+      "panEnabled": false,
+      "zoomEnabled": false,
+      "lightOwnsGesture": false,
+      "changes": 0,
+      "disposed": false,
+      "sourcePosition": [
+        0,
+        0,
+        5
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "sourceQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "renderQuaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "projectionMatrix": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        -0.20010005002501252,
+        0,
+        0,
+        0,
+        -1.0010005002501252,
+        1
+      ],
+      "near": 0.005,
+      "far": 10
+    },
+    "native": {
+      "framing": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 32
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      },
+      "rasterizations": 2,
+      "readback": "synchronous",
+      "captures": 1,
+      "processes": 37,
+      "timings": {
+        "captureMs": 11.700000047683716,
+        "readbackMs": 3.4000000953674316,
+        "processMs": 0.2999999523162842
+      },
+      "targetLifecycle": {
+        "created": 1,
+        "disposed": 0,
+        "active": 1
+      },
+      "target": {
+        "width": 64,
+        "height": 64,
+        "samples": 0,
+        "type": 1009,
+        "format": 1023,
+        "colorSpace": "",
+        "minFilter": 1003,
+        "magFilter": 1003,
+        "generateMipmaps": false
+      },
+      "buffers": {
+        "raw": 16384,
+        "normals": 16384,
+        "work": 16384
+      },
+      "frame": {
+        "width": 64,
+        "height": 64,
+        "revision": 36,
+        "captureRevision": 0,
+        "byteLength": 16384
+      }
+    },
+    "nativeCanvas": {
+      "width": 64,
+      "height": 64,
+      "revision": "36",
+      "smoothing": false
+    },
+    "light": {
+      "dragging": false,
+      "completed": 0,
+      "cancelled": 0,
+      "disposed": false
+    },
+    "lightHandle": {
+      "visible": false,
+      "layers": [
+        {
+          "name": "Mesh",
+          "mask": 2
+        },
+        {
+          "name": "Line",
+          "mask": 2
+        },
+        {
+          "name": "Mesh",
+          "mask": 2
+        }
+      ]
+    },
+    "subject": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "normalization": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "drawingBuffer": [
+      300,
+      150
+    ],
+    "contextLost": false,
+    "contextLossSimulation": true
+  },
+  "console": [],
+  "verificationLimitations": [
+    "Native file-selection and download permission services were unavailable in the browser tool. Neither operation was bypassed. Text import/export and native pixels were checked; actual FileReader review/apply and oversize rejection passed in jsdom.",
+    "Stale Vite transforms required restarting the owned server and reloading before final checks."
+  ]
+}

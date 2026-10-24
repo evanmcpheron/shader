@@ -1,0 +1,3076 @@
+{
+  "environment": {
+    "browser": "Google Chrome 155.0.8059.86",
+    "os": "macOS 27.0",
+    "origin": "http://127.0.0.1:5173/?scene-checks",
+    "screenshot": "1728x963",
+    "dpr": 2
+  },
+  "records": 39,
+  "passed": 455,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "sphere64-none: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-none: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-t8: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-strict-fs-solid: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-fs-solid: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-explicit-blue-solid: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-8x: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-palette-bayer-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: latest revision",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t1-16x: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-top-left-clipped: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere16-outline-reset: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: latest revision",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "sphere64-scene-reset: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-none-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-2-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-4-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-8-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-blue-noise-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-off: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: latest revision",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "dither64-floyd-steinberg-on: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: disabled metadata",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: latest revision",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-none: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "fresh-remount-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: exact effect metadata",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: original has no outline",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: requested dimensions retained",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: subject measurement unchanged",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: exact full ring color bytes",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: exact background outside subject and ring",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: subject alpha and palette membership",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: binary alpha and zero hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: latest revision",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: stable resource ownership",
+      "passed": true
+    },
+    {
+      "name": "fresh-compare-fs-t2: Original unchanged through styling",
+      "passed": true
+    },
+    {
+      "name": "none: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "none: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "2: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "2: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "4: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "4: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "8: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "8: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "blue-noise: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "blue-noise: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "floyd-steinberg: outlining leaves every subject byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "floyd-steinberg: on/off skips capture, fit and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t1: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t2: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-custom-t8: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-recolor-t8: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-custom-t2: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "fresh-sphere64-recolor-t2: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-16x: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t8-clipped: outline-only compositing retains capture, fit, lighting and styling",
+      "passed": true
+    },
+    {
+      "name": "sphere64-compare-blue-t2-4x: zoom preserves native bytes and processing",
+      "passed": true
+    },
+    {
+      "name": "sphere16-t2-32x: zoom preserves native bytes and processing",
+      "passed": true
+    },
+    {
+      "name": "fresh source reproduces full custom outline frame",
+      "passed": true
+    },
+    {
+      "name": "remount reproduces exact bytes",
+      "passed": true
+    },
+    {
+      "name": "remount disposes previous target",
+      "passed": true
+    },
+    {
+      "name": "section reset preserves subject, canvas and styling",
+      "passed": true
+    },
+    {
+      "name": "whole scene reset restores canonical bytes",
+      "passed": true
+    },
+    {
+      "name": "torus64-t1: hole center survives dilation",
+      "passed": true
+    },
+    {
+      "name": "torus64-t2: hole center survives dilation",
+      "passed": true
+    },
+    {
+      "name": "no Chrome warnings or errors",
+      "passed": true
+    }
+  ],
+  "frames": [
+    {
+      "label": "sphere64-none",
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 1,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.7000000476837158,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-custom-t1",
+      "sha256": "698299e2c12870df9488d9da7b0bf2f29d4fdbe742e15642cfe133103128c675",
+      "subjectPixels": 812,
+      "outlinePixels": 132,
+      "outline": {
+        "extent": {
+          "x": 15,
+          "y": 15,
+          "width": 34,
+          "height": 34
+        },
+        "visible": {
+          "x": 15,
+          "y": 15,
+          "width": 34,
+          "height": 34
+        },
+        "pixelCount": 132,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 1
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 3,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.7000000476837158,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0.10000014305114746
+      }
+    },
+    {
+      "label": "sphere64-custom-t2",
+      "sha256": "0ec5719ff80e3093090834d7b34a20050020a32b3d05683933be6dc38b80df2e",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 4,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.7000000476837158,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-custom-t8",
+      "sha256": "230c02d18742f37f404162af520c574527f9a548033d7a9b85715dd8123a164a",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 5,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.7000000476837158,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-recolor-t8",
+      "sha256": "1a225dc391ea821d26eaa25f07cfc8fca30019e09d9e4f4063a633ed65dbda87",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#FEDCBA",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 6,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.7000000476837158,
+        "originalMs": 0.9000000953674316,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-strict-t8",
+      "sha256": "d8068abc3e1009eb91f09a2856a97bc065a53f54053ad067e8137c1c530e38a8",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#B8D8F0",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 2,
+      "composites": 7,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.8999998569488525,
+        "originalMs": 0.5,
+        "styleMs": 0.39999985694885254,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-strict-fs",
+      "sha256": "792f426c9fd891cc0f6c9b997fc01e7b124cec619ef7b1d217dd6f04b474e50e",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#B8D8F0",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 3,
+      "composites": 8,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1.8000001907348633,
+        "originalMs": 0.6000001430511475,
+        "styleMs": 1.2000000476837158,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-strict-fs-solid",
+      "sha256": "12069cae83c41a2beac05dcc75ddae4c1ef77f7c0cd1c786565134025acbce3a",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#B8D8F0",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 5,
+      "composites": 10,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.7999999523162842,
+        "originalMs": 0.2999999523162842,
+        "styleMs": 0.39999985694885254,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-explicit-fs-solid",
+      "sha256": "a40a02524199150201e9ac135a08fa01aa1f3d90b8f790da0165e254acaa94bf",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#FEDCBA",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 6,
+      "composites": 11,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.20000004768371582,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-explicit-blue-solid",
+      "sha256": "8cda9e5d5874f7286f0536d402ae7c7e638bb8443adcba0b43767fa16ac96e2e",
+      "subjectPixels": 812,
+      "outlinePixels": 1280,
+      "outline": {
+        "extent": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "visible": {
+          "x": 8,
+          "y": 8,
+          "width": 48,
+          "height": 48
+        },
+        "pixelCount": 1280,
+        "clipped": false,
+        "color": "#FEDCBA",
+        "thickness": 8
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 7,
+      "composites": 12,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.7999999523162842,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.39999985694885254,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-compare-blue-t2-8x",
+      "sha256": "beef0c8fc49d5d1c4837f42596d389cbd8d9bcf5136712e54842efb062179a28",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 8,
+      "composites": 15,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.2999999523162842,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-compare-blue-t2-4x",
+      "sha256": "beef0c8fc49d5d1c4837f42596d389cbd8d9bcf5136712e54842efb062179a28",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 8,
+      "composites": 15,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 0.2999999523162842,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-palette-bayer-t2",
+      "sha256": "03776c1bdf32faf62000abb784646981dc455696d7f4426a462be67c30ee77d6",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 10,
+      "composites": 17,
+      "timings": {
+        "captureMs": 11.5,
+        "readbackMs": 3.000000238418579,
+        "processMs": 1,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.7999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus64-t1",
+      "sha256": "f664a5700252f37b5a902a9a4b41ef626d1cc70bc8ade4a41d4e871c273ffc37",
+      "subjectPixels": 604,
+      "outlinePixels": 192,
+      "outline": {
+        "extent": {
+          "x": 15,
+          "y": 15,
+          "width": 34,
+          "height": 34
+        },
+        "visible": {
+          "x": 15,
+          "y": 15,
+          "width": 34,
+          "height": 34
+        },
+        "pixelCount": 192,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 1
+      },
+      "captures": 2,
+      "rasterizations": 4,
+      "processes": 11,
+      "composites": 19,
+      "timings": {
+        "captureMs": 4.5,
+        "readbackMs": 2.5,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.10000014305114746,
+        "styleMs": 0.5999999046325684,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "torus64-t2",
+      "sha256": "9e537c35fa5e9644d73046f08e0b31abeca0db3c0118d27d7cc683794a1b06a7",
+      "subjectPixels": 604,
+      "outlinePixels": 384,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 384,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 2,
+      "rasterizations": 4,
+      "processes": 11,
+      "composites": 20,
+      "timings": {
+        "captureMs": 4.5,
+        "readbackMs": 2.5,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.10000014305114746,
+        "styleMs": 0.5999999046325684,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-t1-16x",
+      "sha256": "6425c9d3bc362b5edfa2dea46e9e676df64eec37ef7e820f1f31009c9173365a",
+      "subjectPixels": 52,
+      "outlinePixels": 36,
+      "outline": {
+        "extent": {
+          "x": 3,
+          "y": 3,
+          "width": 10,
+          "height": 10
+        },
+        "visible": {
+          "x": 3,
+          "y": 3,
+          "width": 10,
+          "height": 10
+        },
+        "pixelCount": 36,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 1
+      },
+      "captures": 6,
+      "rasterizations": 12,
+      "processes": 16,
+      "composites": 26,
+      "timings": {
+        "captureMs": 4.200000047683716,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 0.10000014305114746,
+        "originalMs": 0,
+        "styleMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-t2-16x",
+      "sha256": "85965547982d630b9286f49c8c8213a1fb6a99a53abc75532c13d85b11ed2556",
+      "subjectPixels": 52,
+      "outlinePixels": 80,
+      "outline": {
+        "extent": {
+          "x": 2,
+          "y": 2,
+          "width": 12,
+          "height": 12
+        },
+        "visible": {
+          "x": 2,
+          "y": 2,
+          "width": 12,
+          "height": 12
+        },
+        "pixelCount": 80,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 6,
+      "rasterizations": 12,
+      "processes": 16,
+      "composites": 27,
+      "timings": {
+        "captureMs": 4.200000047683716,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 0.10000014305114746,
+        "originalMs": 0,
+        "styleMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-t2-32x",
+      "sha256": "85965547982d630b9286f49c8c8213a1fb6a99a53abc75532c13d85b11ed2556",
+      "subjectPixels": 52,
+      "outlinePixels": 80,
+      "outline": {
+        "extent": {
+          "x": 2,
+          "y": 2,
+          "width": 12,
+          "height": 12
+        },
+        "visible": {
+          "x": 2,
+          "y": 2,
+          "width": 12,
+          "height": 12
+        },
+        "pixelCount": 80,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 6,
+      "rasterizations": 12,
+      "processes": 16,
+      "composites": 27,
+      "timings": {
+        "captureMs": 4.200000047683716,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 0.10000014305114746,
+        "originalMs": 0,
+        "styleMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-t8-clipped",
+      "sha256": "be279367bcecdd84f2db79ee42159359221cb6ef7f86a1cb704a782037a56afb",
+      "subjectPixels": 52,
+      "outlinePixels": 204,
+      "outline": {
+        "extent": {
+          "x": -4,
+          "y": -4,
+          "width": 24,
+          "height": 24
+        },
+        "visible": {
+          "x": 0,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        },
+        "pixelCount": 204,
+        "clipped": true,
+        "color": "#172038",
+        "thickness": 8
+      },
+      "captures": 6,
+      "rasterizations": 12,
+      "processes": 16,
+      "composites": 28,
+      "timings": {
+        "captureMs": 4.200000047683716,
+        "readbackMs": 1.6999998092651367,
+        "processMs": 0.10000014305114746,
+        "originalMs": 0,
+        "styleMs": 0.10000014305114746,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-top-left-clipped",
+      "sha256": "010441714173b7943f353d3d1555d8b9fabbd5ae03c5a1953cfe738acbd4ff4a",
+      "subjectPixels": 52,
+      "outlinePixels": 45,
+      "outline": {
+        "extent": {
+          "x": -2,
+          "y": -2,
+          "width": 12,
+          "height": 12
+        },
+        "visible": {
+          "x": 0,
+          "y": 0,
+          "width": 10,
+          "height": 10
+        },
+        "pixelCount": 45,
+        "clipped": true,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 7,
+      "rasterizations": 14,
+      "processes": 17,
+      "composites": 31,
+      "timings": {
+        "captureMs": 3.299999952316284,
+        "readbackMs": 1.6000001430511475,
+        "processMs": 0,
+        "originalMs": 0,
+        "styleMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere16-outline-reset",
+      "sha256": "446f2d11e466c8ed87202e9780f74a2415d440bfaeba06d3ddd846d56d98332a",
+      "subjectPixels": 52,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 7,
+      "rasterizations": 14,
+      "processes": 17,
+      "composites": 32,
+      "timings": {
+        "captureMs": 3.299999952316284,
+        "readbackMs": 1.6000001430511475,
+        "processMs": 0,
+        "originalMs": 0,
+        "styleMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "sphere64-scene-reset",
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 18,
+      "composites": 33,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.5,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-none-off",
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 18,
+      "composites": 37,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.5,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-none-on",
+      "sha256": "0ec5719ff80e3093090834d7b34a20050020a32b3d05683933be6dc38b80df2e",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 18,
+      "composites": 38,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.7000000476837158,
+        "originalMs": 0.5,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0.09999990463256836
+      }
+    },
+    {
+      "label": "dither64-2-off",
+      "sha256": "2f9c659cf9b379cf269052d593d0254ae8a4e448e63d4499b59ead4ac0b08d4c",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 19,
+      "composites": 40,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-2-on",
+      "sha256": "0da5a50b89981ca687ef9cbb6d02bcc184149ff3582d14cf66643812212c6faf",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 19,
+      "composites": 41,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.19999980926513672,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-4-off",
+      "sha256": "c2ffa99d2d6e33bbfd6dc52c1ac30b8119f53da3f9690d397a6352645c4e60d3",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 20,
+      "composites": 43,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.2999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-4-on",
+      "sha256": "43d3288372a875ccaa56777e44b745996bb118ae1f74b32f11f084382ab02c44",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 20,
+      "composites": 44,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.2999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-8-off",
+      "sha256": "f716e62c41e5c511771379944f1a14475b9f15d430c1bcf23ac19576a7899f14",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 21,
+      "composites": 46,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5999999046325684,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.39999985694885254,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-8-on",
+      "sha256": "0ed73d318c6d9c13a101797ec469e406c53e85951bac1332463221ecb887ab25",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 21,
+      "composites": 47,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5999999046325684,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.39999985694885254,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-blue-noise-off",
+      "sha256": "d44914dbd8f173fe5a638d7bd822485dbc07e2a739e72fbb4665a9d2ccff3411",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 22,
+      "composites": 49,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.2999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-blue-noise-on",
+      "sha256": "c6ab8726eec972943de35e13d1cc5f7fe2439f1465388a3e7551f662c0c6ad87",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 22,
+      "composites": 50,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.5,
+        "originalMs": 0.20000004768371582,
+        "styleMs": 0.2999999523162842,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-floyd-steinberg-off",
+      "sha256": "80b5f61c918407ef58734b822e43c125bf8e491390c9e1058e55f52a786e94af",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 23,
+      "composites": 52,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.19999980926513672,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "dither64-floyd-steinberg-on",
+      "sha256": "9e0836df6d4eb86e5e4fe7536cb22077562aa325f5d86a4c732fada927e83d61",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 8,
+      "rasterizations": 16,
+      "processes": 23,
+      "composites": 53,
+      "timings": {
+        "captureMs": 5.799999952316284,
+        "readbackMs": 3.9000000953674316,
+        "processMs": 0.39999985694885254,
+        "originalMs": 0.19999980926513672,
+        "styleMs": 0.20000004768371582,
+        "publishMs": 0.10000014305114746
+      }
+    },
+    {
+      "label": "fresh-sphere64-none",
+      "sha256": "f1ee8e1fc71004f44b2c24b109c7d6a155df5d3aa7338f016e0bc2cd2f5b6641",
+      "subjectPixels": 812,
+      "outlinePixels": 0,
+      "outline": null,
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 1,
+      "timings": {
+        "captureMs": 11.099999904632568,
+        "readbackMs": 2.5999999046325684,
+        "processMs": 1.3999998569488525,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.5999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "fresh-sphere64-custom-t2",
+      "sha256": "0ec5719ff80e3093090834d7b34a20050020a32b3d05683933be6dc38b80df2e",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#01FE80",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 4,
+      "timings": {
+        "captureMs": 11.099999904632568,
+        "readbackMs": 2.5999999046325684,
+        "processMs": 1.3999998569488525,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.5999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "fresh-sphere64-recolor-t2",
+      "sha256": "f304c81449ebb6128ef33f30484cf4bb079acf1e208515d9d443189612c74c42",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#ABCDEF",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 5,
+      "timings": {
+        "captureMs": 11.099999904632568,
+        "readbackMs": 2.5999999046325684,
+        "processMs": 1.3999998569488525,
+        "originalMs": 0.7999999523162842,
+        "styleMs": 0.5999999046325684,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "fresh-remount-t2",
+      "sha256": "f304c81449ebb6128ef33f30484cf4bb079acf1e208515d9d443189612c74c42",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#ABCDEF",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 1,
+      "composites": 1,
+      "timings": {
+        "captureMs": 7,
+        "readbackMs": 2.799999952316284,
+        "processMs": 0.7999999523162842,
+        "originalMs": 0.40000009536743164,
+        "styleMs": 0.39999985694885254,
+        "compositeMs": 0.20000004768371582,
+        "publishMs": 0
+      }
+    },
+    {
+      "label": "fresh-compare-fs-t2",
+      "sha256": "3bf6f578af64af3ef163db7cb15c9d54f2a35fc37079003c54eae39a610c3f58",
+      "subjectPixels": 812,
+      "outlinePixels": 272,
+      "outline": {
+        "extent": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "visible": {
+          "x": 14,
+          "y": 14,
+          "width": 36,
+          "height": 36
+        },
+        "pixelCount": 272,
+        "clipped": false,
+        "color": "#172038",
+        "thickness": 2
+      },
+      "captures": 1,
+      "rasterizations": 2,
+      "processes": 2,
+      "composites": 3,
+      "timings": {
+        "captureMs": 7,
+        "readbackMs": 2.799999952316284,
+        "processMs": 3.3999998569488525,
+        "originalMs": 1.0999999046325684,
+        "styleMs": 2.299999952316284,
+        "compositeMs": 0,
+        "publishMs": 0
+      }
+    }
+  ],
+  "console": []
+}

@@ -1,0 +1,13 @@
+{
+  "nearest": {
+    "nativeOpaquePixels": 812,
+    "displaySamples": 51968,
+    "mismatches": 0
+  },
+  "grid": {
+    "displaySamples": 21120,
+    "mismatches": 0
+  },
+  "passed": true,
+  "method": "Pillow RGB comparisons of actual Chrome DPR-1 screenshots: every opaque 8x8 block equals canonical native RGB; grid changes only top/left pixel boundaries."
+}
