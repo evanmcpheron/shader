@@ -1,0 +1,262 @@
+
+> shader@0.0.0 typecheck
+> tsc -b --noEmit
+
+
+> shader@0.0.0 lint
+> eslint .
+
+
+> shader@0.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/le-evanmcpheron/Documents/Code/personal/shader
+
+
+ Test Files  29 passed (29)
+      Tests  473 passed (473)
+   Start at  11:19:18
+   Duration  7.82s (tests 49%, environment 39%, import 8%, transform 4%, worker 1%)
+
+    Isolate  29 workers spawned · ~330ms startup each (spawn + environment, per file)
+             at least ~540ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> shader@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.67 kB │ gzip:   0.39 kB
+dist/assets/index-BhS6oTYp.css     21.05 kB │ gzip:   4.86 kB
+dist/assets/index-CgU-GWeg.js   1,059.75 kB │ gzip: 293.10 kB
+
+✓ built in 233ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build --base=/shader/
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.69 kB │ gzip:   0.40 kB
+dist/assets/index-BhS6oTYp.css     21.05 kB │ gzip:   4.86 kB
+dist/assets/index-CgU-GWeg.js   1,059.75 kB │ gzip: 293.10 kB
+
+✓ built in 177ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.67 kB │ gzip:   0.39 kB
+dist/assets/index-uO6mmegD.css     21.05 kB │ gzip:   4.86 kB
+dist/assets/index-B0shqWR6.js   1,059.75 kB │ gzip: 293.10 kB
+
+✓ built in 192ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build --base=/shader/
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.69 kB │ gzip:   0.39 kB
+dist/assets/index-uO6mmegD.css     21.05 kB │ gzip:   4.86 kB
+dist/assets/index-B0shqWR6.js   1,059.75 kB │ gzip: 293.10 kB
+
+✓ built in 182ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 typecheck
+> tsc -b --noEmit
+
+
+> shader@0.0.0 lint
+> eslint .
+
+
+> shader@0.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/le-evanmcpheron/Documents/Code/personal/shader
+
+
+ Test Files  29 passed (29)
+      Tests  474 passed (474)
+   Start at  11:35:52
+   Duration  7.45s (tests 49%, environment 38%, import 8%, transform 4%, worker 1%)
+
+    Isolate  29 workers spawned · ~315ms startup each (spawn + environment, per file)
+             at least ~516ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> shader@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.67 kB │ gzip:   0.39 kB
+dist/assets/index-Cp6FpS_J.css     21.37 kB │ gzip:   4.90 kB
+dist/assets/index-D_u2wfa6.js   1,059.96 kB │ gzip: 293.17 kB
+
+✓ built in 202ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build --base=/shader/
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.69 kB │ gzip:   0.40 kB
+dist/assets/index-Cp6FpS_J.css     21.37 kB │ gzip:   4.90 kB
+dist/assets/index-D_u2wfa6.js   1,059.96 kB │ gzip: 293.17 kB
+
+✓ built in 175ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.67 kB │ gzip:   0.39 kB
+dist/assets/index-C427eYLU.css     21.55 kB │ gzip:   4.93 kB
+dist/assets/index-CTHuxLQf.js   1,059.96 kB │ gzip: 293.17 kB
+
+✓ built in 174ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build --base=/shader/
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.69 kB │ gzip:   0.40 kB
+dist/assets/index-C427eYLU.css     21.55 kB │ gzip:   4.93 kB
+dist/assets/index-CTHuxLQf.js   1,059.96 kB │ gzip: 293.17 kB
+
+✓ built in 176ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 typecheck
+> tsc -b --noEmit
+
+
+> shader@0.0.0 lint
+> eslint .
+
+
+> shader@0.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/le-evanmcpheron/Documents/Code/personal/shader
+
+
+ Test Files  29 passed (29)
+      Tests  474 passed (474)
+   Start at  11:37:59
+   Duration  7.67s (tests 49%, environment 38%, import 8%, transform 4%, worker 1%)
+
+    Isolate  29 workers spawned · ~314ms startup each (spawn + environment, per file)
+             at least ~513ms faster with isolate: false — reuses workers across files instead of one per file
+
+
+> shader@0.0.0 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.67 kB │ gzip:   0.39 kB
+dist/assets/index-C427eYLU.css     21.55 kB │ gzip:   4.93 kB
+dist/assets/index-DIVsf-um.js   1,059.98 kB │ gzip: 293.17 kB
+
+✓ built in 191ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+> shader@0.0.0 build
+> tsc -b && vite build --base=/shader/
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 87 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.69 kB │ gzip:   0.40 kB
+dist/assets/index-C427eYLU.css     21.55 kB │ gzip:   4.93 kB
+dist/assets/index-DIVsf-um.js   1,059.98 kB │ gzip: 293.17 kB
+
+✓ built in 184ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

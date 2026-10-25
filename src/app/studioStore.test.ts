@@ -195,6 +195,10 @@ test('palette resizing and palette/shading resets keep threshold counts valid wi
   expect(store.getState().settings.shading.tone).toEqual({ kind: 'bands', thresholds: [] })
   expect(actions.resetSection('palette').ok).toBe(true)
   expect(store.getState().settings.shading.tone).toEqual({ kind: 'bands', thresholds: [0.25, 0.5, 0.75] })
+  const palette = store.getState().settings.palette
+  expect(actions.resetSection('shading').ok).toBe(true)
+  expect(store.getState().settings.shading.tone).toEqual({ kind: 'bands', thresholds: [0.22, 0.5, 0.75] })
+  expect(store.getState().settings.palette).toBe(palette)
   expect(store.getState().settings.lighting).toBe(lighting)
   expect(actions.setPaletteColors([]).ok).toBe(false)
   expect(actions.setPaletteColors(Array.from({ length: 33 }, () => '#000000' as const)).ok).toBe(false)

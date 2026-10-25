@@ -190,9 +190,11 @@ test('retry clears an empty-library startup error and blocked-backup quota error
   const persistence = new LocalPersistence(store, () => { if (blocked) throw new Error('Unavailable'); return port })
   active.push(persistence)
   expect(persistence.getState().presetError).toBe(true)
+  expect(persistence.getState().currentError).toBe(true)
   blocked = false
   persistence.retry()
   expect(persistence.getState().presetError).toBe(false)
+  expect(persistence.getState().currentError).toBe(false)
   port.data.set(STORAGE_KEYS.current, '{broken')
   const restored = setup(port)
   port.setItem.mockImplementation(() => { throw Object.assign(new Error('full'), { name: 'QuotaExceededError' }) })

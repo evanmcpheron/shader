@@ -67,7 +67,7 @@ export function createDefaultSettings(): SceneSettings {
     },
     shading: {
       normals: 'smooth',
-      tone: { kind: 'bands', thresholds: evenlySpacedThresholds(4) },
+      tone: { kind: 'bands', thresholds: [0.22, 0.5, 0.75] },
       baseColor: '#5C88B8',
       shadowColor: '#172038',
       highlightColor: '#B8D8F0',

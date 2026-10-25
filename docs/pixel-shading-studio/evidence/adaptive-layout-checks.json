@@ -1,0 +1,2218 @@
+[
+  {
+    "width": 320,
+    "height": 568,
+    "closed": {
+      "documentWidth": 320,
+      "height": 568,
+      "host": {
+        "bottom": 435.5,
+        "height": 222.5,
+        "left": 0,
+        "right": 320,
+        "top": 213,
+        "width": 320,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 97.328125
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 97.3359375
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 97.3359375
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 98.671875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 98.671875
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 87.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "width": 320
+    },
+    "editing": {
+      "documentWidth": 320,
+      "height": 568,
+      "host": {
+        "bottom": 279.125,
+        "height": 114.125,
+        "left": 0,
+        "right": 320,
+        "top": 165,
+        "width": 320,
+        "x": 0,
+        "y": 165
+      },
+      "layout": "phone",
+      "panel": {
+        "bottom": 515,
+        "height": 176.875,
+        "left": 0,
+        "right": 320,
+        "top": 338.125,
+        "width": 320,
+        "x": 0,
+        "y": 338.125
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 97.328125
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 97.3359375
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 97.3359375
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "More space",
+          "reachable": true,
+          "width": 96.7421875
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 241.0390625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 98.671875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 98.6640625
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 87.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "width": 320
+    }
+  },
+  {
+    "width": 360,
+    "height": 740,
+    "closed": {
+      "documentWidth": 360,
+      "height": 740,
+      "host": {
+        "bottom": 607.5,
+        "height": 394.5,
+        "left": 0,
+        "right": 360,
+        "top": 213,
+        "width": 360,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 127.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 360,
+        "top": 0,
+        "width": 360,
+        "x": 0,
+        "y": 0
+      },
+      "width": 360
+    },
+    "editing": {
+      "documentWidth": 360,
+      "height": 740,
+      "host": {
+        "bottom": 366.421875,
+        "height": 153.421875,
+        "left": 0,
+        "right": 360,
+        "top": 213,
+        "width": 360,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "panel": {
+        "bottom": 687,
+        "height": 241.078125,
+        "left": 0,
+        "right": 360,
+        "top": 445.921875,
+        "width": 360,
+        "x": 0,
+        "y": 445.921875
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 110.6640625
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "More space",
+          "reachable": true,
+          "width": 96.7421875
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 281.0390625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 112
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 127.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 360,
+        "top": 0,
+        "width": 360,
+        "x": 0,
+        "y": 0
+      },
+      "width": 360
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "closed": {
+      "documentWidth": 390,
+      "height": 844,
+      "host": {
+        "bottom": 711.5,
+        "height": 498.5,
+        "left": 0,
+        "right": 390,
+        "top": 213,
+        "width": 390,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 157.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "width": 390
+    },
+    "editing": {
+      "documentWidth": 390,
+      "height": 844,
+      "host": {
+        "bottom": 426.7421875,
+        "height": 213.7421875,
+        "left": 0,
+        "right": 390,
+        "top": 213,
+        "width": 390,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "panel": {
+        "bottom": 791,
+        "height": 284.7578125,
+        "left": 0,
+        "right": 390,
+        "top": 506.2421875,
+        "width": 390,
+        "x": 0,
+        "y": 506.2421875
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 120.6640625
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "More space",
+          "reachable": true,
+          "width": 96.7421875
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 311.0390625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 122
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 157.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "width": 390
+    }
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "closed": {
+      "documentWidth": 430,
+      "height": 932,
+      "host": {
+        "bottom": 799.5,
+        "height": 586.5,
+        "left": 0,
+        "right": 430,
+        "top": 213,
+        "width": 430,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 135.328125
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 135.328125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 197.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 430,
+        "top": 0,
+        "width": 430,
+        "x": 0,
+        "y": 0
+      },
+      "width": 430
+    },
+    "editing": {
+      "documentWidth": 430,
+      "height": 932,
+      "host": {
+        "bottom": 477.78125,
+        "height": 264.78125,
+        "left": 0,
+        "right": 430,
+        "top": 213,
+        "width": 430,
+        "x": 0,
+        "y": 213
+      },
+      "layout": "phone",
+      "panel": {
+        "bottom": 879,
+        "height": 321.71875,
+        "left": 0,
+        "right": 430,
+        "top": 557.28125,
+        "width": 430,
+        "x": 0,
+        "y": 557.28125
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 134
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "More space",
+          "reachable": true,
+          "width": 96.7421875
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 351.0390625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 135.328125
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 135.328125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 135.3359375
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 197.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 113,
+        "height": 113,
+        "left": 0,
+        "right": 430,
+        "top": 0,
+        "width": 430,
+        "x": 0,
+        "y": 0
+      },
+      "width": 430
+    }
+  },
+  {
+    "width": 844,
+    "height": 390,
+    "closed": {
+      "documentWidth": 844,
+      "height": 390,
+      "host": {
+        "bottom": 286,
+        "height": 181,
+        "left": 0,
+        "right": 844,
+        "top": 105,
+        "width": 844,
+        "x": 0,
+        "y": 105
+      },
+      "layout": "landscape",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 72.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 72.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 72.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 44.3046875
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 44.3125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 44.3125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 611.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 53,
+        "height": 53,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "width": 844
+    },
+    "editing": {
+      "documentWidth": 844,
+      "height": 390,
+      "host": {
+        "bottom": 286,
+        "height": 181,
+        "left": 0,
+        "right": 523.28125,
+        "top": 105,
+        "width": 523.28125,
+        "x": 0,
+        "y": 105
+      },
+      "layout": "landscape",
+      "panel": {
+        "bottom": 345,
+        "height": 292,
+        "left": 523.28125,
+        "right": 844,
+        "top": 53,
+        "width": 320.71875,
+        "x": 523.28125,
+        "y": 53
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 240.7578125
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 72.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 72.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 72.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 44.3046875
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 44.3125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 44.3125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 290.578125
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 53,
+        "height": 53,
+        "left": 0,
+        "right": 844,
+        "top": 0,
+        "width": 844,
+        "x": 0,
+        "y": 0
+      },
+      "width": 844
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "closed": {
+      "documentWidth": 768,
+      "height": 1024,
+      "host": {
+        "bottom": 886,
+        "height": 765,
+        "left": 0,
+        "right": 768,
+        "top": 121,
+        "width": 768,
+        "x": 0,
+        "y": 121
+      },
+      "layout": "tablet",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 80.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 50.125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 535.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 61,
+        "height": 61,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "width": 768
+    },
+    "editing": {
+      "documentWidth": 768,
+      "height": 1024,
+      "host": {
+        "bottom": 886,
+        "height": 765,
+        "left": 0,
+        "right": 476.1640625,
+        "top": 121,
+        "width": 476.1640625,
+        "x": 0,
+        "y": 121
+      },
+      "layout": "tablet",
+      "panel": {
+        "bottom": 971,
+        "height": 910,
+        "left": 476.1640625,
+        "right": 768,
+        "top": 61,
+        "width": 291.8359375,
+        "x": 476.1640625,
+        "y": 61
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 211.875
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 80.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 50.125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 243.4609375
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 61,
+        "height": 61,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "width": 768
+    }
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "closed": {
+      "documentWidth": 1024,
+      "height": 768,
+      "host": {
+        "bottom": 630,
+        "height": 509,
+        "left": 0,
+        "right": 1024,
+        "top": 121,
+        "width": 1024,
+        "x": 0,
+        "y": 121
+      },
+      "layout": "tablet",
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 80.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 50.125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 791.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 61,
+        "height": 61,
+        "left": 0,
+        "right": 1024,
+        "top": 0,
+        "width": 1024,
+        "x": 0,
+        "y": 0
+      },
+      "width": 1024
+    },
+    "editing": {
+      "documentWidth": 1024,
+      "height": 768,
+      "host": {
+        "bottom": 630,
+        "height": 509,
+        "left": 0,
+        "right": 684,
+        "top": 121,
+        "width": 684,
+        "x": 0,
+        "y": 121
+      },
+      "layout": "tablet",
+      "panel": {
+        "bottom": 715,
+        "height": 654,
+        "left": 684,
+        "right": 1024,
+        "top": 61,
+        "width": 340,
+        "x": 684,
+        "y": 61
+      },
+      "targets": [
+        {
+          "height": 44,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 44,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 44,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 44,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 44,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Scene inspector section",
+          "reachable": true,
+          "width": 260.0390625
+        },
+        {
+          "height": 44,
+          "name": "Final only",
+          "reachable": true,
+          "width": 80.2890625
+        },
+        {
+          "height": 44,
+          "name": "Original only",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Compare",
+          "reachable": true,
+          "width": 80.296875
+        },
+        {
+          "height": 44,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 50.125
+        },
+        {
+          "height": 44,
+          "name": "Move light",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 44,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 50.1328125
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 451.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 44,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 44,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 44,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 61,
+        "height": 61,
+        "left": 0,
+        "right": 1024,
+        "top": 0,
+        "width": 1024,
+        "x": 0,
+        "y": 0
+      },
+      "width": 1024
+    }
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "closed": {
+      "documentWidth": 1440,
+      "height": 900,
+      "host": {
+        "bottom": 730.5,
+        "height": 550,
+        "left": 0,
+        "right": 1440,
+        "top": 180.5,
+        "width": 1440,
+        "x": 0,
+        "y": 180.5
+      },
+      "layout": "desktop",
+      "targets": [
+        {
+          "height": 34,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 34,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 34,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 34,
+          "name": "Reset scene",
+          "reachable": true,
+          "width": 100.0234375
+        },
+        {
+          "height": 34,
+          "name": "Reset view",
+          "reachable": true,
+          "width": 91.3359375
+        },
+        {
+          "height": 34,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 34,
+          "name": "Final only",
+          "reachable": true,
+          "width": 75.6953125
+        },
+        {
+          "height": 34,
+          "name": "Original only",
+          "reachable": true,
+          "width": 91.6953125
+        },
+        {
+          "height": 34,
+          "name": "Compare",
+          "reachable": true,
+          "width": 73.4921875
+        },
+        {
+          "height": 34,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 52.46875
+        },
+        {
+          "height": 34,
+          "name": "Move light",
+          "reachable": true,
+          "width": 52.4609375
+        },
+        {
+          "height": 34,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 45.4609375
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 34,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 1207.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 34,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 34,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 34,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 76.5,
+        "height": 76.5,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "width": 1440
+    },
+    "editing": {
+      "documentWidth": 1440,
+      "height": 900,
+      "host": {
+        "bottom": 730.5,
+        "height": 550,
+        "left": 260,
+        "right": 1440,
+        "top": 180.5,
+        "width": 1180,
+        "x": 260,
+        "y": 180.5
+      },
+      "layout": "desktop",
+      "panel": {
+        "bottom": 857,
+        "height": 780.5,
+        "left": 0,
+        "right": 260,
+        "top": 76.5,
+        "width": 260,
+        "x": 0,
+        "y": 76.5
+      },
+      "targets": [
+        {
+          "height": 34,
+          "name": "Scene",
+          "reachable": true,
+          "width": 63.6171875
+        },
+        {
+          "height": 34,
+          "name": "Pixels",
+          "reachable": true,
+          "width": 61.0390625
+        },
+        {
+          "height": 34,
+          "name": "Presets",
+          "reachable": true,
+          "width": 71.546875
+        },
+        {
+          "height": 34,
+          "name": "Reset scene",
+          "reachable": true,
+          "width": 100.0234375
+        },
+        {
+          "height": 34,
+          "name": "Reset view",
+          "reachable": true,
+          "width": 91.3359375
+        },
+        {
+          "height": 34,
+          "name": "Export PNG",
+          "reachable": true,
+          "width": 99.15625
+        },
+        {
+          "height": 32,
+          "name": "Close scene inspector",
+          "reachable": true,
+          "width": 30
+        },
+        {
+          "height": 34,
+          "name": "Final only",
+          "reachable": true,
+          "width": 75.6953125
+        },
+        {
+          "height": 34,
+          "name": "Original only",
+          "reachable": true,
+          "width": 91.6953125
+        },
+        {
+          "height": 34,
+          "name": "Compare",
+          "reachable": true,
+          "width": 73.4921875
+        },
+        {
+          "height": 34,
+          "name": "Camera orbit",
+          "reachable": true,
+          "width": 52.46875
+        },
+        {
+          "height": 34,
+          "name": "Move light",
+          "reachable": true,
+          "width": 52.4609375
+        },
+        {
+          "height": 34,
+          "name": "Pan preview",
+          "reachable": true,
+          "width": 45.4609375
+        },
+        {
+          "height": 47,
+          "name": "Zoom out",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 34,
+          "name": "Preview options",
+          "reachable": true,
+          "width": 947.296875
+        },
+        {
+          "height": 47,
+          "name": "Zoom in",
+          "reachable": true,
+          "width": 44
+        },
+        {
+          "height": 34,
+          "name": "Fit view",
+          "reachable": true,
+          "width": 60.1796875
+        },
+        {
+          "height": 34,
+          "name": "100% / native",
+          "reachable": true,
+          "width": 52.5234375
+        },
+        {
+          "height": 34,
+          "name": "Activity & help",
+          "reachable": true,
+          "width": 101.953125
+        }
+      ],
+      "toolbar": {
+        "bottom": 76.5,
+        "height": 76.5,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "width": 1440
+    }
+  }
+]

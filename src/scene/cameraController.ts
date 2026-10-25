@@ -4,7 +4,7 @@ import type { Sphere } from 'three'
 import type { StudioStore } from '../app/studioStore'
 import { LIMITS, MIN_DIRECTION_LENGTH } from '../domain/constraints'
 import type { CameraSettings } from '../domain/settings'
-import { configureOrbitCamera, deriveRenderCamera } from './referenceCamera'
+import { configureOrbitCamera, deriveRenderCamera, groundOrbitLimits } from './referenceCamera'
 import type { StudioCamera } from './referenceCamera'
 
 export class CameraController {
@@ -32,7 +32,7 @@ export class CameraController {
     this.controls.listenToKeyEvents(canvas)
     this.controls.addEventListener('change', this.onChange)
     this.unsubscribe = store.subscribe((state, previous) => {
-      if (state.settings.camera !== previous.settings.camera && !this.applying) this.applySettings()
+      if ((state.settings.camera !== previous.settings.camera || state.settings.ground !== previous.settings.ground) && !this.applying) this.applySettings()
       if (state.preview.tool !== previous.preview.tool || state.settings.framing.mode !== previous.settings.framing.mode) this.setEnabled()
     })
     this.applySettings()
@@ -58,8 +58,11 @@ export class CameraController {
   private applySettings(): void {
     this.applying = true
     try {
-      const settings = this.store.getState().settings.camera
+      const { settings: scene, actions } = this.store.getState()
+      const { camera: settings, maxPolarAngle } = groundOrbitLimits(scene.camera, scene.ground)
+      if (settings !== scene.camera) actions.setSection('camera', settings)
       const source = this.source()
+      this.controls.maxPolarAngle = maxPolarAngle
       configureOrbitCamera(source, settings, this.aspect)
       this.controls.object = source
       this.controls.target.copy(settings.target)
@@ -84,12 +87,12 @@ export class CameraController {
     const correction = pan.clone().applyAxisAngle(backward, MathUtils.degToRad(camera.roll)).sub(pan)
     target.add(correction)
     position.add(correction)
-    const next: CameraSettings = {
+    const next: CameraSettings = groundOrbitLimits({
       ...camera,
       position: { x: position.x, y: position.y, z: position.z },
       target: { x: target.x, y: target.y, z: target.z },
       projection: { ...camera.projection, zoom: source.zoom },
-    }
+    }, settings.ground).camera
     this.applying = true
     const result = actions.setSection('camera', next)
     this.applying = false

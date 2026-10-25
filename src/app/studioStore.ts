@@ -235,9 +235,12 @@ export function createStudioStore(initial: unknown = createDefaultSettings()): S
             })
           }
           if (section === 'shading') {
+            const tone = settings.palette.colors.length === defaults.palette.colors.length
+              ? defaults.shading.tone
+              : withPaletteSize(defaults.shading.tone, settings.palette.colors.length)
             return commit({
               ...settings,
-              shading: { ...defaults.shading, tone: withPaletteSize(defaults.shading.tone, settings.palette.colors.length) },
+              shading: { ...defaults.shading, tone },
             })
           }
           return commit({ ...settings, [section]: defaults[section] })

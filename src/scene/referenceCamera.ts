@@ -1,7 +1,7 @@
 import { MathUtils, Matrix4, OrthographicCamera, PerspectiveCamera, Vector3 } from 'three'
 import type { Sphere } from 'three'
-import { LIMITS } from '../domain/constraints'
-import type { CameraSettings } from '../domain/settings'
+import { LIMITS, MIN_DIRECTION_LENGTH } from '../domain/constraints'
+import type { CameraSettings, GroundSettings } from '../domain/settings'
 
 export type StudioCamera = OrthographicCamera | PerspectiveCamera
 export const CAMERA_VIEWS = ['front', 'back', 'left', 'right', 'top', 'bottom', 'isometric'] as const
@@ -9,6 +9,22 @@ export type CameraView = typeof CAMERA_VIEWS[number]
 
 export function cameraDistance(settings: CameraSettings): number {
   return new Vector3().subVectors(settings.position, settings.target).length()
+}
+
+export function groundOrbitLimits(camera: CameraSettings, ground: GroundSettings): { camera: CameraSettings; maxPolarAngle: number } {
+  if (ground.kind === 'none') return { camera, maxPolarAngle: Math.PI }
+  // Orthographic rays can start below the floor even when the camera center is above it.
+  const minimumHeight = Math.max(ground.position.y + MIN_DIRECTION_LENGTH, camera.target.y)
+  let constrained = camera.position.y < minimumHeight ? { ...camera, position: { ...camera.position, y: minimumHeight } } : camera
+  if (cameraDistance(constrained) <= MIN_DIRECTION_LENGTH) {
+    const distance = Math.max(cameraDistance(camera), MIN_DIRECTION_LENGTH * 2)
+    const z = MathUtils.clamp(camera.target.z + (camera.target.z <= 0 ? distance : -distance), LIMITS.cameraPosition.min, LIMITS.cameraPosition.max)
+    constrained = { ...constrained, position: { ...constrained.position, z } }
+  }
+  return {
+    camera: constrained,
+    maxPolarAngle: Math.acos(MathUtils.clamp((minimumHeight - constrained.target.y) / cameraDistance(constrained), -1, 1)),
+  }
 }
 
 export function withCameraDistance(settings: CameraSettings, distance: number): CameraSettings {

@@ -1,0 +1,20 @@
+{
+  "width": 64,
+  "height": 64,
+  "nativeBeforeAfterIdentical": true,
+  "decodedMatchesBaseline": true,
+  "differentBytes": 0,
+  "alphaValues": [
+    0,
+    255
+  ],
+  "opaqueColors": [
+    "#172038",
+    "#304878",
+    "#5C88B8",
+    "#B8D8F0"
+  ],
+  "hiddenRgbPixels": 0,
+  "rgbaSha256": "1f2e85885292f7b403ee0c7431469ff8eb524ea2efef571d73e853d226ab567c",
+  "pngSha256": "0b02196f0213f5801095afce418d971f29cd3b388821b58d731b66eed9295c9c"
+}

@@ -51,7 +51,7 @@ export function SelectField<T extends string>({ label, value, options, onValueCh
       >
         {options.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}
       </select>
-      <p id={`${id}-description`} className="field-description">{description}</p>
+      <details className="field-help"><summary>About {label.toLowerCase()}</summary><p id={`${id}-description`} className="field-description">{description}</p></details>
     </div>
   )
 }

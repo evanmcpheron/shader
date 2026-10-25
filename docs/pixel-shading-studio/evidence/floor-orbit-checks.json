@@ -1,0 +1,405 @@
+{
+  "checks": [
+    {
+      "name": "real renderer ready",
+      "passed": true
+    },
+    {
+      "name": "orthographic/pixel-fit: every mouse sample stays above floor",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "orthographic/pixel-fit: orbit reaches floor limit",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "z": 5
+      }
+    },
+    {
+      "name": "orthographic/pixel-fit: floor and object do not rotate",
+      "passed": true
+    },
+    {
+      "name": "orthographic/pixel-fit: full subject coverage survives floor composition",
+      "passed": true,
+      "detail": {
+        "subject": 812,
+        "combined": 812
+      }
+    },
+    {
+      "name": "orthographic/pixel-fit: can orbit back up",
+      "passed": true
+    },
+    {
+      "name": "orthographic/manual: every mouse sample stays above floor",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "orthographic/manual: orbit reaches floor limit",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "z": 5
+      }
+    },
+    {
+      "name": "orthographic/manual: floor and object do not rotate",
+      "passed": true
+    },
+    {
+      "name": "orthographic/manual: full subject coverage survives floor composition",
+      "passed": true,
+      "detail": {
+        "subject": 812,
+        "combined": 812
+      }
+    },
+    {
+      "name": "orthographic/manual: can orbit back up",
+      "passed": true
+    },
+    {
+      "name": "perspective/pixel-fit: every mouse sample stays above floor",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "perspective/pixel-fit: orbit reaches floor limit",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "z": 4.289013841019117
+      }
+    },
+    {
+      "name": "perspective/pixel-fit: floor and object do not rotate",
+      "passed": true
+    },
+    {
+      "name": "perspective/pixel-fit: full subject coverage survives floor composition",
+      "passed": true,
+      "detail": {
+        "subject": 812,
+        "combined": 812
+      }
+    },
+    {
+      "name": "perspective/pixel-fit: can orbit back up",
+      "passed": true
+    },
+    {
+      "name": "perspective/manual: every mouse sample stays above floor",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "perspective/manual: orbit reaches floor limit",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "z": 4.289013841019117
+      }
+    },
+    {
+      "name": "perspective/manual: floor and object do not rotate",
+      "passed": true
+    },
+    {
+      "name": "perspective/manual: full subject coverage survives floor composition",
+      "passed": true,
+      "detail": {
+        "subject": 840,
+        "combined": 840
+      }
+    },
+    {
+      "name": "perspective/manual: can orbit back up",
+      "passed": true
+    },
+    {
+      "name": "one-finger touch respects shadow-only floor",
+      "passed": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "shadow-only floor retains visible subject",
+      "passed": true
+    },
+    {
+      "name": "empty-space light-tool orbit respects floor",
+      "passed": true
+    },
+    {
+      "name": "raising floor immediately lifts camera",
+      "passed": true
+    },
+    {
+      "name": "bottom preset cannot bypass enabled floor",
+      "passed": true
+    },
+    {
+      "name": "turning floor off restores unrestricted orbit",
+      "passed": true,
+      "detail": [
+        -1.9804001343863216,
+        -3.6368672331600145,
+        -4.698463103929542,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975,
+        -4.9999999999975
+      ]
+    },
+    {
+      "name": "no page exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no console warnings/errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all application requests stay local",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "observations": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+  },
+  "frames": [
+    {
+      "name": "orthographic/pixel-fit",
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "subjectPixels": 812
+    },
+    {
+      "name": "orthographic/manual",
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 5
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "subjectPixels": 812
+    },
+    {
+      "name": "perspective/pixel-fit",
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 4.289013841019117
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "perspective",
+          "zoom": 1,
+          "fov": 50
+        }
+      },
+      "subjectPixels": 812
+    },
+    {
+      "name": "perspective/manual",
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 4.289013841019117
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "perspective",
+          "zoom": 1,
+          "fov": 50
+        }
+      },
+      "subjectPixels": 842
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

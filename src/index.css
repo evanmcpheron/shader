@@ -55,3 +55,7 @@ button:disabled { opacity: 0.5; cursor: default; }
   white-space: nowrap;
   border: 0;
 }
+
+button, summary { touch-action: manipulation; }
+input, textarea, select { scroll-margin-block: 12px; }
+* { scrollbar-color: #566273 var(--surface-panel); }

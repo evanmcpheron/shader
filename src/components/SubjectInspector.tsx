@@ -65,6 +65,7 @@ export function SubjectInspector({ store }: { store: StudioStore }) {
           onValueChange={(kind) => { if (kind !== 'imported') selectShape(kind) }}
           description="Selection keeps transforms, camera, light and style. Use Reframe reference to center and size the camera."
         />
+        <Disclosure title="Local model import" defaultOpen={false}>
         <label className="field-label" htmlFor="local-model-files">{geometry.kind === 'imported' ? 'Reselect / replace local model' : 'Import local model'}</label>
         <input id="local-model-files" type="file" multiple accept=".glb,.gltf,.bin,.png,.jpg,.jpeg,.webp" onChange={(event) => {
           const files = Array.from(event.target.files ?? [])
@@ -76,6 +77,7 @@ export function SubjectInspector({ store }: { store: StudioStore }) {
         {modelImport.message && <p role={modelImport.kind === 'error' ? 'alert' : 'status'} className={modelImport.kind === 'error' ? 'field-error' : 'field-description'}>{modelImport.message}</p>}
         {pendingAsset && <div role="status"><p>Saved model pending reselect. Choose the original matching file and companions above. Scene settings are preserved.</p><button type="button" onClick={() => selectShape('sphere')}>Use built-in sphere</button></div>}
         {geometry.kind === 'imported' && <p className="field-description">{geometry.asset.fileName} · {geometry.asset.format.toUpperCase()} · {geometry.asset.sha256.slice(0, 12)}. Centered and normalized to 2 world units on the longest axis; user transforms remain independent. Studio appearance replaces imported materials. Cameras/lights are ignored. Files must be reselected after reload; settings contain a descriptor only.</p>}
+        </Disclosure>
         {geometry.kind !== 'imported' && (
           <div className="geometry-fields">
             <p className="field-description">Dimensions use world units. Sliders cover common sizes; type for the full range. Segments are whole numbers up to 128.</p>

@@ -1,4 +1,4 @@
-import { useId, useState } from 'react'
+import { useId, useRef, useState } from 'react'
 import type { NumericBounds } from '../domain/constraints'
 import { validateNumber } from '../domain/validation'
 import type { ValidationResult } from '../domain/validation'
@@ -14,6 +14,7 @@ export function NumericField({ label, value, bounds, slider, onValueChange, disa
   onValueChange: (value: number) => ValidationResult<unknown>
 }) {
   const id = useId()
+  const input = useRef<HTMLInputElement>(null)
   const [draft, setDraft] = useState<{ committed: number; text: string; error: string }>()
   const current = draft?.committed === value ? draft : undefined
   const error = current?.error ?? ''
@@ -30,9 +31,11 @@ export function NumericField({ label, value, bounds, slider, onValueChange, disa
       <div className="numeric-heading">
         <label htmlFor={id}>{label}</label>
         <input
+          ref={input}
           disabled={disabled}
           id={id}
           type="number"
+          inputMode={bounds.min < 0 ? 'text' : bounds.integer ? 'numeric' : 'decimal'}
           min={bounds.min}
           max={bounds.max}
           step={bounds.integer ? 1 : 'any'}
@@ -41,7 +44,7 @@ export function NumericField({ label, value, bounds, slider, onValueChange, disa
           aria-describedby={error ? `${id}-error` : undefined}
           onChange={(event) => change(event.target.value)}
           onKeyDown={(event) => {
-            if (event.key === 'Escape' && error) { event.stopPropagation(); setDraft(undefined) }
+            if (event.key === 'Escape' && error) { event.preventDefault(); event.stopPropagation(); setDraft(undefined) }
           }}
         />
       </div>
@@ -56,7 +59,7 @@ export function NumericField({ label, value, bounds, slider, onValueChange, disa
         value={Math.max(slider.min, Math.min(slider.max, value))}
         onChange={(event) => change(event.target.value)}
       />}
-      {error && <p id={`${id}-error`} className="field-error">{error} The reference keeps the last valid value. Escape restores it.</p>}
+      {error && <><button className="restore-value" type="button" onClick={() => { setDraft(undefined); input.current?.focus() }}>Restore valid value</button><p id={`${id}-error`} className="field-error">{error} The reference keeps the last valid value. Escape or Restore valid value restores it.</p></>}
     </div>
   )
 }

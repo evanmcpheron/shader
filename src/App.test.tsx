@@ -12,6 +12,9 @@ let viewport: EventTarget & { matches: boolean }
 beforeEach(() => {
   viewport = Object.assign(new EventTarget(), { matches: false })
   vi.stubGlobal('matchMedia', vi.fn(() => viewport))
+  HTMLDialogElement.prototype.showModal = function () { this.open = true }
+  HTMLDialogElement.prototype.close = function () { this.open = false }
+  Element.prototype.scrollIntoView = vi.fn()
 })
 
 afterEach(() => {
@@ -132,7 +135,9 @@ test('shows actionable no-WebGL status and accessible tool selection connected t
   expect(screen.getByRole('main', { name: 'Workspace' })).toBeTruthy()
   expect(screen.getByRole('heading', { name: 'Reference unavailable' })).toBeTruthy()
   expect(screen.getByRole('button', { name: 'Retry renderer' })).toBeTruthy()
+  fireEvent.click(screen.getByRole('button', { name: 'Preview options' }))
   expect(screen.getByRole('button', { name: 'Reframe reference' }).hasAttribute('disabled')).toBe(true)
+  fireEvent.click(screen.getByRole('button', { name: 'Close preview options' }))
   expect(container.querySelector('canvas')).toBeNull()
   expect(screen.getByRole('button', { name: 'Export PNG' }).hasAttribute('disabled')).toBe(true)
   expect(screen.queryByRole('button', { name: /save preset/i })).toBeNull()
@@ -230,6 +235,7 @@ test('compact panels start closed, open one at a time and preserve focus across 
 
 test('workspace help discloses keyboard and reset instructions and surfaces runtime errors', () => {
   const { store } = renderStudio()
+  fireEvent.click(screen.getByRole('button', { name: 'Activity & help' }))
   const summary = screen.getByText('Workspace help')
   const help = summary.closest('details')!
   expect(help.open).toBe(false)
@@ -427,20 +433,30 @@ test('framing controls retain requests, reject empty padding, lock camera contro
 test('preview controls validate navigation and comparison without changing scene revisions', () => {
   const { store } = renderStudio()
   const before = store.getState()
+  fireEvent.click(screen.getByRole('button', { name: 'Preview options' }))
   const zoom = screen.getByRole('spinbutton', { name: 'Preview zoom (%)' })
   fireEvent.change(zoom, { target: { value: '200' } })
   expect(store.getState().preview.zoom).toBe(2)
+  fireEvent.click(screen.getByRole('button', { name: 'Close preview options' }))
   fireEvent.click(screen.getByRole('button', { name: 'Zoom in' }))
   expect(store.getState().preview.zoom).toBe(3)
   fireEvent.click(screen.getByRole('button', { name: '100% / native' }))
   expect(store.getState().preview.zoom).toBe(1)
+  fireEvent.click(screen.getByRole('button', { name: 'Preview options' }))
   fireEvent.click(screen.getByRole('checkbox', { name: 'Pixel grid' }))
   fireEvent.click(screen.getByRole('checkbox', { name: 'Checkerboard' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Close preview options' }))
   fireEvent.click(screen.getByRole('button', { name: 'Compare' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Preview options' }))
   expect(store.getState().preview).toMatchObject({ grid: true, checkerboard: false, mode: 'side-by-side' })
   fireEvent.change(zoom, { target: { value: '0' } })
   expect(zoom.getAttribute('aria-invalid')).toBe('true')
   expect(store.getState().preview.zoom).toBe(1)
+  const escape = new KeyboardEvent('keydown', { key: 'Escape', bubbles: true, cancelable: true })
+  fireEvent(zoom, escape)
+  expect(escape.defaultPrevented).toBe(true)
+  expect(zoom.getAttribute('aria-invalid')).toBe('false')
+  expect(screen.getByRole('dialog', { name: 'Preview options' })).toBeTruthy()
   expect(store.getState().settings).toBe(before.settings)
   expect(store.getState().revisions).toMatchObject({ settings: 0, capture: 0, style: 0, shadow: 0 })
 })
@@ -593,6 +609,7 @@ test('ground and shadow controls commit real domain fields, validate bias/softne
 test('local model selection exposes actionable errors and preserves the current subject', async () => {
   const { store } = renderStudio()
   const previous = store.getState().settings
+  fireEvent.click(screen.getByText('Local model import', { exact: true }))
   const input = screen.getByLabelText('Import local model')
   fireEvent.change(input, { target: { files: [new File([], 'first.glb'), new File([], 'second.gltf')] } })
   expect((await screen.findByRole('alert')).textContent).toContain('Select exactly one')
@@ -618,8 +635,11 @@ test('local presets connect named saves, explicit overwrite/delete, factory rest
   fireEvent.click(screen.getByRole('button', { name: 'Cancel' }))
   fireEvent.click(screen.getByRole('button', { name: 'Overwrite selected…' }))
   fireEvent.click(screen.getByRole('button', { name: 'Confirm overwrite' }))
+  expect(document.activeElement).toBe(screen.getByRole('combobox', { name: 'Saved scene' }))
   expect(persistence.getState().presets[0].settings.subject.geometry.kind).toBe('cube')
+  fireEvent.click(screen.getByRole('button', { name: 'Close presets' }))
   fireEvent.click(screen.getByRole('button', { name: 'Reset scene' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Presets' }))
   expect(persistence.getState().presets[0].id).toBe(id)
   fireEvent.click(screen.getByRole('button', { name: 'Restore scene' }))
   expect(store.getState().settings.subject.geometry.kind).toBe('cube')
@@ -630,7 +650,7 @@ test('local presets connect named saves, explicit overwrite/delete, factory rest
   expect(store.getState().settings.subject.geometry.kind).toBe('cube')
   fireEvent.click(screen.getByRole('button', { name: 'Restore scene' }))
   expect(store.getState().settings).toEqual(createDefaultSettings())
-  fireEvent.keyDown(screen.getByRole('region', { name: 'Local scene presets' }), { key: 'Escape' })
+  fireEvent(screen.getByRole('dialog', { name: 'Local scene presets' }), new Event('cancel', { cancelable: true }))
   expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Presets' }))
   view.unmount()
   persistence.dispose()
@@ -647,7 +667,9 @@ test('current scene and palette status distinguish actual settings from the sele
     fireEvent.change(screen.getByRole('combobox', { name: 'Saved scene' }), { target: { value: 'factory-cube' } })
     expect(store.getState().settings.subject.geometry.kind).toBe('sphere')
     expect(screen.getByText(/Current scene: Factory · Canonical blue sphere/)).toBeTruthy()
+    fireEvent.click(screen.getByRole('button', { name: 'Close presets' }))
     fireEvent.change(screen.getByRole('spinbutton', { name: 'Canvas width (pixels)' }), { target: { value: '96' } })
+    fireEvent.click(screen.getByRole('button', { name: 'Presets' }))
     expect(screen.getByText(/Current scene: Custom/)).toBeTruthy()
     fireEvent.change(screen.getByRole('textbox', { name: 'New preset name' }), { target: { value: 'Wide study' } })
     fireEvent.click(screen.getByRole('button', { name: 'Save new preset' }))
@@ -657,4 +679,82 @@ test('current scene and palette status distinguish actual settings from the sele
     expect(screen.getByText(/Current palette: custom colors/)).toBeTruthy()
     expect(screen.getByText(/Current scene: Custom/)).toBeTruthy()
   } finally { persistence.dispose() }
+})
+
+
+test('phone controls keep invalid numeric drafts recoverable by touch and preserve framing through panel changes', () => {
+  viewport.matches = true
+  const { store } = renderStudio()
+  const scene = screen.getByRole('button', { name: 'Scene' })
+  scene.focus()
+  fireEvent.click(scene)
+  expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Close scene inspector' }))
+  fireEvent.change(screen.getByRole('combobox', { name: 'Scene inspector section' }), { target: { value: 'Lighting' } })
+  const intensity = screen.getByRole('spinbutton', { name: 'Directional intensity' })
+  fireEvent.change(intensity, { target: { value: '-1' } })
+  expect(store.getState().settings.lighting.directional.intensity).toBe(1)
+  fireEvent.click(screen.getByRole('button', { name: 'Restore valid value' }))
+  expect(document.activeElement).toBe(intensity)
+  expect(intensity.getAttribute('aria-invalid')).toBe('false')
+  act(() => store.getState().actions.setPreview({ zoom: 3, pan: { x: 17, y: -13 } }))
+  const settings = store.getState().settings
+  fireEvent.click(screen.getByRole('button', { name: 'More space' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Pixels' }))
+  fireEvent.click(screen.getByRole('button', { name: 'Pixels' }))
+  expect(store.getState().settings).toBe(settings)
+  expect(store.getState().preview).toMatchObject({ zoom: 3, pan: { x: 17, y: -13 } })
+})
+
+test('preview and activity dialogs dismiss to their opener without changing settings', () => {
+  const { store } = renderStudio()
+  const settings = store.getState().settings
+  const options = screen.getByRole('button', { name: 'Preview options' })
+  options.focus()
+  fireEvent.click(options)
+  const dialog = screen.getByRole('dialog', { name: 'Preview options' })
+  const close = screen.getByRole('button', { name: 'Close preview options' })
+  const checkerboard = screen.getByRole('checkbox', { name: 'Checkerboard' })
+  for (const control of [close, checkerboard]) Object.defineProperty(control, 'getClientRects', { value: () => [new DOMRect(0, 0, 44, 44)] })
+  close.focus()
+  fireEvent.keyDown(close, { key: 'Tab', shiftKey: true })
+  expect(document.activeElement).toBe(checkerboard)
+  fireEvent.keyDown(checkerboard, { key: 'Tab' })
+  expect(document.activeElement).toBe(close)
+  fireEvent(dialog, new Event('cancel', { cancelable: true }))
+  expect(document.activeElement).toBe(options)
+  expect(screen.queryByRole('dialog')).toBeNull()
+  const activity = screen.getByRole('button', { name: 'Activity & help' })
+  activity.focus()
+  fireEvent.click(activity)
+  fireEvent.click(screen.getByRole('button', { name: 'Close activity & help' }))
+  expect(document.activeElement).toBe(activity)
+  expect(store.getState().settings).toBe(settings)
+})
+
+
+test('visual viewport keyboard height and panning bound the phone workspace without changing scene or navigation', () => {
+  viewport.matches = true
+  const visible = Object.assign(new EventTarget(), { height: 844, offsetTop: 0 })
+  vi.stubGlobal('visualViewport', visible)
+  const { store, container } = renderStudio()
+  const studio = container.querySelector<HTMLElement>('.studio')!
+  fireEvent.click(screen.getByRole('button', { name: 'Scene' }))
+  const input = screen.getByRole('spinbutton', { name: 'Radius' })
+  input.focus()
+  const settings = store.getState().settings
+  const preview = store.getState().preview
+  visible.height = 360
+  visible.offsetTop = 80
+  act(() => visible.dispatchEvent(new Event('resize')))
+  expect(studio.dataset.constrained).toBe('true')
+  expect(studio.style.getPropertyValue('--visible-height')).toBe('360px')
+  expect(studio.style.getPropertyValue('--visible-top')).toBe('80px')
+  expect(input.scrollIntoView).toHaveBeenCalledWith({ block: 'nearest' })
+  expect(document.activeElement).toBe(input)
+  visible.height = 844
+  visible.offsetTop = 0
+  act(() => visible.dispatchEvent(new Event('scroll')))
+  expect(studio.dataset.constrained).toBe('false')
+  expect(store.getState().settings).toBe(settings)
+  expect(store.getState().preview).toBe(preview)
 })

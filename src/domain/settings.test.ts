@@ -29,7 +29,7 @@ test('canonical defaults are complete, independent, and survive a JSON round tri
     camera: { projection: { kind: 'orthographic' } },
     canvas: { width: 64, height: 64 },
     framing: { mode: 'pixel-fit', fit: { box: { width: 32, height: 32 }, alignment: 'center' } },
-    shading: { normals: 'smooth', tone: { kind: 'bands', thresholds: [0.25, 0.5, 0.75] } },
+    shading: { normals: 'smooth', tone: { kind: 'bands', thresholds: [0.22, 0.5, 0.75] } },
     palette: { colors: ['#172038', '#304878', '#5C88B8', '#B8D8F0'] },
     dither: { kind: 'none' }, outline: { kind: 'none' }, ground: { kind: 'none' },
     shadows: { kind: 'none' }, background: { kind: 'transparent' },

@@ -184,3 +184,18 @@ test.each(['orthographic', 'perspective'] as const)('%s handle follows a zoomed,
   expect(env.camera.diagnostics().lightOwnsGesture).toBe(false)
   env.dispose()
 })
+
+
+test('touch can acquire a light handle within a 48px target without widening mouse ownership', () => {
+  const env = setup()
+  env.store.getState().actions.setPreview({ tool: 'light' })
+  env.update()
+  const handle = env.handle.frame!.handle
+  env.send('pointerdown', handle.x + 23, handle.y)
+  expect(env.controller.diagnostics().dragging).toBe(false)
+  env.canvas.dispatchEvent(Object.assign(new MouseEvent('pointerdown', { clientX: handle.x + 23, clientY: handle.y, button: 0, bubbles: true, cancelable: true }), { pointerId: 1, pointerType: 'touch', isPrimary: true }))
+  expect(env.controller.diagnostics().dragging).toBe(true)
+  env.send('pointercancel')
+  expect(env.controller.diagnostics().dragging).toBe(false)
+  env.dispose()
+})

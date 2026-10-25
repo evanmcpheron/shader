@@ -3,8 +3,9 @@ import { expect, test } from 'vitest'
 import { createStudioStore } from '../app/studioStore'
 import { createDefaultSettings } from '../domain/defaults'
 import { validateSceneSettings } from '../domain/validation'
-import { CAMERA_VIEWS, cameraDistance, cameraView, configureOrbitCamera, deriveRenderCamera, reframeCamera, switchCameraProjection } from './referenceCamera'
+import { CAMERA_VIEWS, cameraDistance, cameraView, configureOrbitCamera, deriveRenderCamera, groundOrbitLimits, reframeCamera, switchCameraProjection } from './referenceCamera'
 import type { CameraSettings } from '../domain/settings'
+import { MIN_DIRECTION_LENGTH } from '../domain/constraints'
 
 function renderCamera(settings: CameraSettings, aspect = 1, bounds = new Sphere(new Vector3(), 2)) {
   const source = settings.projection.kind === 'orthographic' ? new OrthographicCamera() : new PerspectiveCamera()
@@ -13,6 +14,31 @@ function renderCamera(settings: CameraSettings, aspect = 1, bounds = new Sphere(
   deriveRenderCamera(source, render, settings, bounds)
   return { source, render }
 }
+
+test('ground orbit limit follows the actual floor height, target and distance without changing an allowed camera', () => {
+  const camera = { ...createDefaultSettings().camera, position: { x: 0, y: 5, z: 5 }, target: { x: 0, y: 3, z: 0 } }
+  const ground = { kind: 'receiver', position: { x: 7, y: 4, z: -2 }, width: 6, depth: 6, appearance: { kind: 'shadow-only' } } as const
+  const limits = groundOrbitLimits(camera, ground)
+  expect(limits.camera).toBe(camera)
+  expect(limits.maxPolarAngle).toBeLessThan(Math.PI / 2)
+  expect(camera.target.y + cameraDistance(camera) * Math.cos(limits.maxPolarAngle)).toBeCloseTo(ground.position.y + MIN_DIRECTION_LENGTH, 10)
+  expect(groundOrbitLimits(camera, { kind: 'none' })).toEqual({ camera, maxPolarAngle: Math.PI })
+  expect(groundOrbitLimits(camera, { ...ground, position: { ...ground.position, y: -1 } }).maxPolarAngle).toBe(Math.PI / 2)
+})
+
+test('ground correction recovers below-floor and coincident boundary cameras while preserving target, roll and projection', () => {
+  const ground = { kind: 'receiver', position: { x: 0, y: -1, z: 0 }, width: 6, depth: 6, appearance: { kind: 'visible', color: '#5C88B8' } } as const
+  for (const targetY of [0, -10, ground.position.y + MIN_DIRECTION_LENGTH]) {
+    const camera = { ...createDefaultSettings().camera, position: { x: 0, y: -20, z: 0 }, target: { x: 0, y: targetY, z: 0 }, roll: 35 }
+    const limits = groundOrbitLimits(camera, ground)
+    expect(limits.camera.position.y).toBeGreaterThan(ground.position.y)
+    expect(cameraDistance(limits.camera)).toBeGreaterThan(MIN_DIRECTION_LENGTH)
+    expect(Number.isFinite(limits.maxPolarAngle)).toBe(true)
+    expect(limits.camera).toMatchObject({ target: camera.target, roll: camera.roll, projection: camera.projection })
+    expect(groundOrbitLimits(limits.camera, ground).camera).toBe(limits.camera)
+    expect(camera.position.y).toBe(-20)
+  }
+})
 
 test.each(CAMERA_VIEWS)('%s view retains target/distance/roll and renders finite, orthonormal axes including exact poles', (view) => {
   const original = { ...createDefaultSettings().camera, target: { x: 1, y: -2, z: 3 }, roll: 30 }

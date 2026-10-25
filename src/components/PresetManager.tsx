@@ -1,7 +1,8 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useStore } from 'zustand'
 import type { LocalPersistence } from '../persistence/localPersistence'
 import type { StudioStore } from '../app/studioStore'
+import { WorkspaceDialog } from './WorkspaceDialog'
 import { serializeScene } from '../persistence/sceneCodec'
 
 export function PresetManager({ store, persistence, onRestore }: { store: StudioStore; persistence: LocalPersistence; onRestore: () => void }) {
@@ -11,7 +12,10 @@ export function PresetManager({ store, persistence, onRestore }: { store: Studio
   const [name, setName] = useState('')
   const [selected, setSelected] = useState('factory-sphere')
   const [confirm, setConfirm] = useState<'overwrite' | 'delete' | 'replace' | null>(null)
+  const confirmation = useRef<HTMLDivElement>(null)
+  useEffect(() => { if (confirm) { confirmation.current?.scrollIntoView({ block: 'nearest' }); confirmation.current?.focus() } }, [confirm])
   const toggle = useRef<HTMLButtonElement>(null)
+  const presetSelect = useRef<HTMLSelectElement>(null)
   const selectedPreset = state.presets.find(preset => preset.id === selected)
   const currentJson = JSON.stringify(settings)
   const factories = useMemo(() => persistence.factories.map(preset => ({ ...preset, json: serializeScene(preset.settings) })), [persistence])
@@ -23,12 +27,12 @@ export function PresetManager({ store, persistence, onRestore }: { store: Studio
   return (
     <div className="preset-manager">
       <button ref={toggle} type="button" aria-expanded={open} aria-controls="preset-panel" onClick={() => { setOpen(!open); setConfirm(null) }}>Presets</button>
-      {open && <section id="preset-panel" className="preset-panel" aria-label="Local scene presets" onKeyDown={event => { if (event.key === 'Escape') { event.stopPropagation(); close() } }}>
-        <div className="preset-heading"><h2>Local scene presets</h2><button type="button" onClick={close}>Close presets</button></div>
+      <WorkspaceDialog open={open} title="Local scene presets" closeLabel="Close presets" onClose={close}>
+        <section id="preset-panel" className="preset-panel" aria-label="Preset settings">
         <p>Complete scenes, including canvas size. Preview tools and zoom stay as they are. Imported files must be reselected after reload.</p>
         <p>Current scene: {currentFactory ? `Factory · ${currentFactory.name}` : currentNamed ? `Saved · ${currentNamed.name}` : 'Custom · unsaved as a named preset'}. Autosave status is shown below.</p>
         <label className="field-label" htmlFor="scene-preset">Saved scene</label>
-        <select id="scene-preset" value={selected} onChange={event => { setSelected(event.target.value); setConfirm(null) }}>
+        <select ref={presetSelect} id="scene-preset" value={selected} onChange={event => { setSelected(event.target.value); setConfirm(null) }}>
           <optgroup label="Factory scenes">{persistence.factories.map(preset => <option key={preset.id} value={preset.id}>{preset.name}</option>)}</optgroup>
           {state.presets.length > 0 && <optgroup label="Your local scenes">{state.presets.map(preset => <option key={preset.id} value={preset.id}>{preset.name}</option>)}</optgroup>}
         </select>
@@ -56,17 +60,19 @@ export function PresetManager({ store, persistence, onRestore }: { store: Studio
           <a className="download-settings" download="pixel-shading-studio-settings-recovery.json" href={`data:application/json;charset=utf-8,${encodeURIComponent(persistence.recoveryJson())}`}>Download settings & recovery JSON</a>
           {state.recovery.length > 0 && <button type="button" onClick={() => setConfirm('replace')}>Replace unreadable data…</button>}
         </div>
-        {confirm && <div className="preset-confirm" role="group" aria-label="Confirm preset change">
+        {confirm && <div ref={confirmation} tabIndex={-1} className="preset-confirm" role="group" aria-label="Confirm preset change">
           <p>{confirm === 'replace' ? 'Back up the unreadable original under a separate local recovery key, then replace it with this session’s settings/presets? If the backup fails, the original stays untouched.' : confirm === 'overwrite' ? `Replace all saved settings in “${selectedPreset?.name}” with the current scene?` : `Delete “${selectedPreset?.name}”? The current scene will stay as it is.`}</p>
           <button type="button" onClick={() => {
             if (confirm === 'replace') persistence.replaceUnreadable()
             else if (confirm === 'overwrite') persistence.overwrite(selected)
             else { persistence.delete(selected); setSelected('factory-sphere') }
             setConfirm(null)
+            presetSelect.current?.focus({ preventScroll: true })
           }}>{confirm === 'replace' ? 'Back up & replace' : confirm === 'overwrite' ? 'Confirm overwrite' : 'Confirm delete'}</button>
-          <button type="button" onClick={() => setConfirm(null)}>Cancel</button>
+          <button type="button" onClick={() => { setConfirm(null); presetSelect.current?.focus({ preventScroll: true }) }}>Cancel</button>
         </div>}
-      </section>}
+        </section>
+      </WorkspaceDialog>
     </div>
   )
 }

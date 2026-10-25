@@ -48,7 +48,7 @@ export class LightController {
     const frame = this.getFrame(event.clientX, event.clientY)
     if (this.disposed || event.button !== 0 || event.isPrimary === false || ![event.clientX, event.clientY].every(Number.isFinite)
       || this.store.getState().preview.tool !== 'light' || !frame
-      || Math.hypot(event.clientX - frame.handle.x, event.clientY - frame.handle.y) > 18) return
+      || Math.hypot(event.clientX - frame.handle.x, event.clientY - frame.handle.y) > (event.pointerType === 'touch' ? 24 : 18)) return
     const { position, target } = this.store.getState().settings.lighting.directional
     this.drag = { pointerId: event.pointerId, frame, start: screenArcball(event.clientX, event.clientY, frame), offset: new Vector3().subVectors(position, target), position, target }
     event.preventDefault()

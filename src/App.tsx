@@ -2,7 +2,9 @@ import { useEffect, useRef, useState } from 'react'
 import { useStore } from 'zustand'
 import { studioStore } from './app/studioStore'
 import type { PreviewState, StudioStore } from './app/studioStore'
-import { useCompactLayout } from './app/useCompactLayout'
+import { useWorkspaceLayout } from './app/useCompactLayout'
+import { useVisualViewport } from './app/useVisualViewport'
+import { WorkspaceDialog } from './components/WorkspaceDialog'
 import { Disclosure, DisclosureToggle, SelectField } from './components/controls'
 import { Inspector } from './components/Inspector'
 import { CameraInspector } from './components/CameraInspector'
@@ -37,7 +39,12 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
   const status = useStore(store, (state) => state.status)
   const referenceStatus = useStore(store, (state) => state.referenceStatus)
   const actions = useStore(store, (state) => state.actions)
-  const compact = useCompactLayout()
+  const layout = useWorkspaceLayout()
+  const compact = layout !== 'desktop'
+  const studioRef = useRef<HTMLDivElement>(null)
+  useVisualViewport(studioRef)
+  const [activityOpen, setActivityOpen] = useState(false)
+  const [expanded, setExpanded] = useState(false)
   const [desktopPanels, setDesktopPanels] = useState({ scene: true, pixel: true })
   const [compactPanel, setCompactPanel] = useState<Panel | null>(null)
   const [notice, setNotice] = useState('')
@@ -68,7 +75,7 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
   }
 
   function togglePanel(panel: Panel) {
-    if (compact) setCompactPanel((current) => current === panel ? null : panel)
+    if (compact) { setCompactPanel((current) => current === panel ? null : panel); setExpanded(false) }
     else setDesktopPanels((current) => ({ ...current, [panel]: !current[panel] }))
   }
 
@@ -89,7 +96,7 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
   }
 
   return (
-    <div className="studio">
+    <div ref={studioRef} className="studio" data-layout={layout} data-panel={compact ? compactPanel ?? 'none' : 'desktop'} data-expanded={expanded}>
       <a className="skip-link" href="#workspace">Skip to workspace</a>
       <header className="toolbar">
         <div className="brand">
@@ -105,11 +112,13 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
           <div className="panel-toggles" role="group" aria-label="Inspectors">
             <DisclosureToggle ref={sceneToggle} controls="scene-inspector" expanded={sceneOpen} onToggle={() => togglePanel('scene')}>Scene</DisclosureToggle>
             <DisclosureToggle ref={pixelToggle} controls="pixel-inspector" expanded={pixelOpen} onToggle={() => togglePanel('pixel')}>Pixels</DisclosureToggle>
+            {persistence && <PresetManager store={store} persistence={persistence} onRestore={() => setSubjectEditorKey(key => key + 1)} />}
           </div>
-          {persistence && <PresetManager store={store} persistence={persistence} onRestore={() => setSubjectEditorKey(key => key + 1)} />}
-          <button type="button" onClick={resetScene} aria-describedby="reset-scene-help">Reset scene</button>
-          <button type="button" onClick={resetView} aria-describedby="reset-view-help">Reset view</button>
-          <button type="button" disabled={referenceStatus.kind !== 'ready' || exportState.kind === 'busy'} onClick={() => void exportPng()} aria-describedby="png-export-help">{exportState.kind === 'busy' ? 'Exporting PNG…' : 'Export PNG'}</button>
+          <div className="desktop-actions">
+            <button type="button" onClick={resetScene} aria-describedby="reset-scene-help">Reset scene</button>
+            <button type="button" onClick={resetView} aria-describedby="reset-view-help">Reset view</button>
+          </div>
+          <button className="export-button" type="button" disabled={referenceStatus.kind !== 'ready' || exportState.kind === 'busy'} onClick={() => void exportPng()} aria-describedby="png-export-help">{exportState.kind === 'busy' ? 'Exporting PNG…' : 'Export PNG'}</button>
           <span id="png-export-help" className="sr-only">Save the final native canvas pixels as PNG. Preview zoom and overlays do not affect the file.</span>
           <span id="reset-scene-help" className="sr-only">Restore all stored scene settings to domain defaults. Keeps view settings.</span>
           <span id="reset-view-help" className="sr-only">Restore view settings and tool selection. Keeps scene settings.</span>
@@ -123,6 +132,10 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
           open={sceneOpen}
           toggleRef={sceneToggle}
           onClose={() => togglePanel('scene')}
+          compact={compact}
+          expanded={expanded}
+          onExpand={() => setExpanded(value => !value)}
+          sections={['Subject', 'Object transforms', 'Camera', 'Lighting', 'Ground & shadows', 'Interaction tool']}
         >
           <p className="inspector-intro">Edit the subject, camera and lighting independently.</p>
           <SubjectInspector key={`subject-${subjectEditorKey}`} store={store} />
@@ -160,6 +173,10 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
           open={pixelOpen}
           toggleRef={pixelToggle}
           onClose={() => togglePanel('pixel')}
+          compact={compact}
+          expanded={expanded}
+          onExpand={() => setExpanded(value => !value)}
+          sections={['Canvas pixels', 'Output background', 'Subject framing', 'Shading', 'Dithering', 'Palette & ramp', 'Outline']}
         >
           <p className="inspector-intro">Native canvas, framing, shading, dithering, palette and outline.</p>
           <CanvasInspector key={`canvas-${subjectEditorKey}`} store={store} />
@@ -176,18 +193,29 @@ function App({ store = studioStore, persistence }: { store?: StudioStore; persis
           <span className="status-label"><span className="status-dot" aria-hidden="true" />{referenceStatus.kind === 'ready' ? 'Reference ready' : referenceStatus.kind === 'starting' ? 'Starting renderer' : 'Renderer unavailable'}</span>
           <>{persistence ? <LocalSaveStatus persistence={persistence} /> : <span className="muted">Settings held in memory</span>}</>
         </div>
-        <p role="status" className="status-message">{status.kind === 'error' ? status.message : status.kind === 'busy' ? status.operation === 'render' ? 'Updating native pixels… You can keep editing; intermediate edits may be skipped.' : `${status.operation} in progress…` : referenceMessage}</p>
-        {exportState.kind !== 'idle' && <p role={exportState.kind === 'error' ? 'alert' : 'status'} className={exportState.kind === 'error' ? 'field-error' : 'status-message'}>{exportState.message}</p>}
-        <Disclosure title="Workspace help" defaultOpen={false} className="workspace-help">
-          <p>Use Tab to move between controls, Enter or Space to toggle panels and sections, and arrow keys to choose a tool in the select menu. Press Escape inside an inspector to close it and return to its toolbar button.</p>
-          <p>Final only, Original only and Compare share the same W×H framing and navigation. Camera and light tools work in every view. Wheel zooms presentation; F fits, N shows native size, 0 resets view. Pan preview uses drag or arrows. In manual framing, middle-drag changes camera distance/zoom and Shift-drag pans the camera. Native pixels use nearest-neighbor display scaling, independent of DPR. Canvas controls set actual image dimensions. Transparent pixels have zero RGB; the checkerboard is display only. Subject framing separates the requested maximum box from measured native bounds. Pixel fit locks camera pan/zoom; switch to manual framing for camera placement. Shading controls style final only; Original keeps continuous lighting and the selected normals. Palette & ramp edits exact local colors; palette JSON/hex interchange is available.</p>
-          <p>Export PNG saves Final at exactly the canvas width × height, including the active transparent or solid background and pixel effects. Preview zoom, DPR, checkerboard, grid and handles do not enter the PNG. Export pins the validated settings at the click; you can continue editing while it finishes. Wait for the download or retry a visible error. The browser controls the download destination.</p>
-          <p>Camera gestures move the viewpoint, while object transforms move the subject. Roll survives orbit and projection changes. Reframe reference explicitly centers and sizes the camera; it never runs automatically. Reset camera restores only camera defaults.</p>
-          <p>Move light rotates the directional source around its target using a screen arcball. The reference-only amber handle shows direction at a display radius, not the source distance. A drag preserves that distance and target. Escape, pointer cancellation or lost capture restores the starting light position. Lighting presets/reset preserve camera, object and palette. Ground & shadows controls one finite receiver and directional self/ground shadows. Reset ground & shadows keeps lighting. Reset lighting keeps ground and shadows.</p>
-          <p>Bayer and blue noise select exact ramp/palette colors using fixed native thresholds. Strength and ramp transition width control the blend; pattern scale enlarges threshold cells. Floyd–Steinberg instead passes strength-scaled quantization error to later pixels in a fixed scan. Zero strength equals None. Continuous shading and Original stay undithered. Reset dithering preserves shading and palette.</p>
-          <p>Silhouette outlines add 1–8 opaque native pixels around the subject after dithering. Square dilation grows hole edges too; holes narrower than the diameter can close. Explicit color can add one disclosed effect color; strict palette maps it to an active entry. Clipped outlines keep the canvas size. Reset outline preserves framing and styling.</p>
-          <p>Reset scene restores the stored scene defaults. Reset view restores presentation settings and tool selection. Neither changes the other. Presets saves complete named scenes locally. The current scene autosaves after a short pause and on leaving the page when storage is available. Preset overwrite/delete require an explicit confirmation. Resets keep named presets. Storage failures retain in-memory work: keep the tab open, retry saving, or download settings and recovery JSON from Presets. Imported models store a filename/hash only; reselect matching files or explicitly use a built-in sphere.</p>
-        </Disclosure>
+        <button className="activity-toggle" type="button" onClick={() => setActivityOpen(true)}>Activity & help{status.kind === 'error' || exportState.kind === 'error' ? ' !' : ''}</button>
+        <p role="status" className={`status-message ${status.kind === 'error' || exportState.kind === 'error' ? 'has-error' : 'routine-status'}`}>{status.kind === 'error' ? status.message : status.kind === 'busy' ? status.operation === 'render' ? 'Updating native pixels… You can keep editing; intermediate edits may be skipped.' : `${status.operation} in progress…` : referenceMessage}</p>
+        {exportState.kind !== 'idle' && <p role={exportState.kind === 'error' ? 'alert' : 'status'} className={exportState.kind === 'error' ? 'field-error' : 'status-message'}>{exportState.kind === 'success' ? 'PNG downloaded · details in Activity & help' : exportState.message}</p>}
+        <WorkspaceDialog open={activityOpen} title="Activity & help" onClose={() => setActivityOpen(false)}>
+          <div className="compact-actions" hidden={!compact}>
+            <button type="button" onClick={resetScene}>Reset scene</button>
+            <button type="button" onClick={resetView}>Reset view</button>
+          </div>
+          <p>{referenceMessage}</p>
+          <p>{status.kind === 'error' ? status.message : status.kind === 'busy' ? 'Updating…' : 'Scene ready for editing.'}</p>
+          {exportState.message && <p className={exportState.kind === 'error' ? 'field-error' : ''}>{exportState.message}</p>}
+          {persistence && <LocalSaveStatus persistence={persistence} detailed />}
+          <Disclosure title="Workspace help" defaultOpen={false} className="workspace-help">
+            <p>Use Tab to move between controls, Enter or Space to toggle panels and sections, and arrow keys to choose a tool in the select menu. Press Escape inside an inspector to close it and return to its toolbar button.</p>
+            <p>Final only, Original only and Compare share the same W×H framing and navigation. Camera and light tools work in every view. Wheel zooms presentation; F fits, N shows native size, 0 resets view. Pan preview uses drag or arrows. In manual framing, middle-drag changes camera distance/zoom and Shift-drag pans the camera. Native pixels use nearest-neighbor display scaling, independent of DPR. Canvas controls set actual image dimensions. Transparent pixels have zero RGB; the checkerboard is display only. Subject framing separates the requested maximum box from measured native bounds. Pixel fit locks camera pan/zoom; switch to manual framing for camera placement. Shading controls style final only; Original keeps continuous lighting and the selected normals. Palette & ramp edits exact local colors; palette JSON/hex interchange is available.</p>
+            <p>Export PNG saves Final at exactly the canvas width × height, including the active transparent or solid background and pixel effects. Preview zoom, DPR, checkerboard, grid and handles do not enter the PNG. Export pins the validated settings at the click; you can continue editing while it finishes. Wait for the download or retry a visible error. The browser controls the download destination.</p>
+            <p>Camera gestures move the viewpoint, while object transforms move the subject. Roll survives orbit and projection changes. Reframe reference explicitly centers and sizes the camera; it never runs automatically. Reset camera restores only camera defaults.</p>
+            <p>Move light rotates the directional source around its target using a screen arcball. The reference-only amber handle shows direction at a display radius, not the source distance. A drag preserves that distance and target. Escape, pointer cancellation or lost capture restores the starting light position. Lighting presets/reset preserve camera, object and palette. Ground & shadows controls one finite receiver and directional self/ground shadows. Reset ground & shadows keeps lighting. Reset lighting keeps ground and shadows.</p>
+            <p>Bayer and blue noise select exact ramp/palette colors using fixed native thresholds. Strength and ramp transition width control the blend; pattern scale enlarges threshold cells. Floyd–Steinberg instead passes strength-scaled quantization error to later pixels in a fixed scan. Zero strength equals None. Continuous shading and Original stay undithered. Reset dithering preserves shading and palette.</p>
+            <p>Silhouette outlines add 1–8 opaque native pixels around the subject after dithering. Square dilation grows hole edges too; holes narrower than the diameter can close. Explicit color can add one disclosed effect color; strict palette maps it to an active entry. Clipped outlines keep the canvas size. Reset outline preserves framing and styling.</p>
+            <p>Reset scene restores the stored scene defaults. Reset view restores presentation settings and tool selection. Neither changes the other. Presets saves complete named scenes locally. The current scene autosaves after a short pause and on leaving the page when storage is available. Preset overwrite/delete require an explicit confirmation. Resets keep named presets. Storage failures retain in-memory work: keep the tab open, retry saving, or download settings and recovery JSON from Presets. Imported models store a filename/hash only; reselect matching files or explicitly use a built-in sphere.</p>
+          </Disclosure>
+        </WorkspaceDialog>
       </footer>
     </div>
   )

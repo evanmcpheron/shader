@@ -1,0 +1,856 @@
+{
+  "checks": {
+    "oneRuntime": true,
+    "noRemount": true,
+    "sceneUnchanged": true,
+    "navigationPreserved": true,
+    "settingsScrollDidNotOrbit": true,
+    "notRecaptured": true
+  },
+  "before": {
+    "lifecycle": {
+      "created": 2,
+      "disposed": 1,
+      "active": 1
+    },
+    "imports": {
+      "assets": 0,
+      "urls": 0,
+      "geometries": 0,
+      "materials": 0
+    },
+    "modelImport": {
+      "kind": "idle",
+      "message": ""
+    },
+    "frames": 327,
+    "renderTimings": {
+      "totalMs": 0.39999985694885254,
+      "prepareMs": 0.2999999523162842,
+      "presentationMs": 0.09999990463256836
+    },
+    "geometryBuilds": 2,
+    "lightingInvalidations": 10,
+    "memory": {
+      "geometries": 1,
+      "textures": 1,
+      "programs": 1
+    },
+    "triangles": 12,
+    "settings": {
+      "schemaVersion": 1,
+      "subject": {
+        "geometry": {
+          "kind": "cube",
+          "width": 2,
+          "height": 2,
+          "depth": 2
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "camera": {
+        "position": {
+          "x": -2.706631839677298,
+          "y": 1.484056864087949,
+          "z": 3.9334106458134426
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "lighting": {
+        "directional": {
+          "position": {
+            "x": 1.1484487358237871,
+            "y": 0.5348255133704638,
+            "z": 6.956653446265147
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": "#FFFFFF",
+          "intensity": 1.3
+        },
+        "ambient": {
+          "color": "#FFFFFF",
+          "intensity": 0.2
+        }
+      },
+      "canvas": {
+        "width": 64,
+        "height": 64
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "fit": {
+          "box": {
+            "width": 32,
+            "height": 32
+          },
+          "alignment": "center",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      },
+      "shading": {
+        "normals": "smooth",
+        "tone": {
+          "kind": "bands",
+          "thresholds": [
+            0.22,
+            0.5,
+            0.75
+          ]
+        },
+        "baseColor": "#5C88B8",
+        "shadowColor": "#172038",
+        "highlightColor": "#B8D8F0",
+        "brightness": 0,
+        "contrast": 1,
+        "distribution": 1
+      },
+      "palette": {
+        "colors": [
+          "#172038",
+          "#304878",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      },
+      "dither": {
+        "kind": "none"
+      },
+      "outline": {
+        "kind": "none"
+      },
+      "ground": {
+        "kind": "none"
+      },
+      "shadows": {
+        "kind": "none"
+      },
+      "background": {
+        "kind": "transparent"
+      }
+    },
+    "preview": {
+      "zoom": 6,
+      "pan": {
+        "x": 26,
+        "y": 18
+      },
+      "grid": false,
+      "checkerboard": true,
+      "referenceWireframe": false,
+      "mode": "final",
+      "tool": "preview-pan"
+    },
+    "presentation": [
+      {
+        "name": "Native pixel output",
+        "viewport": {
+          "left": 0,
+          "top": 239,
+          "width": 390,
+          "height": 280
+        },
+        "image": {
+          "left": 29,
+          "top": 205,
+          "width": 384,
+          "height": 384
+        },
+        "smoothing": false
+      }
+    ],
+    "revisions": {
+      "settings": 109,
+      "capture": 99,
+      "style": 109,
+      "shadow": 108,
+      "view": 209
+    },
+    "camera": {
+      "enabled": false,
+      "panEnabled": false,
+      "zoomEnabled": false,
+      "lightOwnsGesture": false,
+      "changes": 97,
+      "disposed": false,
+      "sourcePosition": [
+        -2.706631839677298,
+        1.484056864087949,
+        3.9334106458134426
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "sourceQuaternion": [
+        -0.14334203898084397,
+        -0.29344845421209825,
+        -0.044553291173515835,
+        0.9441165546832404
+      ],
+      "renderQuaternion": [
+        -0.14334203898084397,
+        -0.29344845421209825,
+        -0.044553291173515835,
+        0.9441165546832404
+      ],
+      "projectionMatrix": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        -0.20010005002501252,
+        0,
+        0,
+        0,
+        -1.0010005002501252,
+        1
+      ],
+      "near": 0.005,
+      "far": 10
+    },
+    "native": {
+      "visibilityCaptures": 0,
+      "receiverCaptures": 0,
+      "ground": null,
+      "shadow": {
+        "active": false,
+        "mapRenders": 0,
+        "allocatedMaps": 0,
+        "resolution": [
+          1024,
+          1024
+        ],
+        "bias": 0,
+        "normalBias": 0,
+        "depthSpan": 1,
+        "depthStep": 1,
+        "frustum": {
+          "left": -5,
+          "right": 5,
+          "top": 5,
+          "bottom": -5,
+          "near": 0.5,
+          "far": 500
+        }
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 31
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      },
+      "outline": null,
+      "rasterizations": 200,
+      "readback": "synchronous",
+      "captures": 100,
+      "processes": 114,
+      "composites": 114,
+      "timings": {
+        "visibilityMs": 0,
+        "effectsReadbackMs": 0,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 1.7000000476837158,
+        "readbackMs": 1.6000001430511475,
+        "processMs": 0.20000004768371582,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.10000014305114746,
+        "compositeMs": 0,
+        "publishMs": 0
+      },
+      "targetLifecycle": {
+        "created": 2,
+        "disposed": 1,
+        "active": 1
+      },
+      "target": {
+        "width": 64,
+        "height": 64,
+        "samples": 0,
+        "type": 1009,
+        "format": 1023,
+        "colorSpace": "",
+        "minFilter": 1003,
+        "magFilter": 1003,
+        "generateMipmaps": false
+      },
+      "effectBuffers": {
+        "subject": 16384,
+        "visibility": 16384,
+        "filtered": 16384
+      },
+      "buffers": {
+        "raw": 16384,
+        "normals": 16384,
+        "work": 16384,
+        "styled": 16384,
+        "ring": 4096,
+        "horizontal": 4096
+      },
+      "frame": {
+        "width": 64,
+        "height": 64,
+        "revision": 109,
+        "captureRevision": 99,
+        "byteLength": 16384
+      }
+    },
+    "nativeCanvas": {
+      "width": 64,
+      "height": 64,
+      "revision": "109",
+      "smoothing": false
+    },
+    "light": {
+      "dragging": false,
+      "completed": 1,
+      "cancelled": 0,
+      "disposed": false
+    },
+    "lightHandle": {
+      "visible": false,
+      "layers": [
+        {
+          "name": "Mesh",
+          "mask": 2
+        },
+        {
+          "name": "Line",
+          "mask": 2
+        },
+        {
+          "name": "Mesh",
+          "mask": 2
+        }
+      ]
+    },
+    "subject": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "normalization": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "drawingBuffer": [
+      300,
+      150
+    ],
+    "devicePixelRatio": 1,
+    "contextLost": false,
+    "contextLossSimulation": true,
+    "exporting": false
+  },
+  "after": {
+    "lifecycle": {
+      "created": 2,
+      "disposed": 1,
+      "active": 1
+    },
+    "imports": {
+      "assets": 0,
+      "urls": 0,
+      "geometries": 0,
+      "materials": 0
+    },
+    "modelImport": {
+      "kind": "idle",
+      "message": ""
+    },
+    "frames": 335,
+    "renderTimings": {
+      "totalMs": 0.3000001907348633,
+      "prepareMs": 0.20000004768371582,
+      "presentationMs": 0.10000014305114746
+    },
+    "geometryBuilds": 2,
+    "lightingInvalidations": 10,
+    "memory": {
+      "geometries": 1,
+      "textures": 1,
+      "programs": 1
+    },
+    "triangles": 12,
+    "settings": {
+      "schemaVersion": 1,
+      "subject": {
+        "geometry": {
+          "kind": "cube",
+          "width": 2,
+          "height": 2,
+          "depth": 2
+        },
+        "transform": {
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      },
+      "camera": {
+        "position": {
+          "x": -2.706631839677298,
+          "y": 1.484056864087949,
+          "z": 3.9334106458134426
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "roll": 0,
+        "projection": {
+          "kind": "orthographic",
+          "zoom": 1,
+          "verticalSize": 4
+        }
+      },
+      "lighting": {
+        "directional": {
+          "position": {
+            "x": 1.1484487358237871,
+            "y": 0.5348255133704638,
+            "z": 6.956653446265147
+          },
+          "target": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": "#FFFFFF",
+          "intensity": 1.3
+        },
+        "ambient": {
+          "color": "#FFFFFF",
+          "intensity": 0.2
+        }
+      },
+      "canvas": {
+        "width": 64,
+        "height": 64
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "fit": {
+          "box": {
+            "width": 32,
+            "height": 32
+          },
+          "alignment": "center",
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "padding": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      },
+      "shading": {
+        "normals": "smooth",
+        "tone": {
+          "kind": "bands",
+          "thresholds": [
+            0.22,
+            0.5,
+            0.75
+          ]
+        },
+        "baseColor": "#5C88B8",
+        "shadowColor": "#172038",
+        "highlightColor": "#B8D8F0",
+        "brightness": 0,
+        "contrast": 1,
+        "distribution": 1
+      },
+      "palette": {
+        "colors": [
+          "#172038",
+          "#304878",
+          "#5C88B8",
+          "#B8D8F0"
+        ],
+        "effectPolicy": "explicit"
+      },
+      "dither": {
+        "kind": "none"
+      },
+      "outline": {
+        "kind": "none"
+      },
+      "ground": {
+        "kind": "none"
+      },
+      "shadows": {
+        "kind": "none"
+      },
+      "background": {
+        "kind": "transparent"
+      }
+    },
+    "preview": {
+      "zoom": 6,
+      "pan": {
+        "x": 26,
+        "y": 18
+      },
+      "grid": false,
+      "checkerboard": true,
+      "referenceWireframe": false,
+      "mode": "final",
+      "tool": "preview-pan"
+    },
+    "presentation": [
+      {
+        "name": "Native pixel output",
+        "viewport": {
+          "left": 0,
+          "top": 239,
+          "width": 390,
+          "height": 20
+        },
+        "image": {
+          "left": 29,
+          "top": 75,
+          "width": 384,
+          "height": 384
+        },
+        "smoothing": false
+      }
+    ],
+    "revisions": {
+      "settings": 109,
+      "capture": 99,
+      "style": 109,
+      "shadow": 108,
+      "view": 209
+    },
+    "camera": {
+      "enabled": false,
+      "panEnabled": false,
+      "zoomEnabled": false,
+      "lightOwnsGesture": false,
+      "changes": 97,
+      "disposed": false,
+      "sourcePosition": [
+        -2.706631839677298,
+        1.484056864087949,
+        3.9334106458134426
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "sourceQuaternion": [
+        -0.14334203898084397,
+        -0.29344845421209825,
+        -0.044553291173515835,
+        0.9441165546832404
+      ],
+      "renderQuaternion": [
+        -0.14334203898084397,
+        -0.29344845421209825,
+        -0.044553291173515835,
+        0.9441165546832404
+      ],
+      "projectionMatrix": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        -0.20010005002501252,
+        0,
+        0,
+        0,
+        -1.0010005002501252,
+        1
+      ],
+      "near": 0.005,
+      "far": 10
+    },
+    "native": {
+      "visibilityCaptures": 0,
+      "receiverCaptures": 0,
+      "ground": null,
+      "shadow": {
+        "active": false,
+        "mapRenders": 0,
+        "allocatedMaps": 0,
+        "resolution": [
+          1024,
+          1024
+        ],
+        "bias": 0,
+        "normalBias": 0,
+        "depthSpan": 1,
+        "depthStep": 1,
+        "frustum": {
+          "left": -5,
+          "right": 5,
+          "top": 5,
+          "bottom": -5,
+          "near": 0.5,
+          "far": 500
+        }
+      },
+      "framing": {
+        "mode": "pixel-fit",
+        "requested": {
+          "width": 32,
+          "height": 32
+        },
+        "effective": {
+          "width": 32,
+          "height": 32
+        },
+        "actual": {
+          "x": 16,
+          "y": 16,
+          "width": 32,
+          "height": 31
+        },
+        "clipped": false,
+        "converged": true,
+        "iterations": 2,
+        "notice": ""
+      },
+      "outline": null,
+      "rasterizations": 200,
+      "readback": "synchronous",
+      "captures": 100,
+      "processes": 114,
+      "composites": 114,
+      "timings": {
+        "visibilityMs": 0,
+        "effectsReadbackMs": 0,
+        "filterMs": 0.09999990463256836,
+        "captureMs": 1.7000000476837158,
+        "readbackMs": 1.6000001430511475,
+        "processMs": 0.20000004768371582,
+        "originalMs": 0.09999990463256836,
+        "styleMs": 0.10000014305114746,
+        "compositeMs": 0,
+        "publishMs": 0
+      },
+      "targetLifecycle": {
+        "created": 2,
+        "disposed": 1,
+        "active": 1
+      },
+      "target": {
+        "width": 64,
+        "height": 64,
+        "samples": 0,
+        "type": 1009,
+        "format": 1023,
+        "colorSpace": "",
+        "minFilter": 1003,
+        "magFilter": 1003,
+        "generateMipmaps": false
+      },
+      "effectBuffers": {
+        "subject": 16384,
+        "visibility": 16384,
+        "filtered": 16384
+      },
+      "buffers": {
+        "raw": 16384,
+        "normals": 16384,
+        "work": 16384,
+        "styled": 16384,
+        "ring": 4096,
+        "horizontal": 4096
+      },
+      "frame": {
+        "width": 64,
+        "height": 64,
+        "revision": 109,
+        "captureRevision": 99,
+        "byteLength": 16384
+      }
+    },
+    "nativeCanvas": {
+      "width": 64,
+      "height": 64,
+      "revision": "109",
+      "smoothing": false
+    },
+    "light": {
+      "dragging": false,
+      "completed": 1,
+      "cancelled": 0,
+      "disposed": false
+    },
+    "lightHandle": {
+      "visible": false,
+      "layers": [
+        {
+          "name": "Mesh",
+          "mask": 2
+        },
+        {
+          "name": "Line",
+          "mask": 2
+        },
+        {
+          "name": "Mesh",
+          "mask": 2
+        }
+      ]
+    },
+    "subject": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "normalization": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "drawingBuffer": [
+      300,
+      150
+    ],
+    "devicePixelRatio": 1,
+    "contextLost": false,
+    "contextLossSimulation": true,
+    "exporting": false
+  }
+}

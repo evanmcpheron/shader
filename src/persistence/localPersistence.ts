@@ -14,6 +14,7 @@ type Recovery = Readonly<{ slot: Slot; raw: string; reason: string }>
 type PersistenceState = Readonly<{
   presets: readonly SavedPreset[]
   currentStatus: string
+  currentError: boolean
   presetStatus: string
   presetError: boolean
   message: string
@@ -28,7 +29,7 @@ function storageFailure(error: unknown): string {
 }
 
 export class LocalPersistence {
-  private readonly state = createStore<PersistenceState>(() => ({ presets: [], currentStatus: 'Current scene has no local save yet.', presetStatus: '', presetError: false, message: '', recovery: [] }))
+  private readonly state = createStore<PersistenceState>(() => ({ presets: [], currentError: false, currentStatus: 'Current scene has no local save yet.', presetStatus: '', presetError: false, message: '', recovery: [] }))
   readonly getState = this.state.getState
   readonly getInitialState = this.state.getInitialState
   readonly subscribe = this.state.subscribe
@@ -59,7 +60,7 @@ export class LocalPersistence {
   }
 
   private setStatus(slot: Slot, message: string, error = false): void {
-    this.state.setState(slot === 'current' ? { currentStatus: message } : { presetStatus: message, presetError: error })
+    this.state.setState(slot === 'current' ? { currentStatus: message, currentError: error } : { presetStatus: message, presetError: error })
   }
 
   private read(slot: Slot, initialize: boolean): boolean {

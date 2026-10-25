@@ -25,6 +25,7 @@ export function CameraInspector({ store }: { store: StudioStore }) {
   return (
     <Disclosure title="Camera">
       <p className="field-description">Camera orbit · drag to orbit. In manual framing, middle-drag changes camera distance/zoom; right-drag or Shift-drag pans the camera. Wheel always zooms the preview. Focus the image: arrows pan the camera, Shift+arrows orbit. Move light also orbits from empty space.</p>
+      <p className="field-description">When ground is enabled, the camera stays above the floor and orbits stop at the horizon. Camera views and numeric edits follow the same limit. Turn ground off for unrestricted views.</p>
       {locked && <><p className="field-description">Pixel fit controls native size and placement. Camera pan/zoom are disabled; orbit and roll still work.</p><button type="button" onClick={() => actions.setSection('framing', { ...framing, mode: 'manual' })}>Switch to manual framing</button></>}
       <SelectField
         label="Camera projection"
